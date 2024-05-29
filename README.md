@@ -1,5 +1,5 @@
 # Continual Dialog State Tracking via Task Skill Localization and Consolidation
-Thank you for your interest in our work, and this is the original implementation of "TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation".
+Thank you for your interest in our work, and this is the original implementation of "TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation", accepted to ACL 2024.
 
 ## Local Setup
 ```

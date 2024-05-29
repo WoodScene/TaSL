@@ -1,0 +1,847 @@
+[
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "720 dollars"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "mahmoud"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "720 dollars"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "mahmoud"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$720"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "mahmoud"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$720"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. [SYSTEM]: Is there anything else you need? [USER]: That is all today \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. [SYSTEM]: Is there anything else you need? [USER]: That is all today \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. [SYSTEM]: Is there anything else you need? [USER]: That is all today \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "mahmoud"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check the balance on my savings account. [SYSTEM]: The savings balance is $7,686.21 [USER]: How about my checking account? [SYSTEM]: The checking balance is $24,978.75. [USER]: Thank you for the info. [SYSTEM]: Would you like a transfer today? [USER]: Yes, transfer 720 dollars to any of my accounts. [SYSTEM]: Do you have an account preference? [USER]: Yes send it to Mahmoud. [SYSTEM]: Confirm a transfer of $720 to Mahmoud checking account. [USER]: Yes I confirm this. [SYSTEM]: Your transfer is confirmed. [USER]: Thank you for the transfer. [SYSTEM]: Is there anything else you need? [USER]: That is all today \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$720"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "yumi"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1400 bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "yumi"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,400"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "yumi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,400"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? [SYSTEM]: This transfer will take approximately 1 business day. [USER]: Thank you, that's all. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? [SYSTEM]: This transfer will take approximately 1 business day. [USER]: Thank you, that's all. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? [SYSTEM]: This transfer will take approximately 1 business day. [USER]: Thank you, that's all. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "yumi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm not sure how much money I have, I'd like to check my account balance. [SYSTEM]: Which bank account would you like to know the balance of? [USER]: Please check the balance of my checking account. [SYSTEM]: Your checking account has a total balance of $19,663.10. [USER]: Thank you. [SYSTEM]: Would you like to use some of those funds to make a transfer from that account? [USER]: Yes, please initiate a transfer from that account. [SYSTEM]: To whom will you send the funds, and how much would you like to send? [USER]: Please send 1400 bucks to Yumi. [SYSTEM]: Please verify the following details. You would like to transfer $1,400 to Yumi from your checking account. The destination account is their checking account. Is this correct? [USER]: That is correct. [SYSTEM]: The transfer request has been made. [USER]: Approximately how long will it take for the transfer to go through? [SYSTEM]: This transfer will take approximately 1 business day. [USER]: Thank you, that's all. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,400"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1360 dollars"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1360 dollars"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,360"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,360"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. [SYSTEM]: What else can I help you with today? [USER]: Nothing else, that's it, thanks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. [SYSTEM]: What else can I help you with today? [USER]: Nothing else, that's it, thanks. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. [SYSTEM]: What else can I help you with today? [USER]: Nothing else, that's it, thanks. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Hey there, can you help me check my bank account? I need to know how much I have in there. I might need to make a big purchase soon. [SYSTEM]: Sure, would you like to look in your checking or your savings? [USER]: Look in my checking, please. [SYSTEM]: Alright, your checking account has a balance of $11,130.35 [USER]: Okay good, yeah. Can you make a transfer? [SYSTEM]: Of course, how much? [USER]: 1360 dollars, I think. [SYSTEM]: Who would you like to send it to? [USER]: I want it to go to Grace. [SYSTEM]: Alright, so you'd like to send $1,360 to Grace from your checking account to their checking account? [USER]: Yes, how many days before the transfer goes through? [SYSTEM]: A transfer will take 1 business day, I've put that through for you. [USER]: Alright, great. [SYSTEM]: What else can I help you with today? [USER]: Nothing else, that's it, thanks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,360"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1,150 bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,150"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,150"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. [SYSTEM]: Can I do anything else for you? [USER]: No, not right now. Thanks again. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. [SYSTEM]: Can I do anything else for you? [USER]: No, not right now. Thanks again. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. [SYSTEM]: Can I do anything else for you? [USER]: No, not right now. Thanks again. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "grace"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'm a bit worried that my finances are low. How much money is there in my savings account? [SYSTEM]: Your savings account currently has $3,520.45. [USER]: Okay. How much is in my checking account? [SYSTEM]: Your checking account has $19,865.14. [USER]: Plenty of cash to spare. That's good. I'd like to give a friend some money. [SYSTEM]: Who do you want to give the money to? [USER]: My friend Grace. [SYSTEM]: How much do you want to give to her? [USER]: I'd like to give her 1,150 bucks. [SYSTEM]: So, send $1,150 from your checking account to the checking account of Grace? [USER]: Right. That's what I want to do. [SYSTEM]: I have successfully transferred money from your account to Grace's. [USER]: Grateful for your help. [SYSTEM]: Can I do anything else for you? [USER]: No, not right now. Thanks again. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,150"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1,110 bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "khadija"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1,110 bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "khadija"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,110"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "khadija"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,110"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. [SYSTEM]: Is there anything else I can do for you now? [USER]: No, that's all. Thanks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. [SYSTEM]: Is there anything else I can do for you now? [USER]: No, that's all. Thanks. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. [SYSTEM]: Is there anything else I can do for you now? [USER]: No, that's all. Thanks. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "khadija"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Please check my current balance. [SYSTEM]: Is that for your checking or savings account? [USER]: My checking account, please. [SYSTEM]: The current balance in your checking account is $12,723.10. [USER]: Now please check the balance of my savings account. [SYSTEM]: The current balance in your savings account is $9,183.90. [USER]: Okay. [SYSTEM]: Do you want to make a transfer now? [USER]: Yes, please start a transfer. [SYSTEM]: What is the transfer amount? [USER]: Please transfer 1,110 bucks. [SYSTEM]: Who do you want to transfer funds to? [USER]: I'm sending it to Khadija. [SYSTEM]: Confirming: you will transfer $1,110 from your savings to Khadija. The transfer destination is their checking account. [USER]: Yes. How many days will that take? [SYSTEM]: The transfer has been initiated. It will take 3 business days. [USER]: Thanks for your help. [SYSTEM]: Is there anything else I can do for you now? [USER]: No, that's all. Thanks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,110"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "jasbir"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1170"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "jasbir"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,170"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "jasbir"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-transfer_amount> in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,170"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. [SYSTEM]: Is there anything else I can help you with? [USER]: No thanks; that's all \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. [SYSTEM]: Is there anything else I can help you with? [USER]: No thanks; that's all \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. [SYSTEM]: Is there anything else I can help you with? [USER]: No thanks; that's all \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "jasbir"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I'd like to check the balance of my checking account. [SYSTEM]: The balance of your checking account is $843.14 [USER]: How about the balance of my savings account? [SYSTEM]: The balance of your savings account is $17,106.16 [USER]: Okay [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I would [SYSTEM]: How much money would you like to transfer and to whom? [USER]: Transfer $1170 to the savings account of Jasbir. [SYSTEM]: Are you sure you want to transfer $1,170 from your savings account to the savings account of Jasbir? [USER]: Yeah. How long will it take to transfer? [SYSTEM]: Your transfer has been initiated; it should take around 3 business days. [USER]: Thanks for you help. [SYSTEM]: Is there anything else I can help you with? [USER]: No thanks; that's all \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,170"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "seven hundred and eighty bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "seven hundred and eighty bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$780"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$780"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. [SYSTEM]: Anything else I can do for you? [USER]: No. That will be all, thank you. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "savings"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. [SYSTEM]: Anything else I can do for you? [USER]: No. That will be all, thank you. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. [SYSTEM]: Anything else I can do for you? [USER]: No. That will be all, thank you. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I want to see how much I have in my account. [SYSTEM]: Do you want to choose the checking or savings account? [USER]: I want my savings account to be checked. [SYSTEM]: Your savings account holds $18,299.57 [USER]: Great. [SYSTEM]: Are you planning to make a transfer? [USER]: Yes transfer seven hundred and eighty bucks. [SYSTEM]: What is the name of your contact that you wish to send the money to? [USER]: I want Diego to get it. [SYSTEM]: Let me make sure one more time. You want $780 to be sent from your savings account to Diego. You want to send it to their checking account. [USER]: Yes. How many days do you think it will take to transfer the money? [SYSTEM]: The transfer has been initiated successfully and it will take 3 business days. [USER]: Thank you. [SYSTEM]: Anything else I can do for you? [USER]: No. That will be all, thank you. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$780"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "svetlana"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "270 bucks"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "svetlana"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$270"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? [SYSTEM]: Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete. [USER]: Awesome, thanks for your help. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_account_type> in the input dialogue.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? [SYSTEM]: Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete. [USER]: Awesome, thanks for your help. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-recipient_name>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? [SYSTEM]: Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete. [USER]: Awesome, thanks for your help. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "svetlana"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: Check the balance of my checking account for me. [SYSTEM]: The balance of your checking account is currently $5,370.53. [USER]: Hmm, seems a bit lower then I expected. [SYSTEM]: Would you like to make a transfer? [USER]: Yeah, I gotta pay my friend some money. [SYSTEM]: Okay, how much would you like to transfer, and who would you like to transfer it to? [USER]: Send 270 bucks to Svetlana from my contacts. [SYSTEM]: You would like me to transfer $270 from your checking account to the checking account of Svetlana. Is this correct? [USER]: Yep. That's all correct. How long will the transfer take? [SYSTEM]: Your transfer has successfully been initiated. It will take 1 business day for the transfer to complete. [USER]: Awesome, thanks for your help. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$270"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-account_type>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "1610 bucks"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-account_type> in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_name>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "one thousand three hundred and thirty dollars"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-recipient_name> in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Track the state of the slot <banks_2-transfer_amount> in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,330"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-account_type>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. [SYSTEM]: The transfer will take 1 business day and it was successfully initiated. [USER]: Ok, thank you so much! Bye! \n [slot] banks_2-account_type, it indicates The user's account type. So the value of slot <banks_2-account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <banks_2-recipient_account_type>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. [SYSTEM]: The transfer will take 1 business day and it was successfully initiated. [USER]: Ok, thank you so much! Bye! \n [slot] banks_2-recipient_account_type, it indicates The account type of the recipient to transfer the money to. So the value of slot <banks_2-recipient_account_type> is \n",
+        "output": "checking"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. [SYSTEM]: The transfer will take 1 business day and it was successfully initiated. [USER]: Ok, thank you so much! Bye! \n [slot] banks_2-recipient_name, it indicates The name of the recipient to transfer the money to. So the value of slot <banks_2-recipient_name> is \n",
+        "output": "diego"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <banks_2-transfer_amount>.",
+        "input": "[USER]: I would like to check my balance. [SYSTEM]: Ok, from which account? [USER]: From my checking account please. [SYSTEM]: The balance in your checking account is $22,448.26. [USER]: Ok, thank you. [SYSTEM]: Do you wish to make a transfer? [USER]: Yes, I would like to make a transfer. [SYSTEM]: And what is the amount you would like to transfer? [USER]: I would like to transfer 1610 bucks. [SYSTEM]: And who would you like to transfer the money too? [USER]: I would like to transfer one thousand three hundred and thirty dollars to Diego. [SYSTEM]: Please confirm that you are transferring $1,330 to Diego from your checking account to their checking account. [USER]: Yes, that is correct and can you tell me how many days this will take. [SYSTEM]: The transfer will take 1 business day and it was successfully initiated. [USER]: Ok, thank you so much! Bye! \n [slot] banks_2-transfer_amount, it indicates The amount of money to transfer. So the value of slot <banks_2-transfer_amount> is \n",
+        "output": "$1,330"
+    }
+]

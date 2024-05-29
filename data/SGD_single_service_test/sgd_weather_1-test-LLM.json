@@ -1,0 +1,522 @@
+[
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "alamo"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "alamo"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "1st of march 2019"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? [SYSTEM]: A 12 percent chance of showers with an average temperature of 81. [USER]: What is the forecsst in Hayward? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "hayward"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? [SYSTEM]: A 12 percent chance of showers with an average temperature of 81. [USER]: What is the forecsst in Hayward? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "1st of march 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? [SYSTEM]: A 12 percent chance of showers with an average temperature of 81. [USER]: What is the forecsst in Hayward? [SYSTEM]: A 9 percent chance of showers with an average temperature of 80. [USER]: Thank you. That's all I need. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "hayward"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: What is the weather forecast on March 4th in Alamo? [SYSTEM]: There is a 24 percent chance of showers with an average temperature of 94. [USER]: What is the forecast the 1st of March 2019? [SYSTEM]: A 12 percent chance of showers with an average temperature of 81. [USER]: What is the forecsst in Hayward? [SYSTEM]: A 9 percent chance of showers with an average temperature of 80. [USER]: Thank you. That's all I need. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "1st of march 2019"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to do weather check at San Anselmo \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san anselmo"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I want to do weather check at San Anselmo [SYSTEM]: The average day temperature need be 89 degrees Fahrenheit.There it is 28 percent chance of rain [USER]: How much windy and humid it might be there \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san anselmo"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I want to do weather check at San Anselmo [SYSTEM]: The average day temperature need be 89 degrees Fahrenheit.There it is 28 percent chance of rain [USER]: How much windy and humid it might be there [SYSTEM]: The humidity level there is 23 percent with average wind speed around 3 miles per hour [USER]: ok, that is all. Bye then \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san anselmo"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: Can you check the weather in Montara? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: Can you check the weather in Montara? [SYSTEM]: The average temperature for today is 89 degrees Fahrenheit, and there is a 8 percent chance of rain. [USER]: Thank you. That's all I needed. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather. [SYSTEM]: Where would you like to know the weather. [USER]: In Albany, please. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "albany"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I would like to check the weather. [SYSTEM]: Where would you like to know the weather. [USER]: In Albany, please. [SYSTEM]: The average temperature should be around 92 degrees with a 19 percent chance of rain. [USER]: Is is humid? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "albany"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather. [SYSTEM]: Where would you like to know the weather. [USER]: In Albany, please. [SYSTEM]: The average temperature should be around 92 degrees with a 19 percent chance of rain. [USER]: Is is humid? [SYSTEM]: The humidity is 29 percent. [USER]: What about the wind? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "albany"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather. [SYSTEM]: Where would you like to know the weather. [USER]: In Albany, please. [SYSTEM]: The average temperature should be around 92 degrees with a 19 percent chance of rain. [USER]: Is is humid? [SYSTEM]: The humidity is 29 percent. [USER]: What about the wind? [SYSTEM]: Average speed of 8 miler per hour. [USER]: OK, thank you. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "albany"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "today"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? [SYSTEM]: It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain. [USER]: Great, thats helpful \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? [SYSTEM]: It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain. [USER]: Great, thats helpful \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "today"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? [SYSTEM]: It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain. [USER]: Great, thats helpful [SYSTEM]: Do you need any other service? [USER]: Thats all. thank you. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Can you get me the condition of weather in Palo Alto on today? [SYSTEM]: It is said 79 degrees Fahrenheit of average temperature and 4 percent chance of rain. [USER]: Great, thats helpful [SYSTEM]: Do you need any other service? [USER]: Thats all. thank you. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "today"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th 2019"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "tiburon"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "tiburon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "5th of march 2019"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "calistoga"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "5th of march 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. [SYSTEM]: The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come. [USER]: Okay, well done. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "calistoga"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. [SYSTEM]: The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come. [USER]: Okay, well done. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "5th of march 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. [SYSTEM]: The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come. [USER]: Okay, well done. [SYSTEM]: Would you like any more assistance at this time? [USER]: You've provided all the info I need for now. Many thanks. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "calistoga"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I need some quiet, outdoor harmony to balance out a wild day of back-to-back meetings. What kind of weather do you show for March 10th 2019, please? [SYSTEM]: Ready to assist you. Tell me the city you want to check and I can let you know. [USER]: Yes, take a look at Tiburon. [SYSTEM]: Okay. It is reported that the average day's high is expected to be 85 degrees Fahrenheit with a 15 percent possibility that it will rain. [USER]: Well, now, and what's the weatherman saying for the 5th of March 2019? [SYSTEM]: It is reported that the average high fo that day is expected to be 94 degrees Fahrenheit with a 20 percent possibility that it will rain. [USER]: I see. Take a look at Calistoga for me, please. [SYSTEM]: The report for that city is showing an average high of 73 degrees Fahrenheit for the day with a 12 percent possibility that rain will come. [USER]: Okay, well done. [SYSTEM]: Would you like any more assistance at this time? [USER]: You've provided all the info I need for now. Many thanks. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "5th of march 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "tomales"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. [SYSTEM]: I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain. [USER]: Alright, can you also look into Toronto, Ontario for March 13th 2019? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "toronto, ontario"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. [SYSTEM]: I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain. [USER]: Alright, can you also look into Toronto, Ontario for March 13th 2019? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 13th 2019"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. [SYSTEM]: I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain. [USER]: Alright, can you also look into Toronto, Ontario for March 13th 2019? [SYSTEM]: I can see that the temperature in Toronto, Ontario for the day will be 62 degrees Fahrenheit, also there is a 1 percent chance that it will be raining. [USER]: Fine, that's good. That's all I needed. Later then! \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "toronto, ontario"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I want to plan something outdoors, so I want to check the weather for March 4th. [SYSTEM]: Can you tell me the city where you would like to check the weather forecast? [USER]: I am planning to go in Tomales, so that's the location for which I want to know the weather forecast. [SYSTEM]: I can see that the average temperature in Tomales for the day will be 85 degrees Fahrenheit, and there is a 28 percent chance that there will be rain. [USER]: Alright, can you also look into Toronto, Ontario for March 13th 2019? [SYSTEM]: I can see that the temperature in Toronto, Ontario for the day will be 62 degrees Fahrenheit, also there is a 1 percent chance that it will be raining. [USER]: Fine, that's good. That's all I needed. Later then! \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 13th 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san jose"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 [SYSTEM]: The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain [USER]: sure that is ok \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san jose"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 [SYSTEM]: The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain [USER]: sure that is ok \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th 2019"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 [SYSTEM]: The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain [USER]: sure that is ok [SYSTEM]: you need anything more? [USER]: No, thank you \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "san jose"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I require to do weather check in San Jose on March 10th 2019 [SYSTEM]: The average day temperature have to be 74 degrees Fahrenheit and there is 18 percent chance of rain [USER]: sure that is ok [SYSTEM]: you need anything more? [USER]: No, thank you \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th 2019"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "danville"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 7th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day [SYSTEM]: It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain [USER]: What about the wind? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "danville"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day [SYSTEM]: It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain [USER]: What about the wind? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 7th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day [SYSTEM]: It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain [USER]: What about the wind? [SYSTEM]: It'll be around 7 miles per hour wind speed averages [USER]: Oh great, that's it for now, thanks so much it was really helpful \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "danville"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: Hey I need to check the weather on March 7th in Danville so I can see what it's like that day [SYSTEM]: It seems like it will be around 73 degrees Fahrenheit on average with a low 15 percent chance of rain [USER]: What about the wind? [SYSTEM]: It'll be around 7 miles per hour wind speed averages [USER]: Oh great, that's it for now, thanks so much it was really helpful \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 7th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: I need weather info for the 1st of March. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "1st of march"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I need weather info for the 1st of March. [SYSTEM]: What is the desired city for weather information? [USER]: The city is Palo Alto, and weather info for March 2nd. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I need weather info for the 1st of March. [SYSTEM]: What is the desired city for weather information? [USER]: The city is Palo Alto, and weather info for March 2nd. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 2nd"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I need weather info for the 1st of March. [SYSTEM]: What is the desired city for weather information? [USER]: The city is Palo Alto, and weather info for March 2nd. [SYSTEM]: The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain. [USER]: Alright then, thanks a billion. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I need weather info for the 1st of March. [SYSTEM]: What is the desired city for weather information? [USER]: The city is Palo Alto, and weather info for March 2nd. [SYSTEM]: The average temperature is predicted to be around 83 degrees Farenheit. There is also a 9 percent chance of rain. [USER]: Alright then, thanks a billion. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 2nd"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "alamo"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "next wednesday"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "alamo"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "next wednesday"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? [SYSTEM]: The humidity will be around 20 percent. [USER]: How will Mountain View be on the 9th of March? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "mountain view"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? [SYSTEM]: The humidity will be around 20 percent. [USER]: How will Mountain View be on the 9th of March? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "9th of march"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? [SYSTEM]: The humidity will be around 20 percent. [USER]: How will Mountain View be on the 9th of March? [SYSTEM]: The temperature should be around 77 degrees and there is a 27 percent chance of rain. [USER]: That is all I needed. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "mountain view"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I would like to check the weather in Alamo for next Wednesday. [SYSTEM]: The temperature should be around 75 degrees Fahrenheit and there is a 7 percent chance of rain. [USER]: How will the humidity be? [SYSTEM]: The humidity will be around 20 percent. [USER]: How will Mountain View be on the 9th of March? [SYSTEM]: The temperature should be around 77 degrees and there is a 27 percent chance of rain. [USER]: That is all I needed. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "9th of march"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather like in Bodega Bay. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "bodega bay"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather like in Bodega Bay. [SYSTEM]: The average temperature at daytime is 80 degrees and there is only a 28 percent chance of rain. [USER]: What about the humidity level? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "bodega bay"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: What is the weather like in Bodega Bay. [SYSTEM]: The average temperature at daytime is 80 degrees and there is only a 28 percent chance of rain. [USER]: What about the humidity level? [SYSTEM]: Humidity is around 44 percent. [USER]: Okay great. That's all for now. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "bodega bay"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I would like to know about the weather [SYSTEM]: Okay, just tell me the city where you want me to look. [USER]: The place is Walnut Creek. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "walnut creek"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: I would like to know about the weather [SYSTEM]: Okay, just tell me the city where you want me to look. [USER]: The place is Walnut Creek. [SYSTEM]: Temperature is 72 degrees Fahrenheit with a 13 percent probability of rain. [USER]: Got it. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "walnut creek"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I would like to know about the weather [SYSTEM]: Okay, just tell me the city where you want me to look. [USER]: The place is Walnut Creek. [SYSTEM]: Temperature is 72 degrees Fahrenheit with a 13 percent probability of rain. [USER]: Got it. [SYSTEM]: What can I do for you now? [USER]: Nothing. Thank you. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "walnut creek"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "campbell"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "the 4th"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "campbell"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "the 4th"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "campbell"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "the 4th"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? [SYSTEM]: The humidity will be around 44 percent. [USER]: Okay thanks. Tell me the weather in Yountville on March 3rd. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "yountville"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? [SYSTEM]: The humidity will be around 44 percent. [USER]: Okay thanks. Tell me the weather in Yountville on March 3rd. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 3rd"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? [SYSTEM]: The humidity will be around 44 percent. [USER]: Okay thanks. Tell me the weather in Yountville on March 3rd. [SYSTEM]: The average temperature will be around 75 degrees fahrenheit that day with a 16 percent chance of rain. [USER]: Thanks. That's all for now. Appreciate the help. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "yountville"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: Can you tell me the weather in Campbell on the 4th? [SYSTEM]: Sure thing. The average temperature for the day will be around 72 degrees Fahrenheit with a 29 percent chance of rain. [USER]: How windy will it be that day? [SYSTEM]: The average wind speed will be around 5 miles per hour. [USER]: What's the humidity? [SYSTEM]: The humidity will be around 44 percent. [USER]: Okay thanks. Tell me the weather in Yountville on March 3rd. [SYSTEM]: The average temperature will be around 75 degrees fahrenheit that day with a 16 percent chance of rain. [USER]: Thanks. That's all for now. Appreciate the help. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 3rd"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I want to check the weather in Palo Alto. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I want to check the weather in Palo Alto. [SYSTEM]: The average temperature should be 79 degrees Fahrenheit for the day and chance of rain is 4 percent. [USER]: How windy and humid is it expected to be? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I want to check the weather in Palo Alto. [SYSTEM]: The average temperature should be 79 degrees Fahrenheit for the day and chance of rain is 4 percent. [USER]: How windy and humid is it expected to be? [SYSTEM]: The wind average speed should be 4 miles per hour and humidity is around 19 percent. [USER]: Sure. It is okay. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: I want to check the weather in Palo Alto. [SYSTEM]: The average temperature should be 79 degrees Fahrenheit for the day and chance of rain is 4 percent. [USER]: How windy and humid is it expected to be? [SYSTEM]: The wind average speed should be 4 miles per hour and humidity is around 19 percent. [USER]: Sure. It is okay. [SYSTEM]: Do you like anything else? [USER]: No, thanks for your help. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "palo alto"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-city> in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? [SYSTEM]: The average wind speed should be around 6 miles per hour. [USER]: And the humidity percentage? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? [SYSTEM]: The average wind speed should be around 6 miles per hour. [USER]: And the humidity percentage? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? [SYSTEM]: The average wind speed should be around 6 miles per hour. [USER]: And the humidity percentage? [SYSTEM]: Humidity is about 22 percent. [USER]: Great, thank you. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "montara"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like weather information. [SYSTEM]: Which city would you like? [USER]: Montara on March 10th. [SYSTEM]: The average temperature should be 72 degrees with a 20 percent chance of rain. [USER]: What about the wind? [SYSTEM]: The average wind speed should be around 6 miles per hour. [USER]: And the humidity percentage? [SYSTEM]: Humidity is about 22 percent. [USER]: Great, thank you. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "march 10th"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "the 11th"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "the 11th"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "martinez"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-date>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "12th of march"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <weather_1-city>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? [SYSTEM]: The average temperature should be 85 degrees Fahrenheit with a 27 percent chance of rain on the 12th. [USER]: Okay, thank you. \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "martinez"
+    },
+    {
+        "instruction": "Track the state of the slot <weather_1-date> in the input dialogue.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? [SYSTEM]: The average temperature should be 85 degrees Fahrenheit with a 27 percent chance of rain on the 12th. [USER]: Okay, thank you. \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "12th of march"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-city>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? [SYSTEM]: The average temperature should be 85 degrees Fahrenheit with a 27 percent chance of rain on the 12th. [USER]: Okay, thank you. [SYSTEM]: Is there anything else I can do for you? [USER]: No. Thanks a bunch! \n [slot] weather_1-city, it indicates Name of the city. So the value of slot <weather_1-city> is \n",
+        "output": "martinez"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <weather_1-date>.",
+        "input": "[USER]: How will the weather be in Pacifica on the 11th? [SYSTEM]: The average temperature should be 82 degrees Fahrenheit with a 16 percent chance of rain on the 11th. [USER]: Is it going to be very humid? [SYSTEM]: Humidity is expected to be around 21 percent. [USER]: Thank you. And how about the weather in Martinez on the 12th of March? [SYSTEM]: The average temperature should be 85 degrees Fahrenheit with a 27 percent chance of rain on the 12th. [USER]: Okay, thank you. [SYSTEM]: Is there anything else I can do for you? [USER]: No. Thanks a bunch! \n [slot] weather_1-date, it indicates Date for the weather. So the value of slot <weather_1-date> is \n",
+        "output": "12th of march"
+    }
+]

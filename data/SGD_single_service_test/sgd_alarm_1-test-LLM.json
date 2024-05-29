@@ -1,0 +1,742 @@
+[
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have set? [SYSTEM]: There is a Wake up alarm for 7 am. [USER]: Ok. [SYSTEM]: Would you like to add an alarm? [USER]: Yes. I want to add an alarm for 5 o\"clock in the evening. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 o\"clock in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have set? [SYSTEM]: There is a Wake up alarm for 7 am. [USER]: Ok. [SYSTEM]: Would you like to add an alarm? [USER]: Yes. I want to add an alarm for 5 o\"clock in the evening. [SYSTEM]: Please confirm: add a alarm named New alarm for 5 pm. [USER]: That is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have set? [SYSTEM]: There is a Wake up alarm for 7 am. [USER]: Ok. [SYSTEM]: Would you like to add an alarm? [USER]: Yes. I want to add an alarm for 5 o\"clock in the evening. [SYSTEM]: Please confirm: add a alarm named New alarm for 5 pm. [USER]: That is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 o\"clock in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have set? [SYSTEM]: There is a Wake up alarm for 7 am. [USER]: Ok. [SYSTEM]: Would you like to add an alarm? [USER]: Yes. I want to add an alarm for 5 o\"clock in the evening. [SYSTEM]: Please confirm: add a alarm named New alarm for 5 pm. [USER]: That is correct. [SYSTEM]: The alarm has been successfully added. [USER]: Thanks, that is all I needed. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have set? [SYSTEM]: There is a Wake up alarm for 7 am. [USER]: Ok. [SYSTEM]: Would you like to add an alarm? [USER]: Yes. I want to add an alarm for 5 o\"clock in the evening. [SYSTEM]: Please confirm: add a alarm named New alarm for 5 pm. [USER]: That is correct. [SYSTEM]: The alarm has been successfully added. [USER]: Thanks, that is all I needed. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 o\"clock in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. [SYSTEM]: I've added the new alarm. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. [SYSTEM]: I've added the new alarm. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. [SYSTEM]: I've added the new alarm. [USER]: Thanks a lot. [SYSTEM]: What else can I do for you. [USER]: Nothing else, thanks again. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: Can you show me the alarms I have? [SYSTEM]: You have an alarm at 7 am called Wake Up. [USER]: Okay, that's good. I want to make a new alarm for 5:15 pm. It'll be called Music practice. [SYSTEM]: Okay, I'll make a new alarm for 5:15 pm called Music practice, is that right? [USER]: Yeah, that's right. [SYSTEM]: I've added the new alarm. [USER]: Thanks a lot. [SYSTEM]: What else can I do for you. [USER]: Nothing else, thanks again. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "evening 4:15"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. [SYSTEM]: Your alarm was successful added. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. [SYSTEM]: Your alarm was successful added. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. [SYSTEM]: Your alarm was successful added. [USER]: Thanks a lot. [SYSTEM]: Can I help you in anything else? [USER]: No, that's all. Thanks. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I have to wake up early. Show me my alarms. [SYSTEM]: There's one for 6 am titled Wake Up. [USER]: Any others? [SYSTEM]: There's one for 8 am titled Shuttle to work. [USER]: Good to know. [SYSTEM]: Do you want to add a new alarm? [USER]: Yes, please. Title it Cleaning. [SYSTEM]: For what time should I set it? [USER]: For evening 4:15. [SYSTEM]: So you want to add an alarm to 4:15 pm titled Cleaning? [USER]: Yes, that's it. [SYSTEM]: Your alarm was successful added. [USER]: Thanks a lot. [SYSTEM]: Can I help you in anything else? [USER]: No, that's all. Thanks. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "evening 4:15"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. [SYSTEM]: Alarm added successfully. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. [SYSTEM]: Alarm added successfully. [USER]: Thanks a lot. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. [SYSTEM]: Alarm added successfully. [USER]: Thanks a lot. [SYSTEM]: Whether i need to do anything else? [USER]: no, not for now. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I need to set an alarm. Please set alarm time for me. [SYSTEM]: At what time should i need to set the alarm? [USER]: It will be fro 3:15 pm [SYSTEM]: please confirm the following details. Alarm is set at 3:15 pm with name New Alarm. [USER]: No, it should be for evening 4:15 and the alarm name should be Leave for home. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Leave for home. [USER]: ok that sound good. [SYSTEM]: Sorry, i couldn't able to set the alarm. Whether anything help i need to do? [USER]: Can you try it once again? create an alarm as Grocery run. [SYSTEM]: Please confirm the following details. Alarm is set at 4:15 pm with name Grocery run. [USER]: ok thats good. [SYSTEM]: Alarm added successfully. [USER]: Thanks a lot. [SYSTEM]: Whether i need to do anything else? [USER]: no, not for now. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. [SYSTEM]: Please verify the upcoming details: The new alarm will be called Cleaning and the time will be 5:15 pm. [USER]: Right, that will do. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. [SYSTEM]: Please verify the upcoming details: The new alarm will be called Cleaning and the time will be 5:15 pm. [USER]: Right, that will do. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. [SYSTEM]: Please verify the upcoming details: The new alarm will be called Cleaning and the time will be 5:15 pm. [USER]: Right, that will do. [SYSTEM]: The alarm was created without an issue. [USER]: Thanks so very much for your help and that's takes care of it for now. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to put in another alarm. [SYSTEM]: What would be the best time to set for this alarm? [USER]: Name it Phone home and make it for 5:15 pm. [SYSTEM]: Verify the upcoming information: Name the new alarm as Phone home and set it for 5:15 pm. [USER]: Right, that sounds good. [SYSTEM]: I apologize but I wasn't able to get the new alarm set. Would you need additional help with anything else? [USER]: Would you be able to give it another go? Make the title Cleaning. [SYSTEM]: Please verify the upcoming details: The new alarm will be called Cleaning and the time will be 5:15 pm. [USER]: Right, that will do. [SYSTEM]: The alarm was created without an issue. [USER]: Thanks so very much for your help and that's takes care of it for now. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "16:45"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "16:45"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. [SYSTEM]: Alarm created successfully. [USER]: Thanks a lot for your help \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. [SYSTEM]: Alarm created successfully. [USER]: Thanks a lot for your help \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "16:45"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. [SYSTEM]: Alarm created successfully. [USER]: Thanks a lot for your help [SYSTEM]: Whether anything else i need to do? [USER]: No, thanks. not now. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Will you show me my alarms timings? ,i need to sleep according to that [SYSTEM]: There is an alarm for 6 am with name Wake Up. [USER]: Okay, thats good. I need to add an alarm. Name the alarm as Music PRactice and it should be for 16:45. [SYSTEM]: Please review the details so that i will confirm. Creating an alarm at 4:45 pm with name Music Practice. [USER]: ok thats great. fix it. [SYSTEM]: Alarm created successfully. [USER]: Thanks a lot for your help [SYSTEM]: Whether anything else i need to do? [USER]: No, thanks. not now. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "16:45"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. [SYSTEM]: Let me confirm that you want to create an alarm named Cooking for 3:15 pm. [USER]: That is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. [SYSTEM]: Let me confirm that you want to create an alarm named Cooking for 3:15 pm. [USER]: That is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. [SYSTEM]: Let me confirm that you want to create an alarm named Cooking for 3:15 pm. [USER]: That is correct. [SYSTEM]: The alarm was set successfully. [USER]: Thank you very much. That is all I need. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I want to check on my alarms. [SYSTEM]: You have an alarm set for 6 am called Wake up. [USER]: That is fine. I want another alarm set for 3:15 in the afternoon. Name it Cooking. [SYSTEM]: Let me confirm that you want to create an alarm named Cooking for 3:15 pm. [USER]: That is correct. [SYSTEM]: The alarm was set successfully. [USER]: Thank you very much. That is all I need. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 in the afternoon"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "evening 5"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. [SYSTEM]: Your alarm has been created. [USER]: Thanks a million. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. [SYSTEM]: Your alarm has been created. [USER]: Thanks a million. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. [SYSTEM]: Your alarm has been created. [USER]: Thanks a million. [SYSTEM]: Do you need anything else? [USER]: No. Thanks a million. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Create an alarm for me for evening 5 and name it Music practice. [SYSTEM]: You would like to create an alarm for 5 pm and name it Music practice? [USER]: Call the alarm Grocery run instead. [SYSTEM]: You would like to create an alarm for 5 pm and name it Grocery run? [USER]: That is correct. [SYSTEM]: Your alarm has been created. [USER]: Thanks a million. [SYSTEM]: Do you need anything else? [USER]: No. Thanks a million. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Please show me the all my current alarms. [SYSTEM]: You have one alarm for 6:30 am, called Wake up. [USER]: Okay, that's good. I'd like to set another alarm for five pm. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "five pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Please show me the all my current alarms. [SYSTEM]: You have one alarm for 6:30 am, called Wake up. [USER]: Okay, that's good. I'd like to set another alarm for five pm. [SYSTEM]: Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct? [USER]: That is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Please show me the all my current alarms. [SYSTEM]: You have one alarm for 6:30 am, called Wake up. [USER]: Okay, that's good. I'd like to set another alarm for five pm. [SYSTEM]: Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct? [USER]: That is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Please show me the all my current alarms. [SYSTEM]: You have one alarm for 6:30 am, called Wake up. [USER]: Okay, that's good. I'd like to set another alarm for five pm. [SYSTEM]: Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct? [USER]: That is correct. [SYSTEM]: I have successfully added your alarm. [USER]: Thanks a million. That's all for now. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please show me the all my current alarms. [SYSTEM]: You have one alarm for 6:30 am, called Wake up. [USER]: Okay, that's good. I'd like to set another alarm for five pm. [SYSTEM]: Let me see if I got everything correctly: You'd like a New alarm created for 5 pm. Correct? [USER]: That is correct. [SYSTEM]: I have successfully added your alarm. [USER]: Thanks a million. That's all for now. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cleaning"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "evening 5"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. [SYSTEM]: The alarm has been successfully created. [USER]: Thank you very much. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. [SYSTEM]: The alarm has been successfully created. [USER]: Thank you very much. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. [SYSTEM]: The alarm has been successfully created. [USER]: Thank you very much. [SYSTEM]: Is there anything else I can do for you? [USER]: No. Thanks very much. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to set an alarm for 3:15 pm. [SYSTEM]: Okay, confirm these details for me: Setting an alarm to go off at 3:15 pm with the name new alarm. [USER]: No, please name the alarm Cleaning. [SYSTEM]: Okay, confirm these details for me please: Creating an alarm for 3:15 pm that is called cleaning. [USER]: Yes, that is what I want. [SYSTEM]: Sorry, I couldn't set the alarm. Is there anything else I can do for you? [USER]: Can you try again to do it? It will be for evening 5 and I want the alarm to be called music practice. [SYSTEM]: Okay, confirm these details: Creating an alarm for 5 pm that is called music practice. [USER]: Yes, that sounds good. [SYSTEM]: The alarm has been successfully created. [USER]: Thank you very much. [SYSTEM]: Is there anything else I can do for you? [USER]: No. Thanks very much. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "17:15"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. [SYSTEM]: need your confirmation to set an alarm at 5:15 pm in the name Music Practice. [USER]: That is correct, proceed. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. [SYSTEM]: need your confirmation to set an alarm at 5:15 pm in the name Music Practice. [USER]: That is correct, proceed. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "17:15"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. [SYSTEM]: need your confirmation to set an alarm at 5:15 pm in the name Music Practice. [USER]: That is correct, proceed. [SYSTEM]: alarm was added to your list successfully. [USER]: That's all I want. Thanks. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "music practice"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I want to know how many alarms are there in my list, can you show me [SYSTEM]: Yes, you have a Wake up alarm for the time 9 am. [USER]: am I have any other alarms in my list? [SYSTEM]: Yes, one more that is for 4:30 pm in the name Pick up kids. [USER]: That is okay, fine. [SYSTEM]: Do you have an idea to add a new alarm now to your list? [USER]: Yes, I have. Please do a favor for me. [SYSTEM]: What is it and at what time you want the alarm and also let me know the name in which I have to store it. [USER]: Please make it in the name Music practice for the time 17:15. [SYSTEM]: need your confirmation to set an alarm at 5:15 pm in the name Music Practice. [USER]: That is correct, proceed. [SYSTEM]: alarm was added to your list successfully. [USER]: That's all I want. Thanks. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "17:15"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "grocery run"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:45 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "quarter past 5 in the evening"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right [SYSTEM]: I've created that alarm for you [USER]: Thank you for doing that \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right [SYSTEM]: I've created that alarm for you [USER]: Thank you for doing that \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right [SYSTEM]: I've created that alarm for you [USER]: Thank you for doing that [SYSTEM]: Sure, anything else? [USER]: Nothing else, thanks so much \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "leave for home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Can you show me all my active alarms? [SYSTEM]: Sure. You have one at 9 am called Wake Up [USER]: Okay great, thanks [SYSTEM]: Do you want to add another alarm. [USER]: Yes please, add an alarm and call it Grocery Run at 4:45 pm [SYSTEM]: Confirming your 4:45 pm Grocery Run Alarm [USER]: Actually make it at quarter past 5 in the evening and name it Leave for Home [SYSTEM]: Confirming your 5:15 pm alarm named Leave for Home, yes? [USER]: Yes? That's right [SYSTEM]: I've created that alarm for you [USER]: Thank you for doing that [SYSTEM]: Sure, anything else? [USER]: Nothing else, thanks so much \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 in the evening"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. [SYSTEM]: The alarm was has been added successfully. [USER]: Thank you! \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. [SYSTEM]: The alarm was has been added successfully. [USER]: Thank you! \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. [SYSTEM]: The alarm was has been added successfully. [USER]: Thank you! [SYSTEM]: Is there anything else I can do for you? [USER]: No thank you, thank you for your help! \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What alarms do I have please? [SYSTEM]: You have 2 alarms set, one for 7 am that is called Wake up. [USER]: Are there any other alarms? [SYSTEM]: There is an alarm called Pick up kids that is set for 4:30 pm. [USER]: Ok, perfect! [SYSTEM]: Do you want to add any alarms? [USER]: Yes, I would like to add one for 4:15 in the evening. [SYSTEM]: Please confirm that you are creating an alarm for 4:15 pm that is named New alarm. [USER]: Yes, that is correct. [SYSTEM]: Sorry, I wasn't able to set it, is there anything else I can do for you? [USER]: Can you add one for 5:15 in the evening? [SYSTEM]: Please confirm that you are creating an alarm at 5:15 pm that is called New alarm. [USER]: Yes, that is correct. [SYSTEM]: The alarm was has been added successfully. [USER]: Thank you! [SYSTEM]: Is there anything else I can do for you? [USER]: No thank you, thank you for your help! \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 in the evening"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "afternoon 3:30"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. [SYSTEM]: Create an alarm at 3:30 pm called New alarm.I'm right? [USER]: Yes.Is okay for me. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. [SYSTEM]: Create an alarm at 3:30 pm called New alarm.I'm right? [USER]: Yes.Is okay for me. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:30 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. [SYSTEM]: Create an alarm at 3:30 pm called New alarm.I'm right? [USER]: Yes.Is okay for me. [SYSTEM]: The alarm was added. [USER]: Thank you.That's all that I wanted. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_time> in the input dialogue.",
+        "input": "[USER]: Show me please my alarms. [SYSTEM]: Currently set you have 2 alarms.One is for 8:30 am called Wake up. [USER]: Are there any other alarms there? [SYSTEM]: For 9:30 am called Workout. [USER]: Sure.That's okay. [SYSTEM]: You want to add an alarm? [USER]: Yes I would like. [SYSTEM]: At what time you want to be? [USER]: For 3 o\"clock in the afternoon. [SYSTEM]: Create an alarm at 3 pm called New alarm.Is that okay? [USER]: Yes is very good. [SYSTEM]: I am sorry but your request could not be made.What else can I do? [USER]: Yes try again please but change the time for afternoon 3:30. [SYSTEM]: Create an alarm at 3:30 pm called New alarm.I'm right? [USER]: Yes.Is okay for me. [SYSTEM]: The alarm was added. [USER]: Thank you.That's all that I wanted. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3:30 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Please help me add an alarm at five pm. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "five pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5 pm"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. [SYSTEM]: Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm? [USER]: That's good. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. [SYSTEM]: Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm? [USER]: That's good. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. [SYSTEM]: Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm? [USER]: That's good. [SYSTEM]: Apologies, I still fail to set the alarm. Anything you need? [USER]: No, thanks. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "new alarm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: Please help me add an alarm at five pm. [SYSTEM]: Okay, you want me to create an alarm at 5 pm with name New Alarm. Please confirm. [USER]: Exactly. [SYSTEM]: Apologies, I wasn't able to set it. Do you prefer 5:15 pm and call it New Alarm? [USER]: That's good. [SYSTEM]: Apologies, I still fail to set the alarm. Anything you need? [USER]: No, thanks. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "5:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "quarter to 5 in the evening"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "quarter past 4 in the evening"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. [SYSTEM]: The alarm Cooking was successfully added. [USER]: Nice, i'm glad to hear it. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. [SYSTEM]: The alarm Cooking was successfully added. [USER]: Nice, i'm glad to hear it. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. [SYSTEM]: The alarm Cooking was successfully added. [USER]: Nice, i'm glad to hear it. [SYSTEM]: Will you be needing anything else? [USER]: No that will be all for now, good bye. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "cooking"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: What are my alarms? [SYSTEM]: You have an alarm for 7 am with the name Wake up. [USER]: Right, right. Okay. [SYSTEM]: Would you like me to add an alarm? [USER]: Yes, I would. [SYSTEM]: When would you like the new alarm to go off? [USER]: Make it for a quarter to 5 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:45 pm with the name New Alarm. [USER]: Call the alarm Cooking and make it for a quarter past 4 in the evening. [SYSTEM]: Please confirm that you would like me to create an alarm for 4:15 pm with the name Cooking. [USER]: Yes, I confirm. [SYSTEM]: The alarm Cooking was successfully added. [USER]: Nice, i'm glad to hear it. [SYSTEM]: Will you be needing anything else? [USER]: No that will be all for now, good bye. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "4:15 pm"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_name>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. [SYSTEM]: I have successfully added the alarm. [USER]: Thank you so much. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. [SYSTEM]: I have successfully added the alarm. [USER]: Thank you so much. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    },
+    {
+        "instruction": "Track the state of the slot <alarm_1-new_alarm_name> in the input dialogue.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. [SYSTEM]: I have successfully added the alarm. [USER]: Thank you so much. [SYSTEM]: Could I help with something else? [USER]: No, that is all. \n [slot] alarm_1-new_alarm_name, it indicates Name to use for the new alarm. So the value of slot <alarm_1-new_alarm_name> is \n",
+        "output": "phone home"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <alarm_1-new_alarm_time>.",
+        "input": "[USER]: I'd like to see my alarms. [SYSTEM]: There's one called wake up for 7:30 am. [USER]: That's good. Put a new alarm on called Phone home. [SYSTEM]: What time should this alarm be? [USER]: Make it 3 o\"clock in the afternoon. [SYSTEM]: Could you confirm that you want to create an alarm at 3 pm called Phone home? [USER]: Yeah. [SYSTEM]: I have successfully added the alarm. [USER]: Thank you so much. [SYSTEM]: Could I help with something else? [USER]: No, that is all. \n [slot] alarm_1-new_alarm_time, it indicates Time to set for the new alarm. So the value of slot <alarm_1-new_alarm_time> is \n",
+        "output": "3 o\"clock in the afternoon"
+    }
+]
