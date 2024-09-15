@@ -1,0 +1,122 @@
+[
+    {
+        "id": "task1572-18203115d6274efdbbb4f1f2954dc035",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Charlie: Guys, I need some of you to help me with cleaning up the summer house after yesterday's party., Charlie: Dad said that we better do that today if we want to use the place for a party again in the future..., Daisy: I'll come, no worries, Charlie :), William: Everyone who enjoyed the party should help, I'm coming!, Freddie: I had a good time too, coming, Gabrielle: Couldn't come to the party... good luck guys xD \n [OUT] ",
+        "output": " Charlie asks guys present at yesterday's party for help in cleaning up the summer house. Daisy, William and Freddie will come and help Charlie. ",
+        "data_id": 0
+    },
+    {
+        "id": "task1572-ffc218bb25934614a991ed1950124e0c",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Layla: Lilly moo moo , Layla: All good?, Layla: Bad week over?? 😑, Lillian: Hey stinky, Lillian: I'm out of town on meetings, Lillian: yeah much better now, Lillian: totally wears me down.. 😫, Lillian: you? ok?, Lillian: <file_gif>, Layla: I'v been feeling run down all weekend, and I haven't been going to work either these last couple of days, Layla: I think it might be the flu :/ , Lillian: Oh :( Fever too?, Layla: Not sure, I'll just have to wait it out and rest.., Lillian: Wrap up warm, and rest well ❤️, Lillian: I'll give you a ring later babe, see how you are ;), Layla: 😘 thx sweetie \n [OUT] ",
+        "output": " Lillian feels much better now and she's out of town on meetings. Layla has been feeling run down all weekend, she thinks it might be the flu. She hasn't been going to work for the last days. Lillian will call her later to check up on her.  ",
+        "data_id": 1
+    },
+    {
+        "id": "task1572-0065089313ec4e9a986f88fe908732af",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Erik: my car broke down, i need your help, Rory: what happened?, Erik: I was driving and when i tried to shift gear i heard a loud noise and the gearbox went loose, Rory: gearbox?, Erik: ye, like it broke or something... i can't switch gears anymore, i towed it to the parking lot with Chris, Rory: oh man you are fucked, Erik: is it that bad?, Rory: your car is how old... 10 years?, Erik: 13 or 14, Rory: yeah, well the fix will probably be more expensive than getting a new car lol, Erik: shit... you think so?, Rory: almost certain, Erik: can you come by anyway and have a look at it? Maybe I miss interpreted something, Rory: sure i, can come by sunday, is that good?, Erik: yes, thanks - i will make it up to you obviously, Rory: don't mention it :) just hoping i can help \n [OUT] ",
+        "output": " Erik's car broke down and Chris helped him to tow it to the parking lot. The car's 13 or 14 years old and Rory claims that fixing it may be more expensive than a new car. Rory agrees to come and see the car on Sunday anyway. ",
+        "data_id": 2
+    },
+    {
+        "id": "task1572-29404e9f215442d88db7fc727fbbdd45",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Adam: Hello, do you serve coffee with lactose-free milk?, Vanessa: Hello Adam, yes, we do. In our offer you'll find soy milk, almond milk and oat milk., Adam: Thank you so much for your quick answer! Can I book a table then? Tomorrow at 12?, Vanessa: Of course, thank you for choosing us :) \n [OUT] ",
+        "output": " Adam books a table in Vanessa's café for tomorrow at 12 PM.  ",
+        "data_id": 3
+    },
+    {
+        "id": "task1572-0d03fb677ddf4792aa26ae6619eca5a5",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Dominick: Hello, Aretha. Just to let you know, I will be 15 minutes late. I’m sorry but the city is really busy today., Aretha: Hi, Dominick. Thank you for letting me know. See you soon, then!, Dominick: Thank you for understanding. See you! \n [OUT] ",
+        "output": " Aretha has to wait for Dominick as he will be 15 minutes late. ",
+        "data_id": 4
+    },
+    {
+        "id": "task1572-7eaf03b5c3d04e8d9402ce6053064e62",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Mira: do you have those files with you?, Barry: the csi files? yeah, Mira: are you done, Barry: almost, i'll drop them by your office in an hour, Mira: okay cool, Barry: and also, did you see the page 18, Mira: yes ive seen that, its an error i know, Barry: so what do you want me to do?, Mira: leave it like that, i'll fix it myself, Barry: okay \n [OUT] ",
+        "output": " Barry will drop the csi files to Mira's office in an hour. Mira will take care of the error at page 18 herself. ",
+        "data_id": 5
+    },
+    {
+        "id": "task1572-9dd9d3a979d8455299c1668f8b6c48c2",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Adam: Hey Charlie, gotta question for you., Charlie: Hey man, what's up?, Adam: I'm having an issue. I just dropped Godwin who was on my bench and picked up Baron who plays tonight.Now it won't let me use Baron this week. Do you know why?, Charlie: Ya. Yahoo won't let you do that., Adam: I have done it in the past., Charlie: I can change it for ya., Adam: Cool thanks. When did that change?, Charlie: It's been a while, probably like five years ago. I've been doing it manually since then because it's a bullshit rule., Adam: Good to know. I appreciate it man!, Charlie: No worries. Essentially they won't let you make any changes after Sunday night for this week. We've always had people wait until Monday though., Adam: Thanks for all the info!, Charlie: Sure. You should be good to go now., Adam: Great. Thanks again, Charlie: Ya, always ask with stuff like that \n [OUT] ",
+        "output": " Adam has a problem with using Baron, because Yahoo introduced a new rule five years ago. He asks Charlie for help. Charlie helps Adam. ",
+        "data_id": 6
+    },
+    {
+        "id": "task1572-67b88fbed7aa4561a32becafb50839b5",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Jeffrey: i'm thinking about driving for uber :-D, Jeffrey: what do u think?, Shannon: i'm surprised you want to drive for uber!!! lol, Shannon: that's so unlike you, Shannon: why do you want to drive for uber?, Jeffrey: the extra money could come in handy, Jeffrey: i want a new flat screen tv and those are expensive :-/, Jeffrey: i think if i drive for uber for a couple of weeks i can make that money, Shannon: you don't mind putting mileage on your car?, Jeffrey: not really, Shannon: and having strangers in your card?, Jeffrey: no, i really don't, Shannon: then maybe uber driving it's a good idea, Jeffrey: yeah :-D i'll give it a try, Shannon: please let me know how it goes!, Shannon: i'm genuinely curious lol \n [OUT] ",
+        "output": " Jeffrey is considering driving for Uber as he needs money to buy a new TV. Jeffrey doesn't mind putting mileage on his car or driving strangers. ",
+        "data_id": 7
+    },
+    {
+        "id": "task1572-9ad949cd0cb3449c99c2c8cf648de31d",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Bridget: Some workout today?, Kristen: Can’t make it. I have a terrible hangover., Bridget: Hahah! Where were you last night???, Kristen: Better ask where I wasn’t.  I went to all the bars in the area then headed for havana club, Bridget: With whom, Kristen: First I met with Ann then we bumped into her colleagues, Bridget: Sounds like somebody had a fun night yesterday, Kristen: Yeah.. I met someone, Bridget: Show me!, Kristen: <file_photo>, Bridget: OMG xD Damn, he’s so hot!, Kristen: Told u, Bridget: I so envy you right now. Did he ask you out?, Kristen: We’re texting now, so will see., Bridget: <file_gif>, Kristen: Stay tuned, haha \n [OUT] ",
+        "output": " Kristen has hangover today, so she can't join Bridget for workout. Last night Kristen met with Ann and her colleagues, they went to a few bars and the Havana club. She met a handsome guy who is texting her now. She shares his photo with Bridget.  ",
+        "data_id": 8
+    },
+    {
+        "id": "task1572-d7fb592c9e0c46bcbba7cc83616e278c",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Paulina: <file_photo>, Paulina: It bothers my head, Paulina: Don't know about you, but it makes me wonder about my sanity, Stanley: Haha. Yup. My mind is full of fuck., Paulina: Roflmao, Stanley: Wut?, Paulina: rolling on the floor laughing my ass off, Stanley: Seriously?, Stanley: ok. afz honey!, Paulina: ?, Stanley: Acronym Free Zone, Paulina: Hahaha :) :) :) :) :), Stanley: The way people chat nowadays frightens me., Stanley: I am aware of acronyms like afk or brb, Stanley: But abithiwtidb is too much for me :D, Paulina: What?, Stanley: Acronym for: A bird in the hand is worth two in the bush, Paulina: Jesus Christ :D \n [OUT] ",
+        "output": " Paulina and Stanley discuss the current use of acronyms in chat. ",
+        "data_id": 9
+    },
+    {
+        "id": "task1572-9176799a908c4a059315fff35ce7db3e",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Stan: May I stay home?, Carol: No. , Stan: Mom! , Carol: No means no. End of discussion., Stan: But I don't feel good. Pleeeeease!, Carol: I've let you stay home once, which doesn't mean you can skip school days whenever you want now., Stan: Not like 'whenever', Just today. Please, say yes., Carol: No. I mean it. I know all too well what you're doing. Instead of playing games all night you should have revised for the test., Stan: You're awful!!!!, Carol: Go to school. Do your best. Have fun., Stan: Hate you., Carol: Love you! Very much. , Stan: That's not fair., Carol: Well... get used to that. Seriously, get ready to school. I'll pick you up at 3.20. I won't change my mind. \n [OUT] ",
+        "output": " Stan wants to stay home because he has a test at school. Carol has let him stay once before, but now she refuses. She will pick him up at 3.20. ",
+        "data_id": 10
+    },
+    {
+        "id": "task1572-0d6348d704704d948a420cdefa99af13",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Lola: <file_other>\nLola: check it!\nLaura: hmmm, a bit LOL honestly, what does it mean \"enigmatic landscape\"\nJeff: and \"where elephants tower\" 😂😂😂😂\nLola: god, it's not the point!\nTim: hahaha\nLola: I know, just kidding\nJeff: so what's the point?\nLola: what we could do there, it could help us plan the trip\nJeff: Lola, no offence, but I really detest Lonely Planet\nLola: I know, and TripAdvisor and airbnb and all the capitalist consumption through tourism...\nLola: but still... they just have good tips there\nJeff: like what?\nLola: simple ones, I know nothing about Botswana\nLola: like Chobe National Park or Chapman's Baobab\nLaura: this one looks really impressive indeed\nJeff: yes, and then we go there where 10000 other tourist go, destroying the landscape and producing the 15534th picture on instagram\nLola: I don't know about you Jeff, but I'm spending savings of my life to go to Botswana and I want to get from it as much as possible, so I need to know what's there\nLaura: I get your point Jeff, but Lola is also right\nJeff: ok, whatever, we could at least use some less commercial guidebooks\nLola: if you know any, I'm more than excited to look at them!\nJeff: ok, I'll look for sth \n [OUT] ",
+        "output": " Jeff doesn't like Lonely Planet. Lola is going to Botswana. Jeff will look for some less commercial guidebooks. ",
+        "data_id": 11
+    },
+    {
+        "id": "task1572-0acea8ed58ba44d78183e549c73bfd27",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Maria: where are you? on the way?, Andrew: yes, on the highway even, Jeff: we should be there in about an hour, Maria: great, just don't take the exit to Exeter, Maria: there's always a jam, Jeff: ok, good you're telling us, Jeff: should we buy anything?, Maria: a bottle of wine maybe?, Jeff: red or white?, Maria: Wait, I'll ask Marion, Jeff: ok, Maria: I'm just afraid she cannot drink red after the operation, Maria: yup, she asked me to buy white, Jeff: perfect. So we'll get some , Jeff: see you soon \n [OUT] ",
+        "output": " Andrew and Jeff inform Maria that they'll be there in an hour. Jeff'll buy a bottle of white wine as Maria wishes. ",
+        "data_id": 12
+    },
+    {
+        "id": "task1572-c66b7fb8d92d4373954829bdca8fa1cd",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Sam Smith: Good morning. I would like to order no. 27 from the menu. Here is my address 20 W 34th St, New York, NY 10001., Elisabeth Garnier: Good morning. We have received your order. The total bill amount is 12$ and the delivery will take approximately 35 minutes. We wish you a great meal and a great day., Sam Smith: Thank you, Sam Smith: I have waited more than 35 min and the food has not arrived yet., Elisabeth Garnier: We will immediately contact our deliveryman. Please, be patient., Elisabeth Garnier: By now the food should have been delivered to you., Sam Smith: Yes, I’ve got it. Thank you. \n [OUT] ",
+        "output": " Sam Smith ordered the meal number 27 for 12$ to his place at 20 W 34th St, New York, NY 10001 and waited for the delivery more than the estimated 35 minutes.  ",
+        "data_id": 13
+    },
+    {
+        "id": "task1572-a149b8ed263e4f6e96279a0b23fca656",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Emily: <file_other>, Emily: new season of case de papel!!! , Maya: :o, Ruby: <file_gif> \n [OUT] ",
+        "output": " There's a new season of \"Case de Papel\". ",
+        "data_id": 14
+    },
+    {
+        "id": "task1572-9399aba361654e78af8cdb8d76925ff5",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  John: Hello Al, you coping ok?, Al: Hi there! Snowed under John, same as you, I'm sure!, John: I'll be so pleased when this bloody term is over!, Al: You and me both! , John: God! Just remembered we scheduled some revision classes at Easter, so bang goes the second week off!, Al: Oh yes, what joy! We're going to Sara's parents in Leicester for the first week, so I won't be able to pull out my books and laptop there much!, John: Oh yes, the parents-in-law holiday visit, lovely! Don't worry lad, we've got revision stuff all prepped from last year, you should have been sent the file by Brian or Hilary., Al: Oh, I'll dig it out, (if it's there!) and have a read over it next week., John: Oh shit, I remember Romeo isn't on there, we didn't do it last year, someone's going to have to write up some sheets for it! I'll mention it to Hilary tomorrow in the staff meeting., Al: Should I offer to do it?, John: Yeah, if you're up for it! It'll earn you some Brownie points with Hilary and Senior staff when it comes to renewing your contract. , Al: OK, then, I'll tell her tomorrow at the meeting., John: Good idea, I haven't got your youthful energy!, Al: Well, I really need to be kept on, we want to start trying for a baby soon!, John: Are you nuts!? No, seriously, you definitely need to be in a secure job first., Al: When will they decide about my contract, John?, John: After Easter I should think. I'll put a word in, of course, as I'm your line manager., Al: You're a pal, John, thanks! , John: Better get back to marking Of Mice and Men, then, the excitement might kill me, though!, Al: I've been running through the themes with my middle group, they are not exactly bright sparks, are they?, John: Had then last year, they may surprise you come exam time, mind! They don't say a lot, but some of their work is promising., Al: Hmm, maybe, anyway, see you at the meeting first thing!, John: Right, bye! \n [OUT] ",
+        "output": " Al will write up some sheets for John. Al wants to start trying for a baby soon but he needs a secure job first. John will support Al in renewing his contract after Easter. Al will see John at the staff meeting tomorrow.  ",
+        "data_id": 15
+    },
+    {
+        "id": "task1572-3f7fc4aebf5d493abe6ccc32b479591b",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Jeff: You're up late. What are you doing?\nPatricia: It's not that late\nJeff:  I'm 5 hours behind, but I know what time is in London now :)\nPatricia: I'm writing a translation for an important client\nJeff: You and your translations... won't you try something new?\nPatricia: I'm working on it, but you need to have time to look for a job\nPatricia: and I have no spare time \n [OUT] ",
+        "output": " Patricia is in London working on an important translation now and has no time to look for a job. Jeff is 5 hours behind her. His disapproves of her translating activity. ",
+        "data_id": 16
+    },
+    {
+        "id": "task1572-9933f09a602d4edba72b5542e8e8849d",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Hugo: Im off to Mazagan (Morocco) this weekend, Lacey: Oh so nice!, Hugo: Where are you these days? In Spain already?, Lacey: No. In Poland all the time. I study here \n [OUT] ",
+        "output": " Hugo is off to Mazagan in Morocco this weekend. Lacey studies in Poland. ",
+        "data_id": 17
+    },
+    {
+        "id": "task1572-64473fc93af0454f9f020bd5672db28d",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Ruth: Chris, don't forget about Nathan's appt, Chris: Today?, Ruth: Yes, I told you last night! 4:30, Chris: Oh boy,  I'm gonna have to leave work early., Ruth: Just tell them you'll work it off later at home., Chris: Fine, just tell him to be ready at 4 \n [OUT] ",
+        "output": " Chris is having an appointment with Nathan today at 4:30. ",
+        "data_id": 18
+    },
+    {
+        "id": "task1572-db72000683dd44f6b10b6b16efa7a9a9",
+        "input": "[INS] In this task, you are given a conversation, and your task is to generate a summary from the information present in the given conversation. Generate a summary in such a way that the context should be present in the conversation. It should cover the complete context of the conversation. \n [IN]  Mary: Can you pick up the kids?, John: Sure. You've already asked me this morning., Mary: Really? I don't remember. , John: Ok, doesn't matter. \n [OUT] ",
+        "output": " John will pick up the kids at Mary's request. ",
+        "data_id": 19
+    }
+]

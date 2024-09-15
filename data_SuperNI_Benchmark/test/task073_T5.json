@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task073-7c417ac4cb3a47e2b9929d8f7eb07af0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where is a salt shaker most often kept?\n(A)cruet (B)table setting (C)kitchen cupboard (D)cabinet (E)store\n [OUT] ",
+        "output": "B",
+        "data_id": 0
+    },
+    {
+        "id": "task073-88c16010de4042b7bea70dee3a1a056f",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The poker dealer spread the flop of cards across the what?\n(A)players (B)play games (C)casino (D)table (E)toy store\n [OUT] ",
+        "output": "D",
+        "data_id": 1
+    },
+    {
+        "id": "task073-404817bbcbfc4a0694648d82e90362e0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The flower grew tall to compete for sunlight, what did its neighbor do?\n(A)blossom (B)park (C)open (D)cast shadow (E)vase\n [OUT] ",
+        "output": "D",
+        "data_id": 2
+    },
+    {
+        "id": "task073-ecceaf53cc9f430aabdd335161121549",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The water in clouds turn in to what when it gets cold?\n(A)typhoon (B)snowflake (C)laddle (D)teardrops (E)sink\n [OUT] ",
+        "output": "B",
+        "data_id": 3
+    },
+    {
+        "id": "task073-88874f64e09d491d836acc7b611e6128",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What is a tactic used to interfere with learning about science?\n(A)repetition (B)sense of wonder (C)accidents (D)intimidation (E)increased knowledge\n [OUT] ",
+        "output": "D",
+        "data_id": 4
+    },
+    {
+        "id": "task073-886d8f1ec7d74d6fba30a2a25db60fff",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] They were never going to be big actors, but they all had passion for the local what?\n(A)theater (B)opera (C)show (D)television (E)blockbuster feature\n [OUT] ",
+        "output": "A",
+        "data_id": 5
+    },
+    {
+        "id": "task073-8966f30335cf49b8abc17e598694d075",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where can you keep letter opener when it likely to be needed soon?\n(A)office supply store (B)stationery store (C)dek (D)martyr's chest (E)refrigerator\n [OUT] ",
+        "output": "C",
+        "data_id": 6
+    },
+    {
+        "id": "task073-931dae4064d64fadad43e1c2bfe4907c",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where can you buy a two wheel transportation machine?\n(A)boat (B)michigan (C)train station (D)bicycle shop (E)trunk of car\n [OUT] ",
+        "output": "D",
+        "data_id": 7
+    },
+    {
+        "id": "task073-672759c965444d048163253cfdc7c418",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where would you put a container can after you buy it?\n(A)pantry (B)store (C)gas (D)liquid (E)garage\n [OUT] ",
+        "output": "E",
+        "data_id": 8
+    },
+    {
+        "id": "task073-a4f2a25896474eb18afe3d4495fd39f4",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Loss of someone you love can cause what kind of feeling in your heart?\n(A)painful (B)happy (C)blind (D)contagious (E)bring joy\n [OUT] ",
+        "output": "A",
+        "data_id": 9
+    },
+    {
+        "id": "task073-e7eeff136dcd40fe872ca3aeff5723e4",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What animal is known for being a follower?\n(A)goat (B)expensive (C)lion (D)wolf (E)meadow\n [OUT] ",
+        "output": "A",
+        "data_id": 10
+    },
+    {
+        "id": "task073-09d18cdec5d44a55b457d032b5624889",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What southern U.S. state is know for having many swamps?\n(A)wetlands (B)new york (C)michigan (D)louisiana (E)river delta\n [OUT] ",
+        "output": "D",
+        "data_id": 11
+    },
+    {
+        "id": "task073-c74e2c9087cf43abb869d93df009958d",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Spraining an ankle while playing baseball will cause what?\n(A)strikes (B)eating (C)injury (D)sore muscles (E)pain\n [OUT] ",
+        "output": "E",
+        "data_id": 12
+    },
+    {
+        "id": "task073-3a36996b4378480796d9ff27e809dd7f",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] John was traveling to a new city and took time to check out a business.  He noticed that its carpet was stained with sauces and ketchup. What type of business might that be?\n(A)bedroom (B)chair (C)bowling alley (D)at hotel (E)restaurant\n [OUT] ",
+        "output": "E",
+        "data_id": 13
+    },
+    {
+        "id": "task073-b37dacb3c68f40c9b927656f6aecc382",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where do you buy condoms?\n(A)supermarket (B)sock drawer (C)cd store (D)medicine chest (E)bedroom\n [OUT] ",
+        "output": "A",
+        "data_id": 14
+    },
+    {
+        "id": "task073-149c2a434694424c996e452d81a35ed2",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?\n(A)airplane (B)scooter (C)motorboat (D)car (E)motor vehicle\n [OUT] ",
+        "output": "A",
+        "data_id": 15
+    },
+    {
+        "id": "task073-6eb0b15d9fc544feaaba4a24e773d6b7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Why do people stop caring about their problems?\n(A)no problems (B)better themselves (C)face problems (D)learn from each other (E)become disillusioned\n [OUT] ",
+        "output": "E",
+        "data_id": 16
+    },
+    {
+        "id": "task073-5d2fa363a6994887b888d9507c85e7d0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If while driving to work another car makes a careless maneuver, what emotion might you feel?\n(A)boredom (B)happiness (C)transportation cost (D)getting there (E)road rage\n [OUT] ",
+        "output": "E",
+        "data_id": 17
+    },
+    {
+        "id": "task073-1757558c66964a66ad896a3b95909af6",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The hostess greeted the employees to the program, she then led them to their what?\n(A)group people (B)welcome guests (C)occupations (D)work room (E)seat customer\n [OUT] ",
+        "output": "D",
+        "data_id": 18
+    },
+    {
+        "id": "task073-44ed84b5bf9d4ca091a12da7125c1925",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The two played video games all night in the living room, he enjoyed visiting where?\n(A)formal seating (B)friend's house (C)movies (D)home (E)apartment\n [OUT] ",
+        "output": "B",
+        "data_id": 19
+    },
+    {
+        "id": "task073-357c67bc358641ad9bc0cf7de3d17f17",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Paul wants carrots and doesn't need to drive anywhere. He gets them from where?\n(A)refrigerator (B)store (C)farmer's market (D)supermarket (E)dryer\n [OUT] ",
+        "output": "A",
+        "data_id": 20
+    },
+    {
+        "id": "task073-6e2134c4a1214ecdb36013e0b97f75d7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Why would a person put flowers in a room with dirty gym socks?\n(A)continue to grow (B)plant themselves (C)many colors (D)smell good (E)make pretty\n [OUT] ",
+        "output": "D",
+        "data_id": 21
+    },
+    {
+        "id": "task073-b4543f721c45413f826e54e65ef4167e",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What does every person want?\n(A)life partner (B)larger house (C)second chances (D)money (E)headache\n [OUT] ",
+        "output": "A",
+        "data_id": 22
+    },
+    {
+        "id": "task073-1bfe9a225bba4161a48e73d571fa89b7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What does going to bed with your spouse for sex lead to?\n(A)bad dreams (B)a good nights sleep (C)rest (D)sleepiness (E)get pregnant\n [OUT] ",
+        "output": "E",
+        "data_id": 23
+    },
+    {
+        "id": "task073-94be426fc487449e99c285e4bc7c65da",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] James was someone who was caught in his own delusions.  To him, the truth didn't do what what?\n(A)work to advantage (B)matter to (C)help (D)free mind (E)further knowledge\n [OUT] ",
+        "output": "B",
+        "data_id": 24
+    },
+    {
+        "id": "task073-2d6c8cb5336e4ff985e3b45315362810",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] John rode on the plain until it reached the ocean and couldn't go any farther. What might he have bee on?\n(A)mountain (B)fancy (C)sandplain (D)cliff (E)gorge\n [OUT] ",
+        "output": "D",
+        "data_id": 25
+    },
+    {
+        "id": "task073-439a86f7435a4cffbb5fc6cc01689b7b",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What was the man encouraged to do after he expressed his anger violently?\n(A)cool off (B)punch (C)illustrate point (D)fight (E)release energy\n [OUT] ",
+        "output": "A",
+        "data_id": 26
+    },
+    {
+        "id": "task073-e49918b5bff44e6290805312a2ab381f",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where would using a boat not require navigation skills?\n(A)water (B)ocean (C)garage (D)harbor (E)river\n [OUT] ",
+        "output": "E",
+        "data_id": 27
+    },
+    {
+        "id": "task073-637e19427ce54e67aa77df6b1945c394",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] When you stroke a dogs fur what have you done?\n(A)start fighting (B)play (C)lots of attention (D)petted (E)bone\n [OUT] ",
+        "output": "D",
+        "data_id": 28
+    },
+    {
+        "id": "task073-e6d595ffca4c46d3824b176faa91be0c",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If a small flying animal picks up a string, where are they taking it?\n(A)bird's nest (B)park (C)guitar (D)kite (E)quark\n [OUT] ",
+        "output": "A",
+        "data_id": 29
+    },
+    {
+        "id": "task073-25b02b3397a1405886afce6053268d34",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Nature creates more beautiful structures than those that are what?\n(A)artificial (B)indoors (C)city (D)man made (E)eat cake\n [OUT] ",
+        "output": "D",
+        "data_id": 30
+    },
+    {
+        "id": "task073-96dcb4e4702b4577925d8fd082a1ffb8",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where can a bath towel be borrowed?\n(A)cupboard (B)at hotel (C)swimming pool (D)clothes line (E)backpack\n [OUT] ",
+        "output": "B",
+        "data_id": 31
+    },
+    {
+        "id": "task073-2ca640e05cb0479c84595c72d4f5316e",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] How does someone go about buying beer?\n(A)have no money (B)pants (C)relaxation (D)lose money (E)spend money\n [OUT] ",
+        "output": "E",
+        "data_id": 32
+    },
+    {
+        "id": "task073-f0c174ac324d46efa346edf769813e69",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Steve thought that it was possible, but he agreed that it was what?\n(A)no go (B)unable (C)unlikely (D)impossibility (E)cant do\n [OUT] ",
+        "output": "C",
+        "data_id": 33
+    },
+    {
+        "id": "task073-42b78f8006c743dcae1bca1e8a96a4a7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The soldier was told to get to the rendezvous point, for there he was suppose to what?\n(A)fight enemy (B)go to war (C)fight for freedom (D)wait for orders (E)follow instructions\n [OUT] ",
+        "output": "D",
+        "data_id": 34
+    },
+    {
+        "id": "task073-b8eb1ec1ee0f4991a6337e8aa1dfd4d3",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What room is likely to have a sideboard on the counter?\n(A)home (B)serve food buffet (C)dining room (D)living room (E)kitchen\n [OUT] ",
+        "output": "E",
+        "data_id": 35
+    },
+    {
+        "id": "task073-a4e68a692d3d4ea688d603521319ff4a",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Sally thought that competing wasn't worth the risk. If she pushed more what might happen?\n(A)pressure (B)trying harder (C)put harder (D)enemies (E)death\n [OUT] ",
+        "output": "E",
+        "data_id": 36
+    },
+    {
+        "id": "task073-b9a7a4f209ab45cc973b3cb96d65bffb",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If you spend a long time shopping in uncomfortable shoes, you might develop what?\n(A)tiredness (B)calluses (C)bankruptcy (D)standing in line (E)sleepyness\n [OUT] ",
+        "output": "B",
+        "data_id": 37
+    },
+    {
+        "id": "task073-e5c5c7701ac842139de02398811c3bbc",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What do you need to do to use television if it is already turned on?\n(A)get wet (B)open eyes (C)kill (D)plug in (E)first turn on power\n [OUT] ",
+        "output": "B",
+        "data_id": 38
+    },
+    {
+        "id": "task073-be19a59b69a84da68335c371165ef494",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where is a monkey likely to enjoy being?\n(A)banana tree (B)sailor suit (C)theatre (D)mulberry bush (E)research laboratory\n [OUT] ",
+        "output": "A",
+        "data_id": 39
+    },
+    {
+        "id": "task073-08a81a3b309146309d652aaad5bd1690",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What could you use to fill a cup and then drink from it?\n(A)sand box (B)kitchen cabinet (C)waterfall (D)water fountain (E)table\n [OUT] ",
+        "output": "D",
+        "data_id": 40
+    },
+    {
+        "id": "task073-b15f85408649449fa8c2a79914ac85e6",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The person signed up for home insurance, what is he seeking?\n(A)financial security (B)live well (C)good relationship (D)compliments (E)discounted furniture\n [OUT] ",
+        "output": "A",
+        "data_id": 41
+    },
+    {
+        "id": "task073-13d24a2151224ccca8b72dceb2d826c3",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If you were looking for a blowfish, you wouldn't look on dry land, you'd look in a what?\n(A)fish market (B)jungle (C)sea water (D)body of water (E)soup\n [OUT] ",
+        "output": "D",
+        "data_id": 42
+    },
+    {
+        "id": "task073-1025ec2575fa4a3287fef768ef68ddc8",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?\n(A)jet engine (B)helicopter (C)electric motor (D)rotator (E)electrical circuit\n [OUT] ",
+        "output": "A",
+        "data_id": 43
+    },
+    {
+        "id": "task073-5124f32dbb464385990f73bc4be35f6c",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] John and Tim like playing. It makes them what?\n(A)feeling happy (B)learning (C)injury (D)burn (E)get hungry\n [OUT] ",
+        "output": "A",
+        "data_id": 44
+    },
+    {
+        "id": "task073-6e629a6794fd4bcab5b9cfc8b8e0320b",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What do people usually feel when falling in love?\n(A)getting married (B)pain (C)happiness (D)getting married (E)suffering\n [OUT] ",
+        "output": "C",
+        "data_id": 45
+    },
+    {
+        "id": "task073-96a875eaa5f64fa6b04a346013afedb8",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If a person isn't able to pay their bills what must they do?\n(A)know everything (B)acknowledgment (C)make more money (D)throw a party (E)spare time\n [OUT] ",
+        "output": "C",
+        "data_id": 46
+    },
+    {
+        "id": "task073-a088387674ab4181aef088a87233a230",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If there is gum on your shoe where did it likely come from?\n(A)shelf (B)movies (C)sidewalk (D)water fountain (E)table\n [OUT] ",
+        "output": "C",
+        "data_id": 47
+    },
+    {
+        "id": "task073-98c9b86fa17c42a083e79ed8ee62b9a0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Jim decided to lose weight.  He thought that exercise is the best way to lose weight because you can't get rid of what?\n(A)need for food (B)fitness (C)sweating (D)fastfood (E)thirst\n [OUT] ",
+        "output": "A",
+        "data_id": 48
+    },
+    {
+        "id": "task073-91b0a814e0d84000886f33e368302f84",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] He had no issue committing perjury, he had a what that he would get away with it?\n(A)confidence (B)go to jail (C)telling lies (D)lying (E)manual\n [OUT] ",
+        "output": "A",
+        "data_id": 49
+    },
+    {
+        "id": "task073-f0c586c10d4341e4b7de6145c339e459",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] John is sitting in a toilet stall in a bathroom, outside he can hear cars going around in circles.  What is the function of the place he is most likely at?\n(A)eating food (B)public place (C)race track (D)at hotel (E)public building\n [OUT] ",
+        "output": "C",
+        "data_id": 50
+    },
+    {
+        "id": "task073-ac6e7da950c643039da2d435a339f9b3",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What mall store sells jeans for a decent price?\n(A)clothing store (B)bedroom (C)thrift store (D)apartment (E)gap\n [OUT] ",
+        "output": "E",
+        "data_id": 51
+    },
+    {
+        "id": "task073-f6a95e50f1784a78b6f2a61803d62154",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Danny found that the carpet did not ,match the drapes, which was disappointing, because this place was expensive.  But it was the only place in town that wasn't booked solid for the week and he needed it while he was in town, so he couldn't complain.   Where might this place be?\n(A)brothel (B)restaurant (C)building (D)bowling alley (E)at hotel\n [OUT] ",
+        "output": "E",
+        "data_id": 52
+    },
+    {
+        "id": "task073-e05a978b449a410db0a80bd73f8a0032",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where would you use a folding chair but not store one?\n(A)beach (B)city hall (C)closet (D)garage (E)school\n [OUT] ",
+        "output": "A",
+        "data_id": 53
+    },
+    {
+        "id": "task073-c41fe69d372348c4a9f2758b6ea6aab4",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where did you meet your best friend since Kindergarten?\n(A)friend's house (B)school (C)fraternity house (D)internet cafe (E)airplane\n [OUT] ",
+        "output": "B",
+        "data_id": 54
+    },
+    {
+        "id": "task073-943b3c9581f743cfb6765d96a6165822",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The weasel ran up away from danger, somebody joked only our first president could get him down from the what?\n(A)washington dc (B)ladder (C)natural history museum (D)cherry tree (E)chicken coop\n [OUT] ",
+        "output": "D",
+        "data_id": 55
+    },
+    {
+        "id": "task073-4f8e4b946cd54b03aa540b5108ff0f31",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where is hard to read note likely to be?\n(A)fridge (B)sheet music (C)desk (D)bed (E)medical chart\n [OUT] ",
+        "output": "E",
+        "data_id": 56
+    },
+    {
+        "id": "task073-4affcdb9188b4b43bff2ae8e8094b360",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What do parents tell a child to do on the weekend?\n(A)study (B)begin school (C)go out to play (D)row boat (E)clean room\n [OUT] ",
+        "output": "C",
+        "data_id": 57
+    },
+    {
+        "id": "task073-4d5fdcffe6db4e18a9935d8e4adc3418",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?\n(A)electrical circuit (B)build evenly (C)uneven (D)unbalanced (E)tilted\n [OUT] ",
+        "output": "C",
+        "data_id": 58
+    },
+    {
+        "id": "task073-efc52ad7e7d84a9ab5f5558ee38c0735",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What is main benefit to exercising?\n(A)losing weight (B)healthy (C)get in shape (D)weight loss (E)sweat\n [OUT] ",
+        "output": "C",
+        "data_id": 59
+    },
+    {
+        "id": "task073-b0dd523930734ff29a3d865e99ee9827",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] James know that committing murder was wrong, but he thought that he could get away with it.  He was really troubled  and fearful because of what?\n(A)happiness (B)problems (C)prosecution (D)distress (E)misery\n [OUT] ",
+        "output": "C",
+        "data_id": 60
+    },
+    {
+        "id": "task073-c087b95316d842138edc497b081049fb",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Someone who had a very bad flight might be given a trip in this to make up for it?\n(A)first class (B)propitious (C)reputable (D)one (E)sufficient\n [OUT] ",
+        "output": "A",
+        "data_id": 61
+    },
+    {
+        "id": "task073-22e3585fb3084058bd005f1573c9df9a",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Nature can be good and bad for the person who walks, what are some things?\n(A)seeing bear (B)see beautiful views (C)get wet (D)getting lost (E)murdered by a landshark\n [OUT] ",
+        "output": "B",
+        "data_id": 62
+    },
+    {
+        "id": "task073-c5ab7633c61e41e0903f3bec50d8a23a",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The tiger was stuck in what animal prison where he got lazy and fat?\n(A)jungle (B)zoo (C)kill (D)india (E)eat cake\n [OUT] ",
+        "output": "B",
+        "data_id": 63
+    },
+    {
+        "id": "task073-d55c0be8e2be418e9abef4e07c89e9d0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The flasks was used to distill elements, where was is being used?\n(A)laboratory (B)chemistry lab (C)coat pocket (D)after hours speakeasy (E)bordello\n [OUT] ",
+        "output": "B",
+        "data_id": 64
+    },
+    {
+        "id": "task073-f18d06ab0c7245b291e6c5e4f5bff079",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What could happen if someone is seeing new presents at a birthday party?\n(A)envy (B)jealousy (C)education (D)fear (E)excitement\n [OUT] ",
+        "output": "E",
+        "data_id": 65
+    },
+    {
+        "id": "task073-624b627899f94ebc8a547ad3da558c21",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where in your home would you keep a ballpoint pen when not in use?\n(A)backpack (B)bank (C)desk drawer (D)eat cake (E)office desk\n [OUT] ",
+        "output": "C",
+        "data_id": 66
+    },
+    {
+        "id": "task073-b52fb88b05a3470a8b5a3b5bc17c9e10",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where would you put a dollar if you want to go to a store and buy something with it?\n(A)cash drawer (B)teh bank (C)safety deposit box (D)pocket (E)piggy bank\n [OUT] ",
+        "output": "D",
+        "data_id": 67
+    },
+    {
+        "id": "task073-771a5560095f471c8a6727f7e70606d8",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The chief saw his entire tribe wiped out, he was a leader with a single what?\n(A)peon (B)indian (C)minister (D)follower (E)employee\n [OUT] ",
+        "output": "D",
+        "data_id": 68
+    },
+    {
+        "id": "task073-9009816068ba45f8b7f272dea95383b0",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Joe's cat smelled something delicious and jumped into this, causing him to panic and fear for its life. Where might it have jumped?\n(A)meat loaf (B)bedroom (C)microwave (D)living room (E)floor\n [OUT] ",
+        "output": "C",
+        "data_id": 69
+    },
+    {
+        "id": "task073-8d8431b2fa1644e5bf7bcaf20cf3f74d",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If a person stutters when he experiences anxiety or excitement, he'll have difficult doing what?\n(A)express information (B)dance (C)library (D)go somewhere (E)study\n [OUT] ",
+        "output": "A",
+        "data_id": 70
+    },
+    {
+        "id": "task073-7856fe3c1a1a4df68100ae783c9e8d62",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] How might a automobile get off a freeway?\n(A)exit ramp (B)garage (C)driveway (D)repair shop (E)stop light\n [OUT] ",
+        "output": "A",
+        "data_id": 71
+    },
+    {
+        "id": "task073-46668aaae05e4d5fbd6da7dfcbfda883",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If you have a condo in a Wisconsin city known for beer, where are you?\n(A)city (B)electrical circuit (C)residential area (D)suburbia (E)milwaukee\n [OUT] ",
+        "output": "E",
+        "data_id": 72
+    },
+    {
+        "id": "task073-3da29d703bf945b19ce0e757284b0014",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What kind of food makes someone sick?\n(A)boat (B)necessary to live (C)edible (D)unhealthy (E)kitchen\n [OUT] ",
+        "output": "D",
+        "data_id": 73
+    },
+    {
+        "id": "task073-1ced40f4b3964bb9816c8c8294fae5be",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What does impeachment mean for the president?\n(A)vote (B)election (C)trouble (D)board room (E)corporation\n [OUT] ",
+        "output": "C",
+        "data_id": 74
+    },
+    {
+        "id": "task073-0b9528ba147045bf8349277ca434a29e",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The wood was still rough to the touch, what did the woodworker have to do?\n(A)petrify (B)sanded (C)warp (D)composted (E)clean\n [OUT] ",
+        "output": "B",
+        "data_id": 75
+    },
+    {
+        "id": "task073-bbab2ea1fd604f2580b023ff8224c76d",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] How can someone die from eating hamburger?\n(A)gas (B)getting full (C)mad cow disease (D)death (E)feel full\n [OUT] ",
+        "output": "C",
+        "data_id": 76
+    },
+    {
+        "id": "task073-b20e01bf1c954cf5bd8eaad0829472d3",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where might an alien use a vacuum?\n(A)space (B)closet (C)kitchen (D)orbit (E)container\n [OUT] ",
+        "output": "A",
+        "data_id": 77
+    },
+    {
+        "id": "task073-509c73e7ed7d4433b067688cb7e73767",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where can a student learn to play a triangle?\n(A)math class (B)math book (C)in pythagorus' band (D)orchestra (E)music class\n [OUT] ",
+        "output": "E",
+        "data_id": 78
+    },
+    {
+        "id": "task073-6143329afcba4434a8e0065ad8736cea",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where is a likely place to store unused soap?\n(A)cabinet (B)supermarket (C)jail (D)butt (E)own home\n [OUT] ",
+        "output": "A",
+        "data_id": 79
+    },
+    {
+        "id": "task073-d0f7dc1e4542423d9462c97fa875ffe7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What region of a west coast U.S. city would you find a Japanese restaurant?\n(A)california (B)tokio (C)downtown (D)narnia (E)large town\n [OUT] ",
+        "output": "C",
+        "data_id": 80
+    },
+    {
+        "id": "task073-a043c151585544d5a769e45580ed3d47",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What do you feel when giving assistance to the needy?\n(A)reward (B)boredom (C)pleasure (D)happiness (E)satisfaction\n [OUT] ",
+        "output": "E",
+        "data_id": 81
+    },
+    {
+        "id": "task073-57210e0cb4fb48dcaa992b613673ee31",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What does a self assured person often do?\n(A)acknowledgment (B)focused (C)know what time (D)feel important (E)trust himself\n [OUT] ",
+        "output": "D",
+        "data_id": 82
+    },
+    {
+        "id": "task073-99332716da8c482980aa08e3928c8715",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Dan fell off a bar stool.  He did this because he was what than ever before?\n(A)kitchen (B)drunker (C)tavern (D)restaurant (E)shorter\n [OUT] ",
+        "output": "B",
+        "data_id": 83
+    },
+    {
+        "id": "task073-c91eed8f1b144b84b45f60764ab8d926",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What would it be if they get a surprising show over and over?\n(A)surprise (B)fight (C)annoyance (D)might scare (E)irritated\n [OUT] ",
+        "output": "C",
+        "data_id": 84
+    },
+    {
+        "id": "task073-67b897748ce747df80c449b711a8e905",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Humans need shelter to survive.  They usually find shelter where?\n(A)underpass (B)homes (C)workplace (D)school (E)space shuttle\n [OUT] ",
+        "output": "B",
+        "data_id": 85
+    },
+    {
+        "id": "task073-df6e5dc5a0c34b16937869fac1d6aac7",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Noble citizen of the Roman empire believed those born with lower status were what to them?\n(A)loser (B)ignoble (C)peasant (D)inferior (E)plebeian\n [OUT] ",
+        "output": "D",
+        "data_id": 86
+    },
+    {
+        "id": "task073-92cbdaa9e3d34c1c85ef93dfc0cc61d2",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] If you want to kill someone you can do what to them with a gun?\n(A)sip through (B)damnation (C)shoot (D)commit crime (E)eat breakfast\n [OUT] ",
+        "output": "C",
+        "data_id": 87
+    },
+    {
+        "id": "task073-a736f685266c41f9b30676d29f6b90e2",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] When going to sleep what happens to your body?\n(A)snoring (B)latency (C)dreams (D)relaxation (E)dreaming\n [OUT] ",
+        "output": "D",
+        "data_id": 88
+    },
+    {
+        "id": "task073-aeff810721894d09869eb5876efda689",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Why are dogs often known as man's best friend?\n(A)aggressive (B)friendly (C)very loyal (D)found outside (E)very smart\n [OUT] ",
+        "output": "C",
+        "data_id": 89
+    },
+    {
+        "id": "task073-9ce49dc47553427d8e5c67aa5965f68a",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The guys had a regular poker game, rather than going to the movies this what their what?\n(A)competition (B)fun game (C)losing money (D)fun (E)social event\n [OUT] ",
+        "output": "E",
+        "data_id": 90
+    },
+    {
+        "id": "task073-83ffdcd8acf8434ba2f6c0875caf61c6",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What is a form of anaerobic exercising?\n(A)shortness of breath (B)lift weights (C)error (D)fall down (E)run\n [OUT] ",
+        "output": "E",
+        "data_id": 91
+    },
+    {
+        "id": "task073-23e874b7d3ef4e3ba8cc3583c919f886",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] James was below the balloon.  He watched it rise.  What direction did he look in?\n(A)upstairs (B)aloft (C)diagonal (D)upstream (E)upwards\n [OUT] ",
+        "output": "E",
+        "data_id": 92
+    },
+    {
+        "id": "task073-35fd1473cab7454e85835eabaa03e8ed",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] He was very outgoing, for him making friends was no personal what?\n(A)scary (B)having friends (C)good feeling (D)conflict (E)friendship\n [OUT] ",
+        "output": "D",
+        "data_id": 93
+    },
+    {
+        "id": "task073-9a2b1b9738e34ede9f186aaeb822c770",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] He was a sloppy eater, so where did he leave a mess?\n(A)sailboat (B)desk (C)closet (D)table (E)apartment\n [OUT] ",
+        "output": "D",
+        "data_id": 94
+    },
+    {
+        "id": "task073-e3b4b8d4732b4f2ea3aaf59054ade96e",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What could go to a tennis court?\n(A)desert (B)college campus (C)recreational center (D)athletic club (E)park\n [OUT] ",
+        "output": "D",
+        "data_id": 95
+    },
+    {
+        "id": "task073-652148ba367a48929b5e25ee8b805a78",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] Where would you find the sharpest parts of a triangle?\n(A)three vertices (B)point (C)3 sides (D)three sides (E)math book\n [OUT] ",
+        "output": "A",
+        "data_id": 96
+    },
+    {
+        "id": "task073-a42b9199060d41fcad4d8b64096a3f75",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] What do people need to do to change their lives?\n(A)face problems (B)better themselves (C)pay bills (D)become disillusioned (E)eat chicken\n [OUT] ",
+        "output": "A",
+        "data_id": 97
+    },
+    {
+        "id": "task073-0814ff43cfb646d7acfde2dc39102c95",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] The earth is one planet in what?\n(A)tree (B)orbit (C)solar system (D)fotograph (E)dreams\n [OUT] ",
+        "output": "C",
+        "data_id": 98
+    },
+    {
+        "id": "task073-bf6ead9f51a14e7b8c8108630fe595f9",
+        "input": "[INS] You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.\n [IN] He wanted to live somewhere were every yard was uniform in size and landscaping, where should he look for a house?\n(A)city (B)three feet (C)subdivision (D)parking garage (E)michigan\n [OUT] ",
+        "output": "C",
+        "data_id": 99
+    }
+]

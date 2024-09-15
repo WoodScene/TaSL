@@ -1,0 +1,110 @@
+[
+    {
+        "id": "task639-9019c1e3e7f4474187f9eff62a11ed29",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can you give me the ID for this train and the overall travel time?\n [OUT] ",
+        "output": "Where will you be leaving from?",
+        "data_id": 0
+    },
+    {
+        "id": "task639-7aa692d46fd64712851b616e26f6b4b5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] yes how about a moderate mexican restaurant?\n [OUT] ",
+        "output": "I'm not sure if I want to book yet or not, can you confirm the travel time for that one?",
+        "data_id": 1
+    },
+    {
+        "id": "task639-6c08ae705e5e4e3dba649d568e519f2d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm sorry I also need the post code.\n [OUT] ",
+        "output": "I have not found anything with a star of zero.",
+        "data_id": 2
+    },
+    {
+        "id": "task639-659390ea76d9475db25774f506b58012",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have 3 hotels that fit your criteria. Would you like one located in the north or the east?\n [OUT] ",
+        "output": "I would like to find a French restaurant, please.",
+        "data_id": 3
+    },
+    {
+        "id": "task639-58fb4b8b68d04b0f96814cce3c24e897",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am looking for a particular hotel. Its name is called autumn house\n [OUT] ",
+        "output": "Thank you goodbye",
+        "data_id": 4
+    },
+    {
+        "id": "task639-ebcd686578164744a4c5eb3a5ce2070e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay thank you! No that will be everything.\n [OUT] ",
+        "output": "The earliest arrival prior to that time is the TR9900 which leaves Norwich at 05:16 and arrives in Cambridge at 06:35. Would you like me to book you a seat?",
+        "data_id": 5
+    },
+    {
+        "id": "task639-49b84d11589244499607c0126d58716f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Great, book me one of those for 8 people. We'll stay from Friday for 5 nights. I'll need a reference number, please.\n [OUT] ",
+        "output": "We are happy to help. Thank you for using our service.",
+        "data_id": 6
+    },
+    {
+        "id": "task639-2e7abf17ef0a487699fde219b3e8befc",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Sure. Their phone number is 01223353888. Is there anything else I can help you with?\n [OUT] ",
+        "output": "Great! We have a wide variety of foods to try. Are you interested in a particular type?",
+        "data_id": 7
+    },
+    {
+        "id": "task639-3c24ccf95eea493ab37ce2694771565c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm leaving from mahal of cambridge.\n [OUT] ",
+        "output": "Alright, you're all set. A grey skoda will pick you up. The contact number is 07629344637. Can I help you with anything else?",
+        "data_id": 8
+    },
+    {
+        "id": "task639-0bf5ef620bce40f7b4200d92bad61fe3",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Alexander B and B is one of our higher rated guesthouses in the centre of town. It is 4 stars, but is surprisingly cheap. Can I get you any specific information?\n [OUT] ",
+        "output": "I need to know more about the Alexander bed and breakfast.",
+        "data_id": 9
+    },
+    {
+        "id": "task639-89f72f3f263443afb471f806f5fa1140",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I need it for 4 people, we're staying 2 nights starting Thursday.\n [OUT] ",
+        "output": "I can suggest the Castle Galleries in the city centre. There is no entrance fee.",
+        "data_id": 10
+    },
+    {
+        "id": "task639-a0f828fac37a4835946b4dba0c25cbd6",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have reserved you a blue tesla, Contact number : 07639403969. Is there anything else I can help you with?\n [OUT] ",
+        "output": "Would you be able to schedule a taxi to take me from the Huntingdon Marriott to the Maharajah Tandoor?",
+        "data_id": 11
+    },
+    {
+        "id": "task639-927586a355954aa0858bd30e135bedf6",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Is there an expensive restaurant any where in the south part of town?\n [OUT] ",
+        "output": "You're welcome. Thank you and goodbye.",
+        "data_id": 12
+    },
+    {
+        "id": "task639-d1d850564edc4954954bab1239e21920",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Price is not of any concern, just so it has a 4 star rating.\n [OUT] ",
+        "output": "I have successfully booked you for avalon. Reference number is RI8WLX7E . Do you need anything else?",
+        "data_id": 13
+    },
+    {
+        "id": "task639-5d91caade92147d7baf31ab58b536886",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I would be happy to book TR2021 for you. The cost is 8.08 a ticket. How many tickets will you need?\n [OUT] ",
+        "output": "Yes. I'd also like their phone number please.",
+        "data_id": 14
+    },
+    {
+        "id": "task639-574dd9fef7ce4d0dac2de077954b92f0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are two in the area. One is cheap and the other is moderately priced. Do you have a preference?\n [OUT] ",
+        "output": "How about a thai place then?",
+        "data_id": 15
+    },
+    {
+        "id": "task639-370498ebd6c1488a9f1a4f476230a01b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Oh yeah, I just remembered, I'm going to need a taxi to commute between these two locations.\n [OUT] ",
+        "output": "I want to confirm you are departing byard art to arrive at Gandhi restaurant by 20:00. Is this correct?",
+        "data_id": 16
+    },
+    {
+        "id": "task639-20cc3596ac60476595158f071135a9bd",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am also looking for a train into cambridge the same day please\n [OUT] ",
+        "output": "Sorry. There are no moderately-priced 0 star places in the south of town. Do you want to try some other criteria?",
+        "data_id": 17
+    }
+]

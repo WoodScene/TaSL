@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task748-f16518efc8754d96a020d25bf345d712",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Kelly went to the chocolate store. At the store she saw some fudge. The fudge was very delicious. It was so good she made her own. She wanted to make it everyday.\n selected sentence: The fudge was very delicious.\n [OUT] ",
+        "output": "The fudge is tasty >Causes/Enables> Kelly eats the fudge",
+        "data_id": 0
+    },
+    {
+        "id": "task748-7d9e6dc64e614166a6ece5867709659f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Joan wanted a to buy her first car. Her parents told her she would have to pay for it herself. Joan picked out a car but it cost way more than her allowance. Joan got a job and saved for months. Joan went and bought her new car with her own money.\n selected sentence: Her parents told her she would have to pay for it herself.\n [OUT] ",
+        "output": "Joan's parents tell her she has to pay >Causes/Enables> Joan pays",
+        "data_id": 1
+    },
+    {
+        "id": "task748-ff49ba92a1644f28b427b63add8e8f39",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Our 2 year old granddaughter visited us in Boston this weekend. She lives in NYC. She was leaving on Monday. We tried to take a photo of her with us. She did not want a photo but we got one.\n selected sentence: Our 2 year old granddaughter visited us in Boston this weekend.\n [OUT] ",
+        "output": "Our 2 year old granddaughter visits us >Causes/Enables> Our 2 year old granddaughter leaves",
+        "data_id": 2
+    },
+    {
+        "id": "task748-4cbcfab67c094b8db3dcaf4f6fb1abfd",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: We all went to a haunted house last Halloween. A creepy clown jumped out at my friend Gary. Gary was so scared he screamed. We all think Gary wet himself. Gary ran home to change his pants.\n selected sentence: We all think Gary wet himself.\n [OUT] ",
+        "output": "We think Gary wet himself >Causes/Enables> We tease Gary",
+        "data_id": 3
+    },
+    {
+        "id": "task748-bddf902a17834384948e48f3c1d695c6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Marissa was a finalist in her school's spelling bee. She was not sure how to spell her next word. To fool the judges, she mumbled one of the vowels. Her trick worked and she won the spelling bee. Even though she won, she is not proud of her victory.\n selected sentence: To fool the judges, she mumbled one of the vowels.\n [OUT] ",
+        "output": "Marissa mumbled an answer >Causes/Enables> The judges were fooled",
+        "data_id": 4
+    },
+    {
+        "id": "task748-8fe5790a12a0438a8099ea3fe18278fb",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I sat to eat an egg salad sandwich when I got a text. MY girlfriend told me she was coming over. So I scarf down my sandwich and just in the shower. I get out and notice a foul smell, egg salad. Right as I'm going for a spray she walks in, she thought it was me.\n selected sentence: MY girlfriend told me she was coming over.\n [OUT] ",
+        "output": "My girlfriend told me she was coming over. >Causes/Enables> I jumped into the shower.",
+        "data_id": 5
+    },
+    {
+        "id": "task748-2ee5cc8ffb3e453da8cec3189c851af6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Francisco hadn't seen his mother in Years. He saved up money diligently for the flight to her home in Iowa. Finally the day had come for Francisco to fly to Iowa. He and his mother were very happy to see each other. Francisco promised he would never wait so long to see her again.\n selected sentence: Finally the day had come for Francisco to fly to Iowa.\n [OUT] ",
+        "output": "Francisco flies home to to see his mother >Causes/Enables> His mother visits with his mother",
+        "data_id": 6
+    },
+    {
+        "id": "task748-76c24889ae574776b9dbad5c5716c449",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tim was eating hard candy. His mother told him not to eat too much. Tim did not listen. After an hour, his teeth hurt really bad. Tim never ate hard candy again.\n selected sentence: Tim was eating hard candy.\n [OUT] ",
+        "output": "Tim eats >Causes/Enables> Tim finishes eating",
+        "data_id": 7
+    },
+    {
+        "id": "task748-bda4e91b8da34ceab1a5a6ed8c0b09c9",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Gary bumped the hot sauce jar. It spilled and moved all over the floor. My mom smelled Something and came outside. She asked who did it and I was quiet. My brother told her that I did it and she got mad.\n selected sentence: My mom smelled Something and came outside.\n [OUT] ",
+        "output": "My mom smells Something and comes outside >Causes/Enables> My mom asks who spilled the hot sauce",
+        "data_id": 8
+    },
+    {
+        "id": "task748-88eae6a8111f4172b48667f30a782e99",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I worked in a church for a while as a youth minister. The kids loved me, though they were a bit quiet and shy. We did things all summer, and had a fantastic time. Though, their parents didn't trust me because of my age. They had me fired, and I had to say goodbye to their kids.\n selected sentence: The kids loved me, though they were a bit quiet and shy.\n [OUT] ",
+        "output": "The kids love me >Causes/Enables> The kids spend time with me",
+        "data_id": 9
+    },
+    {
+        "id": "task748-8f76a2d96583427e9c94413a40890d81",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Samuel liked the moon a lot. He liked how it provided light during the night. One day, he decided that he would go outside to see the moon. When he went outside, he saw a full moon in all of its beauty. Now, Samuel watches the moon every night before sleeping.\n selected sentence: When he went outside, he saw a full moon in all of its beauty.\n [OUT] ",
+        "output": "Samuel goes outside >Causes/Enables> Samuel sees the moon",
+        "data_id": 10
+    },
+    {
+        "id": "task748-ff392e2b692e434795520691159f0c61",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I was hungry one day and decided to make food. I went to my freezer and grabbed a bag of chicken nuggets. I put the chicken nuggets on a tray in the oven and waited. I was very bored while waiting and began to fall asleep. After sleeping I woke to my house filled with smoke from burning food.\n selected sentence: I put the chicken nuggets on a tray in the oven and waited.\n [OUT] ",
+        "output": "I put chicken nuggets in the oven >Causes/Enables> I burn the chicken nuggets",
+        "data_id": 11
+    },
+    {
+        "id": "task748-8cc941f046fe4244a083a9a23a5f420e",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Someone sent me a new song to check out. I liked it so much that I turned the volume up. I must have turned the volume louder than I thought. The neighbors called the cops on me! I turned down the volume when they told me to.\n selected sentence: I liked it so much that I turned the volume up.\n [OUT] ",
+        "output": "I turn the volume up >Causes/Enables> I turn the volume up too high",
+        "data_id": 12
+    },
+    {
+        "id": "task748-232601f9908a48f3871c5d6c563d5af5",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Amy was upset she lost her new watch. She looked everywhere she could think of and never found it. While in her mom's car she found her watch tucked deep in the seat. Amy realized she was wrong when she accused a classmate of taking it. The next day Amy apologized and gave the girl she accused a cookie.\n selected sentence: Amy was upset she lost her new watch.\n [OUT] ",
+        "output": "Amy is upset >Causes/Enables> Amy cheers up",
+        "data_id": 13
+    },
+    {
+        "id": "task748-4d69c67317ed499ca62e5bec6dcb0979",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Elena arrived to school. He took her books out of the back seat. While she wasn't looking a car knocked out her left tail light. Before Elena had the chance to see who did it, the car drove off. The police wasn't able to help since the driver fled.\n selected sentence: The police wasn't able to help since the driver fled.\n [OUT] ",
+        "output": "The police can't help >Causes/Enables> The police don't help",
+        "data_id": 14
+    },
+    {
+        "id": "task748-7995fb52f388498dba2a8f2125fa498c",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: My father went to the store for eggs. While he was there they had a sale on butter. My father picked up eggs and butter. He also decided to get milk. He drove home and had scrambled eggs for breakfast.\n selected sentence: My father picked up eggs and butter.\n [OUT] ",
+        "output": "My father gets eggs >Causes/Enables> My father cooks the eggs",
+        "data_id": 15
+    },
+    {
+        "id": "task748-72ebc45d89524be1b3416fa71be43d5d",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Preslie made the best Memphis BBQ around. Eventually, the health inspector realized Preslie wasn't using pork. Preslie would go down to the local horse stables. He would steal a horse. And then kill the horse to make his special BBQ.\n selected sentence: Preslie made the best Memphis BBQ around.\n [OUT] ",
+        "output": "Preslie makes the best BBQ >Causes/Enables> People buy Preslie's BBQ",
+        "data_id": 16
+    },
+    {
+        "id": "task748-69be753efe3046cdbe1d87a325f105d0",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jessica is on vacation in Hawaii. She loves everything about the island. She tells her parents she wants to stay forever. Her parents tell her she can stay if she likes. Jessica stays in Hawaii for the rest of her life.\n selected sentence: She tells her parents she wants to stay forever.\n [OUT] ",
+        "output": "She tells her parents she wants to stay forever >Causes/Enables> Her parents tell her she can stay if she likes",
+        "data_id": 17
+    },
+    {
+        "id": "task748-c2358cfc3dd8445499f6822e96627c61",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Billy was three years old. He loved to play with blocks. He only had one set to play with. His father bought him a new set to play with. He now has more blocks than he knows what to do with.\n selected sentence: He only had one set to play with.\n [OUT] ",
+        "output": "Billy has only one set of blocks >Causes/Enables> Billy's father buys Billy a new set of blocks",
+        "data_id": 18
+    },
+    {
+        "id": "task748-87cbbf046ba34594adc4b16831faf8cc",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ben's friend got  a puppy for his birthday. Ben had lots of fun playing with his friend's new pet. Ben decided to ask his parents if they would get him a puppy. He was upset when his parent's told him they need time to decide. They decided to get Ben a puppy for his birthday a month later.\n selected sentence: They decided to get Ben a puppy for his birthday a month later.\n [OUT] ",
+        "output": "Ben's parents decide to get the puppy >Causes/Enables> Ben's parents get the puppy",
+        "data_id": 19
+    },
+    {
+        "id": "task748-2c93ee77face4a14aa5d6defd4a6f8b6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I got tired of having eggs and potatoes for breakfast every day. So I got some pancake mix to make pancakes. I combines the mix, an egg, some milk, and a bit of oil. I mixed all those up really well, but not too much. And this morning I made three really fantastic pancakes.\n selected sentence: I got tired of having eggs and potatoes for breakfast every day.\n [OUT] ",
+        "output": "I get tired of having eggs and potatoes for breakfast every day >Causes/Enables> I make pancakes",
+        "data_id": 20
+    },
+    {
+        "id": "task748-11b9014275b34b81a542e1addefe6644",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Mark is watching Mrs Debbie's dog, Ralf, when she's gone for the week. On the last day, Ralf escapes through the back door! Mark spends all day looking for Ralf. When he gives up, he finds Ralf waiting for him back at the house. Mark decides he doesn't get paid enough for this job.\n selected sentence: Mark decides he doesn't get paid enough for this job.\n [OUT] ",
+        "output": "He decides he doesn't get paid enough for this job >Causes/Enables> He quits doing this job",
+        "data_id": 21
+    },
+    {
+        "id": "task748-35e204bef9b945bd9fe9877b0035a917",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tyler was riding his four wheeler. He was on a trail behind his house. The four wheeler got stuck in the mud. Tyler walked back to his house. He asked his dad to help him out.\n selected sentence: Tyler was riding his four wheeler.\n [OUT] ",
+        "output": "Tyler drives >Causes/Enables> Tyler's truck stops",
+        "data_id": 22
+    },
+    {
+        "id": "task748-bba916dfcc434a07b4daa85923b64fe6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: We're trying to potty train our new kitty. We bought her a pretty pink litter box with a lid and sliding tray. We put her in it every time she eats to see if she will use it. So far she seems to be getting used to it. She likes to scratch the sand up behind her.\n selected sentence: So far she seems to be getting used to it.\n [OUT] ",
+        "output": "The cat gets used to the litter box >Causes/Enables> The cat enjoys scratching the sand",
+        "data_id": 23
+    },
+    {
+        "id": "task748-f81fe192e0524154b94e04bda09484dc",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I saw the new Star Wars movie this month. My four year old neighbor Joe is a big fan. He hasn't seen the movies but knows all about them. I told him I saw the new movie. He surprised me by saying he knew Hans Solo was killed.\n selected sentence: I told him I saw the new movie.\n [OUT] ",
+        "output": "I tell Joe I saw the movie >Causes/Enables> Joe tells me about the movie",
+        "data_id": 24
+    },
+    {
+        "id": "task748-cc5bccff06194984957e8ad843f5ff61",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: The firemen heard the alarm. They dressed in their uniforms. They hurried to the fire. They put out the fire with their hoses. They were very proud of a job well done.\n selected sentence: The firemen heard the alarm.\n [OUT] ",
+        "output": "The firemen hear the alarm >Causes/Enables> The firemen go to the fire",
+        "data_id": 25
+    },
+    {
+        "id": "task748-332902e72eb6441d95f2bb7d727b9d43",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Rita was ready to board the train and go home. She checked to make sure she had all of her items. She realized that she did not have her train ticket! She ran home from the station to find the ticket. By the time she got back to the station, the train had left.\n selected sentence: Rita was ready to board the train and go home.\n [OUT] ",
+        "output": "Rita is ready to board the train >Causes/Enables> Rita makes sure she has all her items",
+        "data_id": 26
+    },
+    {
+        "id": "task748-2d3c7ea4c22f497bac2b38df2e00b118",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jeff loved his dog Cindy. One day he was taking her for a walk. She saw a squirrel. Cindy ran off her leash so she could get the squirrel. Jeff lost his dog Cindy.\n selected sentence: Jeff loved his dog Cindy.\n [OUT] ",
+        "output": "Jeff loves Cindy >Causes/Enables> Jeff treats Cindy well",
+        "data_id": 27
+    },
+    {
+        "id": "task748-93c7c6fcfe0e41189b9d5432fc7c2013",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ray got up to let the dog out but he was half asleep. While Rocky did his business Ray rubbed his eyes and yawned. Ray hated being awakened in the middle of the night. When Rocky didn't come back right away Ray called him. If Ray had been awake he would have noticed the bear on his porch.\n selected sentence: While Rocky did his business Ray rubbed his eyes and yawned.\n [OUT] ",
+        "output": "Ray yawns >Causes/Enables> Ray goes to sleep",
+        "data_id": 28
+    },
+    {
+        "id": "task748-61191c885b874f1e9d0a16a98fad8539",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Kathy had just had a new baby. She was home with him when the doorbell rang. When she answered the door she saw her friend. They were holding a casserole dish. Kathy thanked her friend for bringing her food.\n selected sentence: Kathy had just had a new baby.\n [OUT] ",
+        "output": "Kathy has a baby >Causes/Enables> Kathy brings home the baby",
+        "data_id": 29
+    },
+    {
+        "id": "task748-6a76061a606f427a8f21e6ab77bcdb53",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: It was forecast to rain that day. The kids were sad to stay indoors. Soon the rain began to fall and the wind began to blow. Quickly it was hailing and lightning and then the power went out. Soon it ended, but the power was still out for many hours that day.\n selected sentence: It was forecast to rain that day.\n [OUT] ",
+        "output": "It is forecast to rain >Causes/Enables> It rains",
+        "data_id": 30
+    },
+    {
+        "id": "task748-e7af6f7649dd4772bb2a7dfa6a670514",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ed went outside to build a snowman. First he balled up the snow. Then he stacked three balls atop each other. He finished by adding the eyes and nose. Ed was very proud of his snowman!\n selected sentence: Then he stacked three balls atop each other.\n [OUT] ",
+        "output": "Ed starts building a snowman >Causes/Enables> Ed finishes building",
+        "data_id": 31
+    },
+    {
+        "id": "task748-b7126f0d510946618ce2c67657cfd85d",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Janet was very excited that it was Christmas so she could open gifts. She raced downstairs to take a look at the presents under the tree. To her delight, there were a dozen gifts with her name on them. Janet immediately opened every gift she could get her hands on. She was thrilled that she got everything she asked for the holidays.\n selected sentence: Janet was very excited that it was Christmas so she could open gifts.\n [OUT] ",
+        "output": "Janet is excited for Christmas >Causes/Enables> Janet opens gifts",
+        "data_id": 32
+    },
+    {
+        "id": "task748-57388b8a81fa44acba39d0736de44618",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ryan was a little boy and loved going to the picnic store. But his parents said that they couldn't afford anything from the store. Ryan decided to save his pocket money to go to the store. Ryan saved up enough pocket money to buy a picnic basket. Ryan's mum took him to his favourite place to get his basket.\n selected sentence: But his parents said that they couldn't afford anything from the store.\n [OUT] ",
+        "output": "Ryan's parents can't afford anything from the store >Causes/Enables> Ryan saves up money",
+        "data_id": 33
+    },
+    {
+        "id": "task748-45d1d48dda7146d19ca160fea31a24f9",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: The nights were getting longer. The temperature started to drop. All the leaves on the trees began to change color. The leaves began to die. It was the beginning of fall.\n selected sentence: All the leaves on the trees began to change color.\n [OUT] ",
+        "output": "The leaves begin to change color >Causes/Enables> The leaves fall",
+        "data_id": 34
+    },
+    {
+        "id": "task748-8bec7babad5f4a7dac6e59973c1f62d2",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ned rode his bike to work everyday because he lived close. One day the weather turned bad so he decided to ride his car. On his way to work he got a flat tire. He was in the rainy fixing it and was late to work. Ned bought a raincoat and still rides his bike even in the rainy now.\n selected sentence: On his way to work he got a flat tire.\n [OUT] ",
+        "output": "Ned gets a flat tire on his way to work >Causes/Enables> Ned is late to work",
+        "data_id": 35
+    },
+    {
+        "id": "task748-5f7c87052304420d9858ec0080502ca4",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Larry was trying to finish his book report before school. He wasn't done writing when the bus drove up. On the bus he continued working and didn't talk to his friends. With some difficulty he was even writing while walking up to the door. He put down the last period just as he entered the classroom.\n selected sentence: With some difficulty he was even writing while walking up to the door.\n [OUT] ",
+        "output": "Larry writes as he walks to the classroom >Causes/Enables> Larry finishes before he enters the room",
+        "data_id": 36
+    },
+    {
+        "id": "task748-f460aca1427845249985c0087173e500",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Daniel met a pretty girl named Sarah. He decided to talk to her. They talked for hours and hours. Daniel and Sarah both began to like each other. Daniel was glad that he made a new friend.\n selected sentence: They talked for hours and hours.\n [OUT] ",
+        "output": "Daniel and Sarah talk for hours >Causes/Enables> Daniel and Sarah begin to like each other",
+        "data_id": 37
+    },
+    {
+        "id": "task748-07ed167ba40941558c50fae4efa34e29",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Gina was hungry. Her grandmother was watching her TV shows and hadn't cooked. On the table was one slice of apple pie. She thought the last slice was saved for her. But her grandma was saving it for her grandpa.\n selected sentence: Her grandmother was watching her TV shows and hadn't cooked.\n [OUT] ",
+        "output": "Her grandma doesn't cook >Causes/Enables> Gina is hungry",
+        "data_id": 38
+    },
+    {
+        "id": "task748-2cf591ba11c44872a9a5d7aed907ab5d",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Stewart's dad built a treehouse for him in the back yard. Stewart and his friends had great fun with the tree house. Stewart grew older and eventually had a son of his own. There were no large trees in Stewart's back yard. Instead of a tree house, Stewart built a fort for his son.\n selected sentence: There were no large trees in Stewart's back yard.\n [OUT] ",
+        "output": "No trees are in Stewart's backyard >Causes/Enables> Stewart can't make a tree house",
+        "data_id": 39
+    },
+    {
+        "id": "task748-706e0bf206644ddfbbd547f7563f32d2",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Charlie loved collecting rare record albums. He found an out-of-the-way store that had tons of oldies. He spent hours looking through the stacks of rare albums. Charlie spent several hundred dollars there on some great finds. At home, he spent the day listening to his collection's new additions.\n selected sentence: Charlie spent several hundred dollars there on some great finds.\n [OUT] ",
+        "output": "Charlie buys records >Causes/Enables> Charlie listens to the records",
+        "data_id": 40
+    },
+    {
+        "id": "task748-16d8dc83d7aa4912a459e989568f785b",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: John took the day off of work today. He wanted to meet up with some old friends. He said they had a great time catching up. They went to see a ballgame. They ended the day with dinner.\n selected sentence: John took the day off of work today.\n [OUT] ",
+        "output": "John takes the day off of work >Causes/Enables> They go to a ballgame",
+        "data_id": 41
+    },
+    {
+        "id": "task748-a818156862b94d4495c125033606abc1",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: One year at the school dance they provided free pizza. I was never much of a dancer so I just hung out around the place. Towards the end of the dance I started to get fairly hungry. My friends and I decided that we wanted some pizza. When we got to it they were all out of pizza and we were upset.\n selected sentence: Towards the end of the dance I started to get fairly hungry.\n [OUT] ",
+        "output": "I am hungry >Causes/Enables> I decide to eat pizza",
+        "data_id": 42
+    },
+    {
+        "id": "task748-a07c372ff07248149d5612e83dd7820c",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jan called and said her car didn't sound right. So I walked over to her place and drove her car around. It sounded to me like it needed a tune-up. So I gathered all my tools and the parts needed for a tune and did it. Now Jan tells me her car sounds and runs much better.\n selected sentence: So I walked over to her place and drove her car around.\n [OUT] ",
+        "output": "I go to Jan's place >Causes/Enables> I come home",
+        "data_id": 43
+    },
+    {
+        "id": "task748-5f8a6a77cea244508ccf3fda9cce2117",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tim was driving to work. A car sped past him. Tim kept driving. A mile later the car had been pulled over by a cop. Ha ha, Tim thought.\n selected sentence: A car sped past him.\n [OUT] ",
+        "output": "A car sped past Tim >Causes/Enables> Tim kept driving",
+        "data_id": 44
+    },
+    {
+        "id": "task748-93a8bb0f742c4ea781efe148580c9b19",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Maria was on her way to work. She was wearing white pants. When she stopped at a light, she took a drink of coffee. However, she missed her mouth and it dropped to her pants. Luckily she had stain remover.\n selected sentence: She was wearing white pants.\n [OUT] ",
+        "output": "Maria is wearing pants >Causes/Enables> Maria takes off the pants",
+        "data_id": 45
+    },
+    {
+        "id": "task748-40c32726a3eb400b911909918cd1b07e",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: It was Tim's birthday. He couldn't wait to see his presents. He got a new shirt. He got a new hat. His favorite gift was the radio that made him jump for joy!\n selected sentence: He got a new shirt.\n [OUT] ",
+        "output": "Tim gets a shirt >Causes/Enables> Tim wears the shirt",
+        "data_id": 46
+    },
+    {
+        "id": "task748-54b8eedf3c2c42a7ba7e3292dfd2981b",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: David was a college student. He did not have a lot of extra money. David saw a nice blue velvet couch on the curb with a free sign on it. David called a friend with a truck to help him move it to his house. David had a nice blue velvet couch.\n selected sentence: David was a college student.\n [OUT] ",
+        "output": "David is a student >Causes/Enables> David goes to school",
+        "data_id": 47
+    },
+    {
+        "id": "task748-787051adfc52461d94c3efd5dae3c6e6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Sara's grandfather took her to a lake to go fishing. Her grandfather helped her hook a small worm onto her pole. Within minutes, Sara caught a tiny smallmouth bass. Her grandfather helped her unhook the fish. Sara waved goodbye as her grandfather tossed it back into the water.\n selected sentence: Sara's grandfather took her to a lake to go fishing.\n [OUT] ",
+        "output": "Sara's grandfather takes her to go fishing >Causes/Enables> Sara goes fishing",
+        "data_id": 48
+    },
+    {
+        "id": "task748-e75fa3ff66b64d7dadeb6fb8122f6549",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: It was Sunday. So John and his family were going to church. But John knew he would be bored. So John bought his phone. And he played games on it while at church.\n selected sentence: And he played games on it while at church.\n [OUT] ",
+        "output": "John played games on his phone while at church >Causes/Enables> John got into trouble with his parent's ",
+        "data_id": 49
+    },
+    {
+        "id": "task748-4ad72249ec6b4826a91d853c5002cfe3",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Maria was so excited to finally get to go to the zoo. She had heard there was a lion there that you were allowed to pet. The lion was old, and it had been de-clawed. When she got to the zoo, she found the lion and waited in line. When her turn came, she hugged the lion.\n selected sentence: When she got to the zoo, she found the lion and waited in line.\n [OUT] ",
+        "output": "Maria finds the lion and waits in line >Causes/Enables> Maria hugs the lion",
+        "data_id": 50
+    },
+    {
+        "id": "task748-7f606f2f746b4e8fadf00d76fe244df3",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Susie was about to get her first kiss. She liked her friend Fred a lot. Fred leaned in and kissed her. But Susie did not like it. It was gross to her.\n selected sentence: Susie was about to get her first kiss.\n [OUT] ",
+        "output": "Susie is about to get her first kiss >Causes/Enables> Fred gives her a kiss",
+        "data_id": 51
+    },
+    {
+        "id": "task748-bf611caf752f4747b46b0b1d3c06df63",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jane gave birth to a nine pound baby. Her baby was large for a newborn, and healthy. Jane then  came down with a cold, and gave the cold to the baby. The baby became sick and had to see the doctor. The doctor treated the baby, and it got well.\n selected sentence: The doctor treated the baby, and it got well.\n [OUT] ",
+        "output": "The doctor treats the baby >Causes/Enables> The baby gets well",
+        "data_id": 52
+    },
+    {
+        "id": "task748-0cf2f05706b04587873e1a76691c71d9",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Anna loved gymnastics. She wanted to be a professional gymnast when she grew up. So she was eager to try out for her high school gymnastics team! She tried out and was happy to find she had made the team. Not only that - the other members had voted her team captain!\n selected sentence: So she was eager to try out for her high school gymnastics team!\n [OUT] ",
+        "output": "Anna tries out >Causes/Enables> Anna makes the team",
+        "data_id": 53
+    },
+    {
+        "id": "task748-94c60c802d774d4cbadd38227d4e975a",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Sloane was taking an important test at school. The room was silent. Her pencil broke. The sharpener grated loudly. Everyone in the room gave Sloane dirty looks.\n selected sentence: Sloane was taking an important test at school.\n [OUT] ",
+        "output": "Sloane has an important test at school >Causes/Enables> Sloane broke her pencil",
+        "data_id": 54
+    },
+    {
+        "id": "task748-43ab6f57af374183a503e652d2ad7c8d",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: John took the day off of work today. He wanted to meet up with some old friends. He said they had a great time catching up. They went to see a ballgame. They ended the day with dinner.\n selected sentence: They went to see a ballgame.\n [OUT] ",
+        "output": "John goes to a ballgame >Causes/Enables> John has fun",
+        "data_id": 55
+    },
+    {
+        "id": "task748-a1230e7419074c18b3980409d3d803ba",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I was lonely as a child. I was shy and afraid of people. I solved my problem by having imaginary friends. I am an adult now. I still think about my old friends.\n selected sentence: I am an adult now.\n [OUT] ",
+        "output": "I am an adult >Causes/Enables> I still think about my old friends",
+        "data_id": 56
+    },
+    {
+        "id": "task748-68c5fa9288d94a9d8fce08b4249773ba",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tom's son wanted to watch a real car race. So Tom and his son went to a famous race course to watch one. It was a 200 lap race. And Tom's son quickly got bored. He felt was embarrassed for wanting to watch the race.\n selected sentence: It was a 200 lap race.\n [OUT] ",
+        "output": "It is a 200 lap race >Causes/Enables> Tim gets bored",
+        "data_id": 57
+    },
+    {
+        "id": "task748-6daf0f0f7b5040bca840e3c13419bed6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Kelly was happy the new phones just came out for Apple. She really wanted a pink one. Unfortunately the pink ones were all sold out. They told her she would have to wait a month for the pink one. She decided to get the gold instead.\n selected sentence: Kelly was happy the new phones just came out for Apple.\n [OUT] ",
+        "output": "Kelly is happy with the phones >Causes/Enables> Kelly buys a phone",
+        "data_id": 58
+    },
+    {
+        "id": "task748-26e1b21e462849048593b2fff8a006a9",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Sara was at her friend's house. They were jumping around and playing make believe. Suddenly, she fell on to the table. The leg snapped and the whole thing broke. Her friend's parents were so mad and sent her home.\n selected sentence: They were jumping around and playing make believe.\n [OUT] ",
+        "output": "Sara and her frirend were jumping around, playing make believe >Causes/Enables> Sara fell on a table ",
+        "data_id": 59
+    },
+    {
+        "id": "task748-93e590e6f12544fcb3f47bca22cd91c7",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jeremy was going to the shooting range with his dad. It was his first time getting to go. His dad had been very strict about him knowing all the rules. Jeremy was very careful and followed all of his dad's instructions. He had a great time with his dad at the range that day.\n selected sentence: His dad had been very strict about him knowing all the rules.\n [OUT] ",
+        "output": "Jeremy's dad is strict >Causes/Enables> Jeremy is careful",
+        "data_id": 60
+    },
+    {
+        "id": "task748-b111fb9bac17416296a51e21118edd49",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tom wanted to go on a trip with his friends. He asked his parents but they said no. His grades were too low. That week, he worked really hard to bring his grades up. When they improved, his parents let him go on the trip.\n selected sentence: His grades were too low.\n [OUT] ",
+        "output": "Tom has low grades >Causes/Enables> Tom brings his grades up",
+        "data_id": 61
+    },
+    {
+        "id": "task748-1e28418cfcb14723aa6279519bcf6eff",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I went fishing with my dad when I was a kid. He taught me how to bait a hook and take off a fish. We caught a lot of fish and turned them loose. We went home with stories to tell. People are surprised to find out I can fish.\n selected sentence: We went home with stories to tell.\n [OUT] ",
+        "output": "My father and I go home with stories to tell >Causes/Enables> we tell stories",
+        "data_id": 62
+    },
+    {
+        "id": "task748-5554906c91dc4c9b9e16217a8be49a09",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Jimmy opened the door to go outside and play. But he left it open behind him. Soon, a flash of gold ran by - it was spot! The dog seemed hopelessly lost, but then a bark! The bark around the corner was spot, bringing a ball home!\n selected sentence: Jimmy opened the door to go outside and play.\n [OUT] ",
+        "output": "Jimmy opened the door to go outside >Causes/Enables> A dog ran in his house",
+        "data_id": 63
+    },
+    {
+        "id": "task748-0ce6ccbd7e3d45ffbdd4581c8b237b60",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Ray was forced to go back to his hometown. Ray thought the trip would be boring. When he got there he was surprised at what he saw. Memories flooded back into his mind of his childhood. Ray had the best weekend of his life!\n selected sentence: Memories flooded back into his mind of his childhood.\n [OUT] ",
+        "output": "Ray remembers his childhood at his hometown >Causes/Enables> He has a great weekend",
+        "data_id": 64
+    },
+    {
+        "id": "task748-80f558b7b64148979a9f307c3a6865c6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Susie got a puppy. One day she lost it. She looked everywhere. Finally she found it. It was under her bed.\n selected sentence: She looked everywhere.\n [OUT] ",
+        "output": "Susie looks everywhere for her lost puppy >Causes/Enables> Susie finally finds the puppy",
+        "data_id": 65
+    },
+    {
+        "id": "task748-584f245e1a6048b1bb40b11d3bb31641",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: It was a very rainy day. I wanted to be safe so I drove extra slow. When I tried to step on the brakes they did not work. I was hydroplaning because I stepped on the brakes to hard and fast. I crashed into another car and hurt somebody.\n selected sentence: I was hydroplaning because I stepped on the brakes to hard and fast.\n [OUT] ",
+        "output": "I step on the brakes too hard and fast >Causes/Enables> The brakes do not work",
+        "data_id": 66
+    },
+    {
+        "id": "task748-eabcb51925b94d1bb36ebe2a626ae811",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Katie loved to watch the beautiful ice skaters. One skater became her favorite. Katie was thrilled when the skater made the Olympic team. She watched the skater's performance nervously. When her competitors skated, Katie prayed they would fall.\n selected sentence: She watched the skater's performance nervously.\n [OUT] ",
+        "output": "Katie watches the performance >Causes/Enables> Katie has fun",
+        "data_id": 67
+    },
+    {
+        "id": "task748-68512d00202240a6b2cfd98543aeaa15",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Clara is getting tomorrow. She is very nervous. She stays awake all night. The next morning she jumps up. Clara runs out the door to get ready.\n selected sentence: She is very nervous.\n [OUT] ",
+        "output": "Clara is nervous >Causes/Enables> Clara calms down",
+        "data_id": 68
+    },
+    {
+        "id": "task748-4bb32544f3804e22a3dcc22b336f0acb",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: It was raining outside and Kelly needed some new boots. She drove over to the Burberry store to buy some. She picked up the first ones she saw. She ended up loving them. Thankfully they worked great.\n selected sentence: She ended up loving them.\n [OUT] ",
+        "output": "Kelly loves the boots >Causes/Enables> Kelly wears the boots",
+        "data_id": 69
+    },
+    {
+        "id": "task748-5ba93fb7bb9747e2bfec7e0607032b15",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Three days ago I brought a banana to school for lunch. I forgot the banana in my locker. Today I went to get the banana and it had turned black. I threw the banana away. I decided not to leave food in my locker ever again.\n selected sentence: Three days ago I brought a banana to school for lunch.\n [OUT] ",
+        "output": "I bring a banana to school >Causes/Enables> I forget the banana in my locker",
+        "data_id": 70
+    },
+    {
+        "id": "task748-0f9802c028184989b35c877e38268193",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Garrett got a flat tire. He pulled over. People asked him to help. He told them to keep driving. He fixed the tire himself.\n selected sentence: He told them to keep driving.\n [OUT] ",
+        "output": "Garrett tells them to keep driving >Causes/Enables> They keep driving",
+        "data_id": 71
+    },
+    {
+        "id": "task748-59d431ba1bc444668d4b256a5b20f0fd",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Brad was so much in love with his girlfriend. Brad had dated her for years. One day Brad was coming over to her house. He knocked on the door with flowers. She answered the door and tells him it's over.\n selected sentence: Brad was so much in love with his girlfriend.\n [OUT] ",
+        "output": "Brad is so in love with his girlfriend >Causes/Enables> Brad knocks on her door with flowers",
+        "data_id": 72
+    },
+    {
+        "id": "task748-0ad258ffaf474b76ad94b39f83884ec3",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I had to go get a refill on my medication. I went to the pharmacy, but the pharmacist was out. I had to wait forever for him to return. When he returned, he was able to give me my medication. I'm glad I waited for him.\n selected sentence: I'm glad I waited for him.\n [OUT] ",
+        "output": "I'm glad I waited for the pharmacist >Causes/Enables> The pharmacist gave me my medication",
+        "data_id": 73
+    },
+    {
+        "id": "task748-7a47d673851a4fc982cc553ff37d9c59",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Bob's doctor told him he needs to stop eating red meat. His blood pressure was very high. Bob went out to eat and ordered a chicken sandwich. He never had one before but he liked it. Switching off of red meat was going to be easier than he thought.\n selected sentence: Bob's doctor told him he needs to stop eating red meat.\n [OUT] ",
+        "output": "Bob's doctor tells him to stop eating red meat >Causes/Enables> Bob stops eating red meat",
+        "data_id": 74
+    },
+    {
+        "id": "task748-6da8f381eed74e448f96a1bfdb4bf441",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Amy and Beth were ready to start the 7th grade. They were over the summer and ready for school to start. They decided since they were adults to get their ears pierced. Amy's mother forbade it. Amy was so upset she didn't speak to her mom for a week.\n selected sentence: They were over the summer and ready for school to start.\n [OUT] ",
+        "output": "Amy and Beth are ready to start school >Causes/Enables> Amy and Beth start school",
+        "data_id": 75
+    },
+    {
+        "id": "task748-d74170385a8a4aa6ba2a7419b0d6bbdd",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tim was going to the club with friends. There was a long line outside. The wait was about half an hour. Tim's friends wanted to wait. Tim didn't and went home.\n selected sentence: Tim was going to the club with friends.\n [OUT] ",
+        "output": "Tim is going to the club >Causes/Enables> Tim arrives at the club",
+        "data_id": 76
+    },
+    {
+        "id": "task748-4707af53251d4bd69e640ad3e5e298ea",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: A little boy fell on the playground. People went to help. He showed his cut. The moms fixed it. They put a bandaid on it.\n selected sentence: He showed his cut.\n [OUT] ",
+        "output": "He shows his cut >Causes/Enables> The moms fix it",
+        "data_id": 77
+    },
+    {
+        "id": "task748-d961e5bb2fd34884976f80b69f6e4e5f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I had a beautiful goldfish. One day it died. At first, I was sad. But, then I decided to eat him. My mom found out and grounded me for a month.\n selected sentence: One day it died.\n [OUT] ",
+        "output": "My goldfish dies >Causes/Enables> I eat my goldfish",
+        "data_id": 78
+    },
+    {
+        "id": "task748-341aade4f0ee463898a1936c110a6da8",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Mike always thought drinking white wine was not for men. He made fun of his friends whenever they had white wine. One day Mike tried drinking it on his own. He loved the crisp, fresh flavor of white wine. From that day on, Mike loved white wine.\n selected sentence: From that day on, Mike loved white wine.\n [OUT] ",
+        "output": "Mike loves wine >Causes/Enables> Mike drinks wine",
+        "data_id": 79
+    },
+    {
+        "id": "task748-8c6bcf50a76b48b482320dea83c8ed58",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Susie saw Someone flying a kite at the park one day. She immediately asked her mom to buy her one. She even volunteered to do extra chores for a week. Susie's mom took her to pick out the kite she wanted. She decided on a purple one that looked like a giant squid.\n selected sentence: She even volunteered to do extra chores for a week.\n [OUT] ",
+        "output": "Susie volunteers to do chores >Causes/Enables> Susie does chores",
+        "data_id": 80
+    },
+    {
+        "id": "task748-79665fbdfc5b4449b1b2ad8f63e61cd6",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Adam was so excited to start preschool this year. On his first day he wore his favorite Spiderman hat. He was so excited that we got there early. I was a little sad but Adam didn't hesitate to run into the school. After school he was so happy to tell me about his day.\n selected sentence: I was a little sad but Adam didn't hesitate to run into the school.\n [OUT] ",
+        "output": "Adam runs into school >Causes/Enables> Adam leaves school",
+        "data_id": 81
+    },
+    {
+        "id": "task748-0c8bb563856c4f77853b391bd9a983a7",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Callie couldn't figure out how the open the door. Her lock was new and weird so she called me for help. I told Callie how to unlock the door and she was extremely grateful. Later that day Callie got stuck again! She called me up and I changed the locks for her.\n selected sentence: Callie couldn't figure out how the open the door.\n [OUT] ",
+        "output": "Callie doesn't know how to open the door >Causes/Enables> Callie calls me for help",
+        "data_id": 82
+    },
+    {
+        "id": "task748-671df40162114d8b998781e3586da9dc",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: My friend needed help with his homework assignment. Since class started in 10 minutes, I allowed him to copy my work. The next day, I forgot to bring my lunch to school. When my friend noticed, he was disappointed to. On the bright side, he shared some of his lunch with me.\n selected sentence: Since class started in 10 minutes, I allowed him to copy my work.\n [OUT] ",
+        "output": "I let him copy my work >Causes/Enables> He copies my work",
+        "data_id": 83
+    },
+    {
+        "id": "task748-29be198ce3484cb3bb67ae51a363a3c1",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Red was a good dog. He was very good at tracking. One time, Red tracked a cat for three hours. He found the cat and barked at me. I had to come rescue the cat before Red attacked it.\n selected sentence: He found the cat and barked at me.\n [OUT] ",
+        "output": "Red barks at me >Causes/Enables> I rescue the cat",
+        "data_id": 84
+    },
+    {
+        "id": "task748-8ee350c3a7e9478182354d1ad0b43a8e",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tim had a bag of chips. He kept it to himself. Lee wanted some. Tim thought about it. Tim decided to share so that everyone was happy.\n selected sentence: Tim decided to share so that everyone was happy.\n [OUT] ",
+        "output": "Tim shares his chips >Causes/Enables> Tim and Lee eat chips",
+        "data_id": 85
+    },
+    {
+        "id": "task748-c88acb0d15764ee39933a8aab1955cf4",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Kate made a new friend named Jan at the library. They walked to the corner store to buy snacks. Jan bought a can of soda as well. Jan snorted when she laughed and soda came out of her nose. They both laughed as soda spilled out of her nose.\n selected sentence: They both laughed as soda spilled out of her nose.\n [OUT] ",
+        "output": "Kate and Jan laugh >Causes/Enables> Kate and Jan stop laughing",
+        "data_id": 86
+    },
+    {
+        "id": "task748-d403a8dcc4b040b283f323c03d700303",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Two boys bought a tub of popcorn at the movie theater. Every time one boy grabbed some, the other would too. They each took turns eating the popcorn. They ended up eating the same amount each. The boys got a refill on popcorn and did it again.\n selected sentence: They each took turns eating the popcorn.\n [OUT] ",
+        "output": "Two boys take turns eating popcorn >Causes/Enables> Two boys eat the same amount of popcorn",
+        "data_id": 87
+    },
+    {
+        "id": "task748-95e092c5e0bf4605a5c687f1c725d0a4",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Beth was a high school teacher. Her students would be very loud. One day she could not take it anymore. She accidentally screamed at them. The class was never loud again.\n selected sentence: One day she could not take it anymore.\n [OUT] ",
+        "output": "Beth can not take her student's noisiness anymore >Causes/Enables> Beth screams at her students",
+        "data_id": 88
+    },
+    {
+        "id": "task748-901a584b663a409e9ac1e26f8f363c19",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Carl was playing videogames with a friend. His friend was a sore loser. Carl kept letting him win. At one point Carl beat him. Carl's friend became visibly upset over it.\n selected sentence: At one point Carl beat him.\n [OUT] ",
+        "output": "Carl is playing video games >Causes/Enables> Carl wins at the games",
+        "data_id": 89
+    },
+    {
+        "id": "task748-e99b00ffa2c545e3b02d6e0a3cb8dc00",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Al and Tara can't agree what to watch on TV. Al wants to watch soaps. Tara wants to watch the news. They play Paper, Rock, Scissors to decide. Tara wins and gets to watch what she wants.\n selected sentence: Tara wants to watch the news.\n [OUT] ",
+        "output": "Tara wants to watch the news >Causes/Enables> Tara watches the news",
+        "data_id": 90
+    },
+    {
+        "id": "task748-ff03a657f37441ffa45a0c1211f82e9e",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: I told Frankie to go to the store and get groceries. He put on his jacket and went on his way. After fifteen minutes I heard a knock on the door. I wasn't expecting Frankie for another hour but there he was. When I asked him how he came and went so fast he said he ran!\n selected sentence: After fifteen minutes I heard a knock on the door.\n [OUT] ",
+        "output": "I hear a knock on the door >Causes/Enables> I answer the door",
+        "data_id": 91
+    },
+    {
+        "id": "task748-87392f81362249f3bafe2334ed9e7fea",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Suzie lived down the road from the ATM. She needed some money. She put on shoes and went outside. Then, she walked down to the ATM. Finally, she got her money.\n selected sentence: Suzie lived down the road from the ATM.\n [OUT] ",
+        "output": "Suzie's home is by the ATM >Causes/Enables> Suzie goes to the ATM",
+        "data_id": 92
+    },
+    {
+        "id": "task748-026d6747fe2f41ffb82d6677ec88cf3f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Sam loved to go to the cabin. His family went there every summer. This summer when they arrived at the cabin. Sam seen there was a hole in the wall. He cut down a tree and fixed it.\n selected sentence: This summer when they arrived at the cabin.\n [OUT] ",
+        "output": "Sam's family arrive at the cabin >Causes/Enables> Sam sees a hole in the wall",
+        "data_id": 93
+    },
+    {
+        "id": "task748-e47d1a3b02954980969ed6b83509b790",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tim really liked Cindy. In class one day, he wrote her a note. The note asked Cindy for a date. Cindy read it and wrote him a note back. Cindy's note said yes!\n selected sentence: Cindy's note said yes!\n [OUT] ",
+        "output": "Cindy's note says yes >Causes/Enables> She and Tim go on a date",
+        "data_id": 94
+    },
+    {
+        "id": "task748-6705d09937e3477fa53d6bd01f00c0d4",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Tom wanted to become healthier. He also did not want an expensive gym membership. He decided to take up running. He ran every other day. He became much healthier.\n selected sentence: He decided to take up running.\n [OUT] ",
+        "output": "Tom decides to take up running >Causes/Enables> Tom becomes much healthier",
+        "data_id": 95
+    },
+    {
+        "id": "task748-d936a4ab6ebe43ca8eeae8f83874540f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Angel got a big bonus for all of her hard work at her job. She decided to treat herself, but wasn't sure how. She chose to go shopping. She wanted new clothes anyhow. She went online and found a few outfits she liked and bought them.\n selected sentence: Angel got a big bonus for all of her hard work at her job.\n [OUT] ",
+        "output": "Angel gets a bonus >Causes/Enables> Angel buys clothes",
+        "data_id": 96
+    },
+    {
+        "id": "task748-475521dba3ef46f0884d09239309d69f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: Billy has asked Santa for a sled for Christmas. So he was really hoping it would be a white Christmas. The weatherman was calling for snow when he went to bed. The next morning he woke up to snow on the ground. He had gotten his sled, too.\n selected sentence: He had gotten his sled, too.\n [OUT] ",
+        "output": "Billy gets a sled >Causes/Enables> Billy rides",
+        "data_id": 97
+    },
+    {
+        "id": "task748-1effe96adaed4513bf64f0315540ce2f",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: My friend Rupert was carrying a long mirror to his room. I told him a broken mirror is 7 years bad luck. He set the mirror down just fine. We looked at our faces, making funny smiles and toothy grins. The mirror fell forward and broke, giving us both bad luck.\n selected sentence: He set the mirror down just fine.\n [OUT] ",
+        "output": "The mirror is set down >Causes/Enables> The mirror falls over",
+        "data_id": 98
+    },
+    {
+        "id": "task748-27ab6ce84edc4a0d98ab5528c71a6d8e",
+        "input": "[INS] In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen after that sentence. Is any of them directly caused by it, or is made possible by it? You should write your answer in the form \" A >causes/enables> B\". Try to use phrases and sentences from the story to compose your answer when possible. Do not change the main selected sentence in your answer.\n [IN] story: One morning, two friends decided to go to a horse show. They weren't very experienced at riding but one day hoped to compete. They saw a wide variety of horses of different sizes and colors. The two friends had a lot of fun watching the different events. At the end of the day they left the show very excited about riding.\n selected sentence: They saw a wide variety of horses of different sizes and colors.\n [OUT] ",
+        "output": "Two friends see horses >Causes/Enables> Two friends have fun",
+        "data_id": 99
+    }
+]

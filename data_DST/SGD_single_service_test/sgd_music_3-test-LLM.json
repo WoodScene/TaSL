@@ -1,0 +1,277 @@
+[
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-genre>.",
+        "input": "[USER]: I want to hear a Reggaeton song. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-genre> in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-track> in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-genre> in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-genre>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-genre>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-genre>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. [SYSTEM]: Enjoy! Do you need anything else? [USER]: No thank you. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. [SYSTEM]: Enjoy! Do you need anything else? [USER]: No thank you. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "reggaeton"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: I want to hear a Reggaeton song. [SYSTEM]: How about Addicted from the Where We Come From album by Popcaan? [USER]: That's the one I wanted. Thanks! [SYSTEM]: Shall I play it now? [USER]: Yes, please do. [SYSTEM]: To verify: you would like to listen to the song Addicted in the Living room. [USER]: No I'd like to hear it on the speaker in kitchen. [SYSTEM]: To confirm: you would like me to play the song Addicted in the kitchen. [USER]: On second thought make it the patio speaker. [SYSTEM]: Okay, you would like me to play Addicted on the patio. [USER]: You got it. [SYSTEM]: Enjoy! Do you need anything else? [USER]: No thank you. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "addicted"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-artist> in the input dialogue.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-artist>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "highway tune"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-artist> in the input dialogue.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "highway tune"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-artist>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-device> in the input dialogue.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "highway tune"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-artist>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "highway tune"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-artist>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. [SYSTEM]: Have fun with your song. [USER]: Thank you for your help; that's all. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "greta van fleet"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. [SYSTEM]: Have fun with your song. [USER]: Thank you for your help; that's all. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: I'd like to look for music right now. [SYSTEM]: What is your opinion regarding Medicine by Jennifer Lopez from her album Medicine Remixes? [USER]: Do you have something else? I enjoy music by Greta Van Fleet. [SYSTEM]: I discovered 1 music for you. What is your opinion regarding Highway Tune by Greta Van Fleet from the album Black Smoke Rising? [USER]: Yeah, that's perfect for me. [SYSTEM]: Do you wish to cast this music? [USER]: Yup. Play it on patio speaker. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Patio. [USER]: Nope; play it on speaker in kitchen. [SYSTEM]: Please verify the following information: cast the music Highway Tune in Kitchen. [USER]: Yeah, that's the right one. [SYSTEM]: Have fun with your song. [USER]: Thank you for your help; that's all. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "highway tune"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "masterpiece"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "masterpiece"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "masterpiece"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-device> in the input dialogue.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. [SYSTEM]: Okay, enjoy your music. [USER]: Thank you! \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. [SYSTEM]: Okay, enjoy your music. [USER]: Thank you! \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "masterpiece"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. [SYSTEM]: Okay, enjoy your music. [USER]: Thank you! [SYSTEM]: Is there anything else I can do for you? [USER]: No, that's all thanks. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: I'm in the mood for some music and would like to play some songs. [SYSTEM]: Okay, what about Masterpiece by Jessie J from the Sweet Talker album? [USER]: Did that song come out six years ago? [SYSTEM]: The song came out in 2014. [USER]: What kind of music is it? [SYSTEM]: This is a Pop song. [USER]: Yes, that's the one I'm thinking of. [SYSTEM]: Is there anything else I can do for you? [USER]: Yes, please play that song on any device. [SYSTEM]: Okay, let's confirm: Playing the song Masterpiece in the Living room. [USER]: Yes, thanks. [SYSTEM]: Okay, enjoy your music. [USER]: Thank you! [SYSTEM]: Is there anything else I can do for you? [USER]: No, that's all thanks. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "masterpiece"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: Please find me any of the songs that I've played the most this week. [SYSTEM]: How about Strangers by Sigrid, from her album Sucker Punch? [USER]: Cool! That's the song I'd like you to play. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "strangers"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: Please find me any of the songs that I've played the most this week. [SYSTEM]: How about Strangers by Sigrid, from her album Sucker Punch? [USER]: Cool! That's the song I'd like you to play. [SYSTEM]: Sure! Please confirm that you'd like to play Strangers in the Living room. [USER]: You got that right. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "living room"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: Please find me any of the songs that I've played the most this week. [SYSTEM]: How about Strangers by Sigrid, from her album Sucker Punch? [USER]: Cool! That's the song I'd like you to play. [SYSTEM]: Sure! Please confirm that you'd like to play Strangers in the Living room. [USER]: You got that right. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "strangers"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: Please find me any of the songs that I've played the most this week. [SYSTEM]: How about Strangers by Sigrid, from her album Sucker Punch? [USER]: Cool! That's the song I'd like you to play. [SYSTEM]: Sure! Please confirm that you'd like to play Strangers in the Living room. [USER]: You got that right. [SYSTEM]: Do enjoy listening to your music. [USER]: Thank you very much. That will be all. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "living room"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Please find me any of the songs that I've played the most this week. [SYSTEM]: How about Strangers by Sigrid, from her album Sucker Punch? [USER]: Cool! That's the song I'd like you to play. [SYSTEM]: Sure! Please confirm that you'd like to play Strangers in the Living room. [USER]: You got that right. [SYSTEM]: Do enjoy listening to your music. [USER]: Thank you very much. That will be all. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "strangers"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "the way i am"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "the way i am"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "the way i am"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-device>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? [SYSTEM]: The track is from 2018 and it's in the pop genre. Enjoy the song. [USER]: Thanks, I will! \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Track the state of the slot <music_3-track> in the input dialogue.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? [SYSTEM]: The track is from 2018 and it's in the pop genre. Enjoy the song. [USER]: Thanks, I will! \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "the way i am"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? [SYSTEM]: The track is from 2018 and it's in the pop genre. Enjoy the song. [USER]: Thanks, I will! [SYSTEM]: Do you need help with anything else right now? [USER]: Nope, thanks again. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <music_3-track>.",
+        "input": "[USER]: I want to find some songs please. What have you got? [SYSTEM]: Would you like to hear the Charlie Puth song The Way I Am, which is from his Voicenotes album. [USER]: I would, thanks so much. [SYSTEM]: My pleasure. How else may I help you today? [USER]: I'd like to hear the song and can you do it on the kitchen speaker? [SYSTEM]: Certainly. Confirming playback of The Way I Am on the Kitchen speaker location. [USER]: Great, thanks! Let me ask you, did that come out four years ago? And what music type is it? [SYSTEM]: The track is from 2018 and it's in the pop genre. Enjoy the song. [USER]: Thanks, I will! [SYSTEM]: Do you need help with anything else right now? [USER]: Nope, thanks again. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "the way i am"
+    }
+]

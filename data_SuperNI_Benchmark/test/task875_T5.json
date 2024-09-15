@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task875-d88f41e3903948048204b82a9b538ed3",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i may even try to make her some matching hair bows or when i feel more talented make them and sell them\n [OUT] ",
+        "output": "j",
+        "data_id": 0
+    },
+    {
+        "id": "task875-8d2c13bef3794408933e645cc317ecab",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am mellow and feeling particularly fond of all the human race i don t blame fertile people for not really knowing what to say or what to think or how to deal with it all\n [OUT] ",
+        "output": "l",
+        "data_id": 1
+    },
+    {
+        "id": "task875-88c1676f92a04d57bcc9518e1a3de0b8",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like that wall is boring amp needs a pop of color\n [OUT] ",
+        "output": "s",
+        "data_id": 2
+    },
+    {
+        "id": "task875-4f022eeb661149febf69dc242c2352f0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i don t feel devastated\n [OUT] ",
+        "output": "s",
+        "data_id": 3
+    },
+    {
+        "id": "task875-b8043c998dde42e28c6730081a9310e4",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel proud to be queer performing at lovebox\n [OUT] ",
+        "output": "j",
+        "data_id": 4
+    },
+    {
+        "id": "task875-9be2d6d9ebf44bbfa77384ff8712e83c",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i realized what i am passionate about helping women feel accepted and appreciated\n [OUT] ",
+        "output": "j",
+        "data_id": 5
+    },
+    {
+        "id": "task875-a4b93ee46b014f459b2ba875873cb457",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i guess im a tough woman but i feel delicate\n [OUT] ",
+        "output": "l",
+        "data_id": 6
+    },
+    {
+        "id": "task875-d074f1d064274c2a8536c01ecd1d2ef3",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i could genuinely feel loving toward someone without them ever knowing it if i dont act like it\n [OUT] ",
+        "output": "l",
+        "data_id": 7
+    },
+    {
+        "id": "task875-dc9faf482757449f822a9db0f7d8b1b0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] im sure ill also feel a bit nervous\n [OUT] ",
+        "output": "f",
+        "data_id": 8
+    },
+    {
+        "id": "task875-1a3acb3a351a4a0487414a14c517c381",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i wonder if mind readers draw a blank when they get around stupid people and when stupid people leave a room does it feel like somebody smart just walked in\n [OUT] ",
+        "output": "j",
+        "data_id": 9
+    },
+    {
+        "id": "task875-2a23a9f54c394c93a2995ead32108481",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i would rather take my chances on keeping my heart and getting it broken again and again then to stop feeling to stop caring to be bitter cross cynical\n [OUT] ",
+        "output": "l",
+        "data_id": 10
+    },
+    {
+        "id": "task875-b1ca30b93b5542b89b71c4bf406cbee5",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i do now as compared with years ago is that i no longer feel i have to be accepted by others only those who matter to me\n [OUT] ",
+        "output": "l",
+        "data_id": 11
+    },
+    {
+        "id": "task875-882b67f175b34e9d8df4de5b17e6739e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i guess which meant or so i assume no photos no words or no other way to convey what it really feels unless you feels it yourself or khi bi t au th m i bi t th ng ng i b au i rephrase it to a bit more gloomy context unless you are hurt yourself you will never have sympathy for the hurt ones\n [OUT] ",
+        "output": "s",
+        "data_id": 12
+    },
+    {
+        "id": "task875-b12f06e54b384f398b4b621c2cee7bc9",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel so petty who one of my first colleagues had not nice things to say about when i first asked for any contacts for investment banks from before i arrived at this job\n [OUT] ",
+        "output": "a",
+        "data_id": 13
+    },
+    {
+        "id": "task875-0b7c484840574b1c85f4c6c934b32083",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] im feeling a bit less anxious about it all now and im actually starting to look forward to the challenge of the big event\n [OUT] ",
+        "output": "f",
+        "data_id": 14
+    },
+    {
+        "id": "task875-2f458f73d51941b08848ff898e7d7e62",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i mulled this idea over in my head as much as i loved it i also noticed myself feeling a bit hesitant about what it might mean for her our\n [OUT] ",
+        "output": "f",
+        "data_id": 15
+    },
+    {
+        "id": "task875-9d9c9dc4cafd47a99926a23edb015bbd",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i should stop reading sids blogs but it is part of my blogging community and i feel that in supporting each other we get better at handling grief and hence i am not going to stop\n [OUT] ",
+        "output": "l",
+        "data_id": 16
+    },
+    {
+        "id": "task875-ffc4ee39f9e548118ad9ef09ae99dbc0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i care about someones emotional spiritual and intellectual progress to the point where i feel like i should exert myself in that progress and its important to me that is love\n [OUT] ",
+        "output": "j",
+        "data_id": 17
+    },
+    {
+        "id": "task875-f2708495a1774387ad417948672077ba",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel so impressed with ia\n [OUT] ",
+        "output": "s",
+        "data_id": 18
+    },
+    {
+        "id": "task875-a1ffa59330ac466a8d7e947aab043012",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i believe you have to truly regret feel remorseful that you have these feelings even if you feel like you can t control them\n [OUT] ",
+        "output": "s",
+        "data_id": 19
+    },
+    {
+        "id": "task875-4d9642a2fc654e7a953251c2f73d481e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i have nothing but respect for not only jerry sloan but the utah jazz as a whole i feel wronged that we were forced to stomach this series\n [OUT] ",
+        "output": "a",
+        "data_id": 20
+    },
+    {
+        "id": "task875-661a081d06d24bddb414620831d570f2",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like not caring\n [OUT] ",
+        "output": "l",
+        "data_id": 21
+    },
+    {
+        "id": "task875-b5c5d02d0c824f0a87ef8f53c278dd54",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am feeling stressed or overwhelmed i have come to rely on those who i have met here mostly from the so club\n [OUT] ",
+        "output": "a",
+        "data_id": 22
+    },
+    {
+        "id": "task875-61fa9a4b8bf743cb92969197f258ed7e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel lola falls under this strange demographic\n [OUT] ",
+        "output": "s",
+        "data_id": 23
+    },
+    {
+        "id": "task875-7a875d34ba224402aed9c925fb854fba",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel drained mentally and physically and i really need to get back to a better spot\n [OUT] ",
+        "output": "s",
+        "data_id": 24
+    },
+    {
+        "id": "task875-b084bf24d2a64484b32b562f0c67b949",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i dont recall just now yet vividly recall looking at you as you said it and you i think looking back at me and my feeling very sympathetic or maybe empathetic is the better word of course you needed a space\n [OUT] ",
+        "output": "l",
+        "data_id": 25
+    },
+    {
+        "id": "task875-ec61acda2e3144c7b674cfe62fa1ad10",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i just feel its more romantic when these characters do not jump on each other on the first opportunity they get\n [OUT] ",
+        "output": "l",
+        "data_id": 26
+    },
+    {
+        "id": "task875-3d05b4873cef41059135ca6c15faef46",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i do feel a bit deprived of a typical experience\n [OUT] ",
+        "output": "s",
+        "data_id": 27
+    },
+    {
+        "id": "task875-ee3f847caf5d4810bbd53c20014f5e2b",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am not a regular member of this group meaning that i do not follow whats going on very often and also i feel a bit shy in budding in when i do not have much to say but today i have a request for you people\n [OUT] ",
+        "output": "f",
+        "data_id": 28
+    },
+    {
+        "id": "task875-105b98732d9a4bf5b701d8d85c864322",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel you are so delicate now\n [OUT] ",
+        "output": "l",
+        "data_id": 29
+    },
+    {
+        "id": "task875-2b3bebc67a654b35b8f116fc3a04c2f1",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i take a look as i try to get used to the feeling of his touch innocent as it is\n [OUT] ",
+        "output": "j",
+        "data_id": 30
+    },
+    {
+        "id": "task875-ef15e588d2854d5ab9694a165a33847f",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was feeling strange downstairs i could still feel the dull sensation of the contractions but the nurse said she didnt want to check me for about an hour\n [OUT] ",
+        "output": "s",
+        "data_id": 31
+    },
+    {
+        "id": "task875-34c268e0b5d24d46925ea83855e4e97a",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel insulted but i go out with him anyway\n [OUT] ",
+        "output": "a",
+        "data_id": 32
+    },
+    {
+        "id": "task875-22e52c6ee81549e3a39f3057d91ef2ea",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i did not feel in the least smart\n [OUT] ",
+        "output": "j",
+        "data_id": 33
+    },
+    {
+        "id": "task875-e473e8a99962487d909d95adc1e93912",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i went i was amazed at what i have and i began to feel when the woman canal spoke about the divine hierarchies and they wanted us to do for a new era of spiritual evolution\n [OUT] ",
+        "output": "j",
+        "data_id": 34
+    },
+    {
+        "id": "task875-b42bd9a8c0ce4b83bbc989b73c3ccac4",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel more sympathetic than ever for elementary school teachers trying to coerce entire classes of third graders to walk single file to the lunchroom\n [OUT] ",
+        "output": "l",
+        "data_id": 35
+    },
+    {
+        "id": "task875-5640ad035a3a413f99c35b2d49d6f08f",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am just feeling too rotten to put on a happy face for the night\n [OUT] ",
+        "output": "s",
+        "data_id": 36
+    },
+    {
+        "id": "task875-5f8157c4ea404f02a88123bc62457398",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] ive last posted not that my mind hasnt been flooded with topics that i feel need to be entertained but more so to do with the influx of feelings and opinions without clarity as life happened\n [OUT] ",
+        "output": "j",
+        "data_id": 37
+    },
+    {
+        "id": "task875-f5921147fbc449c185bfe1abaf22f449",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel more gentle that way wth\n [OUT] ",
+        "output": "l",
+        "data_id": 38
+    },
+    {
+        "id": "task875-17f2f4702c894babb5542e4a2b296f09",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like thats what vicious circle is\n [OUT] ",
+        "output": "a",
+        "data_id": 39
+    },
+    {
+        "id": "task875-6c9b96e2c8c5475fa1eb336de3a919ac",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel very lucky to have known him to have called him family\n [OUT] ",
+        "output": "j",
+        "data_id": 40
+    },
+    {
+        "id": "task875-6f56813996894ea6a22145c64baa31b7",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i must say that i feel that i accepted something of a poisoned chalice\n [OUT] ",
+        "output": "l",
+        "data_id": 41
+    },
+    {
+        "id": "task875-32267a10e2e64e5d86f2651d9d1eba65",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel more anxious than i have in quite some time in fact\n [OUT] ",
+        "output": "f",
+        "data_id": 42
+    },
+    {
+        "id": "task875-7665b64f375143ca8c5fe3d13bfab343",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i remember leaving church feeling invigorated every sunday and tuesday night\n [OUT] ",
+        "output": "j",
+        "data_id": 43
+    },
+    {
+        "id": "task875-c09a7e99367f4ef1a24389d1a6dc34d4",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am feeling quite overwhelmed\n [OUT] ",
+        "output": "s",
+        "data_id": 44
+    },
+    {
+        "id": "task875-3e8632a347494b07b14601fec31bdf2a",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel ecstatic every time i perfect a water sport\n [OUT] ",
+        "output": "j",
+        "data_id": 45
+    },
+    {
+        "id": "task875-417ed793df4b4addaf30045369481284",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i guess were annoyed agiatated and my sis feels hated darn cos i told her shes a geek i love you amy\n [OUT] ",
+        "output": "a",
+        "data_id": 46
+    },
+    {
+        "id": "task875-834fac0dbd034d5885f62d271e5859ed",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am sorry that you feel i deserve to be blamed for the friends i pick all of which are better then some of the friends i could be hanging out with getting high and drunk while underage\n [OUT] ",
+        "output": "s",
+        "data_id": 47
+    },
+    {
+        "id": "task875-680b55b2dff94e1ca46e9435cf97d382",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was exceptionally hurt by it and i m definitely still feeling the impact when it comes to trusting people\n [OUT] ",
+        "output": "j",
+        "data_id": 48
+    },
+    {
+        "id": "task875-aef58648305440d3a15b2baff6f5ce29",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i have this crush on my bus mate and i feel strange about it because i used to despise him\n [OUT] ",
+        "output": "f",
+        "data_id": 49
+    },
+    {
+        "id": "task875-ad3e6fde1e8a49c0b8f5d34dcf57fb14",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i could clearly feel my adomen muscles contract everytime i cough like some adomen exercise haha and im aching from it now sigh\n [OUT] ",
+        "output": "s",
+        "data_id": 50
+    },
+    {
+        "id": "task875-6e1afca7305444c2a06ef7d0fd223fd0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel it is unfortunate that the community has had little more than weeks to evaluate this solution prior to the more drastic way stop proposal coming to a vote at public works\n [OUT] ",
+        "output": "s",
+        "data_id": 51
+    },
+    {
+        "id": "task875-3d4bd89477d04978bfb20ecc724093c7",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was feeling and how rich we are\n [OUT] ",
+        "output": "j",
+        "data_id": 52
+    },
+    {
+        "id": "task875-f05bd1025f53442d83c8982cca8a8287",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i guess i feel insecure and anxious\n [OUT] ",
+        "output": "f",
+        "data_id": 53
+    },
+    {
+        "id": "task875-81ab873d004644a09e2b8a10f5c42e6e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i do feel so funny about myself because i seems to want to have good guy image although i have been keep saying wanna go clubbing but ended up did not even go once\n [OUT] ",
+        "output": "s",
+        "data_id": 54
+    },
+    {
+        "id": "task875-197096f0d4124b3ba1145b4abc39aa24",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i want a conditioner that will make me feel pretty and outgoing\n [OUT] ",
+        "output": "j",
+        "data_id": 55
+    },
+    {
+        "id": "task875-ff0de42b99e84d08bd7eae57fedf6af5",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i have noticed my fingers and toes get very cold and almost feel numb\n [OUT] ",
+        "output": "s",
+        "data_id": 56
+    },
+    {
+        "id": "task875-2b7fbf0ea01a4ba1b687edec45ef0a2e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was driving back i was having a moment of missing new orleans and feeling really sad when it just hit me that i was able to go visit them for the night on a whim and i felt such a peace\n [OUT] ",
+        "output": "s",
+        "data_id": 57
+    },
+    {
+        "id": "task875-0a9cc5ae611348368b39985021902728",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like buy to play is the most accepted model by consumers at large\n [OUT] ",
+        "output": "l",
+        "data_id": 58
+    },
+    {
+        "id": "task875-555bbbbb23c94d1fa61775dfcabc6d4c",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like im a hateful person sometimes\n [OUT] ",
+        "output": "a",
+        "data_id": 59
+    },
+    {
+        "id": "task875-ebc7258679e447c2919865cbed145410",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel so hopeless and usually just want o scream\n [OUT] ",
+        "output": "s",
+        "data_id": 60
+    },
+    {
+        "id": "task875-4718b9d637614f39a04276fbb3f4a4c6",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i grew up feeling ugly and inadequate\n [OUT] ",
+        "output": "s",
+        "data_id": 61
+    },
+    {
+        "id": "task875-00c675b17ad6418f9ae3cc270ec44a97",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i closed my eye taking in the feeling wishing that i could go back in time and re live these amazing moments when i opened my eyes i was taken back by fahad s presence he was leaning against the skeleton of the swing set and smiling at me\n [OUT] ",
+        "output": "s",
+        "data_id": 62
+    },
+    {
+        "id": "task875-ffe87a4cc5724e1eada3ef7f1c1c5463",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i love you and i feel so blessed to spend another year with you\n [OUT] ",
+        "output": "l",
+        "data_id": 63
+    },
+    {
+        "id": "task875-749f151607294610844d580317c9dea2",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel lots more energy i feel very impatient and irritable\n [OUT] ",
+        "output": "a",
+        "data_id": 64
+    },
+    {
+        "id": "task875-8b2e02988a9e41d5ae970fd5771c8923",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] ive also had a nosy on the website and seeing as its coming up to that time of year and im feeling strangely festive for once ive picked my top five products from the a href http www\n [OUT] ",
+        "output": "j",
+        "data_id": 65
+    },
+    {
+        "id": "task875-c62a7145273a4a6c9b7a632e7cb5ed89",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel drained at least now i have something to look forward to\n [OUT] ",
+        "output": "s",
+        "data_id": 66
+    },
+    {
+        "id": "task875-14c461249cdc4c92bcdede7d90cba4d0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel extremely blessed and lucky that my company believes in me enough to let cut my hours down and that am so thankful to all of you my readers for reading what i have to say on here\n [OUT] ",
+        "output": "l",
+        "data_id": 67
+    },
+    {
+        "id": "task875-6bf6f822e3ab4faf8369ee887a2f0fe8",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel totally drained emotionally and physically the holy spirit never ceases to fill me up and speak to me\n [OUT] ",
+        "output": "s",
+        "data_id": 68
+    },
+    {
+        "id": "task875-f5adf63c5c5a429eae3168ee9bb9789b",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i am feeling overwhelmed i want to physically shake everything off me the way i would if there was a spider in my shirt\n [OUT] ",
+        "output": "s",
+        "data_id": 69
+    },
+    {
+        "id": "task875-71242b8434ca45069f707985dc791e2e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel like i am actually a creative person now\n [OUT] ",
+        "output": "j",
+        "data_id": 70
+    },
+    {
+        "id": "task875-2f0dd1944ba448bdb4c3b69e94ef0ec8",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel divine original mix\n [OUT] ",
+        "output": "j",
+        "data_id": 71
+    },
+    {
+        "id": "task875-853c7f4bd8f64a53abf81a1892006e87",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel tender cool and relax after enjoying these wonderful masters\n [OUT] ",
+        "output": "l",
+        "data_id": 72
+    },
+    {
+        "id": "task875-f84d2b36728f43d0bdfa8ca54c1e8f5c",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i ran errands to buy cora a few newborn sized sleepers i had not previously made any newborn sized babies and went out to lunch to celebrate how great i was feeling i feel amazing no pain no pain meds and moving around almost completely normally at days out\n [OUT] ",
+        "output": "s",
+        "data_id": 73
+    },
+    {
+        "id": "task875-4e1e943f5b26451183b85e718739484f",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i have nothnig to say im just feeling giggly as someoen on lauging gas\n [OUT] ",
+        "output": "j",
+        "data_id": 74
+    },
+    {
+        "id": "task875-502f703330ad4a61bab4ea9d8858092d",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i didn t think the writing really expressed the intensity of emotion one would feel at losing a beloved spouse\n [OUT] ",
+        "output": "l",
+        "data_id": 75
+    },
+    {
+        "id": "task875-152a7a8a65e0473abbb8a1ebff398eff",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was ready to go if need be and fortunately tim was feeling ok and feeling well enough to go\n [OUT] ",
+        "output": "j",
+        "data_id": 76
+    },
+    {
+        "id": "task875-eac29793a4fe404ba86586c3b32dd018",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel really uptight and unable to unwind\n [OUT] ",
+        "output": "f",
+        "data_id": 77
+    },
+    {
+        "id": "task875-7d31647c785a44fbac9a85a8514a588e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel this strange sense of importance of life and the world when i stare at the stars all night\n [OUT] ",
+        "output": "f",
+        "data_id": 78
+    },
+    {
+        "id": "task875-c41cda79d3044fa1b571af0660b7b89b",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel benevolent towards you today\n [OUT] ",
+        "output": "j",
+        "data_id": 79
+    },
+    {
+        "id": "task875-02eb8d19ea9e415ca1353e4d15bc4709",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i still blush and feel shocked about the recreational activities that i sometimes unwillingly and willingly hear sometimes\n [OUT] ",
+        "output": "s",
+        "data_id": 80
+    },
+    {
+        "id": "task875-76c002f1437a4700b359ed918f20c65d",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] im feeling a bit weepy today\n [OUT] ",
+        "output": "s",
+        "data_id": 81
+    },
+    {
+        "id": "task875-d8b2604a34c9430a8b9d158779b1c069",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i absolutely love this skinny fiber it is doing wonders for me and i feel fabulous\n [OUT] ",
+        "output": "j",
+        "data_id": 82
+    },
+    {
+        "id": "task875-81e3879e1a284212a7b975187249a9c0",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel about femme fatale except its not cute anymore now that its pretty obvious that britneys not in control of her life that shes so burnt out and yet i get the impression shes almost forced into this career to the point that she just cant or wont deliver anymore\n [OUT] ",
+        "output": "j",
+        "data_id": 83
+    },
+    {
+        "id": "task875-9555d5f540d24cf782a45f5337fd53e6",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel threatened by people who actually learned stuff in college\n [OUT] ",
+        "output": "f",
+        "data_id": 84
+    },
+    {
+        "id": "task875-c91af8fdabf24ee9b567cd0a8f1f39f2",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel as though im the most hated kid in school the biggest bitch and other times i just feel popular and loved by everyone\n [OUT] ",
+        "output": "s",
+        "data_id": 85
+    },
+    {
+        "id": "task875-2b068b694cfa4ff394cabd97015ba158",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i havent been sick in the winter very often since i quit smoking years ago so seldom in fact that now when i do get sick i feel outraged hows that for rational thinking\n [OUT] ",
+        "output": "a",
+        "data_id": 86
+    },
+    {
+        "id": "task875-e2da3f9c44f84acc9e5dbb38571f43e2",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i couldn t help but feel sympathetic for netflix as an army of the misinformed denounced netflix for the recent price hike\n [OUT] ",
+        "output": "l",
+        "data_id": 87
+    },
+    {
+        "id": "task875-98b552d107d64d609de79580a157650f",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i go fishing i really feel so carefree can i fish everyday\n [OUT] ",
+        "output": "j",
+        "data_id": 88
+    },
+    {
+        "id": "task875-a86351466996402886b2cea18da6ee23",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel as though sometimes i can be more clever than average\n [OUT] ",
+        "output": "j",
+        "data_id": 89
+    },
+    {
+        "id": "task875-9320bdd265dc4b8a80e84023990aa736",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i was questioning myself and feeling nervous about being able to hit the targets\n [OUT] ",
+        "output": "f",
+        "data_id": 90
+    },
+    {
+        "id": "task875-06227684a2f841c6858685cd0ce44944",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] im feeling a bit distressed about it\n [OUT] ",
+        "output": "f",
+        "data_id": 91
+    },
+    {
+        "id": "task875-6ea07f452dca4ab18442be38c88321bf",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] im feeling very curious ill pull out geology maps\n [OUT] ",
+        "output": "s",
+        "data_id": 92
+    },
+    {
+        "id": "task875-59774a8f3834489b80fc07d73e1d9bb9",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i remember feeling surprised that i had the option not to listen\n [OUT] ",
+        "output": "s",
+        "data_id": 93
+    },
+    {
+        "id": "task875-ebca31549dca452097865efe90d60c09",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i like him for who he is or i just like the feeling to be liked\n [OUT] ",
+        "output": "l",
+        "data_id": 94
+    },
+    {
+        "id": "task875-67c1f5f193cb48df984c2cc05195a651",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i considered jogging since it is not too cold today but decided against it as my right ankle is already feeling tender for some reason\n [OUT] ",
+        "output": "l",
+        "data_id": 95
+    },
+    {
+        "id": "task875-2850c7e4715249639bce57498fbaa063",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i feel so horny and naughty dressed up like this and my tgirl cock is getting a real work out as i continue to admire myself\n [OUT] ",
+        "output": "l",
+        "data_id": 96
+    },
+    {
+        "id": "task875-1af0fe8634874ef2be344b2341441f13",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i did a solo flight from ardmore to kaikohe before i got my pilot licence i can remember it was gorgeous day and i was on a natural high\n [OUT] ",
+        "output": "j",
+        "data_id": 97
+    },
+    {
+        "id": "task875-16cbeca055b447758f26d2d545e24297",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] when it became clear that a man had used many people sexually and psychologically\n [OUT] ",
+        "output": "a",
+        "data_id": 98
+    },
+    {
+        "id": "task875-1a9ad0f03ca84ce59ef45d1c36479d8e",
+        "input": "[INS] In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.\n [IN] i used to feel when i was still a child being very curious and innocent with everything and everyone around me\n [OUT] ",
+        "output": "s",
+        "data_id": 99
+    }
+]

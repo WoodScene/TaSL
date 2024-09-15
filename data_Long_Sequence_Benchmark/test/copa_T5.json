@@ -1,0 +1,502 @@
+[
+    {
+        "id": "COPA_0",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The flame on the candle went out.\"? Choose one between A and B.\nA: I blew on the wick.\nB: I put a match to the wick.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_1",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man dressed in his best suit.\"? Choose one between A and B.\nA: He scheduled a meeting with an important client.\nB: His wife bought him a new tie.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_2",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man defied the authorities of the church.\"? Choose one between A and B.\nA: He donated money to the church.\nB: He was excommunicated from the church.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_3",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man won the lottery.\"? Choose one between A and B.\nA: He became rich.\nB: He owed money.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_4",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman ran her finger under cold water.\"? Choose one between A and B.\nA: She burned her finger on the toaster.\nB: She put a diamond ring on her finger.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_5",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The key was missing from my pants pocket.\"? Choose one between A and B.\nA: The pocket had a hole.\nB: The pants were new.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_6",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I spent the day at the pool.\"? Choose one between A and B.\nA: I sprained my ankle.\nB: My face got sunburned.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_7",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman walked with crutches.\"? Choose one between A and B.\nA: She shaved her legs.\nB: She broke her leg.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_8",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I stayed up late.\"? Choose one between A and B.\nA: I had vivid dreams that night.\nB: I was tired in the morning.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_9",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The clock chimed.\"? Choose one between A and B.\nA: It was the top of the hour.\nB: The hour seemed to drag on.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_10",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I wanted to conserve energy.\"? Choose one between A and B.\nA: I swept the floor in the unoccupied room.\nB: I shut off the light in the unoccupied room.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_11",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The player caught the ball.\"? Choose one between A and B.\nA: Her teammate threw it to her.\nB: Her opponent tried to intercept it.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_12",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The student misspelled the word.\"? Choose one between A and B.\nA: The teacher corrected her.\nB: The teacher dismissed her.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_13",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The politician was convicted of fraud.\"? Choose one between A and B.\nA: He campaigned for re-election.\nB: He was removed from office.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_14",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The tree branch landed in the river.\"? Choose one between A and B.\nA: The branch moved downstream.\nB: The river's current became stronger.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_15",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man grew old.\"? Choose one between A and B.\nA: His hair turned gray.\nB: He sold his belongings.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_16",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The computer was expensive to fix.\"? Choose one between A and B.\nA: I got it repaired.\nB: I bought a new one.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_17",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The lobbyist persuaded the legislature to support the bill.\"? Choose one between A and B.\nA: The president vetoed the bill.\nB: The legislature passed the bill.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_18",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The student forgot to do her assignment.\"? Choose one between A and B.\nA: She made up an excuse to tell the teacher.\nB: The teacher promoted her to the next grade.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_19",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman resigned from her job.\"? Choose one between A and B.\nA: She aspired to hold an executive position in the firm.\nB: She believed her superiors were acting unethically.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_20",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The community learned of the man's death.\"? Choose one between A and B.\nA: His family buried him in the cemetery.\nB: His obituary appeared in the newspaper.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_21",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The student was in a rush to get to school on time.\"? Choose one between A and B.\nA: He left his assignment at home.\nB: He brought his lunch to school.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_22",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"My view of the movie screen was blocked.\"? Choose one between A and B.\nA: The couple behind me was whispering.\nB: A tall person was sitting in front of me.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_23",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The airline mishandled my luggage.\"? Choose one between A and B.\nA: They offered me compensation.\nB: They cancelled my flight.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_24",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I twisted the cap off the soda bottle.\"? Choose one between A and B.\nA: The soda fizzed.\nB: The soda leaked out.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_25",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The lock opened.\"? Choose one between A and B.\nA: I turned the key in the lock.\nB: I made a duplicate of the key.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_26",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"My ears were ringing.\"? Choose one between A and B.\nA: I went to a museum.\nB: I went to a concert.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_27",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The seasons changed from summer to autumn.\"? Choose one between A and B.\nA: People evacuated their homes.\nB: Leaves fell from the trees.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_28",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The dog barked.\"? Choose one between A and B.\nA: The cat lounged on the couch.\nB: A knock sounded at the door.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_29",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"My computer crashed.\"? Choose one between A and B.\nA: I installed new speakers.\nB: I lost all my data.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_30",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"My subscription to the magazine expired.\"? Choose one between A and B.\nA: I discarded the new issue.\nB: I stopped receiving new issues.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_31",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I pulled the rubber band.\"? Choose one between A and B.\nA: It flung across the room.\nB: It stretched.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_32",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The journalist wrote a biography about the humanitarian's life.\"? Choose one between A and B.\nA: The humanitarian was difficult for the journalist to interview.\nB: The journalist was intrigued by the humanitarian's work.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_33",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I pushed the wagon.\"? Choose one between A and B.\nA: The objects in the wagon fell out.\nB: The wagon wheels spun forward.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_34",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man perceived that the woman looked different.\"? Choose one between A and B.\nA: The woman got her hair cut.\nB: The woman wore a bracelet.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_35",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"I coughed.\"? Choose one between A and B.\nA: I inhaled smoke.\nB: I lowered my voice.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_36",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The police searched the offender's car.\"? Choose one between A and B.\nA: They were trying to elicit a confession.\nB: They were looking for illegal drugs.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_37",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The bowling ball knocked over the bowling pins.\"? Choose one between A and B.\nA: The man rolled the bowling ball down the alley.\nB: The man dropped the bowling ball on his foot.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_38",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The ring on my finger got stuck.\"? Choose one between A and B.\nA: My finger swelled.\nB: I chipped my fingernail.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_39",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The girl wanted to wear earrings.\"? Choose one between A and B.\nA: She got her ears pierced.\nB: She got a tattoo.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_40",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The jewelry thieves were caught.\"? Choose one between A and B.\nA: The stolen jewelry was returned to its owners.\nB: The cost of the stolen jewelry was calculated.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_41",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man fainted.\"? Choose one between A and B.\nA: He took a nap.\nB: He ran a marathon.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_42",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"Political violence broke out in the nation.\"? Choose one between A and B.\nA: Many citizens relocated to the capitol.\nB: Many citizens took refuge in other territories.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_43",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The girl found a bug in her cereal.\"? Choose one between A and B.\nA: She poured milk in the bowl.\nB: She lost her appetite.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_44",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The boy skipped dinner.\"? Choose one between A and B.\nA: His mother cooked his favorite meal.\nB: He ate a big lunch.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_45",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The driver got a flat tire.\"? Choose one between A and B.\nA: He went over the speed limit.\nB: He ran over a nail.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_46",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I doubted the salesman's pitch.\"? Choose one between A and B.\nA: I turned his offer down.\nB: He persuaded me to buy the product.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_47",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The mother called an ambulance.\"? Choose one between A and B.\nA: Her son lost his cat.\nB: Her son fell out of his bed.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_48",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man turned on the faucet.\"? Choose one between A and B.\nA: The toilet filled with water.\nB: Water flowed from the spout.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_49",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The child learned how to read.\"? Choose one between A and B.\nA: He began attending school.\nB: He skipped a grade in school.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_50",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The couple was happy to see each other.\"? Choose one between A and B.\nA: They kissed.\nB: They rested.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_51",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The cook's eyes watered.\"? Choose one between A and B.\nA: He ran out of onions.\nB: He cut an onion.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_52",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The teacher assigned homework to the students.\"? Choose one between A and B.\nA: The students passed notes.\nB: The students groaned.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_53",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The chef hit the egg on the side of the bowl.\"? Choose one between A and B.\nA: The egg cracked.\nB: The egg rotted.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_54",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The driver turned on the car's headlights.\"? Choose one between A and B.\nA: He heard thunder.\nB: The sun went down.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_55",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The woman read the newspaper.\"? Choose one between A and B.\nA: She discovered the outcome of the election.\nB: She casted a vote in the election.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_56",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman was arrested.\"? Choose one between A and B.\nA: She checked into rehab.\nB: She committed assault.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_57",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The friends decided to share the hamburger.\"? Choose one between A and B.\nA: They cut the hamburger in half.\nB: They ordered fries with the hamburger.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_58",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The driver slammed on his brakes.\"? Choose one between A and B.\nA: A deer appeared on the road.\nB: The car radio shut off.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_59",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"Plans were announced to replace a local park with a shopping mall.\"? Choose one between A and B.\nA: Environmentalists started a petition.\nB: Environmentalists produced a documentary.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_60",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The judge pounded the gavel.\"? Choose one between A and B.\nA: The courtroom broke into uproar.\nB: The jury announced its verdict.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_61",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I put my hands under the running faucet.\"? Choose one between A and B.\nA: The soap rinsed off my hands.\nB: The water splashed in my face.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_62",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"My closet was messy.\"? Choose one between A and B.\nA: I organized it.\nB: I decorated it.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_63",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man received a parking ticket.\"? Choose one between A and B.\nA: He parallel parked on the street.\nB: The parking meter expired.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_64",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I lit the candle.\"? Choose one between A and B.\nA: Wax dripped off the candle.\nB: The wax on the candle hardened.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_65",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man lost the competition.\"? Choose one between A and B.\nA: The competition was sabotaged.\nB: He intimidated his competitors.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_66",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The kidnappers released the hostage.\"? Choose one between A and B.\nA: They accepted ransom money.\nB: They escaped from jail.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_67",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The animal species became endangered.\"? Choose one between A and B.\nA: Their habitat was destroyed.\nB: Their predators went extinct.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_68",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"I pressed my hand into the wet cement.\"? Choose one between A and B.\nA: My handprint dried in the cement.\nB: Cracks emerged in the cement.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_69",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The woman was in a bad mood.\"? Choose one between A and B.\nA: She engaged in small talk with her friend.\nB: She told her friend to leave her alone.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_70",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"My skin broke out into a rash.\"? Choose one between A and B.\nA: I brushed against poison ivy in my yard.\nB: I eradicated the poison ivy from my yard.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_71",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man drank heavily at the party.\"? Choose one between A and B.\nA: He had a headache the next day.\nB: He had a runny nose the next day.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_72",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The woman became famous.\"? Choose one between A and B.\nA: Photographers followed her.\nB: Her family avoided her.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_73",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The boy threw a temper tantrum.\"? Choose one between A and B.\nA: His brother took his toys from him.\nB: He shared his toys with his brother.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_74",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The girl refused to eat her vegetables.\"? Choose one between A and B.\nA: Her father told her to drink her milk.\nB: Her father took away her dessert.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_75",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman banished the children from her property.\"? Choose one between A and B.\nA: The children hit a ball into her yard.\nB: The children trampled through her garden.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_76",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man's pocket jingled as he walked.\"? Choose one between A and B.\nA: His pocket was filled with coins.\nB: He sewed the hole in his pocket.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_77",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The detective revealed an anomaly in the case.\"? Choose one between A and B.\nA: He finalized his theory.\nB: He scrapped his theory.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_78",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman covered her mouth with her hand.\"? Choose one between A and B.\nA: She exhaled.\nB: She sneezed.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_79",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The bride got cold feet before the wedding.\"? Choose one between A and B.\nA: The wedding guests brought gifts.\nB: She called the wedding off.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_80",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The woman retired.\"? Choose one between A and B.\nA: She received her pension.\nB: She paid off her mortgage.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_81",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"I decided to stay home for the night.\"? Choose one between A and B.\nA: The forecast called for storms.\nB: My friends urged me to go out.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_82",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The couple got engaged.\"? Choose one between A and B.\nA: They planned a wedding.\nB: They took some time apart.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_83",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman contacted the real estate agent.\"? Choose one between A and B.\nA: The woman planned to buy a condo.\nB: The woman needed to clean her house.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_84",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"I tidied up my house.\"? Choose one between A and B.\nA: I was swamped with work.\nB: I was expecting company.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_85",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The woman's hair fell in her face.\"? Choose one between A and B.\nA: She pulled her hair back with a clip.\nB: She lathered shampoo into her hair.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_86",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman asked the man to leave.\"? Choose one between A and B.\nA: He insulted her.\nB: He thanked her.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_87",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The couple travelled south for the winter.\"? Choose one between A and B.\nA: They were retired.\nB: They were separated.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_88",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The woman lavished her friend with flattery.\"? Choose one between A and B.\nA: She wanted to ask her friend for a favor.\nB: She was irritated with her friend's whining.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_89",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The sick child coughed on his friend.\"? Choose one between A and B.\nA: His friend got sick.\nB: His friend sneezed.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_90",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The man confessed his love for the woman.\"? Choose one between A and B.\nA: The woman rejected him.\nB: The woman envied him.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_91",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The pair of students came under scrutiny by the teacher.\"? Choose one between A and B.\nA: The students both received excellent grades.\nB: Their responses on the assignment were identical.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_92",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The horse bucked.\"? Choose one between A and B.\nA: A fly bit the horse.\nB: The rider stroked the horse.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_93",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The man felt obligated to attend the event.\"? Choose one between A and B.\nA: He turned down his friend's invitation to go.\nB: He promised his friend that he would go.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_94",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"I regained composure from my fit of anger.\"? Choose one between A and B.\nA: My heart pounded.\nB: I took deep breaths.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_95",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"I put rubber gloves on.\"? Choose one between A and B.\nA: I was preparing to wash my hands.\nB: I was preparing to clean the bathroom.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_96",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"The hamburger meat browned.\"? Choose one between A and B.\nA: The cook froze it.\nB: The cook grilled it.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_97",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"Everyone in the class turned to stare at the student.\"? Choose one between A and B.\nA: The student's phone rang.\nB: The student took notes.\nAnswer:",
+        "output": "A"
+    },
+    {
+        "id": "COPA_98",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the effect of \"The secretary put the caller on hold.\"? Choose one between A and B.\nA: The caller's phone lost reception.\nB: The caller waited on the line.\nAnswer:",
+        "output": "B"
+    },
+    {
+        "id": "COPA_99",
+        "input": "According to the following passage, is the question true or false? Choose one from the option. Option: A, B.\nWhich sentence is the cause of \"My eyes became red and puffy.\"? Choose one between A and B.\nA: I was sobbing.\nB: I was laughing.\nAnswer:",
+        "output": "A"
+    }
+]

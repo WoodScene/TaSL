@@ -1,0 +1,142 @@
+[
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "kirill mikhanovsky"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comedy-drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "kirill mikhanovsky"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comedy-drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? [SYSTEM]: Daria Ekamasova acted in the movie. [USER]: Ok that sounds good. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "kirill mikhanovsky"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? [SYSTEM]: Daria Ekamasova acted in the movie. [USER]: Ok that sounds good. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comedy-drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? [SYSTEM]: Daria Ekamasova acted in the movie. [USER]: Ok that sounds good. [SYSTEM]: Whether anything else i need to do? [USER]: no , thanks for your help . not now. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "kirill mikhanovsky"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I have some leisure time so that i could watch a movie. Will you find me a movie directed by Kirill Mikhanovsky and find something like Comedy-drama genre? [SYSTEM]: I found 1 movies as per your taste. What about Give me Liberty? The movie has an average rating of 92 percent. [USER]: Who played in this movie? [SYSTEM]: Daria Ekamasova acted in the movie. [USER]: Ok that sounds good. [SYSTEM]: Whether anything else i need to do? [USER]: no , thanks for your help . not now. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comedy-drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "steven spielberg"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "imaginative fiction"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. [SYSTEM]: I found 1 movie called Close Encounters of the Third Kind. It is rated 95 percent. [USER]: Perfect! \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "steven spielberg"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. [SYSTEM]: I found 1 movie called Close Encounters of the Third Kind. It is rated 95 percent. [USER]: Perfect! \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "imaginative fiction"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. [SYSTEM]: I found 1 movie called Close Encounters of the Third Kind. It is rated 95 percent. [USER]: Perfect! [SYSTEM]: Anything else? [USER]: No, that is all. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "steven spielberg"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: I want to watch a movie. [SYSTEM]: I found a movie called Once Upon A Time In Hollywood. It has a rating of 85 percent. [USER]: Anything else? I like films directed by Steven Spielberg in the Imaginative fiction genre. [SYSTEM]: I found 1 movie called Close Encounters of the Third Kind. It is rated 95 percent. [USER]: Perfect! [SYSTEM]: Anything else? [USER]: No, that is all. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "imaginative fiction"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "peter jackson"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-directed_by> in the input dialogue.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. [SYSTEM]: Well, it sounds like you are talking about The Lord of the Rings: The Return of the King. it has a 93 % rating. [USER]: Who was in that? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "peter jackson"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. [SYSTEM]: Well, it sounds like you are talking about The Lord of the Rings: The Return of the King. it has a 93 % rating. [USER]: Who was in that? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. [SYSTEM]: Well, it sounds like you are talking about The Lord of the Rings: The Return of the King. it has a 93 % rating. [USER]: Who was in that? [SYSTEM]: Liv Tyler was in it. [USER]: Fine, I appreciate the idea. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "peter jackson"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-genre> in the input dialogue.",
+        "input": "[USER]: I want to see a movie by Peter Jackson that is a Fantasy. [SYSTEM]: Well, it sounds like you are talking about The Lord of the Rings: The Return of the King. it has a 93 % rating. [USER]: Who was in that? [SYSTEM]: Liv Tyler was in it. [USER]: Fine, I appreciate the idea. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me search for a Horror movie to watch? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "horror"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me search for a Horror movie to watch? [SYSTEM]: I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent. [USER]: How about a different movie? What else have you got? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "horror"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-genre> in the input dialogue.",
+        "input": "[USER]: Can you help me search for a Horror movie to watch? [SYSTEM]: I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent. [USER]: How about a different movie? What else have you got? [SYSTEM]: In Fabric has an average rating of 96 percent. [USER]: Who is the director and who acted in the movie? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "horror"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me search for a Horror movie to watch? [SYSTEM]: I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent. [USER]: How about a different movie? What else have you got? [SYSTEM]: In Fabric has an average rating of 96 percent. [USER]: Who is the director and who acted in the movie? [SYSTEM]: Hayley Squires acted in the movie, and Peter Strickland directed. [USER]: OK, sounds good, thank you. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "horror"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me search for a Horror movie to watch? [SYSTEM]: I found 6 movies to choose from. 47 Meters Down: Uncaged has an average rating of 45 percent. [USER]: How about a different movie? What else have you got? [SYSTEM]: In Fabric has an average rating of 96 percent. [USER]: Who is the director and who acted in the movie? [SYSTEM]: Hayley Squires acted in the movie, and Peter Strickland directed. [USER]: OK, sounds good, thank you. [SYSTEM]: Can I help you with anything else? [USER]: No, thanks for your help, I'm good. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "horror"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me find a movie to stream in the Play genre? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me find a movie to stream in the Play genre? [SYSTEM]: I'd be happy to help. I have 10 movies you might be interested in. May I recommend A Faithful Man? It is a well reviewed movie with an average score of 78 percent. [USER]: Can you tell me who directed it? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-genre>.",
+        "input": "[USER]: Can you help me find a movie to stream in the Play genre? [SYSTEM]: I'd be happy to help. I have 10 movies you might be interested in. May I recommend A Faithful Man? It is a well reviewed movie with an average score of 78 percent. [USER]: Can you tell me who directed it? [SYSTEM]: Yes, Louis Garrel directed the film. [USER]: I like his movies! Thank you for the help. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "play"
+    }
+]

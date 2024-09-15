@@ -1,0 +1,2502 @@
+[
+    {
+        "id": "QQP_0",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I speak English like celebrities?\nsecond sentence: How can I improve my English pronunciation?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_1",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does Quora intend to generate revenue?\nsecond sentence: How do Quora generate revenue?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_2",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can you remove permanent marker from plastic?\nsecond sentence: How do I remove permanent marker from rubber?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_3",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can male muslim date a foreign girl?\nsecond sentence: Would a foreigner date an Indian girl?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_4",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some experiences about studying in IISER?\nsecond sentence: What is it like to study at IISER Mohali?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_5",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does raw silk feel like cotton?\nsecond sentence: Is raw silk Saree made of pure silk?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_6",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I'm 18 and have started to do weight lifting. Will it stop my height to increase?\nsecond sentence: Does weight training stop height growth?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_7",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who do you think will win the 2016 Presidential Election?\nsecond sentence: Who will win the 2016 United States Presidential election: Trump or Clinton?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_8",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Will meth show in blood test after 3 days?\nsecond sentence: I am having a blood test in 3 days will Meth show up?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_9",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the differences between the Dell Inspiron 3000, 5000, and 7000 series laptops?\nsecond sentence: What are the differences between the Dell Inspiron 5000, and 7000 series laptops?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_10",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What makes life worth living?\nsecond sentence: Is life worth it?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_11",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can you save YouTube videos for offline viewing in laptop?\nsecond sentence: Which is the most viewed non-music video on Youtube?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_12",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does tech become a profitable and/or productive hobby for ordinary people who are not technologists?\nsecond sentence: What hobby should I keep to get productive results?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_13",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best beatboxing videos on YouTube?\nsecond sentence: Who are the best beatboxers on YouTube?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_14",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the easiest way to enrich vocabulary?\nsecond sentence: How do I expand my vocabulary?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_15",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I have a birth certificate from my native state in India, but all my other certificates including passport, schooling certificates and address proofs are from another state where I currently live. Which state do I get my birth certificate apostilled ? From my current state or my native state.\nsecond sentence: Can I apply for a passport from another state using my other state's birth certificate?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_16",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which company offers best health cover insurance in India including health check ups and tests?\nsecond sentence: Has anyone here tried Philips Lumea hair removal? Can I charge it several times or does it have an expiration date after limited use?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_17",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I repair my gas boiler?\nsecond sentence: How do I repair boiler?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_18",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is outside our universe? Also does it make sense to ask what is outside of the outside of universe?\nsecond sentence: Is there empty space outside the universe?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_19",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the scope for MHA after MBBS?\nsecond sentence: What is the scope of MBBS?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_20",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: In which form (hard or soft copy) should I read ncert?\nsecond sentence: What is the average work day at USCIS like as an Immigration Services Officer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_21",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is asset servicing?\nsecond sentence: What is asset?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_22",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does StubHub compare to Craigslist?\nsecond sentence: What are some complaints and criticisms of StubHub?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_23",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the safety precautions on handling shotguns proposed by the NRA in Rhode Island?\nsecond sentence: What are the safety precautions on handling shotguns proposed by the NRA in Oklahoma?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_24",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why isn't Charlie Sheen on Quora?\nsecond sentence: Why is Charlie Sheen so popular?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_25",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Am I good enough for clearing Google Summer of Code 2017?\nsecond sentence: How do I prepare for the Google Summer of Code (GSoC)?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_26",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I wanna start preparing for ias exam, how should I proceed?\nsecond sentence: Should IAS preparation start after graduation?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_27",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which American restaurant chains can be found in Norway? What do Norwegian people think of them? D\nsecond sentence: Which American restaurant chains can be found in Norway? What do Norwegian people think of them\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_28",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I improve my ability of solving problems?\nsecond sentence: What is the fastest way to improve problem solving skills?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_29",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is it like to study computer science at RKMVU?\nsecond sentence: What is it like to study computer science?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_30",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"In Westworld, what does the phrase \"\"We'll drink to the lady in the white shoes\"\" mean?\"\nsecond sentence: Would you visit Westworld?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_31",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between a headset and headphones?\nsecond sentence: How do I plug in a headphone cable in Procus One VR headset?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_32",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can you lose weight in 2 months?\nsecond sentence: How can I lose fat in 2 weeks?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_33",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What if I don't maintain minimum balance in my HDFC saving account?\nsecond sentence: Banks: How do I close an HDFC bank account?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_34",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How effective is China's one child policy?\nsecond sentence: Was China's one child policy effective?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_35",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What makes a piano accompanist good for a singer?\nsecond sentence: Am I a good singer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_36",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Was Jean-Paul Sartre a nihilist?\nsecond sentence: How do you define nihilism in 3 words?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_37",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What will be the best SEO strategies?\nsecond sentence: What are the top three SEO strategies?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_38",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Narendra Modi the best Indian Prime Minister ever? Why so?\nsecond sentence: Is Narendra Modi the best Prime Minister of India?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_39",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many genders do you believe there are?\nsecond sentence: How many sexes and genders are there?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_40",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: When will Donald Trump implode?\nsecond sentence: Is Donald Trump likely to win the 2016 election (late 2015 / early 2016)?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_41",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best foods and drinks to help you go to sleep?\nsecond sentence: What food or drinks are natural sleeping pill?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_42",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which specific heat is used to calculate the gas internal energy change?\nsecond sentence: Which specific heat is used to calculate the gas internal energy change? Why?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_43",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Hillary Clinton on Quora?\nsecond sentence: Who is Hillary Clinton?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_44",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to learn networking?\nsecond sentence: What is the best way to learn how networks work?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_45",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do you know Jackie Chan?\nsecond sentence: Do the Chinese like Jackie Chan?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_46",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many times has LeBron James been to the NBA finals?\nsecond sentence: NBA: What is the best in-game photo of Lebron James?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_47",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does sex feel like for the first time?\nsecond sentence: How does it feel when a person has sex for the very first time?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_48",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why are backlinks important?\nsecond sentence: Why and how are backlinks important?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_49",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some Non Electronic Dance Songs that have been remixed by Trance Artists amazingly?\nsecond sentence: Who are the artists at A State of Trance label?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_50",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many Bollywood Actresses are showing camel-toe in real life?\nsecond sentence: How many Bollywood Actresses are comedian in real life?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_51",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who is the Compare of the Mr Olympia?\nsecond sentence: Is it possible to put some skill in a human through brain surgery?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_52",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to restore an iPhone back to factory settings?\nsecond sentence: How do you restore an iPhone to factory settings with iTunes?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_53",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I'm 18 and my body doesn't consume alof of fat, I eat alot of fatty things but I can't get a alot fat, why?\nsecond sentence: What is the best type of Steering mechanism to use for a fuel efficient Prototype Car?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_54",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What would you do if you could relive your teenage years?\nsecond sentence: If you could relive your teenage years what would you do?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_55",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can I lose weight without dieting? If yes, how?\nsecond sentence: How can we reduce weight without dieting?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_56",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I start learning and practicing programming?\nsecond sentence: Where should I start learning to program?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_57",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can you attract someone?\nsecond sentence: How can I not get attracted to someone?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_58",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I use a VPN service and get Thunderbird to work at the same time?\nsecond sentence: Which is the best free VPN in India?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_59",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: If scientists invent a mechanism for humans to communicate in the language of animals, birds, plants & vice versa, then how would life be different?\nsecond sentence: How would the world be if scientists invented a mechanism for humans to communicate with all animals, plants & vice versa?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_60",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I open a private Instagram account?\nsecond sentence: How do I view someone's private Instagram pictures?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_61",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many flights does a typical airline pilot fly a year?\nsecond sentence: How common is this practice for airline pilots to watch movies during flights?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_62",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is being gay or lesbian less moral than divorce?\nsecond sentence: Is Run Ze Cao's falsification of Einstein's relativity valid?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_63",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What exactly happens when energy changes from one form to another?\nsecond sentence: \"Einstein said \"\"Energy cannot be created or destroyed, it can only be changed from one form to another\"\", so how did it come about in the first place?\"\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_64",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is this sentence grammatically correct? I am used to hard work.\nsecond sentence: \"Is the sentence \"\"I'm to work\"\" grammatically correct?\"\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_65",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I remove dried (mosquito) blood stains from my clothes?\nsecond sentence: How do you remove blood stains from clothing?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_66",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Should presidential debate moderators have to fact check debates?\nsecond sentence: Do you think it's a journalist's/debate moderator’s job to fact check presidential candidates during the debates?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_67",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Has anyone formed an intimate relationship with somebody that they met on Quora?\nsecond sentence: Has anyone developed a romantic relationship after meeting on Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_68",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What penis size do women prefer?\nsecond sentence: What is the ideal penis size?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_69",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I start a music band?\nsecond sentence: How should I get a start in music?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_70",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is a small nation like Israel so technologically advanced and powerful?\nsecond sentence: What makes Israel such a powerful country?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_71",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is our Universe expanding?\nsecond sentence: Is universe expanding or not?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_72",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What will happen if two black holes collide?\nsecond sentence: What happened to the event horizons of the two black holes that merged sendig to us gravitational waves?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_73",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the requirements of rebar detailing in UK?\nsecond sentence: What are the requirements for rebar detailing in UK?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_74",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you start a web hosting service?\nsecond sentence: How do I start a web hosting company?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_75",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I learn Tamil on my own?\nsecond sentence: How can I learn Tamil?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_76",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I enjoy company but feel more content when I'm alone and tend to stay alone more and more. Should I join a sorority at Columbia University?\nsecond sentence: Why does it feel like I'm alone?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_77",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do i hide images and video in Samsung J7?\nsecond sentence: Is samsung j7 water proof?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_78",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is a referral?\nsecond sentence: What are referral deals?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_79",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How long does it take to get an answer on Quora?\nsecond sentence: How long do I have to wait to get answers to my Quora questions?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_80",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What individuals and events in history are a source of pride for Bulgaria?\nsecond sentence: What individuals and events in history are a source of pride for Indonesia?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_81",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why Wipro is delay to give date of joining after getting appointment letter?\nsecond sentence: I got an offer letter and date of joining in Wipro. My training is in BAS-CES-ECM. What does this stream deal with? Whats is the future of it too\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_82",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who was the worst president in U.S. history and why?\nsecond sentence: Who was the worst Democratic nominee for President in history?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_83",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do vehicle tyre numbers & sizes mean?\nsecond sentence: Why are the tyres of the car black? Why can't it be any other?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_84",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I have a successful long distance relationship?\nsecond sentence: Does long distance relationships actually work?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_85",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"What does the phrase \"\"sometimes there'a a line in between\"\" mean?\"\nsecond sentence: \"What does the phrase \"\"sometimes there's a line in between\"\" mean?\"\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_86",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can I pay ICICI credit card bill at a physical bank?\nsecond sentence: How can we pay the electricity bill via the State Bank Of India without having a credit card?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_87",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: My Current Bike is Hero Honda Passion Plus (2008) should I buy KTM Duke 390 As My Next Bike?\nsecond sentence: What are the effective way to manage refugee?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_88",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What does the laws in Honduras regarding Razor Edge Pitbulls say?\nsecond sentence: Apart from group of eight what are the other good universities in Australia for construction management?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_89",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it legal to make biographic movies of others in India?\nsecond sentence: Which movie is the best biographical drama?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_90",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Better Call Saul: Season 1: What condition does Chuck McGill have?\nsecond sentence: How much did Cinnabon pay for the product placement in Better Call Saul?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_91",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"What is the meaning of the word \"\"occuied\"\"?\"\nsecond sentence: What is the meaning of word jiyr?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_92",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How was the KVPY 2016 SX stream?\nsecond sentence: How difficult was KVPY SX 2016?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_93",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How important khayal style in hindustani music?\nsecond sentence: Is it better to physically (fully) grow up sooner or later for body in future?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_94",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can I be notified when someone goes online on WhatsApp?\nsecond sentence: If someone blocks me on WhatsApp, how can I unblock?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_95",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's the funniest highbrow joke you've ever heard?\nsecond sentence: What is the best joke you have ever heard?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_96",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What proof is there of life after death?\nsecond sentence: What shall be those proofs of a life after death?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_97",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the funniest movie to watch?\nsecond sentence: What is the funniest movie you have ever watched?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_98",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the value of RAM in super computers?\nsecond sentence: What is the most RAM a computer has ever had?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_99",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Astrology: Which zodiac sign is the best partner for Libra? And what do you think about Libra characteristics?\nsecond sentence: Why is Libra the only astrological sign where the symbol is not a living creature?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_100",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I get into Internet security?\nsecond sentence: How can I get started to learn information security?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_101",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does a great white shark adapt to its enviroment?\nsecond sentence: What are the adaptations of a great white shark?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_102",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: My phone is heating above the battery should I return the phone to snapdel?\nsecond sentence: Should I use my phone as an alarm clock?  The phone is right next to my head at night.  Will it give me cancer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_103",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is square root of negative numbers imaginary?\nsecond sentence: Are square roots of negative numbers always imaginary?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_104",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best outfit a guy would wear for working out in the summer like it's the year 1990?\nsecond sentence: What workout attire would guys wear in the summer like it's the year 1990?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_105",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do phytoplankton cause eutrophication?\nsecond sentence: What are the stages of eutrophication? What happens in each stage?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_106",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the format for writing a debate in CBSE English Board Exams?\nsecond sentence: Is English exam always the first exam in ICSE and CBSE boards examination?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_107",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is non-fiction?\nsecond sentence: What are some must read non-fiction books?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_108",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is there any problem with using 0 diopter lens glasses for patient with repaired RD?\nsecond sentence: Are there any problems in Android Lollipop 5.0 like with the battery backup motherboard?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_109",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why, with all the focus on Education Reform year after year, does it seem like the American public school system remains as broken as ever?\nsecond sentence: How will you as president reform education? There are parts of the SC Curriculum which date back over a 100 years, how will you modernize the system?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_110",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Other than Mahatma Gandhi, which person would be a good candidate to appear on Indian currency, and why?\nsecond sentence: If not Mahatma Gandhi, who else deserves to be on the Indian rupee?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_111",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I create a superhero universe? Any tips/ideas?\nsecond sentence: I'm writing a superhero universe and need a superhero identity for one of the protagonists. Any ideas?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_112",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do bilingual people think in both languages?\nsecond sentence: In what language is the inner monologue of people who speak two languages?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_113",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can Google Map show what type of public metered parking is available on certain streets?\nsecond sentence: What are the coolest things seen on Google Street View?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_114",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do Muslims not actively make videos mocking or insults other religions just like many non-Muslims do about Islam on YouTube?\nsecond sentence: I've not yet started studying 11th syllabus of JEE Main, is this book good for the same?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_115",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What system elements are incorporated into a single camcorder?\nsecond sentence: What are the best orchestral works that strongly incorporate elements of rock music?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_116",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Julian Assange dead, as of 17 Oct, 2016?\nsecond sentence: Is Julian Assange alive?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_117",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: My cat had miscarriage 2 days earlier and she is stil bleeding unable to sit properly, seems to be in pain?\nsecond sentence: Amazon great Indian sale 2016?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_118",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I start writing my own blogs?\nsecond sentence: How can we start our own blogs?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_119",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is a good solar panel installation provider near Perris, California CA?\nsecond sentence: Which is a good solar panel installation provider near Loomis, California CA?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_120",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does life begins from a single cell called zygote?\nsecond sentence: How were those cells produced from a single cell called a zygote (a fertilized egg)?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_121",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Should people over 100 not be allowed to vote?\nsecond sentence: Should people over 90 not be allowed to vote?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_122",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it possible to have a prolong period and test positive for pregnancy?\nsecond sentence: Can I be pregnant even after having a period?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_123",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: My roommate’s dog peed on my mattress while I was away. She only knew about this after I found out just now. How would you solve this?\nsecond sentence: My cat peed on my bag. Is it ruined forever should I just throw it away?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_124",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is it to live in Belgium as an average citizen, meaning the lifestyle and the people, etc.?\nsecond sentence: Where can I find stories or statistics about people who change their lives dramatically after turning 50. I don't mean the usual mid life stuff such as buying a red sports car etc, I mean changing their lifestyle in a major way.\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_125",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is divxcrawler.com legal?\nsecond sentence: How is Omaze.com legal?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_126",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: GATE: Is it necessary to take coaching for Gate?\nsecond sentence: Is it necessary to go for coaching for GATE preparation?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_127",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some popular method to do suicide?\nsecond sentence: What is the easiest pain free method of committing suicide?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_128",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I get a complete list of all old Gmail accounts in my name?\nsecond sentence: How can I find all my old Gmail accounts?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_129",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is viscous fluid?\nsecond sentence: Which is the least viscous fluid?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_130",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What universities does Access National recruit new grads from? What majors are they looking for?\nsecond sentence: What universities does Groupon recruit new grads from? What majors are they looking for?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_131",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What material should I use for the JN0-380 exam?\nsecond sentence: What material should I use to pass the C2150-202 exam?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_132",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the most annoying types of highly upvoted answers on Quora?\nsecond sentence: What are some of your highly upvoted answers on Quora?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_133",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you get rid of stretch marks found on the neck?\nsecond sentence: What are some ways to get rid of stretch marks on thighs?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_134",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is carbon sequestration a viable solution to global warming?\nsecond sentence: Can carbon capture and storage be used to reverse global warming?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_135",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does it matter whether humans are selfish or evil?\nsecond sentence: Does it matter whether humanity is evil or not?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_136",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I control on my anger?\nsecond sentence: How can someone control their anger?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_137",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can you receive money on PayPal without crediting it first?\nsecond sentence: How do I receive money through PayPal?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_138",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best and most advisable age for a man to get married?\nsecond sentence: Why do most men get more handsome with age, while most women look most attractive at a younger age?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_139",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where is the cheap mobile and accessories market in delhi?\nsecond sentence: Where can I buy apple accessories in Delhi?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_140",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I change a wifi password?\nsecond sentence: How can I change my WiFi password on my own?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_141",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do women wear figure-hugging clothes? Is this to showcase their sexuality / its comfortability. Are there any other reasons?\nsecond sentence: In the United States, why do women wear clothes that expose more of their bodies than men?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_142",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I stop myself from hating people?\nsecond sentence: How do I stop hating someone who hurt me?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_143",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which startups are hiring in Toronto in 2016?\nsecond sentence: Which startups are hiring in Toronto?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_144",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which are the best emotional english poems [5 mins] to recite?\nsecond sentence: What are some best poem in English?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_145",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where do you find stocks to swing trade?\nsecond sentence: What is a swing trade?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_146",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: To those with experience: how do you suggest those having difficulty with schizophrenia learn to cope more easily?\nsecond sentence: Mr. Robot (TV series): Does Elliot have schizophrenia?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_147",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to earn money while studying?\nsecond sentence: How can I earn money while studying 11th?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_148",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I improve my German pronunciation?\nsecond sentence: What is the best way to improve Russian pronunciation?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_149",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the meaning of this Punjabi song in Hindi or English?\nsecond sentence: \"What does the Hindi word \"\"Astitva\"\" mean in English?\"\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_150",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I convert my 64.4 ℅ in UPTU to CGPA or GPA, please write the value and explain below it?\nsecond sentence: When you are in a cage locked and it is dropped in a sea, what will you do to save your life?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_151",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Will Bangalore be the next Silicon Valley?\nsecond sentence: What contributed to Bangalore becoming the Silicon Valley of India?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_152",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is constitutive modelling?\nsecond sentence: For a model house what material should I use to light it up?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_153",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Has anyone attended the previous marketing conclaves of KIIT school of management? Are they helpful?\nsecond sentence: How can one attend the 7th national marketing conclave of KIIT school of management ?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_154",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is a Chow Chow/Pomeranian mix like as a pet?\nsecond sentence: What does a chow chow mixed with a pomeranian look like?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_155",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the latest IT trends?\nsecond sentence: What are the latest trends in SEO?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_156",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"What is the Rebellion in \"\"The Hunger Games\"\"?\"\nsecond sentence: What is The Hunger Games?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_157",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's the best place to learn React.js? Any prerequisite?\nsecond sentence: I'm British. I've lived my entire adult life in the US. I'm moving back to England. What can I do to prepare my finances?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_158",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Was Dr Vinay Kumaran ragged in First year of MBBS?\nsecond sentence: Was Dr. Vinay Kumaran ragged in the first year of MBBS?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_159",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can a country like Nigeria recover from recession?\nsecond sentence: How much does each major part of a car cost proportionately?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_160",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best speeches on humanity?\nsecond sentence: What are the best human rights speeches ever?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_161",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do l see who viewed my videos on Instagram?\nsecond sentence: How can I see who viewed my video on Instagram but didn't like my video?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_162",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best homeless living and survival hacks?\nsecond sentence: What are the best healthful lifestyle hacks?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_163",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do smart people do?\nsecond sentence: What do smart people do with their laptop?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_164",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How did Ron Conway become Ron Conway?\nsecond sentence: Should I email Ron Conway?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_165",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is healthier: tea or coffee?\nsecond sentence: What is healthier, tea or coffee?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_166",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is your best infographic?\nsecond sentence: What are the best infographics on invitation?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_167",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the chances of getting a job in Australia if I get a PR visa?\nsecond sentence: How do I get Permanent Residency (PR) for Australia?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_168",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which are the best MBA colleges in Gwalior?\nsecond sentence: Which is the best college for MBA course in Gwalior?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_169",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some entry level IT jobs?\nsecond sentence: What are some entry-level IT jobs?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_170",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best German universities for MS in Computer Science (no tuition fee)?\nsecond sentence: What are user defined functions?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_171",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How much food do the WWe Superstars eat?\nsecond sentence: How much food do wwe superstars eat?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_172",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: While I am requesting online SBI global debit card, I am getting error, saying either MOP not ser or invalid MOP for card type, can you help me?\nsecond sentence: I am unable to add my SBI debit card (Mastercard) to my Google Wallet account. Does Google not support SBI debit cards?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_173",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I read XML data in MySQL workbench? What will be the stored procedure to insert XML data as a parameter into the table?\nsecond sentence: How do I add a primary key in to the existing table in MySQL if the existing data has duplicate values?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_174",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the cut-off for KVPY exam( SA stream ) 2016 and when are the results declared?\nsecond sentence: What is the Expected cutoff for KVPY SA stream 2016?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_175",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is my take home per month from IBM?\nsecond sentence: Why does pyschopath triangulate?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_176",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is there any way to get rid of fat soluble drugs without losing weight?\nsecond sentence: Is there any way you can get rid of the fat soluble drugs stored in your fat without weight loss?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_177",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is motive of Mulayam Singh Yadav behind expelling Akhilesh Yadav from Samajwadi party?\nsecond sentence: Why did Mulayam Singh Yadav expel Akhilesh Yadav from the Samajwadi Party for 6 years?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_178",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which company has the best image recognition APIs in the market place today?\nsecond sentence: What are the best free image search  APIs out there?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_179",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What will it take for Trump supporters to realize that they got conned?\nsecond sentence: Are Trump supporters beginning to realize they've been conned?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_180",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do snails eat?\nsecond sentence: How and what do snails eat?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_181",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which aircraft was superior - the Douglas DC8 or the Boeing 707?\nsecond sentence: Was the Douglas DC8 a superior aircraft to the Boeing 707?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_182",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do bad things happen to good people? Or do bad things create good people?\nsecond sentence: Why do good things happen to bad people, and vice-versa?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_183",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I get excellent at programming?\nsecond sentence: How do I excel at programming?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_184",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How will China respond if India stop sharing water with Pakistan (Indus Waters Treaty)?\nsecond sentence: What will be the total effect on Pakistan and India if India cancels the Indus Water Treaty?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_185",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was your first mobile phone/handset?\nsecond sentence: What was your first mobile/cell phone?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_186",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Was Ataturk potentially gay or sterile as he never fathered children?\nsecond sentence: Was Ataturk straight, bisexual or gay? What evidence can you give to me to prove it or deny it?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_187",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is the best unedited photo you have taken?\nsecond sentence: What is the best unedited photo you've taken?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_188",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do you think about Narendra Modi's decision about banning 500Rs & 1000Rs notes? And what will be the effects, Do this make corruption free India?\nsecond sentence: What do you think about banning 500 and 1000 rupee notes in India?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_189",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What should I do to sleep better?\nsecond sentence: What is the best way to sleep better?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_190",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: BenQ ZOWIE XL2720 144Hz 27 or BenQ 1ms GTG XL2720Z?\nsecond sentence: How do I can remove fear of an interview?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_191",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was the significance of the battle of Somme, and how did this battle compare and contrast to the Battle of Eslands River?\nsecond sentence: What is the significance of the Battle of the Somme?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_192",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who is the worst teacher you ever had?\nsecond sentence: Who was the worst student you ever had as a teacher?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_193",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the 3 types of NoSql databases?\nsecond sentence: What are the main differences between the four types of NoSql databases (KeyValue Store, Column-Oriented Store, Document-Oriented, Graph Database)?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_194",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can one switch from a service-based company like Wipro and TCS to a product-based company like Amazon and Oracle?\nsecond sentence: How do I go for a product based company like Adobe, Amazon from TCS?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_195",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where can I find affordable safety switch services in Sydney?\nsecond sentence: How do I find affordable safety switch installation service in Sydney?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_196",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I forgot to cancel my Tatkal waiting list ticket. Will I get a refund? If it is, when will I get it?\nsecond sentence: How much time does it take to get refund of IRCTC cancelled ticket?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_197",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many goals are scored by Messi and Ronaldo via a free kick?\nsecond sentence: How many goals has Messi scored?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_198",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do carbon dioxide be converted into oxygen?\nsecond sentence: How can I convert carbon dioxide into oxygen?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_199",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some of the best team building activities outside office?\nsecond sentence: What are some good team building activities for consulting teams?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_200",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Whose reflection is in Neil Young's sunglasses in the famous photo from Oakland Stadium in 1974?\nsecond sentence: \"In Neil Young's song \"\"When You Dance\"\" from his album \"\"After the Gold Rush,\"\" the tempo speeds up dramatically. When does this happen, and why?\"\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_201",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"Why do people say \"\"sorry to hear that\"\" when they mean \"\"I am sorry that happened\"\"?\"\nsecond sentence: How can I say sorry to the dead?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_202",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do mountain ranges in Oklahoma differ from mountain ranges in Missouri?\nsecond sentence: How do mountain ranges in Oklahoma differ from mountain ranges in Idaho?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_203",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How important is freedom?\nsecond sentence: Why is freedom important to you?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_204",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: If our parents never taught us to walk when we were toddlers, would we be able to walk as adults?\nsecond sentence: Why are Indian parents not able to control their toddlers when they are out in public places?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_205",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can a bank refuse to transfer money for some one whose name is Mohammad?\nsecond sentence: How do I transfer money from one bank account to another on my mobile device?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_206",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Jayalalithaa on ventilator support?\nsecond sentence: Is Jayalalithaa alive?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_207",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does baking soda help to whiten teeth?\nsecond sentence: Does baking soda really help whiten teeth?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_208",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do people in India think of the Cauvery river water dispute?\nsecond sentence: What can be the best possible solution to Cauvery river water sharing issue between Karnataka and Tamil Nadu?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_209",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What advice does Jon Skeet will give to a novice programmer to become a champ like him?\nsecond sentence: What advice can you give to a novice computer programmer?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_210",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it worth it to pay for PhD from my pocket?\nsecond sentence: Is it foolish to pay for your PhD out of your own pocket?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_211",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How big is the average penis?\nsecond sentence: How big is the average sized penis?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_212",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best places to visit in Kerala for college students?\nsecond sentence: What are the best 10 places to visit in Kerala including any falls?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_213",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How are rotation and revolution alike and different?\nsecond sentence: Days relate to the earth's rotation, and years to its revolution around the sun. What other time measurements are based on naturally occurring cycles?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_214",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which are the better laptops, HP or Dell?\nsecond sentence: Whose laptops are better, HP or Dell?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_215",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I apply for PPF?\nsecond sentence: What is PPF?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_216",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How much money deposite in a saving account?\nsecond sentence: How much money can we deposit in a savings account without any tax?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_217",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Business degree from WGU?\nsecond sentence: Some friends I snap with tell me that my snap dissapears when they open it, the weird thing is that my time is set on 10sec. Can someone help me?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_218",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: My girlfriend just left me without a reason,how do i heal my broken heart?\nsecond sentence: My girlfrien just left me without a reason,how do i heal my broken heart?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_219",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I become a cricketer in Canada?\nsecond sentence: How can I become a cricketer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_220",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What about drinking too much green tea?\nsecond sentence: Why should I drink green tea?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_221",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does acquired behavior affect a person?\nsecond sentence: What are the steps to becoming a computer programmer from highschool throughout?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_222",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do people believe in flat earth?\nsecond sentence: Why do people believe the earth is flat when clearly earth is round from space?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_223",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What were the traits, habits and characteristics of Leonardo da Vinci?\nsecond sentence: Was Leonardo da Vinci a pentachromat?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_224",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best freelancing sites?\nsecond sentence: Which is best site for freelancing?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_225",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is the best book for teens?\nsecond sentence: What is the best fiction book for teens?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_226",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do specific heat capacity of objects differ?\nsecond sentence: What are the factors on which the specific heat of a material, like water, depends?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_227",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does God live within myself?\nsecond sentence: What can be conceptual questions of kinematics?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_228",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: If Obama is Christian as he claims, why does he ignore the Christians being murdered by Muslim terrorists in the Middle East and around the world?\nsecond sentence: How can an average student increase his concept for the JEE?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_229",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is Tangent Universe?\nsecond sentence: What is the Tangent Universe?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_230",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What characterizes tactile people?\nsecond sentence: What are Tactile Hallucinations?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_231",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"Why is \"\"Foster's Home for imaginary friends\"\" forgotten?\"\nsecond sentence: Why is Foster's Home for Imaginary Friends cartoon forgotten?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_232",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the safety precautions on handling shotguns proposed by the NRA in Washington?\nsecond sentence: What are the safety precautions on handling shotguns proposed by the NRA in New Jersey?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_233",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the fees for an MBA in SP Jain Institute of Management, Mumbai?\nsecond sentence: Can I get any global executive MBA from SP Jain college?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_234",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What can delay your period besides pregnancy?\nsecond sentence: What could cause your period to be 14 days late other than pregnancy?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_235",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I bulk add a page to multiple pdf files?\nsecond sentence: How can I add a countdown timer in a PDF file?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_236",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do European martial arts seem to be more homogenous than Asian martial arts?\nsecond sentence: Suppose you are given 8 indistinguishable balls and 24 bins. How many different ways are there to distribute these 8 balls among these 24 bins?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_237",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Hi Patrick! I was wondering if you could give us permission to use one of your pictures in our book about Flying Dragons?\nsecond sentence: What's the situation with Fox News and FBI?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_238",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you start a private equity firm?\nsecond sentence: How do I start a successful private equity firm?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_239",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I have recently bought a Lenovo ideapad 300 with Intel HD 520 graphics…I want to know whether can I add a dedicated graphic card to it.?\nsecond sentence: Can a dedicated graphics card be added to a laptop that has an integrated Intel HD 520 graphics card?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_240",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What can a hacker do with an IP address?\nsecond sentence: How do I trace someone through an IP Address?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_241",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it better to ask things to people you don't know online or ask things to people who know you and can't be completely objective about what's asked?\nsecond sentence: How do you train your cat to stop peeing on your furniture?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_242",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can we learn c programming?\nsecond sentence: How should I start to learn c language?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_243",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What happens if you use the wrong motor oil in your engine?\nsecond sentence: What happens to used motor oil?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_244",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How would you describe Donald Trump?\nsecond sentence: What do you think about the Donald Trump? How would you describe him?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_245",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the best safe proxy servers?\nsecond sentence: Which is the best proxy server to use?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_246",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can you get over someone?\nsecond sentence: How do you get over someone you think you once had?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_247",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Are there really 8 planets and 1 dwarf planet in the solar system?\nsecond sentence: What are the dwarf planets in the solar system?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_248",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is a suitable solar panel installation provider in Taft, California CA?\nsecond sentence: What is a suitable solar panel installation provider in Lincoln, California CA?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_249",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can a photon not have mass but still have momentum?\nsecond sentence: How can photons have no mass and yet still have energy given that [math]E=mc^2[/math]?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_250",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What function does WebLogic serve?\nsecond sentence: Why are autistic People more prone to Shutdowns more than other people?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_251",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can anyone give me a good short courses institute's website in Australia?\nsecond sentence: Can anyone advice me on a good English PG course? Preferably distance education. I am in Chennai\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_252",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's the difference between cd and DVD?\nsecond sentence: What is difference between CD and DVD?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_253",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"What is the meaning of the word \"\"wanton\"\"?\"\nsecond sentence: \"What are some sentence examples using \"\"wanton\"\"?\"\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_254",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is a good song to lyric prank your best friend?\nsecond sentence: What are the best songs to lyric prank a girl friend?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_255",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the benifets of eating spicy food?\nsecond sentence: What are the health benefits of eating spicy food?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_256",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can someone make more friends?\nsecond sentence: How do I make more friends? How do I?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_257",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the notice period in oracle india pvt ltd?\nsecond sentence: I have got confirmation from Oracle India that I've been selected. Does Oracle India allow for a 90 day notice period?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_258",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I interface with Omnivision cameras such as this OV9712-A camera module?\nsecond sentence: What is autofocus camera?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_259",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where is the aadhar card enrollment centre in bhubaneswar?\nsecond sentence: I have lost my Aadhaar enrollment slip & registered mobile number as well. How do I download my Aadhaar card?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_260",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why does China supports terrorists like Masood Azhar?\nsecond sentence: Why is China blocking the move to ban Masood Azhar at UN?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_261",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"What is the meaning of \"\"Life, Liberty and the pursuit of Happiness\"\" in the Declaration of Independence?\"\nsecond sentence: Is abortion in America a violation of the rights of life, liberty, and the pursuit of happiness?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_262",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What kind of economy does the United States have compared to the one in Spain?\nsecond sentence: What kind of economy does the United States have compared to the one in Canada?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_263",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are TISS interview Like?\nsecond sentence: What are the weirdest questions asked in TISS interview?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_264",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What would happen if Pakistan goes to war against India?\nsecond sentence: What will happen if there is a war between India and Pakistan?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_265",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which produces more eggs: cestoda or trematoda?\nsecond sentence: How do I develop a sense of self-love and self-confidence, which will allow me to be a more productive and successful individual?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_266",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is technology changing the culture of Switzerland?\nsecond sentence: How does technology change culture?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_267",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is meant by patriotism?\nsecond sentence: In the Soviet Russia, do the bullets actually dodge you?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_268",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best book for becoming rich?\nsecond sentence: Book suggestions: best reads for practical advice on accumulating riches?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_269",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who enjoys sex the most: men or women? And why?\nsecond sentence: Is it true that women enjoy life more than men?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_270",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which subject has more scope between zoology and biology? And how much salary should I get?\nsecond sentence: Is there any scope of Renewable energy engineering as a masters subject? If so, which company recruits and how much salary does it offer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_271",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you know if you are in love or just limerice?\nsecond sentence: When do you know that you are in love?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_272",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I get a job at Intel?\nsecond sentence: How do I get jobs at INTEL?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_273",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do many people consider Age of Empires II as a better game than Age of Empires III?\nsecond sentence: Age of Empires vs. Rise of Nations, which is a better game?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_274",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it impossible to become a professional ballet dancer if you've never taken a ballet class in your life, and you're 17?\nsecond sentence: How frequently do ballet dancers replace their shoes?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_275",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the factors that causes data inconsistency in distributed platform/application?\nsecond sentence: What are the main data platform?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_276",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I see a non-friend's photos on Facebook?\nsecond sentence: How do I see hidden friends of a friend on Facebook?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_277",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Body parts cannot be used as standard units of measurements. Why?\nsecond sentence: Is there any part or any organ of our body that is of no use?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_278",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's something you wish people knew about you?\nsecond sentence: What’s something you wish everyone knew about you?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_279",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do my dating rules help me get a girlfriend?\nsecond sentence: Will my dating rules help me get a girlfriend?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_280",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What does 84-2-1 code mean?\nsecond sentence: What is the 5-4-2-1 code?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_281",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was/were the reason/s behind the decline of the Indus Valley civilization?\nsecond sentence: How did the Harappan and Indus Valley civilizations disappear?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_282",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I know if my wife is a cheater?\nsecond sentence: How do I know if my wife cheats?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_283",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How much is in an eight ball of meth?\nsecond sentence: How much profit will I make off a quarter ounce of meth?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_284",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the animal rights?\nsecond sentence: Why are animal rights controversial?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_285",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is masters in university of Connecticut?\nsecond sentence: What are you views on Rakhi Sawant wearing dress with pics of Modi?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_286",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I make friends on Quora for practice my English?\nsecond sentence: How can I make friends on Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_287",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What suggestions can be considered for improving the Indian education system?\nsecond sentence: How can we change India's education system?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_288",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I'm 2 weeks pregnant and I don't want the baby; what should I do?\nsecond sentence: What is the best way to get rid of a 2-3 week pregnancy?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_289",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to take revenge on my Ex?\nsecond sentence: What are some good ways to get revenge on someone?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_290",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the meaning of imperialism?\nsecond sentence: What is the definition of imperialism?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_291",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do you like sex?\nsecond sentence: How do you like sex?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_292",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some of the traffic rules in India that people don't follow/know about?\nsecond sentence: Why does people in Noida (INDIA) not adhere to the traffic rules?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_293",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is Soy milk bad for you?\nsecond sentence: Is soy milk healthy?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_294",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Dating and Relationships: How can I find out what social media my husband is on for free?\nsecond sentence: How can I find out whether my partner is using dating sites?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_295",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do some people still think Global warming a myth?\nsecond sentence: Why are there people who still don't believe that global warming is real?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_296",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Microeconomics: How would you explain elasticity to a child?\nsecond sentence: What are the most unusual business models?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_297",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some cool psychological hacks?\nsecond sentence: What psychological tricks and hacks are useful to know?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_298",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Closed captions on CNN are badly garbled and unreadable and have been that way for hours. Why can't CNN fix that in a timely manner?\nsecond sentence: How many times of BBC and CNN talk about the WeiBo and WeChat in the reports from 2010 to 2015?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_299",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between computer science engineering, software engineering and mechatronics?\nsecond sentence: What is the difference between computer science, computer engineering, and software engineering?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_300",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are strengths and weaknesses of Conflict Theory?\nsecond sentence: What are the strengths and weaknesses of the US economy?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_301",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Approximately how many students have dropped a year off to join SPA Delhi for architecture?\nsecond sentence: Where can you the watch the English dubbed, Naruto Shippuden episode 362?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_302",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was The Hundred Years War and who fought in it?\nsecond sentence: What was the Hundred Years War?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_303",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does QQ manage to transfer files so quickly?\nsecond sentence: What do Chinese people write on the toilet's doors with a phone or qq number?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_304",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Should I invest in the Japanese Stock market?\nsecond sentence: How do I invest in the Japanese stock market?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_305",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I’m planning for a career as FD/RD agent. What is the commission percentage do FD/RD agents receive?\nsecond sentence: With MBA in operations as a major What kind of job roles and prominent recruiting companies are seen that hire From top B-schools?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_306",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to reduce weight fast?\nsecond sentence: What are the best ways to lose a lot of weight as quickly as possible?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_307",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which one comes first, charisma or self confidence?\nsecond sentence: How do tailored shirts fit?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_308",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can one join the Indian Air Force as a doctor after doing their MBBS?\nsecond sentence: I am a medical student, aspiring to join the Indian army as a doctor after my MBBS. Who can I contact for advice and counselling regarding this matter?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_309",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I change my profile photo in here on Quora?\nsecond sentence: How can I upload my profile picture in Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_310",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why does air flow?\nsecond sentence: How can you determine which way the air flow is?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_311",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What language was PayPal written in?\nsecond sentence: What language is Xobni written in?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_312",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some things new employees should know going into their first day at Aon?\nsecond sentence: What are some things new employees should know going into their first day at AT&T?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_313",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is there a multiverse?\nsecond sentence: Is the multiverse a universe?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_314",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is neuro linguistic programming?\nsecond sentence: What is Neuro Linguistic programming (NLP)? What are its uses?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_315",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the recipe for vattalappam?\nsecond sentence: What is the recipe for bruchetta?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_316",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who is the most inspirational person in your life?\nsecond sentence: Who is the person who has inspired you the most in your life?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_317",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the chances of getting pregnant on the last day of your period?\nsecond sentence: When does a woman have the highest chance of getting pregnant? Is this before periods, during periods or after periods?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_318",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do element atoms bond to form a compound mloecules?\nsecond sentence: How do atoms join together to form molecules?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_319",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the possible options for India to deal with Uri terror attack?\nsecond sentence: What Should India do on Uri Attack?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_320",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What great knowledge have we lost?\nsecond sentence: What is the greatest knowledge ever lost?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_321",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I remove write protect from pen drive?\nsecond sentence: How do I remove the write-protection from a pen drive?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_322",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the review of ATOS Hyderabad?\nsecond sentence: What is your review of Atos?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_323",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why did Google reduce the Android Market return period from 24 hours to 15 minutes?\nsecond sentence: What if Google goes down for 24 hour?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_324",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is it that a lot of Chinese people don't feel oppressed by their regime but some foreigners insist they are?\nsecond sentence: Why is it that alot of Chinese people don't feel oppressed by their regime?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_325",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"How would you word \"\"damas\"\" and \"\"chambelanes\"\" for an english Quinceanera invitation?\"\nsecond sentence: Which English words are now disappearing?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_326",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: SRK's FAN should won an OSCAR award or not?\nsecond sentence: What would happen if I forced myself onto my therapist?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_327",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some drawbacks of having large breasts?\nsecond sentence: What are some downsides of having big breasts?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_328",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is that one incident that changed your life for better?\nsecond sentence: What one decision changed your life drastically?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_329",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is steam turbine?\nsecond sentence: What is a steam turbine for governors?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_330",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is Android SDK?\nsecond sentence: What is the Google Android SDK?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_331",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do we see numbers or codes on the screen while watching TV?\nsecond sentence: What TV series are worth watching?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_332",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is religion bad?\nsecond sentence: Is religion bad for you?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_333",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I recover a Yahoo account?\nsecond sentence: How do I recover a disabled Yahoo account?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_334",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are examples of barriers to communication?\nsecond sentence: What are some examples of barriers in communication?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_335",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Should i updrade cards upto level 9 only in clash royale?\nsecond sentence: I am going to be townhall 9 in 3hrs in clash of clans. I have 400000 elixer and 300000 gold. How should I proceed?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_336",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is the Android app similar to Gramfeed?\nsecond sentence: Is there a platform similar to Configure.IT for developing Android apps?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_337",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the daily routines of Barack Obama?\nsecond sentence: What is the daily routine of US President Barack Obama?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_338",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How should I invest $3000 in 2016?\nsecond sentence: How should I invest $3000?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_339",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is it like to be gay and also a devout evangelical Christian?\nsecond sentence: What's it like to be gay and a Christian?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_340",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is a suitable inpatient drug and alcohol rehab center in Macon County GA?\nsecond sentence: Which is a suitable inpatient drug and alcohol rehab center near Banks County GA?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_341",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it possible to submit an HTML form without a submit button?\nsecond sentence: How can you submit a form without a submit button using java script?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_342",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is there any legal or reserved authority to use red ink for company stamp?\nsecond sentence: Does most of the ink contained in pens never get used up?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_343",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is your review of K. Bhagyaraj Tamil Movies?\nsecond sentence: What is your review of Tamil Movies That Challenged the Stereotypes of Their Time?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_344",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is a way to brand myself better online?\nsecond sentence: How do I brand myself online?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_345",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best whey protein shake on the market?\nsecond sentence: What is the best whey protein shake in the world?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_346",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: When was crystal sugar (one used regularly now) introduced in India?\nsecond sentence: Why does the GOP keep using songs from liberal artists knowing that the artist is most likely going to ask them to stop using the songs?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_347",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the top 5 Android applications?\nsecond sentence: What is the best Android application in your opinion?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_348",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I save a Snapchat video that others posted?\nsecond sentence: How can I have music on and take a snapchat video with headphones?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_349",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I buy a dildo in India?\nsecond sentence: Where can I buy dildos in india?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_350",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I make a fingerprint scanner at home?\nsecond sentence: Can we download an Aadhaar card just using our fingerprint, without an enrollment no. or an Aadhaar no.?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_351",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the physical significance of rank of the matrix?\nsecond sentence: What is the physical significance of rank of matrix?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_352",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the job duties of a FBI Supervisory Special Agent (SSA)?\nsecond sentence: What are my chances of getting a Special Agent job in the FBI?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_353",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the temperament of a Lab/St. Bernard mix?\nsecond sentence: What is the temperament of a Lab/Pitbull mix?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_354",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Will Muslims be deported from the us?\nsecond sentence: Can Trump really deport Muslims from USA?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_355",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between the Paleolithic and Neolithic periods?\nsecond sentence: What are differences between the Paleolithic, and Neolithic time periods?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_356",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I preserve a journal that has pencil and pen writings in it?\nsecond sentence: If I'm depressed, can I atleast write my feelings down in a diary/journal? Is it good or bad?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_357",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you sleep 7 hours a day?\nsecond sentence: How do I sleep 5 hours a day?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_358",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is that the sky is so blue?\nsecond sentence: Why is the sky is blue?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_359",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: A Song of Ice and Fire (book series): What is the best theory you have heard about the origin of the Others aka White Walkers?\nsecond sentence: Is Jon Snow really dead? What's his fate?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_360",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What does Donald Trump's victory mean for Silicon Valley?\nsecond sentence: What are the Trump election consequences on Silicon Valley?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_361",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Has anyone ever built a device to win on the slot machines?\nsecond sentence: What is the most popular slot machine ever in the history of gambling?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_362",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do women generally moan much louder than men, during sex?\nsecond sentence: Are men generally physically stronger than women?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_363",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What after 68 years India is not having sufficient infrastrasture?\nsecond sentence: What is the reason that even after 70 years, Kashmiris don't consider themselves as a part of India? Where has India gone wrong?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_364",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who would win in a battle: 1,000 Spartan hoplites or 1,000 Roman legionaries?\nsecond sentence: How was life like as a Roman legionary?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_365",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I apply for deloitte off campus interviews in DU?\nsecond sentence: How do I apply off campus to companies like Deloitte?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_366",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How did Bill Gates and his foundation come to select Polio as the vaccine to target for eradication in the next few years (vs. other initiatives, diseases, etc.)?\nsecond sentence: Why did Jonas Salk campaign for mandatory polio vaccinations?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_367",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's a good in-game team for Pokemon Sun & Moon?\nsecond sentence: Should someone who doesn't like Pokemon games much get the Pokemon Sun/Moon now?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_368",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where can I get quality assistance in Sydney for any property transaction?\nsecond sentence: Where can I get knowledgeable assistance for transfer of property in Sydney?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_369",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is it dangerous/unprofessional to wear basketball shorts while working in a retail setting?\nsecond sentence: Do Pakistan women wear Shorts while sports?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_370",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I improve my English speaking skills and my fluency?\nsecond sentence: How can I improve my English writing skills?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_371",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I improve my overall native English language?\nsecond sentence: How can I improve my English speaking .?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_372",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How would World War Three develop if it started today?\nsecond sentence: How could a World War start?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_373",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"When was the name \"\"India\"\" given to the country of India?\"\nsecond sentence: How did we get our country name India?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_374",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What qualities do women look for in a guy to consider him for a longtime partner?\nsecond sentence: What do most women look for in a guy?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_375",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I know if a girl likes me at school?\nsecond sentence: What are the clues girl leaves you if she likes you?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_376",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the Present ATM money withdrawl limit per day in India?\nsecond sentence: How many transactions are done in ATM's per day throughout the India?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_377",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do women feel bad when guys look at them?\nsecond sentence: Do women feel that men with a shaved head look good?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_378",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the intersession in VIT?\nsecond sentence: What is intersession in VIT? What can we do in intersession?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_379",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can I use an oven to reheat my food just the way I reheat food in my microwave?\nsecond sentence: Are there any other practical way to reheat pizza if I don't have a microwave oven?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_380",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: When do we use na, da and do in Portuguese?\nsecond sentence: When do you use do, da and de in Portuguese?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_381",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the similarities between mammals and reptiles?\nsecond sentence: How are birds and reptiles related genetically?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_382",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I fix 800B0001 error?\nsecond sentence: How can I fix this error?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_383",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was Sherlock looking for when he dug the grave of Amelia Ricoletti? Confirmation that once someone blows their brains out they cannot come back?\nsecond sentence: If Sherlock had to propose to a girl, how would he do it?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_384",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's the best school in the world?\nsecond sentence: What are the best MBA business schools in the world?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_385",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I recover a hacked instagram?\nsecond sentence: Is Instagram easily hacked?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_386",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is Twitter attracting more followers in the US compared to Europe?\nsecond sentence: Why do Americans have such different political attitudes to (Western) Europeans. Why is it that Government is distrusted more in the US than in Europe?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_387",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best Alabama SEO Company?\nsecond sentence: Which company is the best SEO in Alabama?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_388",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some of the best ways to prevent deforestation?\nsecond sentence: What are the best ways to prevent deforestation?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_389",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the effect of compression ratio?\nsecond sentence: What is the effect of compression ratio in an engine?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_390",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why India is so bad at Olympics? Is it because India is poor?\nsecond sentence: What is the reason behind India's bad performance in Olympics?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_391",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do people die after cancer surgery?\nsecond sentence: How do I go into a coma for a few weeks?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_392",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why doesn't everyone I ask to answer a question answer it on Quora?\nsecond sentence: Why do people never answer my question on Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_393",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do employers prefer candidates who have worked on projects using different languages/frameworks to someone who uses the same language/framework?\nsecond sentence: For someone who wants to live in China, which language is more useful, Russian or German?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_394",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: C and Java Programming Language If Condition?\nsecond sentence: Is Java a programming language?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_395",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: would/does the atmosphere thermally expand with rising global temperature such as the ocean or is there some mitigating factor to the expansion?\nsecond sentence: As we convert solid (coal) and liquid (oil) fuels into gases through combustion, does the volume of the Earth's atmosphere expand? In other words, are we pushing the molecules in the upper atmosphere even further away?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_396",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"Do \"\"B\"\" students ever get accepted into top universities?\"\nsecond sentence: Why do only the top students get into top universities? Is it totally unfair?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_397",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I a stacked bar plot like this in R? (including the values of each bar)\nsecond sentence: How can I add the values so they appear above the bar and display subgroups in making R histograms?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_398",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What universities does Global Indemnity recruit new grads from? What majors are they looking for?\nsecond sentence: What universities does Erie Indemnity recruit new grads from? What majors are they looking for?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_399",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Was Buddha a god?\nsecond sentence: Is there a god according to Buddha?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_400",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is rock music greater than EDM?\nsecond sentence: Why do you believe in God and it's agent's?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_401",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How did UChicago get so strong at Statistics?\nsecond sentence: How did Cornell get so strong in statistics?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_402",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between a 6/6, 6/9, etc., eye vision?\nsecond sentence: Can I pass my medical eye checkup with 6/9-2?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_403",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can a boy join the Indian armed forces after a BSc degree?\nsecond sentence: How to Join Indian Army,After Engineering?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_404",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is the best book about Indian struggle for independence?\nsecond sentence: What are some good books about Indian independence movement which are less popular?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_405",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Theism: What is the most convincing argument to become a theist?\nsecond sentence: What is the most convincing argument to become a theist?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_406",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do royal lawyers in Great Britain wear wigs?\nsecond sentence: Why do British lawyers and judges wear wigs in the courtroom?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_407",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I make money fast?\nsecond sentence: How I can make money fast?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_408",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I search my friends on Quora?\nsecond sentence: How can I search a friend on Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_409",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I beat a psychopath?\nsecond sentence: What are some good ways to hurt a psychopath?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_410",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some endemic species of India?\nsecond sentence: Which turtle or tortoise species are legal in india as a pet? Can anyone help me?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_411",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What's it like to work at Best Buy for your first job?\nsecond sentence: What is it like to work for Best Buy?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_412",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I message someone on Facebook without becoming friends?\nsecond sentence: Will it show me if someone has seen their message even if we are not friends?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_413",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How does transistor BC547 work?\nsecond sentence: I am a 8years experience professional in a IT company but need to learn SAP for a job. How can I do this?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_414",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What does it mean when a man says he trusts you?\nsecond sentence: A man gets drunk and mean did he mean it?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_415",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some books by Bhagat Singh?\nsecond sentence: What are some books written by Bhagat Singh?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_416",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What was the average life expectancy of a soldier in World War II?\nsecond sentence: What are the 5 most honest World War II films?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_417",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is the OnePlus One as good as it was said?\nsecond sentence: Why is OnePlus One so good?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_418",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to learn SAS?\nsecond sentence: How do I learn SAS?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_419",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some good rainmeter apps?\nsecond sentence: What are some good photograph apps?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_420",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Diaspora launching or not?\nsecond sentence: Why is the Bangladeshi diaspora in Italy so big?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_421",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is Nikon D3100 a good camera?\nsecond sentence: Is Nikon D3100 a bad camera for beginners?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_422",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What two famous songs are similar but have never, to date, been accused of plagiarizing the other?\nsecond sentence: Famous pop music that has been plagiarized?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_423",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is sitesmatrix.com a scam?\nsecond sentence: Is tricks4me.com scam?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_424",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why are Marwaris against inter caste marriage?\nsecond sentence: Can we make castism in India disappear with inter-caste marriages?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_425",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can an officer in the Indian army get married before 25? What are the circumstances where it might be allowed?\nsecond sentence: Is it true that an Indian army officer can't marry before 25 and without the permission of their seniors? If yes, why?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_426",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: I have problems with food and need to gain weight. What's the best food for it?\nsecond sentence: Which is the best food to gain weight?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_427",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the benefits of social media integration?\nsecond sentence: How are jambalaya seasonings made?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_428",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is a suitable solar panel installation provider in Chandler, Arizona AZ?\nsecond sentence: Which is a suitable solar panel installation provider near Chandler, Arizona AZ?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_429",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I start making money by starting a blog?\nsecond sentence: How can I start making money from blogging?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_430",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Are Uggs still in style?\nsecond sentence: Are Uggs in or out?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_431",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is shadow register?\nsecond sentence: What is a shadow register?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_432",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does child support have to be court ordered?\nsecond sentence: Should there be such thing as court ordered child support?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_433",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is wrong with the equation of time?\nsecond sentence: What's wrong with this equation: 1+1+1+1+1+1+1+1+1?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_434",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the aspects of cell theory?\nsecond sentence: What are the three components of the cell theory?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_435",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I turn my idea into a fundable business?\nsecond sentence: How do I turn my idea into a successful company?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_436",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why does Quora limit my question details to 300 characters?\nsecond sentence: Why Quora has word limit for question and question descriptions?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_437",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the easiest and painless way to commit suicide?\nsecond sentence: What is an easy way to commit suicide?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_438",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do they love computers?\nsecond sentence: Why do people love computers?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_439",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why has Nokia failed in the market?\nsecond sentence: Why did Nokia fail?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_440",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I switch from Software Testing to Business Analyst role?\nsecond sentence: What are the needed skills & steps to switch from a technical lead to a business analyst?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_441",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Should I sell my car to Carmax?\nsecond sentence: How much below market price does Carmax and/or Autotrader typically offer for a car?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_442",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some of the best WhatsApp statuses?\nsecond sentence: What are some geeky WhatsApp status messages?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_443",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How long does meth stay in a persons blood?\nsecond sentence: How long does meth stay in your system? If last use was Friday, would it be out by Monday?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_444",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is the dating culture in the UK different from the US?\nsecond sentence: How does the dating culture differ from the US to the UK?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_445",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is the sun alive? Why or why not?\nsecond sentence: Are stars alive?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_446",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can you trust the information on Quora?\nsecond sentence: Do you trust Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_447",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where can I learn data warehousing?\nsecond sentence: What is the best way to learn data warehousing?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_448",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the significance of Doctor's logo?\nsecond sentence: Why do doctors marry doctors?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_449",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the worst thing a loved one ever said to you?\nsecond sentence: What's the worst thing you've ever been told by a loved one?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_450",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Is mousse bad for my hair?\nsecond sentence: Is hair conditioner actually bad for my hair?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_451",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the best way to grow a channel on YouTube?\nsecond sentence: How do I start a channel on YouTube?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_452",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who are the people with the most followers on Quora?\nsecond sentence: Who is the most followed person on Quora?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_453",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are 10 things non-gamers always get wrong about gamers?\nsecond sentence: What is it like to live with / get married to a non-gamer being a gamer (and vice-versa)?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_454",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between CouchDB and Couchbase?\nsecond sentence: How do I monitor CouchDB with Monit on Ubuntu? \nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_455",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why is generally woman will become fat after marriage?\nsecond sentence: Why do women become fat after marriage?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_456",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Does the 'friend's with benefits' concept exist in Gurgaon?\nsecond sentence: Which Historical TV series should watch?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_457",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"The word \"\"English\"\" is always, always, always capitalized when referring to the language or nationality. Why do so many Quora questioners lowercase it?\"\nsecond sentence: My mind is always in questioning mode after using Quora. Why is that?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_458",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What’s the easiest way to learn JavaScript?\nsecond sentence: What is easiest way to learn JavaScript?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_459",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many sexually reproducing species are there?\nsecond sentence: How many species of squirrels are there in the world?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_460",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is the best place in Mumbai to get cricket coaching?\nsecond sentence: Which are the best places in Mumbai to get cricket coaching?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_461",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Who are the highest paid employees at WalMart?\nsecond sentence: Who's the highest paid employee in the world?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_462",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What equity should I request as a CTO/Co-Founder?\nsecond sentence: How much equity should I offer as a co-founder?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_463",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which institute is better, IIT, IIST or IISER? On what basis are they compared?\nsecond sentence: What limits the popularity of IIST and IISER in comparison with IIT?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_464",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How difficult is starting an own business in Singapore?\nsecond sentence: Is starting a business in Singapore difficult?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_465",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many times did Thomas Alva Edison fail exactly?\nsecond sentence: Who invented the light bulb?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_466",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which American restaurant chains can be found in Norway? What do Norwegian people think of them? B\nsecond sentence: Which American restaurant chains can be found in Norway? What do Norwegian people think of them\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_467",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I justify content in string using PHP?\nsecond sentence: Why do single people or couples without kids buy cars larger than compact?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_468",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do I sleep as soon as my body feels tired?\nsecond sentence: I feel way more tired and need to sleep more when the climate is colder. What can I do to help with this?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_469",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How are the 3D models of buildings generated on Google Earth?\nsecond sentence: How do you go inside a building on Google Earth Street View?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_470",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the difference between inner and outer planets?\nsecond sentence: Why do you think that the inner planets are relatively close together but the outer planets are spaced so widely apart?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_471",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How many amperes (amps) come out of a wall outlet?\nsecond sentence: Is it bad to leave my charger in the wall outlet?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_472",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: As an engineering 3rd year student what should I start preparing for IAS exam?\nsecond sentence: How should I start my preparation for IAS as an engineering student?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_473",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the value of courses from ip university?\nsecond sentence: Is the degree from IIIT Delhi valuable since its under IP university?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_474",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are skateboard wheels made of?\nsecond sentence: Where are skateboard wheels made?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_475",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Which is the best Harry Potter book?\nsecond sentence: What's the best Harry Potter book?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_476",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can life really exist beyond Earth?\nsecond sentence: Does life exist beyond earth?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_477",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What do Tolkien fans think of Howard Shore's score for the Lord of the Rings movies?\nsecond sentence: What do Tolkien fans think about the Lord of the Rings movie soundtrack?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_478",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is it called when someone ignores all the warning signs and the discomfort of their own instincts and proceeds doing something anyway?\nsecond sentence: Do 'Call someone for help' signs decrease suicides?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_479",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: \"Why is plaster of Paris called \"\"plaster of Paris\"\" and not by any other name like cement concrete?\"\nsecond sentence: Why is plaster of Paris called plaster of Paris?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_480",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What tool are you using to mock or storyboard BI dashboards?\nsecond sentence: Which is the best BI ETL tool in existence?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_481",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Will overstaying my visit visa with 3 months affect my spouse visa application?\nsecond sentence: Will overstaying my UK visit visa with 3 months affect my UK spouse visa application?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_482",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is your reaction about the ban on Rs. 500 and Rs. 1000 notes? Won't it create a chaos and harm the economy?\nsecond sentence: What was your initial reaction on getting to know about the ban on the current ₹500 and ₹1,000 notes?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_483",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Do you think United Nations has failed the world? Why are they unable to control Syria?\nsecond sentence: What happened to Thomas Edison's two children?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_484",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are the reviews of SensoVision System?\nsecond sentence: Is Lothar Matthaus Germany's greatest footballer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_485",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What is the cure for pearly penile papules?\nsecond sentence: Can AIDS be cured?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_486",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Why do people think Trump is racist?\nsecond sentence: How did Donald Trump become such a racist?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_487",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What are some good blogs that deal with online collaboration, virtual teams and off-site workplaces?\nsecond sentence: How do I get enthusiastic content writers for online collaboration on my site?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_488",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How is simple harmonic motion linked to circular motion?\nsecond sentence: How is oscillatory motion linked to circular motion?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_489",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What comes to your mind when you hear the word, infinity?\nsecond sentence: What comes to your mind when you hear the word feedback\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_490",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Can a lawyer be called a gazetted officer in india?\nsecond sentence: Are bank managers gazetted officer?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_491",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I watch any clip4sale video without paying?\nsecond sentence: Can I use an old game that is now free in a video without paying royalties?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_492",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: When is surge pricing on Uber generally in effect in Sarasota and how high does it go?\nsecond sentence: When is surge pricing on Uber generally in effect in Montréal and how high does it go?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_493",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Did this girl take advantage of me at homecoming?\nsecond sentence: How do I can get jio sim for my redmi note 3 I have the coupon code but the jio guys asking me to show the phone on which I have got the code?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_494",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: What most effective R.A. drug?\nsecond sentence: What is the most effective drug?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_495",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How do you learn Motosports photography?\nsecond sentence: How do I learn professional photography?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_496",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How can I calculate my personal q-index?\nsecond sentence: What is the most efficient way to calculate one's Q-Index?\nAnswer:",
+        "output": "True"
+    },
+    {
+        "id": "QQP_497",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: Where can I find best quality photo booth service in Australia?\nsecond sentence: Where can I find professional photo booth service provider in Australia?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_498",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: How will the customer and operator information be sent from Lync Server to SFDC, if we use Lync Server and not Lync client?\nsecond sentence: How will customer and operator information get sent from Lync Server to SFDC, if we use Lync Client and not Lync Server?\nAnswer:",
+        "output": "False"
+    },
+    {
+        "id": "QQP_499",
+        "input": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option. Option: False, True.\nfirst sentence: In how many ways can a person in India easily escape, even if he is involved in a murder or any other deadly crime?\nsecond sentence: How many murder cases are pending in India?\nAnswer:",
+        "output": "False"
+    }
+]

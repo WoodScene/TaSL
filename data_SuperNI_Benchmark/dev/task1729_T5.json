@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task1729-7bb437e25cb24eb298b16fc966306dcb",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I've 4 dogs and I spend all my time with them.\nI m a photographer.\nI like to drink at bars with friends.\nI have a sleeve of tattoos.\nChat history: -Good evening. How are you?\n -Great! I live in Manhattan and was thinking about going to a museum.\n -My job is photography so I love takin pix there.\n -Nice. Are you married? I am, but no kids. Lots of nephews and nieces.\n -I am single. I got a tattoo sleeve. Some people don't like that.\n -I like that! No tattoos for me. I am a chicken.\n -My 4 dogs do not mind them tho. We are always together.\n -I have two. I authored 10 books, one for each nephew and niece.\n -Right on! When I'm at the bar, my friends talk about books.\n -Awesome. I go to bars alot in the city. Great place to be.\n [OUT] ",
+        "output": "I agree. I love going into the city too.",
+        "data_id": 0
+    },
+    {
+        "id": "task1729-16452f93188046cd9dea437e94f59c5a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite band is bon over.\nI'm a vegan.\nI work in public relations.\nMy parents raised me as a buddhist.\nI m from Seattle.\nChat history: -Hi there, how is it going?\n -Going good. Just finished practice. You?\n -What are you practicing? I am building a lesson plan.\n -Have a band when I am not working. Teacher huh? cool.\n -What does your band play? Yes, kindergarten to be exact.\n [OUT] ",
+        "output": "Super calm music am a bit of a buddhist. Great job.",
+        "data_id": 1
+    },
+    {
+        "id": "task1729-1ba9720722f84699afe9affa41a91b8a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I've a few pet iguanas.\nI like to give them sassy sounding names that actually help people think nice things.\nI think dogs could learn to read if they were trained well.\nI have a brother but we don't talk much yet.\nI'm pretty poor financially.\nChat history: -Hi.\n -Hey there, I do believe we never met..\n -No, nice to meet you. What do you do?\n -I believe. Sorry. Tell me about you, lay it out. All or nothing.\n -Well, its just me and my pet iguanas. How about you?\n -I was born in the wagon of a travelling show and I drive fast baby.\n [OUT] ",
+        "output": "Lol,,, I see. interesting. Me, I'm working on my theory that dogs can read.",
+        "data_id": 2
+    },
+    {
+        "id": "task1729-30aa397edc2d43f58a93be7f05503176",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I live in Springfield, Mo.\nI just bought my first home.\nI try to go hunting with my brothers several times a year.\nI'm a writer.\nI love to barbecue.\nChat history: -Hey do you have any pets.\n -No, not yet. I just moved to my first house here in Springfield, Mo.\n -Oh yeah? Was it for a job? I work in the tech field.\n -I write, which I could do from anywhere. Good apps for bbq here, and hunting.\n -I like the outdoors too more of an adrenaline junky tho. Not scared of much.\n -What sports? My brothers and I like to go hunting multiple times during the year.\n -Free diving. I know its a bit crazy. Off topic, how tall are you?\n -6 feet 1 inch tall.\n -I'm 5 5. so you are just the right height.\n [OUT] ",
+        "output": "The right height for what?",
+        "data_id": 3
+    },
+    {
+        "id": "task1729-af68331a94bf43978cd690ff86a1a35b",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like to play football.\nI am a younger guy.\nI've beard that's longer.\nI like to ride my bike.\nChat history: -Hi I'm Kyle! Whats going on today?\n -Hi, I'm baking cakes today. My name is mandi.\n -Oh cool! Multiple cakes? What kind of flavors?\n -Yes, one for a baby shower and one for a birthday. Both are chocolate.\n [OUT] ",
+        "output": "Yum! I have a long beard so sometimes cake crumbs get stuck in there. Smh.",
+        "data_id": 4
+    },
+    {
+        "id": "task1729-958451dc5bff4063a8dd6e5ef1600380",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I fly airplanes.\nMy favorite band is tool.\nI enjoy building computers.\nI am in the army.\nI dropped out of college.\nChat history: -Hi I just finished working at my garage. How about you?\n -Just left work at the army base. Going to listen to tool my favorite band!\n -Nice! Sounds relaxing. I am going to probably watch some fishing shows.\n -Fun! I am going to build a computer!\n -Awesome. I can build cars, but computers are too technical for me.\n -I have a friend that flies airplanes like me so I understand.\n -So do you live on base? I live by myself and I kinda like it.\n -No, after quitting college I moved in with my boyfriend.\n -Nice! So what are your hobbies?\n -Of course anything with computers and riding horses. You?\n -Watching tv and fishing. I sound very country.\n -I live in the country and love it. I never want to move.\n -I like it too. Nothing beats the woods.\n [OUT] ",
+        "output": "And a deer stand with a gun.",
+        "data_id": 5
+    },
+    {
+        "id": "task1729-51e72432919c4ecb90417126af47029c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am single.\nMy favorite food is salad.\nI enjoy nature.\nMy mother was a teacher.\nChat history: -I had to get of the coast where I live dang on Irma.\n -That really sucks. Hows things?\n -I work in the mall doing retail.\n -Oh really what do you do exactly?\n -Sale clothes in Von Marr lol.\n -Never heard of it. I do not do much shopping unfortunately.\n -I do miss the beach.\n [OUT] ",
+        "output": "I bet. I'm live in the city but I love travelling to the beach.",
+        "data_id": 6
+    },
+    {
+        "id": "task1729-071307562328427bb92525937c9ddca1",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My parents used to work in politics, until they discovered the goodness within themselves.\nI enjoy John Grisham movies, but not his books.\nI m a really, really good guitar player.\nI don T like wearing pants when I don T have to.\nChat history: -Hey there how are you.\n -I am just relaxing at home in my boxers. How are you?\n -It is that time of year on hbo.\n -Do you like any movies?\n -I'm in my pjs I work for a cable company at home.\n -Guess we both like to be comfortable at home.\n -Yes I do an game of thrones is awesome!\n -I do not like John Grisham books, but the movies are great!\n -Yes I love it so much.\n -What do you do for fun?\n -I like to watch tv an movies like fairs?\n [OUT] ",
+        "output": "I like to jam out on my guitar. I am pretty good!",
+        "data_id": 7
+    },
+    {
+        "id": "task1729-f8e9f58f924f44a1ad650c18528afb0a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I sing in the shower.\nI'm content with my life.\nI've never had alcohol.\nI'm very shy.\nI own a dog who is my best friend.\nChat history: -How are you doing tonight?\n -I feel very happy, my dog is keeping me company.\n -Our dog is sick right now.\n [OUT] ",
+        "output": "That is too bad. I would be worried sick if my fluffy pants got sick.",
+        "data_id": 8
+    },
+    {
+        "id": "task1729-f35b984fea134f8998ae5dfd522c6fba",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: Favorite band is the beetles.\nI like vintage furniture.\nI collect stamps.\nI play the bass.\nI've a large cd collection.\nChat history: -Hello there. Hows your day going so far?\n -My day is great, just listening to some tunes and kickin it at work. You?\n -Just watching the kids. Getting dinner ready and whatnot.\n [OUT] ",
+        "output": "Oh yeah? How old are they?",
+        "data_id": 9
+    },
+    {
+        "id": "task1729-bc38677eed8d44528e317c4b5cfbf76a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite singer is Justin Timberlake.\nI enjoy horseback riding.\nI'm a full time mom.\nI am a mother to two beautiful boys.\nMy family and I go camping every month.\nChat history: -Hi, how are you today?\n -I am good just miss meat.\n -I tried cooking vegetarian, but my two boys just will not give up meat!\n -I am vegan now and ride my bike everyday.\n -I would rather be on my horse than on a bike.\n -I am a vet and I work with them.\n -Oh that's wonderful! I'm so glad for people like you.\n -Thank you it is hard work but it needs done.\n -I know about hard work. I am full time mom to two rowdy boys!\n -Wow I am a 30 year old woman with no kids.\n [OUT] ",
+        "output": "Yea, my family is everything to me. I try to take them camping once a month.",
+        "data_id": 10
+    },
+    {
+        "id": "task1729-2f82b6e1da4540c8a7f7a55265a8cfec",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I ve been to Canada two times my entire life.\nMy uncle use to work on fish boats in Florida.\nMy father use to drive a taxi cab in the 1970 s.\nI was once on the local news, and not for anything illegal.\nChat history: -Hello, how are you today?\n -I am pretty bored today, being nostalgic.\n -I hear you! Maybe I'll go out to a bar tonight.\n [OUT] ",
+        "output": "Do you want to talk about my life?",
+        "data_id": 11
+    },
+    {
+        "id": "task1729-bd765ead83664e8c94c9485a22ad3d38",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I m a simple man.\nI usually catch sunfish.\nI drink beers and go to the creek.\nI like fishing.\nChat history: -Hi want to be my friend?\n -Yes, I would love to. I'm in college.\n -I never went to college. I get on okay.\n -Do you have any pets?\n [OUT] ",
+        "output": "Nah. I do like to fish, but they aren't pets.",
+        "data_id": 12
+    },
+    {
+        "id": "task1729-b2a1f6b4a8124d1284f44a1eb2563938",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My mother passed away in 1979.\nI never learned how to swim.\nI'm a meat eater.\nI like Anime shows.\nI had to get a job early as a child.\nChat history: -How are you doing today.\n -Hi! I'm good, just finished playing basketball. I love it.\n -What do you do for a living.\n -My job is in car sales. How about you?\n -I work in an office.\n -I see. What do you like to do for fun?\n -I like to watch Anime.\n -Nice. What are your favorites?\n [OUT] ",
+        "output": "There are so many. I could not even settle.",
+        "data_id": 13
+    },
+    {
+        "id": "task1729-82aad4bc7bb349eaa77159b9118085b6",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love fast food.\nI love to clean.\nI watch a lot of movies.\nI am a stay at home mom.\nChat history: -Hello how are you tonight.\n -Fine. I've clothes specially made for me because of my height.\n -How tall are you? Clean my house alot, I love it.\n -I am 6 feet and 5 inches. I stood out in my drawing class.\n -I am 6 feet tall, I am watching a movie called wonder woman, I love movies.\n -I am homesick for Greece. I've not been back since the 50s.\n -Where do you live? I'm near Chicago.\n -I live near Banff, Alberta. The air is dry. It curls my already curly hair.\n -Dang that must suck, my husband works and I stay home and clean.\n -Yes since I prefer my hair straight. I straighten it with a flat iron. Tedious!\n [OUT] ",
+        "output": "I love my long black hair. My favorite food is fast food.",
+        "data_id": 14
+    },
+    {
+        "id": "task1729-406b2427b9814e699555b9196c872226",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I want to grow up to be a superhero one day.\nI'm 8 years old.\nI love comic books.\nMy name is Todd.\nMy favorite hero is superman.\nChat history: -Hey how are you doing today?\n -I m good. I m Todd what s your name?\n -My name is miguel. I just came to Usa with my mom. She's a janitor.\n -I want to be Batman when I get to be a big person.\n -Are your parents dead? That is where you start if you want to be Batman.\n -Okay then I want to be Superman. I like him the most. How old are you?\n -I am a college age student. I go to college. Do you play videogames?\n -I am 8. I read comics. Do you?\n -Not so much comics as cartoons. Very big into cartoons. Do you like them?\n [OUT] ",
+        "output": "I really like them. Especially with superhero S.",
+        "data_id": 15
+    },
+    {
+        "id": "task1729-5f94297a34f74297b30c1345b06df4a9",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a cat person.\nI love collecting teapots.\nMy grandmother lives in my guesthouse.\nI've been divorced for 2 years.\nI work at the local bank.\nChat history: -Hello, how are you today?\n -Fantastic, how are you doing?\n -I'm doing well, I'm going to a museum with my nieces and nephew tomorrow.\n -Sounds fun! I'm taking my grandmother to a play tomorrow.\n -That is so nice, what play are you seeing?\n -I'm a little teapot an extended rendition of the song.\n -What a unique performance. I write a lot so I am used to interesting things.\n -I love teapots, I actually collect them. Probably why my husband left me.\n -Oh, I am sorry. If you are ever in new York we should get drinks.\n [OUT] ",
+        "output": "I do not get to travel often, but if so that sounds wonderful!",
+        "data_id": 16
+    },
+    {
+        "id": "task1729-79cddbaad3794a9ab9e9e6b9c967d501",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I m learning to play the guitar.\nI like to go fishing.\nI m a college drop out.\nMy favorite music is jimi hendrix.\nChat history: -Hi I am tanya I love to swim in my lake.\n -Oh that is fun, I love to fish in lakes.\n -I been to every state but Alaska it isn't bacon friendly.\n -Oh that is impressive! And I love bacon.\n -Yeah I plan on traveling the world especially Italy home of bacon.\n [OUT] ",
+        "output": "Oh that sounds amazing.. I dropped out of college to travel.",
+        "data_id": 17
+    },
+    {
+        "id": "task1729-8f4d089283014817bcf43aa8be9f8aac",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like to paint.\nWe have two sons.\nI like to attend wine tours.\nI enjoy visiting museums.\nChat history: -Hello there! How are you.\n -Tired from my low carb diet... trying to be a male model in hollywood.\n -Sounds like you are following your dream.\n -Yeah just had a private lunch with Will ferrell he loves male models.\n -Ahahah. That reminds me of that movie zoolander.\n -Kind of I did burn all my friends in a horrific gasoline accident.\n -Did you atleast get to drink orange mocha Frappicinos with them first?\n -Yeah silly, we listen to classical jazz though while dancing, I'm a huge fan of it.\n -That is cool. I like to make tiny reading centers for ants.\n -Ahahah I did that once but it fell apart.\n [OUT] ",
+        "output": "Ya... and ants do not read very well.",
+        "data_id": 18
+    },
+    {
+        "id": "task1729-258894c3e91743579fef2997fcca6a2a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm passionate about a lot of things.\nMy back hurts chronically.\nI tend to work myself up.\nI am an old soul.\nI just want my voice to be heard.\nChat history: -Hey there stranger! How is life?\n -Pretty good besides my back killing me. What about you?\n -Ya I'm trying to lose weight to help out my knees, but I hate the diet.\n -Diets are pretty awful. I like to think of them as lifestyle changes.\n -Ya, sometimes the lifestyle has to change if you want to do certain things.\n -What things are you passionate about doing?\n -Animals. Got 3 of my own and I love fostering others. How about you?\n -I'm an activist. I like to speak up for what is right.\n -That is fantastic. We need more people like you.\n -Thank you! Its great to be appreciated. I think of myself as an old soul.\n -I think my soul is young but my knees say otherwise!\n [OUT] ",
+        "output": "Haha I definitely feel you. My back pain is chronic.",
+        "data_id": 19
+    },
+    {
+        "id": "task1729-55c60d8c1383480e914045f1261d8e47",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I drive a Honda Civic.\nI love rock climbing.\nI like long walks on the beach.\nI work at a retail store.\nMy favorite movie is django unchained.\nChat history: -How are you doing this morning?\n -Oh you know, just doing some accounting for my firm. What about you?\n -I'm taking a break at work in a retail position.\n -Where do you work? I might need to do some shopping soon.\n [OUT] ",
+        "output": "I work at gabes and it can be exhausting.",
+        "data_id": 20
+    },
+    {
+        "id": "task1729-a2389ec8371e4b268d3f0182d4ff5702",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love chocolate.\nI am from Georgia.\nI cannot sing very well.\nI want to have two kids.\nI can play the violin.\nChat history: -Do you like going to the movies?\n -As long as you buy me chocolate I'm there.\n -I used to go with my brother forever ago!\n -Being from a small town in Georgia we did not have a theater.\n -I always wanted to play outside when the weather was nice.\n -Too hot here. I just stayed in and practiced my violin.\n -Oh I loved running and listening to my cape flap!\n -Cape? Tell me more about that.\n -I would play superhero all day if mom would let me.\n -I played I was a rock star buy my singing sucks.\n -Rockstars are cool! Yea I feel that!\n [OUT] ",
+        "output": "It was cool. My mom even played.",
+        "data_id": 21
+    },
+    {
+        "id": "task1729-dd00083a3c284a8cba912b04e31f4941",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I need certain medications to live.\nI like the band queens of the stone age.\nI skydive frequently.\nI like fast food too much.\nI've won an olympic medal.\nChat history: -Hello. Hows it going?\n -Its going great! How are you?\n [OUT] ",
+        "output": "I am doing well. Just chowing down on some mcdonald right now.",
+        "data_id": 22
+    },
+    {
+        "id": "task1729-1a88f6f256664dc392acffa7cbabaabb",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like simple jokes.\nMy friend likes cartoons like south park.\nI like the flintstones.\nI prefer the simpler times.\nSome jokes go too far.\nChat history: -Hi there how are you doing today?\n -I am good tell me about yourself.\n -Doing pretty well trying to stay cool, what do you do for a job?\n [OUT] ",
+        "output": "I'm a comedian I love little jokes and ones that go to far.",
+        "data_id": 23
+    },
+    {
+        "id": "task1729-18f7bc00ff214794ae12f24153160c3a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like the guitar.\nI'm a vegan.\nI like to go for bike rides.\nI like music.\nI like to skateboard.\nChat history: -Hey, how are you this afternoon?\n -I'm good, how are you spending your afternoon?\n -Finally got a day off from the hospital.\n -I like to play guitar in my free time, what about you?\n -Geez, with the kids, there is hardly any free time.\n -I listen to music to clear my head, what music do you like if any?\n -I'm a huge rolling stones fan. Yourself?\n -I'm into worship music, sometimes I've it playing while I bike riding.\n -Interesting. What about food? I love mexican food!\n -I am a vegan but I may be going back to regular eating, vegan is so limited,.\n -I agree. One of the kids is venturing into veganism. You have any?\n [OUT] ",
+        "output": "I have four, one is all into skateboarding, yours?",
+        "data_id": 24
+    },
+    {
+        "id": "task1729-045bc94397cf4e368a48eb22994817c8",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I take care of my grandmother on weekdays.\nI am divorced and looking to date.\nI have two children, a boy and a girl.\nI work at an insurance firm.\nChat history: -Sup bro? Feel like jammin this evening?\n -Like a jam band huh?\n -Yeah dude, don't mean ta toot my own horn but I am a wicked guitar player!\n -Very cool. Where do you work?\n -Ugh.. well.. kind in between jobs right now, just working out of my parents garage, you?\n -I'm divorced and need a date bad. Help.\n -Well, my girlfriend tells me she's going to leave pretty much every day, call me maybe?\n -I've two kids though.\n -That's alright I love to kiddos.\n -Where do you work though?\n -I create albums and cds. Just got signed by a record label.\n [OUT] ",
+        "output": "Very cool. I take care of my grandmother.",
+        "data_id": 25
+    },
+    {
+        "id": "task1729-7bad3d807f294c5e92f09cafeedeb149",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I've a puppy named tiki.\nMy favorite food is spicy tex mex.\nI studied early childhood education in college.\nI am a kindergarten teacher.\nChat history: -Tex Mex is so delicious! What is your favorite food?\n -Good. my favorite food living in the us is steak and broccoli.\n [OUT] ",
+        "output": "Do you have a pet? Mine is a puppy the name is tiki.",
+        "data_id": 26
+    },
+    {
+        "id": "task1729-0545ef25faf845449b9cedda73c1a994",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a true believer in God first.\nI'm 5 3 an love movie time.\nI am a carefree, funloving, free spirited person.\nI love adventure that is why I have been a sales person all my life.\nI'm a fitness guru.\nChat history: -Hi there, how are you?\n -I'm doing well, how about yourself?\n -Doing good. What do you do?\n -I am a painter, I enjoy painting vineyards!\n [OUT] ",
+        "output": "That sounds fun. I always imagine God painted the earth like it is.",
+        "data_id": 27
+    },
+    {
+        "id": "task1729-23a359f2be0b4a42a967dbfec41f488b",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My inspiration is clasical music.\nI ve recently started working as a freelance designer.\nI m a graphic designer.\nDrawing in traditional style is my pasion.\nChat history: -What are you up to tonight?\n -I am doing some work on my art. How about you?\n -Great. Listening to some lindsey stirling. She's out of this world.\n -That is awesome. What kind of music does she play? I love classical.\n -She plays the violin. She's talented and gorgeous.\n -I bet I would love to hear her. How inspiring.\n -You should listen to her. Do you like any foods?\n -I love cake, any kind. How about you?\n -I'm a huge lover of meatloaf, and coffee but only with alcohol in it.\n -I've never had coffee with alcohol in it. What do you do for work?\n -Nothing of any importance. What about you?\n [OUT] ",
+        "output": "I do some graphic design for a few places.",
+        "data_id": 28
+    },
+    {
+        "id": "task1729-b10442afc2b04ff7b6693348952ca47f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I graduated college last week.\nMy girlfriend is 6 months pregnant.\nI am proposing tonight.\nI got a job as a coach at a local highschool.\nChat history: -Hey there! Hows it going tonight?\n -So good! Are you married? I'm about to propose to my girl tonight.\n -Oh wow! Good luck! yep! I am married with kids! Hubby stays home with them.\n -My girl is due to have a baby in three months. I am so excited.\n -Congrats! Are you having a girl or boy?\n -A girl! I wanted one so bad.\n -You can name her taylor after my favorite singer! Lol Swift.\n -That is the name of the principal of the school I just interviewed at!\n -No way!!! Haha did you get it?\n -Yes! I am now a coach at the school! What do you do?\n -I work at a beer place! We distribute different brands!\n [OUT] ",
+        "output": "Oh, awesome! Do you like it?",
+        "data_id": 29
+    },
+    {
+        "id": "task1729-049c3b6b57f14649a74ad6cd1331a516",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm a girl.\nMy favorite song is barbie girl.\nI am an only child.\nChat history: -Hello, I'm Rex.\n -I'm mary.\n -What do you do mary?\n -I like to sing barbie girl, my favorite song! And you?\n -I am currently going back to school to become a casino manager.\n -Awesome! I am a feminist girl.\n -Did you got to school?\n [OUT] ",
+        "output": "No. my parents didn't help me pay for college even though I've no siblings.",
+        "data_id": 30
+    },
+    {
+        "id": "task1729-1dc8edec444d440394b39dda656a7e37",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I grew up on a farm.\nI like going to rock concerts.\nI eat eggs and bacon for breakfast.\nOn weekends I go out with friends.\nWhen I turned 18, my family moved across the country.\nChat history: -Hi, how are you doing?\n -I am doing great and you?\n -I'm stuck to a bed because I was a pirate with one leg. You?\n [OUT] ",
+        "output": "I like going out to rock concerts. Sorry about being stuck.",
+        "data_id": 31
+    },
+    {
+        "id": "task1729-30aa998f2a804fcb84c4cc96a22ecbdb",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I work at a school as an art teacher.\nI like to read.\nI don T own a television.\nMy girlfriend just broke up with me.\nChat history: -How are you? Threw my tv out for good. Reading more now.\n -I am alright. What have you been reading on? Just thinking what tot eat.\n -Trying to get ideas for teaching my students composition in painting.\n -Drawing is nice. Need to get a loan here soon.\n [OUT] ",
+        "output": "I need a loan too. My girlfriend left me and she left me broke.",
+        "data_id": 32
+    },
+    {
+        "id": "task1729-73116f9387024945a84bd8a730ccb625",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I work as a physical therapist, and my wife is a school nurse.\nMy wife and I've 2 children.\nWe also have three dogs and two cats.\nMy name is John and I live in Dallas, Tx.\nChat history: -Hello! I just got back from a fishing trip, how are you today?\n -Hello, that sounds fun! I'm just about to take my 3 dogs for a walk lol!\n -Three dogs? wow! That sounds like work.\n -It sure is! I also have 2 cats haha. Did you catch any fish?\n -No fish today. Its okay, though. I prefer cheeseburgers over trout!\n [OUT] ",
+        "output": "I agree, I love fish but nothing beats a good burger lol!",
+        "data_id": 33
+    },
+    {
+        "id": "task1729-2bb972201a7740bab3c97a547fdd227c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: Favorite band is the beetles.\nI collect stamps.\nI've a large cd collection.\nI like vintage furniture.\nChat history: -Hi! how are you doing?\n -I am great! So great I would like to know if you know God?\n -I know him somewhat. Can anyone ever fully know God?\n -Yes Sir Ma am! Its all in the bible.\n -Not much of a reader. I've a ton of cds though!\n -Well, thankfully there's bible on cd know a days, sorry to be so straightfoward.\n [OUT] ",
+        "output": "That is true. Oh it is okay we all have things we are passionate about.",
+        "data_id": 34
+    },
+    {
+        "id": "task1729-19026ed67e6444989fd24b8223778bf4",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I live in Nashville.\nI work in academia at a local university.\nI am committed to the environment.\nI like to go to the farmer s market every weekend.\nI play music in my spare time.\nChat history: -Hi my friend how are you.\n -Hi how are you today.\n -Good, just got back from the barn.\n -I wish I lived by a barn here in Nashville.\n -I love Nashville, I bought a vintage car from a guy there.\n [OUT] ",
+        "output": "I like their farmer markets here, I go every weekend.",
+        "data_id": 35
+    },
+    {
+        "id": "task1729-d091c5065f6a4345947a1dbc37bc8e1f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like to take cold showers.\nI struggle with maintaining eye contact.\nI drive a moped.\nMy favorite video game is halo 3.\nChat history: -Hey how are you today?\n -I am good, how are you? Do you like video games?\n -They are okay! Don't have much time for them though, I've work and 2 girls.\n -That would be a handful. I unwind with Halo 3. how do you have fun?\n -Hanging out with my girls and husband. He is busy a lot though, he is a lawyer.\n -Wow I'd have trouble keeping eye contact with people in that job.\n -Same. I work as a kennel assistant. That's how I got 3 dogs. you?\n [OUT] ",
+        "output": "I want one, but with my moped, I could not transport them. What breeds?",
+        "data_id": 36
+    },
+    {
+        "id": "task1729-5efc95b20cdd4ee79c466a4965e7291f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm a cartographer.\nI like to make bagels.\nI like to arm wrestle.\nI used to be a nurse.\nI like to paint outdoors.\nChat history: -Hi, what do you do? I'm a retired nurse who loves bagels.\n -Hi! I'm a model. Used to be chubby by tall and blonde now.\n -Nice! You must be in great shape now, would you care to arm wrestle?\n -Sure I can try! Could we listen to music together?\n -That would be great, I enjoy listening to music while I'm painting outdoors.\n -How lovely! I listen to insane clown posse.\n -What a coincidence, I have made maps for them before!\n -Wow I feel like I personally know them now!\n [OUT] ",
+        "output": "Me, too. did you know I also like making bagels?",
+        "data_id": 37
+    },
+    {
+        "id": "task1729-cf730b4bd33348f7a843c92abab6fd1d",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a professional skittles player.\nIn my free time, I watch Anime and baseball.\nI have never had candy in my life.\nI'm known as the iron skittler in the skittles universe.\nMy favorite mlb player is bartolo colon.\nChat history: -Hi, how are you today??\n -Do you play skittles? I am a player.\n -Never even heard of it, sorry!!\n -Fine, do you like Bartolo Colon? Do you know him?\n -No, sorry! I am not into music that much.\n -What do you do in your spare time? I love Anime also baseball.\n -I love dogs and cooking!!! I also fish.\n [OUT] ",
+        "output": "Ok, I'm not a fan of candy.",
+        "data_id": 38
+    },
+    {
+        "id": "task1729-d4f7da944a414954bd9141a2b300b6c3",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I work as a teacher and love my job.\nOne child has autism.\nI have two children.\nI'm a mother.\nI have two dogs who are like my babies.\nChat history: -I love teaching and my children. You sing or dance. Nice day.\n -That sounds nice. I suppose I do dance, I'm in a band. You?\n -Not in a band. Don't ask me where I live. No new friends here.\n -Oh, do you play an instruments?\n -No! I've dogs named Jerry and Jean. You married? Not me.\n -That's cool. No I am not married. Do you like coffee?\n -No! Jerry has autism.\n -The dog? I'm sorry. Do you like sea food?\n -No! Jean is blind and I am nervous. You dance?\n -The dog is blind I am sorry. A little bit yeah. Do you go on vacations?\n -No! you know how to make a unicorn cry?\n -No, I don't. Have you ever been to Michigan?\n [OUT] ",
+        "output": "No! you tell the unicorn you eat horsemeat.",
+        "data_id": 39
+    },
+    {
+        "id": "task1729-c382b7d602064f36b700d5b9aaca6001",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like eating pretzels.\nMy favorite band is vv nation.\nI really like watching star trek.\nI work for the railroad.\nI'm an omnivore.\nChat history: -How are you doing today?\n -Hello how is your day going?\n -Great I just watched game of thrones.\n -Nice star trek is the best.\n -I like star trek, but mostly I play soccer.\n [OUT] ",
+        "output": "I love soccer I eat pretzels when I go to the game.",
+        "data_id": 40
+    },
+    {
+        "id": "task1729-5f328cea1d634d2687f58e8a8030c6e6",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love art.\nI have a severe anxiety disorder.\nI am currently pregnant with my second child.\nMy husband in an engineer.\nChat history: -Hey whats going on? Hows your day so far?\n -Hi, my day is going good! How are you?\n -Tired. Lol I wor as a nurse in the er.\n -Wow, that is so cool you are a nurse!\n -Yes! lol I enjoy it but its exhausting. You have any hobbies?\n -I enjoy painting with watercolors. What about you?\n -I'm a huge reader. I'm re gently divorced to so lots of time lol.\n -I've time too. I'm a stay at home mom.\n -Well that is a job in itself. I'm actually reading and drinking dr pepperlol.\n -Nice. Thanks. My second child is on the way.\n -Uh oh! congrats that is awesome!\n -Thank you! We are very happy. The daddy is an engineer.\n -Well at least you know youre set financially haha.\n [OUT] ",
+        "output": "Haha yes, so I can be a mom! I'm very proud of my husband.",
+        "data_id": 41
+    },
+    {
+        "id": "task1729-94f2a0a607b6495385d800786a48fa17",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I work in accounting.\nI'm male.\nI have two dogs.\nI like potatoes.\nI lease my car.\nChat history: -Good afternoon there how are you.\n -Hi there, I'm good today, just catching up and reading, you?\n -Playing with my dogs and making cheesy potatoes.\n -How cute! What kind of dog do you have?\n -2 boston terriers they're cute.\n -Aw, I wish I could pet them. What are your hobbies?\n -Accounting and car leasing what do you do.\n -I am a teacher, but I do not make a lot of money.\n -Money won't buy happiness but makes a great down payment on it.\n -I don't think that is true. Money is needed to pay bills.\n -True, unless you do not have bills.\n -If we live in a world without money, it would be great.\n [OUT] ",
+        "output": "We would not have people like Donald Trump, which would be great.",
+        "data_id": 42
+    },
+    {
+        "id": "task1729-f4da4e7547ff40f8b5712af3e2b1082a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I used to be in the marines.\nI like to write poetry.\nWhen I've nothing else to do, I read books.\nI work as a bartender.\nChat history: -Hey there, hows your weekend so far.\n -Very good, lots of downtime for reading. How about you?\n -Just taking care of my mother. She's very sick.\n -Oh no I hope she finds relief soon.\n -Me to. between her health and our loud neighbors she cannot seem to rest.\n -I have loud neighbors too. I hope they move soon.\n -Yea we don't live in a very good neighborhood.\n -Same here. Better days ahead I hope.\n -Yea. not to mention, I get made fun of a lot. Not happy with my image.\n -Oh no why is that?\n -Idon't know I just worry about it constantly.\n -Its hard not to sometimes.\n -Yea. The world can be a cruel place I guess.\n [OUT] ",
+        "output": "There's joy to be found as well.",
+        "data_id": 43
+    },
+    {
+        "id": "task1729-29e76e2d1ba241a7b68eb221ae8125e5",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I watch every football game at Alabama.\nI am a geology major at Alabama university.\nI never have had alcohol in my life.\nI currently suffer from social anxiety.\nI've a girlfriend of 7 years.\nChat history: -Hi there. What are you up to tonight?\n -I live in the attic outside.\n -How is it outside if it is the attic?\n -I go to alot of football games.\n -Oh. I enjoy playing ice hockey.\n -I love playing with roaches.\n -That's gross. Are you in school?\n -I am inside of a box.\n -Ok. I am in high school.\n -I like to lick the tires.\n -Oh. I really like math.\n -I go to the college of Alabama.\n -Oh. what is your major?\n -It is geology bt I hate it.\n -Then why are you going for it?\n [OUT] ",
+        "output": "I've never had much alchohol.",
+        "data_id": 44
+    },
+    {
+        "id": "task1729-0cec0f29e5f146b28a353ec57917d2d8",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I drive a black car.\nI like rock music.\nI've a black purse.\nMy favorite artist is guns and roses.\nI like to wear black.\nChat history: -Rock on, I'm listening to my favorite band guns and roses.\n -No kidding? I was just listening to the same thing while taking a bath.\n -Of course. I love to listen to rock.\n -Man my boxer just peed on the carpet!\n -Well I'm into black everything. So at least it wouldn't show on my black carpet.\n -Ll. I love black too! Guess I was playing my music too loud.\n -I've a black car, purse, wear all black.\n -Maybe I can borrow something as I am packing to visit my dad in China.\n [OUT] ",
+        "output": "Wow, does he live there or work?",
+        "data_id": 45
+    },
+    {
+        "id": "task1729-30ef2223118645a9a277d24fe9f15c8c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I make friends fast and say goodbye fast.\nI kayak at the lake on weekends.\nI am studying to be a special education teacher.\nI was a navy brat and have attended 16 schools in 12 years.\nI chew my nails.\nChat history: -Way best the was this thought i. quickly pretty friend a make to hoping iowas hi,.\n -What are your hobbies? I went hiking on a new trail last week.\n -Kayaking go to love i.\n -I would love to go to Canada and hike some mountains way up north.\n -I was navy brat. I've been to Canada.\n -Maybe I will go to college in Canada so I can do some hiking there.\n -. I study special education.\n -I work at a bank as a teller.\n [OUT] ",
+        "output": "Do you have any bad habits?.. wow.",
+        "data_id": 46
+    },
+    {
+        "id": "task1729-8cb7e5bc76f9466daf1e6dc318e7d150",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I teach a yoga class.\nI enjoy nature.\nMy favorite food is salad.\nMy mother was a teacher.\nChat history: -Hey there! Do you like animals? I have a pet cat right now.\n -I like anything that is outdoors!\n -Outdoor animals? Cool. is your favorite season summer, like mine?\n -I like all seasons. Fresh lettuce and veggies are good in the summer.\n -Yum. I wish I could afford lots of fresh veggies. I hate being unemployed.\n -What kind of work did you do?\n -I used to be a teacher at a daycare, but it went out of business.\n -My mom taught second grade.\n -Cool! Luckily, I live with my parents at the moment. Mom teaches fifth grade!\n [OUT] ",
+        "output": "Small world! I live at home too!",
+        "data_id": 47
+    },
+    {
+        "id": "task1729-d9f7a20e80a440e8a0b107c99a195967",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I teach elementary school children at a private school.\nI'm a seventh day adventist.\nI eat a strictly vegan diet.\nMy friends tell me that I m a neurotic hypochondriac.\nOcd rules my life, and I've a hard time relinquishing control.\nChat history: -Hi there. How are you today?\n -Good. Though every do is good when you are retired.\n -Nice! I teach third grade.\n -No kidding? Former teacher myself, pe though.\n [OUT] ",
+        "output": "Oh cool. I work at a private school.",
+        "data_id": 48
+    },
+    {
+        "id": "task1729-c26d34da308d459ba89132f16de152c9",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm twenty two years old.\nI just moved into an apartment within the vicinity of my new job.\nI love children.\nI just graduated college with my bachelor s degree in education.\nI just accepted a job at the elementary school in my hometown.\nChat history: -Hey, how are you doing?\n -I am great!!! I just moved!!\n -Oh, where did you move to?\n -I just moved to Washington Dc! Starting my new job monday!\n -Oh cool. I'm about to enter the police academy in a few months.\n -Oh wow! Good for you!!! Exciting job!!\n -Yeah, I am very excited.\n -I am starting as a teacher on Monday! Not has exciting, but very rewarding!\n -Oh cool. Do you have any hobbies?\n -I like hanging out, but I've been so busy with my studies!\n -I lift weights and watch mma.\n [OUT] ",
+        "output": "Haha! Awesome! You must keep a good shape to be a cop?",
+        "data_id": 49
+    },
+    {
+        "id": "task1729-25ac0f6d09e647f680e418596dedcaec",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I take her to the park.\nWe live in an apartment.\nI am 25 years old.\nI have a 7 year old daughter.\nMy boyfriend is unemployed.\nChat history: -Hi how are you doing.\n -Hi I am fine, how are you.\n -I do not like flip flops I want shoes.\n -Me and my girlfriend live in an apartment.\n -I just love to lol do you.\n -Yes me too. Where are you from?\n -Tanzania right now where are you.\n -Near Chicago Illinois. My daughter is 7 years old.\n -That's cool do you like it.\n -Yeah it is a nice place to raise a family.\n -It sounds like it is to me.\n -I take my daughter to the park every day.\n -That sounds good and fun.\n -How old are you, I'm 25 years old.\n -I am 33 and love brownies.\n [OUT] ",
+        "output": "My boyfriend isn't working right now he is unemployed.",
+        "data_id": 50
+    },
+    {
+        "id": "task1729-cb10fd31afcf480faee08b82b2771f2c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I live in Chicago.\nI like to use a lot of exclamation marks when I type.\nI have three dogs and two cats.\nBoth my moms tell me they love me when I call them.\nPlaying quake on Slackware Linux makes me happy.\nChat history: -Hi!!!! How are you?\n -I'm well darkness has come so my work day is over.\n -Mine too!!!!! Now I can play quake and feed my pets. You have pets?\n -I do not work like average people have a farm and several dogs.\n -Wow!!!!! Not many farms here in Chicago. My mothers live on a farm though.\n -That's cool u understand. I love bartering what I do not grow myself.\n -Nice!!! I breed animals. Dogs and cats. Are you tall?\n -I am 5 foot 7 one day I'll inherit this farm.\n [OUT] ",
+        "output": "Yay!!!!!!!!! My mom and her wife have a farm, they raise beavers.",
+        "data_id": 51
+    },
+    {
+        "id": "task1729-7a45875c0ba54ee696b49d576b06070e",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I only eat locally sourced food.\nI like wide, open spaces.\nI own a home with 5 acres of land.\nI'm active on my city council.\nI have 10 alpacas.\nChat history: -Hi I am bobby! I am 10, how old are you?\n -Hi, I am Abby. I am 44.\n -Hi Abby! Do you like ice cream?\n -Yes, I do like ice cream. Sometimes I make my own ice cream at home.\n -Wow, that's so cool! What flavors? I get ice cream with my grandpa from soops.\n [OUT] ",
+        "output": "That sounds fun! I usually eat vanilla ice cream with fresh berries from my garden.",
+        "data_id": 52
+    },
+    {
+        "id": "task1729-fe619c31c053481cbb2ad99b8e929c0c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love dogs.\nI work at a doctors office.\nI'm single.\nMy favorite flower is a lily.\nI enjoy reading.\nChat history: -Hi! Jen here. Medical receptionist and avid reader and you?\n -Hi how are you today?\n -Great! And you? I love Kathy. She the best dog I've ever had.\n -Cool do you live in Florida?\n -No. new York. I am shy because I've ocd.\n -Weird I've ocd too.\n -You believe in Dejavu? What college did you attend?\n -Never been. I sores out.\n [OUT] ",
+        "output": "Do you know pennywise? I wish I wasn't shy. Whats your ocd?",
+        "data_id": 53
+    },
+    {
+        "id": "task1729-fb7d4b4f7f9d477ea07f75f9ff0cc0d4",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I used to work for a cable company.\nI love to ride my bike.\nI like my job.\nI like going to the beach.\nChat history: -Hello! Allergies are terrible this time of year!\n -Hi!! I enjoy a good walk to the beach no allergies!\n -That sounds awesome! I just don't like the dusty sand.\n [OUT] ",
+        "output": "I understand. Its a great place to ride my bike though.",
+        "data_id": 54
+    },
+    {
+        "id": "task1729-435307d2389f49ae8064edcd424ba96e",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I was a slave for 10 years.\nI got married 10 years later.\nI was the first born child.\nMy favorite color is red.\nI escaped and later became a carpenter.\nChat history: -Hello, nice to meet you?\n -Is that a question or a statement.\n -Just a greeting, sorry, I think the question mark jumped up there.\n -Haha how are you today.\n -Was doing good, but my auto spell thinks differently.\n -Life isn'thing but pain.\n -Sorry, whats wrong, is it work?\n -Oh just an observation haha.\n -What kind of work do you do?\n -I just take care of the kids.\n [OUT] ",
+        "output": "Are you married, have a family?",
+        "data_id": 55
+    },
+    {
+        "id": "task1729-891ffc757d884da0b77ef6057a8503b9",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a psychology major.\nI am a steelers fan.\nI enjoy Broadway shows.\nMy favorite band is the avert brother.\nI love to travel.\nChat history: -Hey, whats up, from Florida!\n -Hi! from Pittsburg! The steelers are best!!!\n -I do not care about sports much. Do you like dogs?\n -No. you? I'm into Broadway shows. Do you have a fav band?\n -I don't really. I'm kind of a science nerd in high school.\n -Avert brother is my fav band. Do you like to travel?\n -Yeah, but my braces cost a lot, so we couldn't afford to this year.\n -Are you in school? I'm studying psychology in college now that's my major.\n -I just started tenth grade. Psychology is cool. Digging in peoples brains!\n [OUT] ",
+        "output": "Yes, fascinating! So do you have a dog?",
+        "data_id": 56
+    },
+    {
+        "id": "task1729-3ba2ed788d924956b9095938188ba393",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I ve been to Canada two times my entire life.\nMy uncle use to work on fish boats in Florida.\nMy father use to drive a taxi cab in the 1970 s.\nI was once on the local news, and not for anything illegal.\nChat history: -Hello, how are you today?\n -I am pretty bored today, being nostalgic.\n -I hear you! Maybe I'll go out to a bar tonight.\n -Do you want to talk about my life?\n -Sure I would. What kind of things do you do for fun?\n -I like to travel. I've been up north to Toronto twice.\n -I have never been to Canada, but now that I am no longer working, maybe!\n [OUT] ",
+        "output": "What did you do for work?",
+        "data_id": 57
+    },
+    {
+        "id": "task1729-db9c06a305cd4166b1fb2e8b7f31e4ff",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I attend book club every week.\nMy mom is my best friend.\nI could not live without my cell phone.\nI am more of a cat person than a dog person.\nI enjoy the occasional drink with friends.\nChat history: -Hi.\n -Hi, what are you up to tonight?\n -I just came in from my car taurus to get my diet coke.\n [OUT] ",
+        "output": "Interesting.... I just got back from book club. Do you read?",
+        "data_id": 58
+    },
+    {
+        "id": "task1729-8f009c4ad41243ce8d3d1118a3ea96e7",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a family man.\nI am married with 2 children.\nI like to bowl.\nI spend as much time as I can with my family.\nChat history: -Hello do you need you hair done? I'm having a sale at my shop.\n -Hello! I actually do, I'm in need of a haircut.\n -I would love to give you a cut. I also do hair color mine is purple.\n -Sure! I wanted my wife to do it but she said no.\n -I've been married for 1 year now.\n -Nice! I am very family oriented and spend all my time with my wife and 2 kids.\n -I spend too much time in the shop says my better half.\n -Maybe you can take your spouse to bowling? That's what I like to do.\n -That is a good idea. They won't be so mad all the time.\n -Exactly. We usually eat sushi once a month and then go bowling.\n -We love sushi. We would make it a date night.\n -Any plans to have children? How about pets?\n -I want a big family and some dogs.\n [OUT] ",
+        "output": "I thought I wanted 4 kids but I'm okay with just having 2. it is cheaper!",
+        "data_id": 59
+    },
+    {
+        "id": "task1729-e398af2655f04badbc31b2997d8b64b5",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My wife makes the best pasta.\nI draw all the time and I am good at it.\nIt takes me an hour to drive to work in the morning.\nI listen to pink when I am painting.\nChat history: -Hello how are you doing today.\n -I'm ok what do you do for fun?\n -I am an avid drawer, I am great! How about you.\n -I like boating! So are you an artist?\n -Yes, I paint and draw. What kinds of boats do you captain?\n -Just little speedboats. It is just something I do in my down tome.\n -That sounds like fun. Do you work?\n -Yes work at a hospital as a doctor.\n -My sister is a doctor. That's hard work! Lots of hours.\n -Yeah most of the time I wish I had more time with my family.\n [OUT] ",
+        "output": "Oh yeah, family is very important. My wife makes fantastic pasta.",
+        "data_id": 60
+    },
+    {
+        "id": "task1729-6432e9e432374bcc9cdb25a161129b2c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My brother raised me after our parents died.\nI am quiet but confident.\nI m not really a blond.\nI often worry about where to park when I go somewhere new.\nChat history: -Hi, I am very smart. Are you?\n -That all depends on what you mean by smart, yet I can be quite confident.\n -I need only sleep for 3 hours a day and have no siblings or parents.\n -Wow that is interesting. My hair is not really blond.\n -Steak is my favorite meal and I always travel to buy it alone.\n [OUT] ",
+        "output": "I sometimes worry where to park when I go out.",
+        "data_id": 61
+    },
+    {
+        "id": "task1729-b8a54b8420374aff97691308b8bf6394",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am single.\nI work at a restaurant as waiter.\nI am a cyclist.\nMy father used to be a cop.\nChat history: -Hey, love how are you doing?\n -Fine. Need a break, my roommates hate my parakeet.\n -Hate your what lol? And me too I've been waiting tables all night.\n -I've three of them. Roommates that's. Not parakeets a bird.\n -Oh wow and nights like this make me reconsider my career choices.\n -You must be tired. I'd be.\n -Yea should have just followed in my dads footsteps and became a cop.\n -Yea maybe, hard to know.\n [OUT] ",
+        "output": "He is retired now, but tell me about you? I would like to know you better.",
+        "data_id": 62
+    },
+    {
+        "id": "task1729-0646aaf568d142fe87ea113d895c3e9c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm a military veteran.\nI love travelling and discovering new cultures.\nI volunteer at my local animal shelter.\nI've been married for 20 years.\nChat history: -Hi how are you doing?\n -Hey how are you doing today sir?\n -I'm fine just preparing my vegan dinner. You?\n -Just reading a national geographic. I love animals. Volunteer at a local shelter.\n -Same! I should volunteer. I just don't have any time with returning to school.\n -Cool. I love to travel. Do you?\n -Sometimes. I really enjoy country music. So I travel to a lot of concerts.\n [OUT] ",
+        "output": "Who is your favorite country singer?",
+        "data_id": 63
+    },
+    {
+        "id": "task1729-bc1bc5b040c94f9998cf6da9fcd6dacc",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love winning.\nI can tell right away if I'm going to like someone.\nI love sunny days.\nCoffee is important to me.\nI do not like feeling obligated to hang out with someone.\nChat history: -Hi.\n -Hello.\n -What do you do for a living?\n -I'm a secretary for a law firm. Coffee really helps me. Its important to me.\n -That's cool I am a college student.\n -Ah, I can already tell I am gonna like you. I've that power.\n -Lol.\n -Are you a people person?\n -Very much so.\n -I can tell when I will like a person but don't like being obligated to socialize.\n -Are you married?\n -No, but I do have a girlfriend that I intend to marry.\n -And youre a secretary. I thought u were a girl.\n [OUT] ",
+        "output": "Yes, I'm.",
+        "data_id": 64
+    },
+    {
+        "id": "task1729-2174f4353fb84361ae0197ef48906e2c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm tall.\nI like to garden.\nI love the outdoors.\nI like to build things.\nI like to travel.\nChat history: -Hey how are you? What are you doing?\n -Hey I am good, just got back from playing soccer.\n [OUT] ",
+        "output": "Nice. I watched a soccer game when I was in Brazil. It was great.",
+        "data_id": 65
+    },
+    {
+        "id": "task1729-263e345571a149e3a8573879c2fa930c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite animals are dolphins.\nI've my own channel.\nI love Youtube.\nMy father works in advertising agency.\nI enjoy making let s plays.\nChat history: -Hi there. How are you doing?\n -I'm good. Filming myself putting on makeup for my Youtube channel.\n -Sounds fun! I feel like make up for me hides my weaknesses. I like that.\n -There are so many good channels on Youtube. Do you like it?\n -Yes I do. I like the spiritual ones since I am a tarot reader.\n -Oh wow interesting. Can you communicate with dolphins? I love them.\n -I've with other animals. Never with a dolphin though.\n -My dad could advertise for you if you want to make your business bigger.\n -Your dad does advertising, hey? That would be awesome. What does he charge.\n -He is pretty affordable. Not sure of exact cost.\n -That is good to know. Is he a nice guy?\n -Very nice. He helps me make my lets plays.\n -Sounds like a good person. Hard to trust after a bad relationship.\n [OUT] ",
+        "output": "Are you divorced or separated?",
+        "data_id": 66
+    },
+    {
+        "id": "task1729-5de432de663849c7be524c686f6da9f1",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite writer is nicholas sparks.\nI enjoy cooking.\nI own a cleaning company.\nI am married.\nMy mother was a teacher.\nChat history: -Hi how are you today?\n -I am doing well thank you. How are you?\n -I am pretty good. Where do you work?\n -I have my own cleaning company. Where do you work?\n -I'm a manager at a restaurant I work so much.\n [OUT] ",
+        "output": "I love to cook.",
+        "data_id": 67
+    },
+    {
+        "id": "task1729-8548de7c5fa443d1993188dfc785e3e5",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love reading mysteries in my free time.\nI love playing tennis.\nI went to college in Chicago.\nI m pursuing my law degree.\nChat history: -Omg, my ferocious feline kj is trying to attack birds outside!\n -Oh funny! I have a dog and a cat.\n -She can be annoying, especially when I m cooking which is often.\n -What do you do for a living?\n -I'm a retired nurse. My husband used to be an auto dealer.\n -Oh. I'm working on my law degree.\n -That s very impressive. Must be expensive to go to school now.\n -It is! Thank goodness for loans.\n -Yeah but you have to pay back with large interest. Sad.\n -Yeah, my parents have helped out alot.\n -That s good. My husband is on disability so its good we don T have any kids.\n [OUT] ",
+        "output": "Oh. I am single with no kids.",
+        "data_id": 68
+    },
+    {
+        "id": "task1729-0bca899c16764f43b5c372ff49574825",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I m a terrible speller.\nI volunteer at animal shelters.\nI m an amazing dancer.\nI have blonde hair that reaches my knees.\nChat history: -I've a hard time spelling.\n -My 2 older sisters have that problem too. Sorry.\n -I love volunteering at the animal shelter.\n -Good for you. I should volunteer sometime but I play hockey instead.\n -I can dance pretty well. And my hair is blond, it goes down to my knees.\n -You sound hot. If I wasn t hanging out with a visiting friend I d talk longer.\n -Well I feel quite flattered.\n -Have you ever been to Paris? I go whenever I can afford it.\n -No I have not but that is ok I don't have to.\n -In college I did a business school exchange to London marvelous city.\n -Did you like it a lot?\n -It was fun even as a poor student. Like it more now that I have money.\n [OUT] ",
+        "output": "Hmm. Oh ok, I'm not sure how that works.",
+        "data_id": 69
+    },
+    {
+        "id": "task1729-d04e5d72e92f498d8ba8a9867a363ecd",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: One child has autism.\nI work as a teacher and love my job.\nI'm a mother.\nI've two dogs who are like my babies.\nI have two children.\nChat history: -Hi, how are you today?\n -I just did care of my child and has autism.\n -Oh, I don't have any kids.\n -Well I got a lot of kids because I am a teacher.\n -Oh. I work for a real estate agency.\n [OUT] ",
+        "output": "Two dogs and two children.",
+        "data_id": 70
+    },
+    {
+        "id": "task1729-535e4a06632045ec8d591b332d683f90",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like to use a lot of exclamation marks when I type.\nBoth my moms tell me they love me when I call them.\nPlaying quake on Slackware Linux makes me happy.\nI've three dogs and two cats.\nChat history: -Good afternoon!!!!!!!!!!!!! How are you??!!!!!!!!!!!!!!!!!!!!!\n -I'm great, I just got the kids down for a nap. How are you?\n -Just on Slackware playing quake!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n -I've no idea what you are talking about. Is that like chess?\n -I am a total gamer!!!!!!!!!!!!! Linux is my favorite ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n -I own a horse named Linux. I speak to her in code.\n [OUT] ",
+        "output": "You have pets???!!!!!!!! Me too!!!!!!!!!!!!!!! Two kitties and three doggies!!!!!!!!!!!!!!!!!!!!!!",
+        "data_id": 71
+    },
+    {
+        "id": "task1729-d411dca74ba1490c80f1f965a5acb7ee",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a pediatrician.\nI am a family man.\nI am married with 2 children.\nI like to bowl.\nChat history: -Hi how are you?\n -Hi, I'm doing well, how are you? Tell me about yourself!\n -I farm as my work, hobby I like to take photos and hike.\n -Oh great, I love taking photos too and my passion is bowling.\n -Sounds nice! What is your favorite type of music?\n [OUT] ",
+        "output": "I love listening to jazz with my wife and two kids! You?",
+        "data_id": 72
+    },
+    {
+        "id": "task1729-6fce449fc2f945db941f161a54fd92bc",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I've been all over the world.\nI like things that explode.\nI also like kittens.\nI work in the military.\nChat history: -Hi how are you today?\n -I'm fine, got my 2 mile walk in today.\n [OUT] ",
+        "output": "Nice have you travelled much?",
+        "data_id": 73
+    },
+    {
+        "id": "task1729-1e74334e5d414daeb2c306febfa935f1",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite music is country.\nI like the internet.\nI like to make cakes.\nI have a new job.\nI'm a vegetarian.\nChat history: -Hello, how are you tonight?\n -I'm well. Reading up on quantum physics.\n -Interesting subject, I'm a nurse.\n -Nice. Did you go to school?\n -Yes, you have too if you want to be a nurse.\n -I just got a new job.\n -Very nice! Where at?\n -I'm an editor at a big newpaper. I want spiderman!\n -I live with my own superhero, I'm married to a firefighter.\n -That's admirable. I almost burned down a house once.\n -How awful, was it a cooking incident?\n -It was plumbing incident. I got carried away soldering a pipe.\n -I once had a bad experience with sushi that resulted in a fire.\n -I think we are exceptional people. I have never met you but I feel it.\n -Do you live in Cleveland like me?\n [OUT] ",
+        "output": "I live in Biloxi, Mississippi. Its the best kept secret in America.",
+        "data_id": 74
+    },
+    {
+        "id": "task1729-cb52007e7d604ec09a58cc5bcec49c0f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a night owl.\nI enjoy hiking and riding my bicycle.\nI'm 29 years old.\nMy favorite band is pearl jam.\nI live in a suburb of Boston.\nChat history: -Hey how are you today.\n -I am great! I slept in because I tend to be a night owl.\n -That is great that you are refreshed. I am going to play a video game.\n -That sounds fun! I was thinking of going for a hike or a bike ride.\n -Fresh air is always good it keeps you healthy I think.\n -I agree! Do you like music?\n -Yes I like 80s music sometimes I think I am stuck in the 80s.\n -I like 80s music too. I also love pearl jam.\n -Pearl jam is a good band. I've a 386 game console.\n [OUT] ",
+        "output": "Cool! How old are you? I'm 29.",
+        "data_id": 75
+    },
+    {
+        "id": "task1729-abcdc238f3e245c19ba53de68a0832bc",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love history.\nI am a technician.\nMy mother was an rn.\nMy father was a dry wall finisher.\nChat history: -Hey, my name is kirk. Whats yours?\n -Sarah. History is my favorite subject. Yeara.\n -History is ok, motorcycles are where its at Sarah. I'm in a club.\n -Motorcycles? I help my dad finish dry wall.\n -That is what a grown woman like me likes. Motorcycles and tattoos.\n [OUT] ",
+        "output": "Well I like to be a technician. I'm technical.",
+        "data_id": 76
+    },
+    {
+        "id": "task1729-24eee0b338944e5daf44299429fcff8d",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: Until then I'll make 215 an hour.\nI hope it to become a doctor one day.\nI make and me by waiting tables.\nI'm a college student who is a full time working mom.\nI cannot wait to start my new life.\nChat history: -Hi there. Did you read the news about the new outlet going in at the beach?\n -No. I'm too busy working and waiting on tables.\n -Lucky. Bet you meet lots of interesting ppl. What king of restaurant?\n -I do. I am a mom working full time as well as a college student.\n -I wish I had taken management classes. What s your major?\n -Phd in medicine. Can not wait to be a doctor and start a new life!\n -Are you finished with your ta positions?\n -I am. what do you do for a living? I make 215 an hour.\n -I work retail. Never going to get rich but love the clientele.\n -That's what matters most. Pointless to be rich if you hate what you do.\n -I have a great balance work in the field I'm passionate about and surf when off!\n [OUT] ",
+        "output": "That's cool! What is your favorite type of music? I like all kinds.",
+        "data_id": 77
+    },
+    {
+        "id": "task1729-6890ac52413a456d99cc25b48c624c9a",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I fantasize about living in another country.\nI enjoy nature.\nI am in a lot of debt.\nI enjoy electronic music.\nI am failing some of my classes.\nChat history: -Ho how are you doing?\n -Great! Just finishing reading my fantasy fiction novel here I like those. You?\n -I am a college student so I don't read unless I've to lol.\n -Ll I keep telling my kids they should read, in order to go to college.\n [OUT] ",
+        "output": "What do you do for a living?",
+        "data_id": 78
+    },
+    {
+        "id": "task1729-750ac034bc18468f9a21b13a12f0456f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I regularly go to the gym.\nI've a cat named George.\nMy favorite band is metallica.\nI read autobiographies before bed.\nMy favorite meal is chicken and rice.\nChat history: -How are you doing this evening.\n -I'm tired. Long day at the gym. Haha.\n -Haha I strive for perfection so I go to gym everyday, I feel your pain!\n -Yeah. I go regularly. I listen to my favorite band Metallica when I work out.\n -That is cool! I need to take a break from working so hard.\n -All work and no play! Any animals or children?\n -I've a cat that's it, what about you.\n -I've a cat too. His name is george, he's old.\n -I love cats so cute and furry.\n -Me too. favorite food? Mine is chicken and rice.\n -Mine is pizza, I'm no cook. If it does not come out perfect I keep trying.\n -Pizza is good. Hard to make. Haha.\n -Since I take forever to finish all my daily tasks its easy dinner for me.\n [OUT] ",
+        "output": "I see. do you read? I like a good autobiography before bedtime.",
+        "data_id": 79
+    },
+    {
+        "id": "task1729-8e0fb7220f484a8dae123b62333eb464",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: One day I'd really like to skydive.\nWhen I m not touring with the band, I like to garden.\nMy twin brother and I share an apartment.\nI volunteer at the local humane society.\nI m a drummer in an indie band.\nChat history: -Hello how are you doing?\n -I'm great. How are you.\n -Good thanks just finished my shift.\n -Where do you work at.\n -What are you up to today? Waitress at a club.\n [OUT] ",
+        "output": "What kind of a club.",
+        "data_id": 80
+    },
+    {
+        "id": "task1729-73dc8dfbe2a8429b90df29f9aa54e9a7",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I would love to be a professional eater and not get fat.\nTo free my mind from feeling depressed I look up at the stars at night.\nI believe in aliens.\nI hate cleaning up after my husband and children.\nChat history: -Good morning how are you today?\n -Pretty good. I love the color green its my fave color.\n -Does anything annoy you? I get annoyed tidying up after my family.\n -A lot of things but I get over them. I play tennis.\n -That is a good way to live. Where do you work?\n -I am an animal activists. So I work with animals. And love it.\n [OUT] ",
+        "output": "Awesome! That's great. Personally I would rather eat for a living.",
+        "data_id": 81
+    },
+    {
+        "id": "task1729-73f4afbbd0d243e9b1613525247df61c",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm an old soul.\nMy back hurts chronically.\nI just want my voice to be heard.\nI am passionate about a lot of things.\nI tend to work myself up.\nChat history: -Hello how are you today? My back is hurting terribly today.\n -That'sn't good, have you tried a chiropractor?\n [OUT] ",
+        "output": "Yes, but it is so expensive. He didn't listen to me about my pain.",
+        "data_id": 82
+    },
+    {
+        "id": "task1729-39d8788c6a9849378826f607c593d9ad",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I think beets are the best vegetable.\nMy favorite show is Battlestar Galactica.\nI'm a paper salesman.\nI live on a beet farm.\nMy favorite animal is a bear.\nChat history: -Hello, how are you today?\n -Beets, bear Battlestar Galactica, which is best?\n -Omg, I love you so much.\n [OUT] ",
+        "output": "Wrong, its beets, also Battlestar is the best televsion show.",
+        "data_id": 83
+    },
+    {
+        "id": "task1729-ead163ed6dc540a3926e10891e35cba1",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I've a twin sister.\nI'm a teacher.\nI love chocolate.\nChat history: -Hello, how are you?\n -I am doing very well, I am grading my students papers this evening. How are you?\n -Emmy, Felix and I are doing well. Waiting for my kids to come home.\n -That's great! Is felix your pet? I don't have pets, teaching keeps me very busy.\n -Yes, Felix is my cat and emmy is the dog. Small town lol.\n -I don't have time for pets right now. Teaching is exhausting. Thankful for chocolate!\n -My kids are almost grown, there is no chocolate here!\n [OUT] ",
+        "output": "Oh no! I've to hide mine from my students. I love chocolate! Lol.",
+        "data_id": 84
+    },
+    {
+        "id": "task1729-e0044b56762040e590e454529e2229e3",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My parents used to work in politics, until they discovered the goodness within themselves.\nI don't like wearing pants when I don't have to.\nI enjoy John Gresham movies, but not his books.\nI'm a really, really good guitar player.\nChat history: -Care to chat with a justin timberlike fan? He's my fav!\n -Sure I am not much of a fan tho.\n -Its ok, ev1 has their own.\n [OUT] ",
+        "output": "What do you do for a living?",
+        "data_id": 85
+    },
+    {
+        "id": "task1729-75ce8424a5434f97818bc1e252069001",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love hamburgers.\nI always sleep 8 hours a day.\nI go running a lot.\nI work as an electrician.\nI hate winter.\nChat history: -Hi how are you today.\n -I'm good. Almost winter here in Dublin. How are you?\n -I am good is it cold.\n -Already snow on the ground in other parts of Ireland.\n -Wow that's insane compared to here.\n -What part of the world are you from? Dublin, Ireland here.\n -I am from the Usa I love sleep.\n -Yes I love sleep in these long cold winter nights.\n [OUT] ",
+        "output": "What do you like to eat.",
+        "data_id": 86
+    },
+    {
+        "id": "task1729-b0dc5567effd438b9a496392bb67cb44",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I enjoy baking and cooking.\nMy mother is an immigrant from Saudi Arabia.\nI have a family of three daughters.\nMy daughters say I'm a great mother.\nChat history: -Hi, how are you today?\n -Good, thanks. How are you?\n -Getting by. been stuck in the house this week. Need the mall.\n -Same here! I need to buy new ingredients to bake a cake for my daughters.\n -How old is she? Do you like to bake?\n -Yes, I love baking and cooking! I actually have three daughters aged 3, 5 and 8.\n -Nice, I'd rather play tennis than bake. Are you married?\n -Tennis sounds interesting! Yes, I'm! How about you?\n -I am single. I date regularly though. Do you have any pets?\n [OUT] ",
+        "output": "No, but I would love to have a cat. How about you?",
+        "data_id": 87
+    },
+    {
+        "id": "task1729-a3779b6372864d3baf29f3d2d52bb872",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My hair is black.\nI've a dog.\nI like rock climbing.\nI am a writer.\nI'm gluten free.\nChat history: -Anyone there? Taking a break after a big meeting at my law firm.\n -Hi I am jay and I can't eat gluten.\n -I can t imagine being allergic to food. I can t stand tofu myself.\n -Ya do you have any pets? I got a dog.\n -No pets yet. My wife spends her time dealing with our children.\n -Oh Snap got gum in my black hair while I was writing my book.\n -That s a strange thing to say. Are you drinking and driving?\n -To funny no I do not drink.. I love to rock climb.\n -Sounds dangerous. Have you fallen yet? I m a lawyer.\n -Not yet. So you deal with alot of paper work?\n -A lot. Plus when we bought our mcmansion it was lots of paper as well.\n -What is a mcmansion? Never heard of it.\n -A huge home. I hate a small prius car but a mega large home.\n -Nice drive any sports cars?\n -Besides my sensible prius I've a mercedes E63 s this years model and a maserati.\n [OUT] ",
+        "output": "Oh that is nice. Do you do any sports?",
+        "data_id": 88
+    },
+    {
+        "id": "task1729-4b287a7d6e5e4494b1b0919102723c0f",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My favorite color is blue.\nMadonna is my sister.\nMy husband is the ceo of taco bell.\nI've five cats.\nChat history: -Hello, do you like taco bell?\n -It used to be my favorite, but now I've a vegetarian diet.\n [OUT] ",
+        "output": "I am married to the ceo of taco bell. We do have some vegetarian items.",
+        "data_id": 89
+    },
+    {
+        "id": "task1729-f2bca7592e1a4b40b2d3dc5b15104021",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I like to drink tea.\nI like to eat hard boiled eggs.\nI like to draw other people.\nI love people with a sense of humor.\nChat history: -How are you doing? I am just watching tv, eating pizza!\n -Watching netflix. I hate pizza but I do love hard boiled eggs a lot.\n -Well, have you heard of the walking dead? I love that, and eating chocolate!\n -I prefer comedies though. I like people who have a sense of humor.\n -Also, I feel like jobs are a waste! Do you have one?\n [OUT] ",
+        "output": "Of course! I am an artist. I like to draw portraits of other people.",
+        "data_id": 90
+    },
+    {
+        "id": "task1729-4bf921ce9d4347a7bc91dc97d63c5622",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I m currently unemployed so I have time to write.\nAfter finishing my career I discovered that I m not that pasionate about it.\nI want to become an author.\nI m writing my first novel and hope to finish before the end of the year.\nChat history: -Hey stranger. What are you up to?\n -How are you doing I'm upset brought a pack of bootleg smokes.\n -That is not healthy. Better to read a good book.\n -I know thank you for the good advice I am a nervous person.\n -You can over come that if you want to.\n -It is hard buy I will try it soon. I enjoy drinking budweiser.\n -I don't drink. No money since I'm not working.\n -I'm a student and I want to study for a nurse.\n -I was a nurse but hated it. Now I am penning a book.\n -Good for you bless you I am in a band for indie.\n -I may add that to my story line.\n -Okay that would be nice I hope you find another job.\n [OUT] ",
+        "output": "I want to become famous with my book.",
+        "data_id": 91
+    },
+    {
+        "id": "task1729-42b98ff6e60641e5a31703570055f912",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm a student.\nI'm from California.\nI like to be outdoors.\nI think recycling is important.\nI like to shop at goodwill.\nChat history: -Hi there.\n -Hey dude, whats up?\n -Just finished my latest creation, a chocolate coconut pie. What about you?\n -Sounds good. I've been shopping at goodwill for some new to me duds.\n -Cool. did you find some?\n [OUT] ",
+        "output": "I found some great jeans. Reculed is the coolest.",
+        "data_id": 92
+    },
+    {
+        "id": "task1729-ecc865396ed7447cbf698dddd4bea0c7",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I'm married and have three kids.\nI'm a baseball player.\nI make a million dollars a year.\nI play for the Baltimore orioles.\nChat history: -I am making lunch. Should I make a chili corn dog or a hot dog with cheese?\n -Hmm. My wife often makes hot dogs with cheese for my three kids.\n -Yeah I love both so much I cannot decide. My grandson love cheesy hot dogs too.\n -Does he like baseball? I'm a professional baseball player.\n -Wow. What team do you play for? Yes he loves baseball.\n -The Baltimore orioles. If you can believe it, they pay me one million dollars every year!\n -I wish I made a million dollars than maybe it would make my hour commute worth it.\n -An hour is a long commute.\n -Yeah and I like to stay up late so the early morning commute is the worst.\n -I'll bet. I work late at my baseball games.\n -But you are doing something you love so its totally worth it.\n [OUT] ",
+        "output": "That is true. Somehow a million dollars doesn't go as far as you think though.",
+        "data_id": 93
+    },
+    {
+        "id": "task1729-270602f81dd74ecb89de96bbe44da331",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: My country is Russia.\nI am a olympian.\nI'm a weight lifter.\nI can also squat 400 pounds.\nChat history: -Good day, how are you?\n -Great! Just got a new piercing! In my navel! That makes 10 altogether now.\n -10? I do not have any piercings, I'm too lean for that.\n -Got them with the help of my friends they're my lifeline.\n -Being an olympian makes it difficult to meet people because I travel often. What about you?\n -Just getting over being a pack a day smoker. Driving endlessness takes the mind off.\n -Yeah, I prefer to work out when I am stressed. Do you exercise?\n -I should. With all the pasta I eat I need it. I admire people who are fit.\n [OUT] ",
+        "output": "I admire people who just go for it and live their lives freely.",
+        "data_id": 94
+    },
+    {
+        "id": "task1729-44a7f4e0337a4c59a34a7cec8cdbf10d",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I still like combat boots with babydoll dresses.\nI don T have a relationship with my deadbeat dad.\nI flirted with the dmv officer in order to pass my driving exam.\nThe death of Kurt Cobain marred my middle school years.\nChat history: -Hey, how is it going tonight?\n -It is fine and am watching a trailer at home.\n -I just came from my run. Six miles everyday.\n -I do run very early in the morning too.\n -Nothing like good exercise, any hobbies?\n -I love reading and listening to country music.\n -I'm into model airplanes and kayaking.\n -They're nice too and am also a model.\n -Cool. So you are into fashion?\n -Yes my mother is a designer and am also a ballerina.\n -A real life princess lol.\n [OUT] ",
+        "output": "So for you what do you do?",
+        "data_id": 95
+    },
+    {
+        "id": "task1729-3996f46b03bf411296924b221f837676",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I drink diet coke.\nI spend too much time shopping.\nI love Katy Perry.\nI work in retail.\nChat history: -What a great day for shopping what are you up to.\n -Not too much, just watching some tv. you?\n -Listening to some Katy Perry. She's so good.\n -I enjoy listening to her while I draw.\n -Do you draw for a living? I do retail.\n -Kind of. I am an art teacher.\n -No way! I love art, especially on clothes.\n -My mother is also a teacher. I followed in her footsteps.\n [OUT] ",
+        "output": "Your mother must be proud.",
+        "data_id": 96
+    },
+    {
+        "id": "task1729-78dec3d16d4b477aa5f2512599243eff",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am a soccer mom.\nI work for a online company from home.\nI cook every night.\nI teach cheerleading in my spare time.\nChat history: -Hi how are you doing?\n -Hi there. I am doing ok. I just finished cooking a delicious meal.\n -What do you do for a living?\n [OUT] ",
+        "output": "I work from home. Its an it company.",
+        "data_id": 97
+    },
+    {
+        "id": "task1729-1f672b04d45b478eae683b26f90f37bf",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I love art museums.\nI drink a lot of tea.\nI work in a used book store.\nI write short stories in my free time.\nI hope to one day be a published author.\nChat history: -Hi. I'm from England. What about you?\n -Hello. I'm from America.\n -Do Americans love tea? Coz we drink lots of it here.\n -Eh, I am more of a coffee or hot chocolate person. Starbucks is the best.\n -Ah! interesting. What do you like to do during your free time?\n -I work too much, barely have any time to enjoy anything. Always on the go.\n -I like to write short stories. Hope I can publish them one day.\n -Exciting, nothing better than curling up with a good book!\n -You said you work a lot, right? Where do you work?\n -I am in the public affairs sector of the government. How about you?\n [OUT] ",
+        "output": "I work in a certain used bookstore here in England.",
+        "data_id": 98
+    },
+    {
+        "id": "task1729-572048ccda3240f4a2f4558726e68d21",
+        "input": "[INS] Your task is to generate the next utterance in a given dialogue. You will be given a few sentences describing the personality of the person who is making the dialogue, and a history of the dialogue after that. Each line in the history is said by one of the two participants in the conversation.\n [IN] Personality: I am not afraid to die.\nI would be honored to give my life for my country.\nI'm an army ranger.\nI have a wife and two kids back in the states.\nI secretly love my long deployments, because it gets me away from conventional life.\nChat history: -Hello I was just listening to kid rock.\n -Nice! I am just getting to finally take a breather. Being an army ranger is rough.\n -Wow that is interesting. I'm getting my masters in music so I'm busy too.\n -Oh do you play an instrument?\n -I play all instruments and teach. I am a music loving girl.\n -Awesome! I'd have loved to try that but I come from a army family.\n -Wow are you a military brat?\n -Haha! no but my 2 kids could probably be considered that at this point.\n -I like to travel and see the purple flower fields.\n -Me too. I like my deployments sometimes to just get away from normal life.\n -I took rotc studies in college.\n [OUT] ",
+        "output": "Interesting. Did you enjoy it?",
+        "data_id": 99
+    }
+]

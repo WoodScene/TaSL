@@ -1,0 +1,854 @@
+[
+    {
+        "id": "task639-073aaad1a68041dbb84c7e46a6e14a33",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are 17 Chinese places that you may like, do you have further criteria to narrow it down?\n [OUT] ",
+        "output": "what's the most expensive one?",
+        "data_id": 0
+    },
+    {
+        "id": "task639-45a90890933b4cefa87f9f79ecb87b3b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] You're welcome. Thank you for calling the Cambridge Township Centre. Enjoy your day!\n [OUT] ",
+        "output": "Their post code is cb46az.",
+        "data_id": 1
+    },
+    {
+        "id": "task639-38727fbf9d754f30a356d8fcd82aee76",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] No, I just need the address of one of them.\n [OUT] ",
+        "output": "I am looking for a restaurant. The restaurant should be in the centre and should be in the moderate price range",
+        "data_id": 2
+    },
+    {
+        "id": "task639-f5f518a7815b4364a97905522db7cf6c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Meghna is an indian restaurant in the west part of town and in the moderate price range.\n [OUT] ",
+        "output": "Can you find me a moderately priced restaurant in the west ?",
+        "data_id": 3
+    },
+    {
+        "id": "task639-b70c64aff4874295ae265a8ab839d4b6",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Hello! My friends told me about a hotel called Alexander Bed and Breakfast. Can you get me some information about it, please?\n [OUT] ",
+        "output": "They have internet, it has a 4 star rating, and the postcode is cb12de.",
+        "data_id": 4
+    },
+    {
+        "id": "task639-d10f8883d68e42cab0e728091bd5735f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are no Malaysian restaurants. Would you like something different?\n [OUT] ",
+        "output": "Thank you, goodbye",
+        "data_id": 5
+    },
+    {
+        "id": "task639-6a910a539c7242828e9059fd403aff29",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I don't see any Cuban restaurants in the Centre. Would you like to look for Cuban restaurants in another location?\n [OUT] ",
+        "output": "Thanks again for the help. Have a great day. Goodbye.",
+        "data_id": 6
+    },
+    {
+        "id": "task639-102f1f443c0c4bf68d76f36b27e6c040",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] The address is Trinity Lane postcode cb21tt. No entry fee! Anything else I can help you with?\n [OUT] ",
+        "output": "Can you book me a table for Wednesday at 17:30 for a party of 5?",
+        "data_id": 7
+    },
+    {
+        "id": "task639-276716455177486f947a08753722b3b7",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Do you have a cheap restaurant that serves indian food. In the mood for curry.\n [OUT] ",
+        "output": "Yes please, just me starting on the day of my restaurant visit.",
+        "data_id": 8
+    },
+    {
+        "id": "task639-ace057e2400d4bc387182c664b1d750c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Are there any boat attractions?\n [OUT] ",
+        "output": "Have a nice day.",
+        "data_id": 9
+    },
+    {
+        "id": "task639-147ea8fac0324cfb835d8d6d9fb1c74c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'd like to find a panasian restaurant in the centre of town please.\n [OUT] ",
+        "output": "Can I have the phone number, address and postcode?",
+        "data_id": 10
+    },
+    {
+        "id": "task639-c49f51251db944c98b5e526953fc062d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thank you goodbye.\n [OUT] ",
+        "output": "I would like a cheap restaurant in the north part of town",
+        "data_id": 11
+    },
+    {
+        "id": "task639-dbdb2aedf9de4e99b2fe9ffd2d4be87b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes please for two people at 16:15 on Wednesday please if its not too much trouble.\n [OUT] ",
+        "output": "Okay, you are very welcome! Goodbye!",
+        "data_id": 12
+    },
+    {
+        "id": "task639-43e4cfa3400d4a10884ef345c4327f32",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'd like to get there by 14:30.\n [OUT] ",
+        "output": "You have five options for a train that will get you to Cambridge by 14:30. Do you have a preference on what time to leave?",
+        "data_id": 13
+    },
+    {
+        "id": "task639-a7caaf65d0364eecaf47e0749c3f40ce",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] it offers British food and it is expensive\n [OUT] ",
+        "output": "Sure. Were you looking for a specific price range?",
+        "data_id": 14
+    },
+    {
+        "id": "task639-af83fab024074e448b08d3f291d05cae",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm heading to Club Salsa, and I need a taxi.\n [OUT] ",
+        "output": "I need to be at club salsa by 6:00 leaving la tasca.",
+        "data_id": 15
+    },
+    {
+        "id": "task639-18634d65b84a49d99aec6bc9b574262b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have made reservations your reference number is KZ7IRCWH .\n [OUT] ",
+        "output": "Sure make me a booking for 8 people at 19:00 on monday.",
+        "data_id": 16
+    },
+    {
+        "id": "task639-2b7eae8b698749fe8b30c88375847bda",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay, look for a yellow audi to pick you up. The contact number is 07881400116. May I assist you with anything else?\n [OUT] ",
+        "output": "Great, do you have a leave by, or an arrival time in mind?",
+        "data_id": 17
+    },
+    {
+        "id": "task639-e29a7af51b254db2a19d90bf5e5574b9",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am so sorry, but I was not able to book this. Would you like to try a different restaurant?\n [OUT] ",
+        "output": "Yes. Something in the same area and same pricerange, please.",
+        "data_id": 18
+    },
+    {
+        "id": "task639-4c215b42e7074a69aa85a688e9a45e6d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Here is the information you asked for. phone is 01223 244955 and address is at 7 Barnwell Road Fen Ditton, C.B 5, 8 R.G. Is there anything else I can help you with today?\n [OUT] ",
+        "output": "Yes please. can i have the address, phone number and postcode ?",
+        "data_id": 19
+    },
+    {
+        "id": "task639-08d5d472e1a546839d7e388c69afe00e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] You're welcome. Good bye.\n [OUT] ",
+        "output": "Gourmet Burger Kitchen is a restaurant serving North American food and in the Expensive price range. The phone number is 01223 312598 and the address is Regent Street City Centre.",
+        "data_id": 20
+    },
+    {
+        "id": "task639-5cef61c6a3c34329ab434d02de1f48df",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thanks, I will. Bye bye. Take care.\n [OUT] ",
+        "output": "That is all Thank you",
+        "data_id": 21
+    },
+    {
+        "id": "task639-de7575b76a264c6cbcaa943863a244e8",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are 23 museums in Cambridge. Any particular one or area you are looking for?\n [OUT] ",
+        "output": "There are 11 guesthouses in the north. Do you have a price range or number of stars in mind?",
+        "data_id": 22
+    },
+    {
+        "id": "task639-7db814894bb048fca15f7da18bb20992",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes, please. I will need their address and what price range it is in.\n [OUT] ",
+        "output": "I'm heading to Norwich and need to leave after 11:15 from Cambridge",
+        "data_id": 23
+    },
+    {
+        "id": "task639-7ebef557bc704abe960e447cc5d230e8",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I can book that for you, first I'll need to know where you'd like picked up at.\n [OUT] ",
+        "output": "Great! Have a nice day!",
+        "data_id": 24
+    },
+    {
+        "id": "task639-0479e76bbf8a48598b12b1fe1efea437",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] looking for lensfield hotel, kindly find out whether it has internet and the area\n [OUT] ",
+        "output": "I also need a taxi to get to the college. I want to leave my hotel at 04:45.",
+        "data_id": 25
+    },
+    {
+        "id": "task639-eaf4a6a5d28a41a9961939295c91b8f1",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Great that's all the info I need, thank you for your help today.\n [OUT] ",
+        "output": "Thank you very much. Have a nice day.",
+        "data_id": 26
+    },
+    {
+        "id": "task639-fde521dc202348298cf129d53ecdbdea",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Actually, skip that. Let's see if there's a great restaurant to try instead. I am open as far as cuisine but want something expensive in the centre of town.\n [OUT] ",
+        "output": "Thank you so much for your help.",
+        "data_id": 27
+    },
+    {
+        "id": "task639-c628d54eef6e45e89be8a78c10dc8cbe",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] what area of town could you love to stay?\n [OUT] ",
+        "output": "A hotel is fine whichever you recommend.",
+        "data_id": 28
+    },
+    {
+        "id": "task639-c2a8d31f76fa47e3a838ab1566d6ec93",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Nope, just tell me the area where your favorite is located, and I'll check it out!\n [OUT] ",
+        "output": "It's located on Storey's Way. Do you need any more info on it?",
+        "data_id": 29
+    },
+    {
+        "id": "task639-a5c429241c02439d822f62c7ad07a62f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Are there any with 2 stars that offer free parking?\n [OUT] ",
+        "output": "I want to leave by 01:30.",
+        "data_id": 30
+    },
+    {
+        "id": "task639-85f525f1e3d643daaa9a01ded54abce7",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Price range is not important, just the four stars.\n [OUT] ",
+        "output": "No, just the area and postcode please.",
+        "data_id": 31
+    },
+    {
+        "id": "task639-2c0100a139f3468f86b25e035c2316a0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Have a nice day. Thank you for contacting us.\n [OUT] ",
+        "output": "I have train TR6009 that leaves at 08:34 and will arrive in Peterborough at 09:24. Would that work for you?",
+        "data_id": 32
+    },
+    {
+        "id": "task639-047ab38aab15471dbe6caaee9f28bc72",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay, I've booked 4 tickets. Your reference number is FBZ6Z3NH . Can I help with anything else?\n [OUT] ",
+        "output": "the cambridge belfry is a cheap hotel. would you like me to make you a reservation?",
+        "data_id": 33
+    },
+    {
+        "id": "task639-0c5960098f964a35b03daa549b83b159",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Ok. How many nights would you like to book?\n [OUT] ",
+        "output": "Thanks very much !",
+        "data_id": 34
+    },
+    {
+        "id": "task639-a741d621ed0140b88ebbfe8f433c32ca",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Great! Have a nice day!\n [OUT] ",
+        "output": "The address is Hills Rd, Cambridge, and the postcode is CB20QQ.",
+        "data_id": 35
+    },
+    {
+        "id": "task639-21b02fda470e4f8a81a2e1ac69b2ab57",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can you tell me if they have free internet and the star rating for each?\n [OUT] ",
+        "output": "Ah, here it is. It's an expensive gastropub restaurant in the east. Would you like to make a reservation?",
+        "data_id": 36
+    },
+    {
+        "id": "task639-44e82cbb2caa4021ba03bda50a5d4fa0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Hi I am looking for an expensive restaurant in the centre of town.\n [OUT] ",
+        "output": "Okay, let's book a table for five on Wednesday at 14:45.",
+        "data_id": 37
+    },
+    {
+        "id": "task639-fcfb259129e946d691d24b756f34a36d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have information for the Parkside Police Station, is this close to your location?\n [OUT] ",
+        "output": "You're welcome. The police will help you immediately. Goodbye.",
+        "data_id": 38
+    },
+    {
+        "id": "task639-a4a0be9ad99b48f7a4989cb458372e78",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I need a place to stay that has free parking and is in the expensive price range.\n [OUT] ",
+        "output": "Yes that is good please make a booking for 8 people at 14:15 on sunday.",
+        "data_id": 39
+    },
+    {
+        "id": "task639-f80b77525bde4a3fab9af22f40b18c62",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Little Seoul is located in the centre of town. Is there anything else I can help you with?\n [OUT] ",
+        "output": "How about korean food?",
+        "data_id": 40
+    },
+    {
+        "id": "task639-b25ed10e4db64e1991bc4eb99d982bf1",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] looking for a train. The train should arrive by 09:45 and should depart from cambridge.\n [OUT] ",
+        "output": "i need to go to norwich.",
+        "data_id": 41
+    },
+    {
+        "id": "task639-5967dcdd67444d19b29c506905df09fa",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have train TR3225 that arrives at 10:58 is that good for you?\n [OUT] ",
+        "output": "You are all set, your confirmation number is 1Q0G4OWL, can I assist with anything else?",
+        "data_id": 42
+    },
+    {
+        "id": "task639-b196812646d04026ae00a1f042ee9cb5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can I help you with anything else?\n [OUT] ",
+        "output": "Yes. Need it in the east. Star of 4 and do not care about parking, but do need it to be a hotel not guesthouse.",
+        "data_id": 43
+    },
+    {
+        "id": "task639-b7aa14e8ceb741818b64f63b0f988369",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can you give me their phone number and postcode?\n [OUT] ",
+        "output": "I am looking for a place to go in the centre of town that is a theater.",
+        "data_id": 44
+    },
+    {
+        "id": "task639-1ce43dbe588849a981da863b577dcafc",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] You are more than welcome!\n [OUT] ",
+        "output": "I have the Addenbrookes Hospital on Hills Road in Cambridge. Their phone number is 01223245151.",
+        "data_id": 45
+    },
+    {
+        "id": "task639-58ee17d8ca344abba48d38149f2262f7",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Great, how about the Archway House? It's in the North, moderate price, and 4 stars. It also has internet.\n [OUT] ",
+        "output": "Archway house does have free parking, would you like me to book it for you?",
+        "data_id": 46
+    },
+    {
+        "id": "task639-d5ac98bdbe3540afb725ba31bb77ce3c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I also need to find a train for Friday going to Cambridge from Norwich and leaving after 15:15.\n [OUT] ",
+        "output": "I am looking for information in Cambridge",
+        "data_id": 47
+    },
+    {
+        "id": "task639-9e08c8c297f744b289d095e1cd28fc05",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] It doesn't matter what time I leave, just so I arrive by 09:45.\n [OUT] ",
+        "output": "You're welcome. Please let us know if there is anything else we can help with.",
+        "data_id": 48
+    },
+    {
+        "id": "task639-1c800f076c3741eb80b9a6ee352ee96f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes, it is! Anything else needed?\n [OUT] ",
+        "output": "I have places that fit that description all over town, except in the north. If area is no concern, I recommend the Gonville in the center of town.",
+        "data_id": 49
+    },
+    {
+        "id": "task639-c08ee283501e43df82a5b5fbc9fe1d26",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Enjoy your visit!\n [OUT] ",
+        "output": "The travel time is 51 minutes.",
+        "data_id": 50
+    },
+    {
+        "id": "task639-f7c8e7eb25b048979b74c09aabb29ba1",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] What's the address, postcode, and phone number for that place?\n [OUT] ",
+        "output": "You are welcome. Have a great day.",
+        "data_id": 51
+    },
+    {
+        "id": "task639-8b83e923ed0242768f3ff50fff3978a3",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] That was all I needed.\n [OUT] ",
+        "output": "What area of town interests you most ?",
+        "data_id": 52
+    },
+    {
+        "id": "task639-f2cdcdafa4a3426abbf2d8722797cf1c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Brilliant! Thank you.\n [OUT] ",
+        "output": "I have you booked at acorn guest house. Reference number is: IDAIIS1T .",
+        "data_id": 53
+    },
+    {
+        "id": "task639-7b6fc22bed0b410ab3b8f336e34fe608",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I apologize, but it appears tuscan with the moderate price range does not have any result.\n [OUT] ",
+        "output": "I found Prezzo in the west part of town, would that work?",
+        "data_id": 54
+    },
+    {
+        "id": "task639-487dc883d60a458b8343c7bb436a49d0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] You're welcome, goodbye.\n [OUT] ",
+        "output": "Thank you, goodbye",
+        "data_id": 55
+    },
+    {
+        "id": "task639-cac3c2ec15a64172983d60ffa1cc4160",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I can do that! I just need your departure and arrival sites and the time you need the taxi.\n [OUT] ",
+        "output": "Are there any museums in Cambridge?",
+        "data_id": 56
+    },
+    {
+        "id": "task639-03ba1a10fe6b494ebbbba18e537dbe74",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Let us know if you need any more help.\n [OUT] ",
+        "output": "The nearest police station is in Parkside with the post code CB11JG. Would you like the phone number?",
+        "data_id": 57
+    },
+    {
+        "id": "task639-b73706b1593e4fb19170d2950cdcea79",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are 44 attractions in the center of town. Is there a particular kind of attraction you'd be interested in?\n [OUT] ",
+        "output": "Can I get their phone number and address, too? I also need to book a train from Cambridge arriving by 10:15 on Friday.",
+        "data_id": 58
+    },
+    {
+        "id": "task639-37caa1c549f144148315ecfb04c988c9",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Great! Can you please book a table for 7 people at Curry Garden? Do they have any openings for 19:15 on Monday?\n [OUT] ",
+        "output": "Thank you for using the Cambridge TownInfo centre. Goodbye",
+        "data_id": 59
+    },
+    {
+        "id": "task639-8e8ceec506504cd8b06a021737bd4c8c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can you try booking it for 11:15?\n [OUT] ",
+        "output": "I think that is all for now! Thanks again. Have a great day!",
+        "data_id": 60
+    },
+    {
+        "id": "task639-4e07df214b8b436cbdbf3b6e3bb779ef",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] the missing sock serves international food, they are located at Finders Corner Newmarket Road.\n [OUT] ",
+        "output": "Bye bye.",
+        "data_id": 61
+    },
+    {
+        "id": "task639-aa1cdbd984b8448a97179eda045c939f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm sorry but there aren't any Malaysian places of any price in town. Would you like to try a different cuisine?\n [OUT] ",
+        "output": "I believe you meant 10:00, so I went ahead and made the reservation for that time. The reference number is HRPLZ9AQ .",
+        "data_id": 62
+    },
+    {
+        "id": "task639-dfed6ca794d74e9fb2c7caaeb7c1bb7e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] is there anything further I can help you with?\n [OUT] ",
+        "output": "I'm interested in find a place to see in the centre of the town.",
+        "data_id": 63
+    },
+    {
+        "id": "task639-103710df76af44e4838ec3a0374fe89c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Your reservation is all set! Your reference number is WFOQFQ2P . Is there anything else I can help you with?\n [OUT] ",
+        "output": "There are two options. Both are expensive. Do you have a preference for area?",
+        "data_id": 64
+    },
+    {
+        "id": "task639-e378e2f7ea46461685f3b4a87051a6f0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am interested in finding a great nightclub to take a friend to.\n [OUT] ",
+        "output": "I've booked a table for 5 on Monday at 17:30. The reference number is MUBJSMLX . Is there anything else I can help you with?",
+        "data_id": 65
+    },
+    {
+        "id": "task639-1eb42f7e0956480d90da97192e3558ff",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] That would be the El Shaddai, would you like to book there?\n [OUT] ",
+        "output": "You are welcome. Have a lovely day.",
+        "data_id": 66
+    },
+    {
+        "id": "task639-3fd8e9dbcf774fc19e2bb1900db4edfa",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I want to depart from broxbourne after 16:00\n [OUT] ",
+        "output": "Yes please do that for me and give me the reference number.",
+        "data_id": 67
+    },
+    {
+        "id": "task639-0c97b69169434158a18d3e09a2bd84d3",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay that sounds great.\n [OUT] ",
+        "output": "No, thank you. You have been very patient and helpful. Have a nice day. Bye.",
+        "data_id": 68
+    },
+    {
+        "id": "task639-b1a1f1573b004c85be510405aebb9488",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] yes, it is perfect\n [OUT] ",
+        "output": "Alright, there about 30 or so hotels that would work. Did you prefer a certain area or price range?",
+        "data_id": 69
+    },
+    {
+        "id": "task639-8c4d878a041a48059ef2e1751ac632f5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are two moderately priced restaurants in the north part of town. One specializes in Indian cuisine and the other is a Chinese restaurant.\n [OUT] ",
+        "output": "Thank You very much",
+        "data_id": 70
+    },
+    {
+        "id": "task639-f40449530c874d4993431392d5d52ce8",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes, which one is the best?\n [OUT] ",
+        "output": "sure theres two hotels, 01223525725 and 01223351241",
+        "data_id": 71
+    },
+    {
+        "id": "task639-3b4af89a9d744bdf8572f49f1df8a29d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I don't care about the type of cusine, I'd like it to be in the moderate range in the north.\n [OUT] ",
+        "output": "Great. I also need to find a restaurant for the same number of people on the same day for 19:00.",
+        "data_id": 72
+    },
+    {
+        "id": "task639-c2511142508244a7913ce7c3a2715b22",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] i have booked frankie and bennys and Reference number is : JMGIG52I .\n [OUT] ",
+        "output": "I would like to dine at a restaurant in the south that serves barbeque. Can you help?",
+        "data_id": 73
+    },
+    {
+        "id": "task639-1139e10cd2c640a682d1703c2bd41d59",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Not a problem and thank you for choosing Cambridge TownInfo Centre\n [OUT] ",
+        "output": "Yes I have locations on the east, north and city center. Any preference for location?",
+        "data_id": 74
+    },
+    {
+        "id": "task639-8ad5ae949a60461b838c396737e62500",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm sorry, I only know that it is moderately priced. Can I book a room for you?\n [OUT] ",
+        "output": "What is the price range?",
+        "data_id": 75
+    },
+    {
+        "id": "task639-1a2eaa83f960470ba5e9ccb4022df678",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Well then, thank you for using our service. Have a great day. Goodbye.\n [OUT] ",
+        "output": "There are several trains on that route that run throughout the day. Do you know what day and time you'd like to travel?",
+        "data_id": 76
+    },
+    {
+        "id": "task639-b4afa301c1cf41479b29ea13b954b2bf",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm traveling from norwich.\n [OUT] ",
+        "output": "There is a train leaving at 9:16 that will get you in by 10:35.",
+        "data_id": 77
+    },
+    {
+        "id": "task639-c0415411819f4add8369e061888e4ee4",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] We have nine expensive dining establishments on the west side. Cuisines offered are Thai, Indian, European, and British. Do you have a preference?\n [OUT] ",
+        "output": "Thank you. Can you please give me the reference number?",
+        "data_id": 78
+    },
+    {
+        "id": "task639-05806a5c0e0a4c3e8f23e3a749aa5c0e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are 5 moderately priced restaurants that serve British food. Saint Johns Chop House in the west, and Cotto, Restaurant One Seven, The Copper Kettle, and The Oak Bistro in the city centre.\n [OUT] ",
+        "output": "What about British food?",
+        "data_id": 79
+    },
+    {
+        "id": "task639-94ceb542fb90412c89e5820be52bd283",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I also need to find a train from ely to cambridge.\n [OUT] ",
+        "output": "Thank you. Goodbye.",
+        "data_id": 80
+    },
+    {
+        "id": "task639-18accce6c93d499ab023f41f0a704fe4",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] it should be a hotel with wifi. find me its postcode and address\n [OUT] ",
+        "output": "Well I am glad I can help. Enjoy !",
+        "data_id": 81
+    },
+    {
+        "id": "task639-7caeb1f3c1c343fbb5b4962667731748",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] No, that's all. Thank you.\n [OUT] ",
+        "output": "I am looking for a place serving christmas food in the centre of town.",
+        "data_id": 82
+    },
+    {
+        "id": "task639-ac77f28d9c044362a6023d116ab80b6b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am looking for info about a hotel called city centre north b and b. Can you help?\n [OUT] ",
+        "output": "That's all I need. Thank you.",
+        "data_id": 83
+    },
+    {
+        "id": "task639-d5bc133577f1484784d03b51807b682f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay well I was able to book you at The Worth House and your reference number is 86XVFEUY .\n [OUT] ",
+        "output": "Enjoy your stay in Cambridge!",
+        "data_id": 84
+    },
+    {
+        "id": "task639-16429297b5394ed9b690d8bd161b2d14",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Can you tell me the phone number, address and price range for El Shaddai?\n [OUT] ",
+        "output": "Yes! The address is gwydir street, no. 5 dale's brewery; the entrance fee is free; and the phone number is 01223311687. Can I help with anything else today?",
+        "data_id": 85
+    },
+    {
+        "id": "task639-f40079970622430fb4539b189f00d3f9",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'd recommend jesus green outdoor pool. Would you like more information?\n [OUT] ",
+        "output": "Thanks. I hope your day is good too.",
+        "data_id": 86
+    },
+    {
+        "id": "task639-abd7748530634e8f8b56b6a402c1dc33",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes!! Several, like the cambridge corn exchange. Is there a particular area you are interested in?\n [OUT] ",
+        "output": "I would consider a museum. Are there any in the east?",
+        "data_id": 87
+    },
+    {
+        "id": "task639-7606e1890c0e4850a686d9962c972f55",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thanks! I don't care, I just want to leave at 06:45, please.\n [OUT] ",
+        "output": "Thanks again, goodbye.",
+        "data_id": 88
+    },
+    {
+        "id": "task639-443292c5f9124b089e546284cd6d6c62",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Sure. A white Lexus will pick you up at 1:30 at Saffron Brasserie. The contact number is 07399627486. Is there anything else I can help with?\n [OUT] ",
+        "output": "Thank you for using Cambridge TownInfo centre, and have a wonderful day.",
+        "data_id": 89
+    },
+    {
+        "id": "task639-0a675ac984d64b6b894b90f74d0deb91",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes, what do you recommend for entertainment?\n [OUT] ",
+        "output": "Your booking was successful. Your reference number is CQB3NI5K . Is there anything else?",
+        "data_id": 90
+    },
+    {
+        "id": "task639-a84c69722a164bc2aaae7690e5553cd0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] holy trinity church, phone number is 01223355397, postcode is cb23nz. Is there anything else you need?\n [OUT] ",
+        "output": "No, thank you. That will be all. Have a great day!",
+        "data_id": 91
+    },
+    {
+        "id": "task639-c00592eff6c147daa265ba610dc1335b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Your booking was successful. Your reference number is G7TDBIJU .\n [OUT] ",
+        "output": "Looking for something in the North, cheap price range please. Don't care much about internet.",
+        "data_id": 92
+    },
+    {
+        "id": "task639-c6cbe28d86214395aaf8431f11c22d41",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm sorry, there are no restaurants in the city that serve Malaysian food. Can I help you find another restaurant?\n [OUT] ",
+        "output": "the river bar steakhouse and grill is located at quayside off bridge street and its phone number is 01223307030. Is there anything else I can help you with?",
+        "data_id": 93
+    },
+    {
+        "id": "task639-3bceaf096a8a4cf6a4cc09d1bc954b7c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] It looks like we'll have a total of 5 people in our party.\n [OUT] ",
+        "output": "I need it to b moderately priced and include free wifi.",
+        "data_id": 94
+    },
+    {
+        "id": "task639-fc23da059fe047fba34cb61c78af8ab6",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am trying to find a hospital that has a transplant high dependency unit.\n [OUT] ",
+        "output": "Addenbrookes Hospital has a transplant high dependency unit. The phone number for the transplant high dependency unit is 01223216811. Would you like the address and postcode as well?",
+        "data_id": 95
+    },
+    {
+        "id": "task639-dd2fb4849b994cfba1cfdf15cdfaac63",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Its an expensive hotel.\n [OUT] ",
+        "output": "That's all I need for now. Thanks for all your help!",
+        "data_id": 96
+    },
+    {
+        "id": "task639-0ea2d4f3fe724b1ab91a479a207bdddc",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] It doesn't matter. Can you just recommend one for me?\n [OUT] ",
+        "output": "Yes, may I please get Magdalene College's phone number?",
+        "data_id": 97
+    },
+    {
+        "id": "task639-dc9960b2aaa64a5897c975936f9a6188",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Have a nice day! Goodbye.\n [OUT] ",
+        "output": "Royal Standard is a Gastropub in East. Is this OK?",
+        "data_id": 98
+    },
+    {
+        "id": "task639-bf13a76cbe9a4101bf6376adf65e3b04",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I'm sorry, I do not understand your request. Would you like help with anything else?\n [OUT] ",
+        "output": "Sounds great I need reservations for 7. I also need the reference number.",
+        "data_id": 99
+    },
+    {
+        "id": "task639-6bc05840e9924d958584f8f39158162c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I booked a room for you at the Gonville Hotel at Gonville Place. Your reference number is 4ZRJZIVU . Can I help you with anything else today?\n [OUT] ",
+        "output": "I have 8 hotels with free wifi and parking. What price range would you like?",
+        "data_id": 100
+    },
+    {
+        "id": "task639-0f7f9c0a4fc4455a92b0668c39eab7ce",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are 44 different attractions in the centre. Can you narrow down your choices?\n [OUT] ",
+        "output": "Thanks, I'm also looking for some places to go in the centre.",
+        "data_id": 101
+    },
+    {
+        "id": "task639-84a5bf5ed74943e890cd6b62b88bb7e0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I've made the reservation and your reference number is J1DOHU0T .\n [OUT] ",
+        "output": "I'm traveling alone, can you tell me how much the train fare costs?",
+        "data_id": 102
+    },
+    {
+        "id": "task639-b76b90ce77764765b0423d5f8efa93d8",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] What other restaurants are in the same area and price range?\n [OUT] ",
+        "output": "Of course. The restaurant is on 152 - 154 Hills Road and their phone number is 01223413000.",
+        "data_id": 103
+    },
+    {
+        "id": "task639-f92dfcaad2854fa38c6213f13301af77",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I need to find a train from Cambridge.\n [OUT] ",
+        "output": "That is perfect. Can I get the phone number and postal code please?",
+        "data_id": 104
+    },
+    {
+        "id": "task639-7ac79109e857473e8c09d1cc673e01d9",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I would like the one with the italian food. Can you see if I can book a table for 7 people at 14:30 on tuesday there please?\n [OUT] ",
+        "output": "I was unable to book a reservation at that time. Would you like to try another time?",
+        "data_id": 105
+    },
+    {
+        "id": "task639-08622479878a423cbe8ea0a1253d6473",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Nothing else. Thank you so much for your help. Goodbye.\n [OUT] ",
+        "output": "The park is free. There are several Indian places on the Westside. Do you have a price range you're looking for? Otherwise I'd suggest Tandoori Palace.",
+        "data_id": 106
+    },
+    {
+        "id": "task639-3f66e8e6b95a4d95bb788fdda4c1bb23",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have about 19 different trains. Do you have a certain time you would like to leave after or arrive by?\n [OUT] ",
+        "output": "At 20:16 a train leaves for Cambridge duration of which is 79 minutes.",
+        "data_id": 107
+    },
+    {
+        "id": "task639-14ae14384c524d569053ec51d5188d9f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] What is your departure site?\n [OUT] ",
+        "output": "i want to book a taxi. The taxi should go to little saint mary's church and should leave after 05:45.",
+        "data_id": 108
+    },
+    {
+        "id": "task639-4f9cdfe4e8974861b73a73881a06dc85",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay thank you that is all I need.\n [OUT] ",
+        "output": "Yes. I can find it. How many people will be staying?",
+        "data_id": 109
+    },
+    {
+        "id": "task639-cd4455287a4c46f5bd7b5342b762bab5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Your booking is now completed.\n [OUT] ",
+        "output": "You are more than welcome!",
+        "data_id": 110
+    },
+    {
+        "id": "task639-21b7592962f9421a960dc8164b694962",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Okay, great. You're welcome. Have a wonderful day.\n [OUT] ",
+        "output": "Ok. What time would you like the taxi to pick you up?",
+        "data_id": 111
+    },
+    {
+        "id": "task639-41b7c321862d438386d92430c676786f",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am sorry, but the Leverton House was not available for your party on Tuesday. Would you like me to look for another hotel?\n [OUT] ",
+        "output": "In what area would you like? Leverton is in the East, should the hotel be in the same area?",
+        "data_id": 112
+    },
+    {
+        "id": "task639-ef4e143f61264ef6ad827d13719ede7b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] No,let me check around,I will call back.\n [OUT] ",
+        "output": "I am looking for a place to stay with free wifi.",
+        "data_id": 113
+    },
+    {
+        "id": "task639-807d9b066c2444df88050f258674b855",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] No thank you.\n [OUT] ",
+        "output": "Okay and what day would you like to travel?",
+        "data_id": 114
+    },
+    {
+        "id": "task639-cacb0b2680304a4c93f1acf07caf734c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Please. Could you please book it for 1 person starting Thursday for 4 nights\n [OUT] ",
+        "output": "Yes it is. Would you like me to book it for you?",
+        "data_id": 115
+    },
+    {
+        "id": "task639-0ca7577a4c1c4155a2ca971a341bd7dd",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] The restaurant should serve asian oriental food.\n [OUT] ",
+        "output": "I'd like to find an expensive restaurant in the north part of town.",
+        "data_id": 116
+    },
+    {
+        "id": "task639-827f5d7d75db42019ca067345254dce8",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] The Bridge Guest House is in the south and has free wifi. It is a moderately-priced with a 3-star rating. Would you like to book a room?\n [OUT] ",
+        "output": "Great. Can you get me a phone number and postcode?",
+        "data_id": 117
+    },
+    {
+        "id": "task639-55fd415742884458b7ac7399c3c428e0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I need a place for a modern european food. Moderate range ought to do it. Thank you.\n [OUT] ",
+        "output": "You are welcome, have a great day.",
+        "data_id": 118
+    },
+    {
+        "id": "task639-c75c7c79825d4c3fb9d07a1d1acee76e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Your room for two people for three nights on Monday was booked successfully. Your reference number is CW9SXT27 . Is there anything else I can help you with?\n [OUT] ",
+        "output": "I am not particular about area but I need it to include free parking.",
+        "data_id": 119
+    },
+    {
+        "id": "task639-b8f24ba3fd304a7ba44cd5baa9f07d67",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have you in a red Toyota, contact is 07737828007.\n [OUT] ",
+        "output": "That is all I need, thank you!",
+        "data_id": 120
+    },
+    {
+        "id": "task639-288d1887d98b4209aab4635d1d62346a",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I will be at Cityroomz.\n [OUT] ",
+        "output": "I've booked you a grey Audi, the contact number is 07702787736.",
+        "data_id": 121
+    },
+    {
+        "id": "task639-536e104929574eee9e222b95c8ccad9e",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thank you good bye.\n [OUT] ",
+        "output": "Meghna is an Indian restaurant in the west part of town and is in the moderate price range.",
+        "data_id": 122
+    },
+    {
+        "id": "task639-1139628161024a6392a6d8fe2b5d3f66",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Your arrival time for TR6833 is 21:07, with a travel time of 88 minutes. Price is 16.60 pounds per ticket.\n [OUT] ",
+        "output": "Sure, we have Milton Country Park located in the north in Milton. There phone number is 01223420060 & postcode is cb46az.",
+        "data_id": 123
+    },
+    {
+        "id": "task639-de2db11aac994265b58e43299ac83d67",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Please give me their price range and postcode.\n [OUT] ",
+        "output": "Let's go for the guesthouse please",
+        "data_id": 124
+    },
+    {
+        "id": "task639-b14f68a926af44f29268aa1d3abba089",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Hello, I need to find a cheap hotel that has free parking in Cambridge\n [OUT] ",
+        "output": "we don't have that information available.",
+        "data_id": 125
+    },
+    {
+        "id": "task639-61c1aa2786fd40008dbbf25a04b8300b",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I want a restaurant in the centre of town.\n [OUT] ",
+        "output": "Are you looking for a particular type of food?",
+        "data_id": 126
+    },
+    {
+        "id": "task639-0146478ba594476ab782f3aee200f699",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I would like a moderately priced restaurant in the west part of town\n [OUT] ",
+        "output": "Thank you for using our system. Good bye",
+        "data_id": 127
+    },
+    {
+        "id": "task639-1586835426a94ed8bd5f32d9a24b28e0",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I would like it to be not be more that $120 a night.\n [OUT] ",
+        "output": "How about the El Shaddai? It's at 41 Warkworth Street and it's cheap.",
+        "data_id": 128
+    },
+    {
+        "id": "task639-1612e8616f444e1fae7a4391bb5bdddd",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have 23 great museums. Is there a certain area you would like to be in?\n [OUT] ",
+        "output": "It does not really matter can you suggest one?",
+        "data_id": 129
+    },
+    {
+        "id": "task639-26ed273c64cb4779869cba27e74f1185",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thank you, good bye.\n [OUT] ",
+        "output": "The train should go to cambridge and should arrive by 14:00.",
+        "data_id": 130
+    },
+    {
+        "id": "task639-28c5c4200c454623b36d2c92de94cb5c",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] That sounds great, could you make the reservations for me there then? I will be there Sunday with 3 people and we will stay for 2 nights.\n [OUT] ",
+        "output": "I am sorry the acorn doesn't have a room available then, how about another hotel?",
+        "data_id": 131
+    },
+    {
+        "id": "task639-2a8400db56284eeba881d7a6d628c2e2",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Yes, that would be fine. I don't need tickets, I just need the travel time, price, and train ID.\n [OUT] ",
+        "output": "I need a train that is headed to london kings cross and i need to arrive by 20:30.",
+        "data_id": 132
+    },
+    {
+        "id": "task639-40d8a25e59ea40899f9bbcc262dc2166",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] There are lots of things to do, did you have an area preference?\n [OUT] ",
+        "output": "I would suggest the funk fun house.",
+        "data_id": 133
+    },
+    {
+        "id": "task639-cc34fc4244da4ec09749c31654a032c5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I have that booked, the reference code is 8EPNPVVM . Anything else?\n [OUT] ",
+        "output": "The hamilton lodge guesthouse does have free parking, is that okay? There is the alpha-milton guest house in the north, it' 3 stars, moderately priced and doesn't offer parking.",
+        "data_id": 134
+    },
+    {
+        "id": "task639-0fd8fd53f96141afbb5e476d7b8515c5",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thanks. The train and attraction are all I need today. I appreciate your help. Goodbye.\n [OUT] ",
+        "output": "I am going to Cambridge and I want to travel home by train.",
+        "data_id": 135
+    },
+    {
+        "id": "task639-3a80b78ebc6b48929ad58c78b288248d",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] cambridge. by 13:30 and should go to broxbourne\n [OUT] ",
+        "output": "No, but I'm looking for Corsican food.",
+        "data_id": 136
+    },
+    {
+        "id": "task639-9d52ddd3f88748cdb43d0459937126e9",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Goodbye\n [OUT] ",
+        "output": "I would like a moderately priced restaurant in the south part of town",
+        "data_id": 137
+    },
+    {
+        "id": "task639-f8044ab6c4264e97a2d4abacd1c6c2ea",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] I am looking to go to cambridge on tuesday\n [OUT] ",
+        "output": "Glad I could be of assistance.",
+        "data_id": 138
+    },
+    {
+        "id": "task639-08ec4241067844c88fe8489b19531beb",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] You're welcome! Have a great day. Goodbye.\n [OUT] ",
+        "output": "The TR3685 leaves just 15 minutes later, at 13:00.",
+        "data_id": 139
+    },
+    {
+        "id": "task639-4081159790ec456d8c22dfb29f7e899a",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Thank you for contacting Cambridge TownInfo centre, and hope you enjoy your stay. Have a nice day.\n [OUT] ",
+        "output": "that would be great. What's the area?",
+        "data_id": 140
+    },
+    {
+        "id": "task639-1d41a7bf8f914dd188fe0d17578610d3",
+        "input": "[INS] You are shown a random response (from a computer or a human). Generate a language query such that it leads to this reply.\n [IN] Sure. Tandoori is located at 68 Histon Road Chesterton in postcode cb43le. Their phone number is 01223506055. Can I book it for you?\n [OUT] ",
+        "output": "You're welcome. Have a nice day!",
+        "data_id": 141
+    }
+]

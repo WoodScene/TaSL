@@ -1,0 +1,902 @@
+[
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "hustlers"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "official secrets"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "official secrets"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? [SYSTEM]: I started the movie. It's a mystery starring Chris Larkin. [USER]: Great, thank you. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? [SYSTEM]: I started the movie. It's a mystery starring Chris Larkin. [USER]: Great, thank you. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "official secrets"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? [SYSTEM]: I started the movie. It's a mystery starring Chris Larkin. [USER]: Great, thank you. [SYSTEM]: Anything else I can do? [USER]: Nope, that's all for now,. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: Can you play a movie please? With Spanish subtitles. [SYSTEM]: Sure, which movie do you have in mind? [USER]: I'm thinking Hustlers. [SYSTEM]: Okay, can you confirm you'd like me to play Hustlers with spanish subtitles? [USER]: Actually wait, play Official Secrets instead. [SYSTEM]: Sure, can you confirm you'd like me to play Official Secrets with spanish subtitles? [USER]: Yup, could you also tell me the genre of that movie and who plays in it? [SYSTEM]: I started the movie. It's a mystery starring Chris Larkin. [USER]: Great, thank you. [SYSTEM]: Anything else I can do? [USER]: Nope, that's all for now,. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "official secrets"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "dontcare"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the load"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the load"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the load"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. [SYSTEM]: The movie has started. [USER]: What type of movie is it and who is the main actor? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. [SYSTEM]: The movie has started. [USER]: What type of movie is it and who is the main actor? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the load"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. [SYSTEM]: The movie has started. [USER]: What type of movie is it and who is the main actor? [SYSTEM]: It is a War movie and Marko Grba Singh is the main actor. [USER]: Thanks. That would be all. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to see the movie right now. It can have subtitles or not. [SYSTEM]: Which movie are you interested in seeing? [USER]: I want to see The Load. [SYSTEM]: You would like to see The Load with English subtitles? [USER]: I prefer to see it with French subtitles. [SYSTEM]: You would like to see The Load with French subtitles? [USER]: Yes, that would be fine. [SYSTEM]: The movie has started. [USER]: What type of movie is it and who is the main actor? [SYSTEM]: It is a War movie and Marko Grba Singh is the main actor. [USER]: Thanks. That would be all. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the load"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. [SYSTEM]: Okay, I need your final confirmation to play the movie Good Boys with French subtitles. [USER]: Yes, correct. Please let me know the type of this movie. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. [SYSTEM]: Okay, I need your final confirmation to play the movie Good Boys with French subtitles. [USER]: Yes, correct. Please let me know the type of this movie. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. [SYSTEM]: Okay, I need your final confirmation to play the movie Good Boys with French subtitles. [USER]: Yes, correct. Please let me know the type of this movie. [SYSTEM]: It is Comedy movie and the same was started playing now. [USER]: Thanks and that's all. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in a nice mood and I have some free time. I want to watch a perfect Movie and I need your help in this regard. [SYSTEM]: What is your favorite movie to watch? [USER]: Good Boys. It is the best I think. Can you play it now? [SYSTEM]: Yes, I need your final confirmation to play the movie Good Boys with English subtitles. [USER]: Please play it with French subtitles. [SYSTEM]: Okay, I need your final confirmation to play the movie Good Boys with French subtitles. [USER]: Yes, correct. Please let me know the type of this movie. [SYSTEM]: It is Comedy movie and the same was started playing now. [USER]: Thanks and that's all. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "suspense"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "suspense"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "rojo"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "suspense"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "rojo"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "suspense"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "rojo"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? [SYSTEM]: The actor is Rafael Federman. [USER]: This is cool..Thank you \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "suspense"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? [SYSTEM]: The actor is Rafael Federman. [USER]: This is cool..Thank you \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you help me to find some online movies? [SYSTEM]: Which type of movie you want? [USER]: For me suspense movies is okay. [SYSTEM]: I have short listed 4 movies of your choice. Madeline's Madeline, Rojo or The Art of Self-Defense? [USER]: I want to watch Rojo movie now with spanish subtitles. [SYSTEM]: Please give confirmation details:Run Rojo with spanish subtitles. [USER]: Okay, This is perfect. [SYSTEM]: The movie started playing now. [USER]: Can you tell me the actor of this movie? [SYSTEM]: The actor is Rafael Federman. [USER]: This is cool..Thank you \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "rojo"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-starring> in the input dialogue.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "leland orser"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "leland orser"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "leland orser"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-starring>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "leland orser"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. [SYSTEM]: I have started playing the movie. [USER]: Thank you, that is all I needed. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. [SYSTEM]: I have started playing the movie. [USER]: Thank you, that is all I needed. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "leland orser"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. [SYSTEM]: I have started playing the movie. [USER]: Thank you, that is all I needed. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: I'm looking for a movie online to watch. I like thriller movies and movies with Leland Orser. [SYSTEM]: I found 1 movie you might like. How about The Art of Self-Defense? [USER]: Yes, The Art of Self-Defense sounds good. I'd like to watch it now. [SYSTEM]: Okay, I'm playing The Art of Self-Defense with English subtitles, correct? [USER]: No, I'd like to watch it with Hindi subtitles. [SYSTEM]: Okay, playing The Art of Self-Defense with Hindi subtitles, correct? [USER]: Yes, that is correct. [SYSTEM]: I have started playing the movie. [USER]: Thank you, that is all I needed. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "hustlers"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "zama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. [SYSTEM]: You'd like to watch Zama with French subtitles. Is that correct? [USER]: That is correct. Can you tell me what genre of movie it is and who is in it? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. [SYSTEM]: You'd like to watch Zama with French subtitles. Is that correct? [USER]: That is correct. Can you tell me what genre of movie it is and who is in it? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "zama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. [SYSTEM]: You'd like to watch Zama with French subtitles. Is that correct? [USER]: That is correct. Can you tell me what genre of movie it is and who is in it? [SYSTEM]: It's a World movie and stars Carlos Defeo. [USER]: Great. Thank you for the help. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "french"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'd like to watch a movie. [SYSTEM]: Of course. What would you like to stream? [USER]: Please play Hustlers for me. [SYSTEM]: You'd like to watch Hustlers with English subtitles. Is this correct? [USER]: I'm sorry. I'd like to change that to Zama with French subtitles. [SYSTEM]: You'd like to watch Zama with French subtitles. Is that correct? [USER]: That is correct. Can you tell me what genre of movie it is and who is in it? [SYSTEM]: It's a World movie and stars Carlos Defeo. [USER]: Great. Thank you for the help. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "zama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. [SYSTEM]: The movie is playing. [USER]: That's all, thanks. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. [SYSTEM]: The movie is playing. [USER]: That's all, thanks. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'd like to search for some online movies. [SYSTEM]: Sure, what type do you like? [USER]: Look for a drama film. [SYSTEM]: How about A Faithful Man, After the Wedding, or Blinded by the Light? [USER]: I like After the Wedding. [SYSTEM]: Should I play it for you? [USER]: Yes, and put on Hindi subtitles. [SYSTEM]: Please confirm you'd like me to play After the Wedding with Hindi subtitles. [USER]: Actually do English subtitles. [SYSTEM]: Okay, confirm you'd like me to play After the Wedding with english subtitles. [USER]: Yup, that's right. [SYSTEM]: The movie is playing. [USER]: That's all, thanks. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? [SYSTEM]: Its a comedy, started the movie [USER]: who is the main actor in it? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? [SYSTEM]: Its a comedy, started the movie [USER]: who is the main actor in it? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? [SYSTEM]: Its a comedy, started the movie [USER]: who is the main actor in it? [SYSTEM]: Alexander Calvert is lead actor in it [USER]: thanks, thats all \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: Please find me a movie? [SYSTEM]: which movie do you want to see? [USER]: Good Boys is good [SYSTEM]: Please confirm: Playing Good Boys with English subs [USER]: yes, right. What type of movie is it? [SYSTEM]: Its a comedy, started the movie [USER]: who is the main actor in it? [SYSTEM]: Alexander Calvert is lead actor in it [USER]: thanks, thats all \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the angry birds movie 2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the angry birds movie 2"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the angry birds movie 2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the angry birds movie 2"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? [SYSTEM]: Britta Steffenhagen is an actor in the movie. [USER]: Okay. That's all. Thanks. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "cartoon"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? [SYSTEM]: Britta Steffenhagen is an actor in the movie. [USER]: Okay. That's all. Thanks. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'm looking for online movies. [SYSTEM]: What type of movies are you interested in? [USER]: I would prefer a cartoon. [SYSTEM]: Would The Angry Birds Movie 2 or Toy Story 4 interest you? [USER]: The Angry Birds Movie Two sounds good. [SYSTEM]: Should I play it? [USER]: Yes. Please play it with English subtitles. [SYSTEM]: Please confirm you want me to play The Angry Birds Movie 2 with English subtitles. [USER]: Yes. That's right. [SYSTEM]: The movie has started. [USER]: Who acts in it? [SYSTEM]: Britta Steffenhagen is an actor in the movie. [USER]: Okay. That's all. Thanks. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the angry birds movie 2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I would like to watch the movie Toy story four. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "toy story four"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I would like to watch the movie Toy story four. [SYSTEM]: Playing Toy Story 4 with English subtitles. [USER]: Yes, who acted in this movie? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I would like to watch the movie Toy story four. [SYSTEM]: Playing Toy Story 4 with English subtitles. [USER]: Yes, who acted in this movie? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "toy story 4"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I would like to watch the movie Toy story four. [SYSTEM]: Playing Toy Story 4 with English subtitles. [USER]: Yes, who acted in this movie? [SYSTEM]: Tony Hale acted in the movie. [USER]: That is all I needed. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I would like to watch the movie Toy story four. [SYSTEM]: Playing Toy Story 4 with English subtitles. [USER]: Yes, who acted in this movie? [SYSTEM]: Tony Hale acted in the movie. [USER]: That is all I needed. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "toy story 4"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "once upon a time in hollywood"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "once upon a time in hollywood"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with Spanish subtitles. [USER]: Yeah, that's right. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with Spanish subtitles. [USER]: Yeah, that's right. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "once upon a time in hollywood"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with Spanish subtitles. [USER]: Yeah, that's right. [SYSTEM]: The film has begun playing. [USER]: Thank you; that's all for now. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to view the film right now. [SYSTEM]: What film would you like to view? [USER]: I'd like to view the film Once Upon a Time in Hollywood with subtitles in English. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with English subtitles. [USER]: Nope; I'd like to view it with subtitles in Spanish. [SYSTEM]: Please verify the following information: cast Once Upon a Time in Hollywood with Spanish subtitles. [USER]: Yeah, that's right. [SYSTEM]: The film has begun playing. [USER]: Thank you; that's all for now. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "once upon a time in hollywood"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "scary"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "scary"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "scary stories to tell in the dark"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "scary"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "scary stories to tell in the dark"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "scary"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "scary stories to tell in the dark"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. [SYSTEM]: Is there anything else I can help you with? [USER]: No. That will be all. Thank you! \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "scary"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-starring>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. [SYSTEM]: Is there anything else I can help you with? [USER]: No. That will be all. Thank you! \n [slot] media_3-starring, it indicates Celebs acting in the movie. So the value of slot <media_3-starring> is \n",
+        "output": "gil bellows"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. [SYSTEM]: Is there anything else I can help you with? [USER]: No. That will be all. Thank you! \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: Can you find me some movies featuring Gil Bellows? [SYSTEM]: What type of movies do you want me to search for? [USER]: Search for scary movies. [SYSTEM]: I found 1 movie called Scary Stories to tell in the Dark. [USER]: Scary stories sounds great to me. I would like to watch this movie with English subtitles. [SYSTEM]: Please confirm: You want me to play Scary stories to tell in the Dark with English subtitles. [USER]: Yes, That sounds great. [SYSTEM]: Your movie is playing. Enjoy the movie. [USER]: Thank you for the help. [SYSTEM]: Is there anything else I can help you with? [USER]: No. That will be all. Thank you! \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "scary stories to tell in the dark"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. [SYSTEM]: Is there anything else you need help with? [USER]: I'm fine for now, thsnk you though. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. [SYSTEM]: Is there anything else you need help with? [USER]: I'm fine for now, thsnk you though. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I am in the mood to watch a good movie online. [SYSTEM]: What type of movie are you in the mood to watch. [USER]: I would love to see a good thriller movie. [SYSTEM]: Would you like to watch The Art of Self-Defense, Rojo or Madeline's Madeline? [USER]: I think I would like to see The Art of Self-Defense. [SYSTEM]: I can start playing the movie for you if you like. [USER]: I would like you to start the movie but with Hindi subtitles please. [SYSTEM]: I understand you would like me to play The Art of Self-Defense with Hindi subtitles. [USER]: That is correct. [SYSTEM]: I have started the show for you, enjoy. [USER]: You're the best help. [SYSTEM]: Is there anything else you need help with? [USER]: I'm fine for now, thsnk you though. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "the art of self-defense"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! [SYSTEM]: Plays movie. [USER]: Thanks, that is everything. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! [SYSTEM]: Plays movie. [USER]: Thanks, that is everything. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I want to find a movie to watch online. [SYSTEM]: What type of movie do you want to watch? [USER]: I want to watch a drama movie. [SYSTEM]: I found 10 movies including A Faithful Man, After the Wedding, and Blinded by the Light. [USER]: After the Wedding will be perfect. [SYSTEM]: Are you ready to watch? [USER]: Yes, play it with English subtitles. [SYSTEM]: Please confirm, playing After The Wedding with English subtitles. [USER]: Yes! [SYSTEM]: Plays movie. [USER]: Thanks, that is everything. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? [SYSTEM]: Would you like me to play Good Boys with English subtitles? [USER]: Yes, please. What's the genre? \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? [SYSTEM]: Would you like me to play Good Boys with English subtitles? [USER]: Yes, please. What's the genre? \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? [SYSTEM]: Would you like me to play Good Boys with English subtitles? [USER]: Yes, please. What's the genre? [SYSTEM]: The movie will begin playing shortly. Good Boys is a comedy. [USER]: Awesome, thank you and i'll talk to you later. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I feel like watching a movie right now. [SYSTEM]: Is there a particular movie you would like to watch? [USER]: Yea, how about Good Boys with English subtitles? [SYSTEM]: Would you like me to play Good Boys with English subtitles? [USER]: Yes, please. What's the genre? [SYSTEM]: The movie will begin playing shortly. Good Boys is a comedy. [USER]: Awesome, thank you and i'll talk to you later. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "good boys"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-title>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-genre> in the input dialogue.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Track the state of the slot <media_3-title> in the input dialogue.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_3-genre>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. [SYSTEM]: Your selection has begun streaming. [USER]: Thank you for the help! \n [slot] media_3-genre, it indicates Category of the content. So the value of slot <media_3-genre> is \n",
+        "output": "play"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-subtitle_language>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. [SYSTEM]: Your selection has begun streaming. [USER]: Thank you for the help! \n [slot] media_3-subtitle_language, it indicates Language of the subtitles. So the value of slot <media_3-subtitle_language> is \n",
+        "output": "hindi"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_3-title>.",
+        "input": "[USER]: I'd like to find a movie to stream. Can you help? [SYSTEM]: I'd be happy to. What type of movie would you like to watch? [USER]: I'd like to see a Play movie. [SYSTEM]: Have you seen A Faithful Man, After The Wedding, or Blinded by the Light? [USER]: Yes. I'd like to watch After The Wedding now. [SYSTEM]: You'd like to watch After The Wedding with English subtitles. Is that right? [USER]: No, I'd like to have Hindi subtitles please. [SYSTEM]: You'd like to have Hindi subtitles for After The Wedding. Is that correct. [USER]: Yes, that is correct. [SYSTEM]: Your selection has begun streaming. [USER]: Thank you for the help! \n [slot] media_3-title, it indicates Title of the movie. So the value of slot <media_3-title> is \n",
+        "output": "after the wedding"
+    }
+]

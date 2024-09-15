@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task591-24039696a6634a04b691f4ab82060620",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What do you call the fragments of cells involved in the clotting process that are suspended in blood plasma?\n [OUT] ",
+        "output": "platelets",
+        "data_id": 0
+    },
+    {
+        "id": "task591-d059a4dc5c18428ba7fba83a3f98070b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Some protists hunt their food or act as what?\n [OUT] ",
+        "output": "parasites",
+        "data_id": 1
+    },
+    {
+        "id": "task591-7835c0c4ea8b400ca3a1d816deee25c4",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is another term for the early larval stage of a frog?\n [OUT] ",
+        "output": "tadpole",
+        "data_id": 2
+    },
+    {
+        "id": "task591-72ef336fa9104c71893e360dd65153f2",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the force of attraction that holds together positive and negative ions?\n [OUT] ",
+        "output": "ionic bond",
+        "data_id": 3
+    },
+    {
+        "id": "task591-e2a74624e1974d0fa0fe8ca44256dd7c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In sexual reproduction, what is the name of the gamete cell the male must contribute?\n [OUT] ",
+        "output": "sperm",
+        "data_id": 4
+    },
+    {
+        "id": "task591-8db8cb3c87ef4bf88fc5fc88b13e7abc",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Gene therapy is a type of what kind of engineering?\n [OUT] ",
+        "output": "genetic engineering",
+        "data_id": 5
+    },
+    {
+        "id": "task591-5e0c0b0e18ae4584b28fee07a3fa7c0e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Vibrating electric and magnetic fields make up what kinds of waves?\n [OUT] ",
+        "output": "electromagnetic",
+        "data_id": 6
+    },
+    {
+        "id": "task591-834a998b9fa9484982c5425c3b8135e9",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What do you call the heat below earth’s surface that can be used to produce electricity?\n [OUT] ",
+        "output": "geothermal energy",
+        "data_id": 7
+    },
+    {
+        "id": "task591-163e4a35e95f410baa09c1052f941ac4",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the ability of an atom to emit, or give off, charged particles and energy from the nucleus?\n [OUT] ",
+        "output": "radioactivity",
+        "data_id": 8
+    },
+    {
+        "id": "task591-99f133a679544c8c9c7f0e9c5a71ed4b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Which disease does the bacteria salmonella cause in humans?\n [OUT] ",
+        "output": "food poisoning",
+        "data_id": 9
+    },
+    {
+        "id": "task591-85be4124aa9f4b439348d48ff4d86b31",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Individual nucleotides can be linked together through their phosphate groups to form?\n [OUT] ",
+        "output": "nucleic acid polymers",
+        "data_id": 10
+    },
+    {
+        "id": "task591-fc0ff17baa47444ea8f283ca606f409c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Which type of tree loses its leaves each fall and remains leafless in the winter?\n [OUT] ",
+        "output": "deciduous",
+        "data_id": 11
+    },
+    {
+        "id": "task591-7f94dc45180f4d7580a4612b539ab9ef",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What term is used to describe the sequence of elementary steps that together comprise an entire chemical reaction?\n [OUT] ",
+        "output": "reaction mechanism",
+        "data_id": 12
+    },
+    {
+        "id": "task591-8def31bc44c447f1bcad230c8751a8f6",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In science, coefficients are used to balance what kind of equations?\n [OUT] ",
+        "output": "chemical",
+        "data_id": 13
+    },
+    {
+        "id": "task591-65e9fa58801e4c179d3c90eb78576fea",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Materials that are good conductors of thermal energy are called?\n [OUT] ",
+        "output": "thermal conductors",
+        "data_id": 14
+    },
+    {
+        "id": "task591-9584c62e23d14e6da67748039e80e60c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In contrast to mammals and birds, freshwater fishes produce large volumes of very dilute what?\n [OUT] ",
+        "output": "urine",
+        "data_id": 15
+    },
+    {
+        "id": "task591-7bb728149c774d938ff6c2deac7b2683",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Lampreys possess a large round sucker, lined with teeth, that surrounds the mouth and is used to feed on what?\n [OUT] ",
+        "output": "blood",
+        "data_id": 16
+    },
+    {
+        "id": "task591-a8193fead74a4a9e86e5911da2fde850",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The reaction of calcium oxide with carbon dioxide forms what?\n [OUT] ",
+        "output": "calcium carbonate",
+        "data_id": 17
+    },
+    {
+        "id": "task591-c5c3286a677f460188a42ab0c38353ad",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Where does mechanical digestion begin?\n [OUT] ",
+        "output": "mouth",
+        "data_id": 18
+    },
+    {
+        "id": "task591-fa18a8f187a34b86a259c3ee54741647",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The pancreatic hormones insulin and glucagon maintain glucose homeostasis by tightly regulating the synthesis and breakdown of what?\n [OUT] ",
+        "output": "glycogen",
+        "data_id": 19
+    },
+    {
+        "id": "task591-27058ef263414698a424204faff27a01",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Of the three basic types of radioactive emissions, what particle is the most penetrating?\n [OUT] ",
+        "output": "gamma",
+        "data_id": 20
+    },
+    {
+        "id": "task591-eb2cc3e4540647e48853a5007de00822",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What type of behavioral rhythms are linked to the yearly cycle of seasons?\n [OUT] ",
+        "output": "circannual",
+        "data_id": 21
+    },
+    {
+        "id": "task591-b56936a64a504c84ae1fff7ab2d3612e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Single-celled eukaryotes that share some traits with animals are also called?\n [OUT] ",
+        "output": "eukaryotes",
+        "data_id": 22
+    },
+    {
+        "id": "task591-d579f550ed7d47c7970a680182e276ad",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Synthesis, decomposition, replacement, and combustion are all types of what reaction?\n [OUT] ",
+        "output": "chemical",
+        "data_id": 23
+    },
+    {
+        "id": "task591-7ceed2768e9a43a599aca5a380284d96",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The direction of the force of gravity is in what direction?\n [OUT] ",
+        "output": "straight line",
+        "data_id": 24
+    },
+    {
+        "id": "task591-a754c52ef5cd479d8e745fbcd4c8b9bc",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the scientific name for the human species?\n [OUT] ",
+        "output": "homo sapiens",
+        "data_id": 25
+    },
+    {
+        "id": "task591-9ff48b57fcb24a749bdc8bd0d9671881",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Arteries and veins are two of the three types of blood vessels, what is the third?\n [OUT] ",
+        "output": "capillaries",
+        "data_id": 26
+    },
+    {
+        "id": "task591-87e5861a1389436d9b0af672e6e6374c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the name of the two metalloids in the carbon group called?\n [OUT] ",
+        "output": "silicon and germanium",
+        "data_id": 27
+    },
+    {
+        "id": "task591-3a97d60e8df7419a9b369d18cc4dd177",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The ordovician-silurian extinction event is the first recorded mass extinction and the second largest. during this period, about what percent of marine species went extinct?\n [OUT] ",
+        "output": "85 percent",
+        "data_id": 28
+    },
+    {
+        "id": "task591-8393a2f8f77549ddaefe4d69f92d200b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] When animals get rid of their gaseous waste, what is exhaled through their mouth and nose?\n [OUT] ",
+        "output": "carbon dioxide",
+        "data_id": 29
+    },
+    {
+        "id": "task591-6cdc636c4976492bb1adc6efd1a84362",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What kind of molecule is made from one or more long chains of amino acids?\n [OUT] ",
+        "output": "protein molecule",
+        "data_id": 30
+    },
+    {
+        "id": "task591-a928fadfa9aa4b57b71ece7388a86162",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Thomson’s plum pudding model shows the structure of what?\n [OUT] ",
+        "output": "atom",
+        "data_id": 31
+    },
+    {
+        "id": "task591-28dc6aaa48a44244916cdc2bfc87108f",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What can all living things sense and respond to in their environment?\n [OUT] ",
+        "output": "stimuli",
+        "data_id": 32
+    },
+    {
+        "id": "task591-6f9f8bd95900472fbef4ac708046acd5",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What regulates the cell cycle only when they are tightly bound to cdks?\n [OUT] ",
+        "output": "cyclins",
+        "data_id": 33
+    },
+    {
+        "id": "task591-784e1ba48ba448e18ef77744b7721b6d",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What are reactions that can occur only in one direction called?\n [OUT] ",
+        "output": "irreversible",
+        "data_id": 34
+    },
+    {
+        "id": "task591-2afb76a238544a00b0864a008f2c1eaf",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What are compounds composed of only two elements called?\n [OUT] ",
+        "output": "binary compounds",
+        "data_id": 35
+    },
+    {
+        "id": "task591-9ed68529113241b8a739ae8f63494d99",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Microwaves are converted into what kind of energy in a microwave oven?\n [OUT] ",
+        "output": "thermal energy",
+        "data_id": 36
+    },
+    {
+        "id": "task591-25a230d99ddd4beebd038d7f41c604c0",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is located at the center of our solar system?\n [OUT] ",
+        "output": "the sun",
+        "data_id": 37
+    },
+    {
+        "id": "task591-fecea9eebefe4c509a95c296f5292475",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the term of a phase change if solid water has it's average kinetic energy increased to change it to liquid water?\n [OUT] ",
+        "output": "melting",
+        "data_id": 38
+    },
+    {
+        "id": "task591-ecc9940c32964535a6e763d2a3684a9c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is another term for all eukaryotic organisms that are neither animals, nor plants, nor fungi?\n [OUT] ",
+        "output": "protists",
+        "data_id": 39
+    },
+    {
+        "id": "task591-f12a4399b806444287de263e0f8df01a",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The properties of the alkali metals are similar to each other as expected for elements in the same what?\n [OUT] ",
+        "output": "family",
+        "data_id": 40
+    },
+    {
+        "id": "task591-93e5231014ce48b897f559efbb2bfc37",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What two things determine how much kinetic energy an object has?\n [OUT] ",
+        "output": "its mass and velocity",
+        "data_id": 41
+    },
+    {
+        "id": "task591-c449abf8e24a4deb813fc585b8abcdc2",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Which type of cell can carry out more functions, eukaryotic cells or prokaryotic cells?\n [OUT] ",
+        "output": "eukaryotic cells",
+        "data_id": 42
+    },
+    {
+        "id": "task591-6ac685654b8e488bb500d1ad345e160e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Dissolved oxygen in seawater is critical for sea creatures, but as the oceans warm, oxygen becomes less what?\n [OUT] ",
+        "output": "soluble",
+        "data_id": 43
+    },
+    {
+        "id": "task591-9c59b8febf06409d8dec4f5532797497",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] More common in developing countries, parasitic diseases caused by roundworms often result from poor practice of what?\n [OUT] ",
+        "output": "personal hygiene",
+        "data_id": 44
+    },
+    {
+        "id": "task591-c4d76ef0ec204209adfb0a20d217374e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In what season are temperature inversions more common?\n [OUT] ",
+        "output": "winter",
+        "data_id": 45
+    },
+    {
+        "id": "task591-b923cbeed1e84917a33ce3a1ba6bb6fc",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Crowding and resource limitation can have a profound effect on the rate of what?\n [OUT] ",
+        "output": "population growth",
+        "data_id": 46
+    },
+    {
+        "id": "task591-6c5c39c6a3964e9bb8a949d09f7df39b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What instrument made it possible to study pressure quantitatively?\n [OUT] ",
+        "output": "barometer",
+        "data_id": 47
+    },
+    {
+        "id": "task591-c497abeb45d74e5ea76b81fc162d55f3",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] How is a reaction described when the given conditions favor formation of products?\n [OUT] ",
+        "output": "spontaneous",
+        "data_id": 48
+    },
+    {
+        "id": "task591-6796205c243749d7b59d379147279949",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Which particle of an atom has a positive electric charge?\n [OUT] ",
+        "output": "proton",
+        "data_id": 49
+    },
+    {
+        "id": "task591-03f1573116314936a7e88544a898ae6b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Particulates cause lung diseases. they can also increase the risk of heart disease and the number of what?\n [OUT] ",
+        "output": "asthma attacks",
+        "data_id": 50
+    },
+    {
+        "id": "task591-2d34025fc22448adae09c86d75b2e4c4",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is emitted by nuclei in alpha, beta, and gamma decay?\n [OUT] ",
+        "output": "radiation",
+        "data_id": 51
+    },
+    {
+        "id": "task591-95754829aeba4b84ae9035d289ab3167",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Hair is a component of which bodily system?\n [OUT] ",
+        "output": "integumentary system",
+        "data_id": 52
+    },
+    {
+        "id": "task591-ee976d88f633430ca2d2559d85e32d4c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] All atoms have equal numbers of what two particles?\n [OUT] ",
+        "output": "electrons and protons",
+        "data_id": 53
+    },
+    {
+        "id": "task591-61f50ed002e9424bb87567e9fd74a1fd",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In preparation for phagocytosis, a portion of the inward-facing surface of the plasma membrane becomes coated with a protein called clathrin, which stabilizes this section of what?\n [OUT] ",
+        "output": "membrane",
+        "data_id": 54
+    },
+    {
+        "id": "task591-bb2385f3470f4f75aec67118a8850d4f",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Ultimately, the fluid that is lost from the blood vessels is returned through what system?\n [OUT] ",
+        "output": "lymphatic",
+        "data_id": 55
+    },
+    {
+        "id": "task591-eb0a526125ff48c9953628cb848adc83",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] About one-third of the human cerebral cortex is dedicated to analyzing and perceiving information related to what sense?\n [OUT] ",
+        "output": "vision",
+        "data_id": 56
+    },
+    {
+        "id": "task591-84ae5e5e5bbd4669b01af2c21e086830",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the process of removing wastes and excess water from the body called?\n [OUT] ",
+        "output": "excretion",
+        "data_id": 57
+    },
+    {
+        "id": "task591-3032b724d2344b389c489c786f6801eb",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What substance is created when a copper turns from reddish brown to greenish brown?\n [OUT] ",
+        "output": "copper oxide",
+        "data_id": 58
+    },
+    {
+        "id": "task591-b005d6824c544e3e9056248aa1973c05",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What organism is the most disruptive towards the diversity of other species?\n [OUT] ",
+        "output": "humans",
+        "data_id": 59
+    },
+    {
+        "id": "task591-643e63f7109743b7b8b924f7876404f5",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] How many types of tissue are found in animals?\n [OUT] ",
+        "output": "four",
+        "data_id": 60
+    },
+    {
+        "id": "task591-1e4f12ece40c46738c47cfb9b66fa0f7",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The force that blood exerts upon the walls of the blood vessels or upon the chambers of the heart is known as blood what?\n [OUT] ",
+        "output": "pressure",
+        "data_id": 61
+    },
+    {
+        "id": "task591-69d2e02d7a6c4cca920f365dbc422eb4",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Glands release what substance into the blood?\n [OUT] ",
+        "output": "hormones",
+        "data_id": 62
+    },
+    {
+        "id": "task591-c2364aadc6314b9b9fa71fe9b7c23841",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the diffusion of water through a semipermeable membrane according to the concentration gradient of water across the membrane\n [OUT] ",
+        "output": "osmosis",
+        "data_id": 63
+    },
+    {
+        "id": "task591-b91463f726de4f46bf9ebc0976fa92ca",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What organ protects the body from injury, water loss, and microorganisms?\n [OUT] ",
+        "output": "skin",
+        "data_id": 64
+    },
+    {
+        "id": "task591-14e0df800edc4933ab1f9fbf388fcb42",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What type of bacteria stains red?\n [OUT] ",
+        "output": "gram-negative bacteria",
+        "data_id": 65
+    },
+    {
+        "id": "task591-de7fb6cbdec841c2af364223bf3e70f9",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] When a solution freezes, only what particles come together to form a solid phase, while the presence of solute particles interferes with that process?\n [OUT] ",
+        "output": "solvent",
+        "data_id": 66
+    },
+    {
+        "id": "task591-387fbbfc85574c65a4a842109b7c2c8a",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is a type of plant tissue consisting of undifferentiated cells that can continue to divide and differentiate?\n [OUT] ",
+        "output": "meristem",
+        "data_id": 67
+    },
+    {
+        "id": "task591-7e35b277f02647fc8ea9b4d49db01fdd",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What distinguishing feature predates the branching of mammals from other vertebrates?\n [OUT] ",
+        "output": "backbone",
+        "data_id": 68
+    },
+    {
+        "id": "task591-91796716ac3245db9b651f43dca772a3",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What is the common term for water in its solid state?\n [OUT] ",
+        "output": "ice",
+        "data_id": 69
+    },
+    {
+        "id": "task591-611d499f73db497d889e77a6eb587d50",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In eukaryotes, the cell cycle consists of a long preparatory period, called __________ before undergoing cell division.\n [OUT] ",
+        "output": "interphase",
+        "data_id": 70
+    },
+    {
+        "id": "task591-c7214df6a35a412c8e730a1cfd2e3044",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Atoms that have gained electrons and become negatively charged are called what?\n [OUT] ",
+        "output": "negative ions",
+        "data_id": 71
+    },
+    {
+        "id": "task591-ff01117196614133adc3d8ee3ba64fb8",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The posterior pituitary releases which hormone, which stimulates uterine contractions during childbirth?\n [OUT] ",
+        "output": "oxytocin",
+        "data_id": 72
+    },
+    {
+        "id": "task591-6c6689d286df4289b96dd70b9a3e3126",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] One seismogram indicates the distance to the what?\n [OUT] ",
+        "output": "epicenter",
+        "data_id": 73
+    },
+    {
+        "id": "task591-52be66cf4c2c49fb9374b1df67edfbb5",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What causes holes in bread?\n [OUT] ",
+        "output": "yeast fermentation",
+        "data_id": 74
+    },
+    {
+        "id": "task591-90dce3e843904735be715108d352ab6c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Solar cells create voltages directly from light, while thermoelectric devices create voltage from differences in what?\n [OUT] ",
+        "output": "temperature",
+        "data_id": 75
+    },
+    {
+        "id": "task591-8fd376f5b35f44339528f6f10a097dc0",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Making a specific prediction based on a general principle is known as what type of reasoning?\n [OUT] ",
+        "output": "deductive reasoning",
+        "data_id": 76
+    },
+    {
+        "id": "task591-a0e2d83ff0a143e4b81efcb90df4d1e0",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] A non-bony skeleton that forms outside of the body is known as a what?\n [OUT] ",
+        "output": "exoskeleton",
+        "data_id": 77
+    },
+    {
+        "id": "task591-b2114e80381f4ac0a082bd72e09d189c",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Where does most geological activity takes place?\n [OUT] ",
+        "output": "at plate boundaries",
+        "data_id": 78
+    },
+    {
+        "id": "task591-d36159989b264c9e852eaeb9f7d35afa",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Unlike prokaryotic cells, dna and rna synthesis in eukaryotic cells occurs in a separate compartment from synthesis of what?\n [OUT] ",
+        "output": "protein",
+        "data_id": 79
+    },
+    {
+        "id": "task591-9dbd9a5e5b1442c89a8ca4a12334f594",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What cell structures are like storage centers and tend to be larger in plant cells?\n [OUT] ",
+        "output": "vacuoles",
+        "data_id": 80
+    },
+    {
+        "id": "task591-e2595729765b4496be6e0fa65d527e51",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Changing the shape of an elastic material gives it what type of energy?\n [OUT] ",
+        "output": "potential",
+        "data_id": 81
+    },
+    {
+        "id": "task591-9ccf90664d984e38bb3175215322cf91",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Glucagon and insulin are produced in what organ?\n [OUT] ",
+        "output": "pancreas",
+        "data_id": 82
+    },
+    {
+        "id": "task591-12ba4cdba72042f6a4aec798769a9865",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What important aspect of the scientific method is a suggested explanation for an event, which can be tested?\n [OUT] ",
+        "output": "hypothesis",
+        "data_id": 83
+    },
+    {
+        "id": "task591-8ffad4ba76ad4120ad541a923554564e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] According to early accounts, newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach this?\n [OUT] ",
+        "output": "sun",
+        "data_id": 84
+    },
+    {
+        "id": "task591-03b84efb1f1b4d5e87c8bd85444493a5",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] If the frequency of the electromagnetic wave is the same as the natural frequencies of the system, the transfer of what is much more efficient?\n [OUT] ",
+        "output": "energy",
+        "data_id": 85
+    },
+    {
+        "id": "task591-4f68d212c401447db322bc00aabbc3db",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Electromagnetic radiation behaves like particles as well as what?\n [OUT] ",
+        "output": "waves",
+        "data_id": 86
+    },
+    {
+        "id": "task591-58ecd7b41a7049fdaef7646b4374f674",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Tuna have been shown to contain high levels of what metal?\n [OUT] ",
+        "output": "mercury",
+        "data_id": 87
+    },
+    {
+        "id": "task591-2996ff42780e455689609d8d99ab0e00",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What type of scale is the richter scale?\n [OUT] ",
+        "output": "logarithmic",
+        "data_id": 88
+    },
+    {
+        "id": "task591-4c01043d48db4e5f882c7e241a30b614",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] In most crustaceans, what two structures fuse to form a cephalothorax?\n [OUT] ",
+        "output": "head and thorax",
+        "data_id": 89
+    },
+    {
+        "id": "task591-c19f4585a67f4f909a2e81ea6fe1c402",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What do scientist's believe mercury's core is mostly made of?\n [OUT] ",
+        "output": "melted iron",
+        "data_id": 90
+    },
+    {
+        "id": "task591-6a18418dcade4391acb552da49088032",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Sickle cell anemia is what type of disorder?\n [OUT] ",
+        "output": "autosomal recessive disorder",
+        "data_id": 91
+    },
+    {
+        "id": "task591-316d6d0450814bc4bcaf251252716e4b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Atoms of different elements can combine in simple whole number ratios to form what?\n [OUT] ",
+        "output": "chemical compounds",
+        "data_id": 92
+    },
+    {
+        "id": "task591-16c7c14865804cf9895684cc92647e2f",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Where do producers in an ecosystem generally get their energy from?\n [OUT] ",
+        "output": "the sun",
+        "data_id": 93
+    },
+    {
+        "id": "task591-94c9622a548642219d80caebceaf88db",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] The rate of evaporation depends only on the surface area of the liquid and is essentially constant. the rate of condensation depends on the number of molecules in the vapor phase and increases steadily until it equals the rate of this?\n [OUT] ",
+        "output": "evaporation",
+        "data_id": 94
+    },
+    {
+        "id": "task591-df61450719224c918394917a9d81460b",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What system of the body is responsible for producing hormones?\n [OUT] ",
+        "output": "endocrine system",
+        "data_id": 95
+    },
+    {
+        "id": "task591-2f8e661cb85b44f8972e14b5c92fc61d",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Why do birds need a light-weight body?\n [OUT] ",
+        "output": "to stay aloft",
+        "data_id": 96
+    },
+    {
+        "id": "task591-0c72daf82d74423492f86ad007e4d2eb",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] What causes light to refract?\n [OUT] ",
+        "output": "slowing down",
+        "data_id": 97
+    },
+    {
+        "id": "task591-1ee6ef35d47e47e3a73767b655f6099e",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] An oxy-acetylene torch is an effective way to cut what?\n [OUT] ",
+        "output": "metal",
+        "data_id": 98
+    },
+    {
+        "id": "task591-26014e956f3d4f62a7d8722c37209343",
+        "input": "[INS] Given a scientific question, generate a correct answer to it.\n [IN] Farsightedness, or hyperopia, is the condition in which distant objects are seen clearly, but nearby objects are?\n [OUT] ",
+        "output": "blurry",
+        "data_id": 99
+    }
+]

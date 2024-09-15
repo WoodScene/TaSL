@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task195-821b5e58e9d5431f95dd51f99722f250",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @DoctorJohnSmith Ugh, no idea. \n [OUT] ",
+        "output": "n",
+        "data_id": 0
+    },
+    {
+        "id": "task195-e8aa86f0a1eb4ae1ba10ac4453c4b073",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @therealtoriamos  where is my UK Itunes code?   Why do you bother with these jerks. Next time sell tickets fairly please.\n [OUT] ",
+        "output": "n",
+        "data_id": 1
+    },
+    {
+        "id": "task195-5c7451b3af9546469b56fab320b2865f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] have to pause one tree hill  and wait for mum to come home she doesnt want to miss it hopefully she brings credit\n [OUT] ",
+        "output": "n",
+        "data_id": 2
+    },
+    {
+        "id": "task195-775e9b8eef2b48cfab466d3c82ab1a36",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @Kytoo BOSA SI SWA!! haha that's a  STUDY DRINK! haha btw! good luck with your final tomorrow dude! \n [OUT] ",
+        "output": "p",
+        "data_id": 3
+    },
+    {
+        "id": "task195-34d70eae5f5943f5ba7a6e9d7f54f565",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @aflyonthewall The only way I know to rate a stumble is with a thumbs up, but I thought the thumbs up *is* the stumble? It's confusing. \n [OUT] ",
+        "output": "p",
+        "data_id": 4
+    },
+    {
+        "id": "task195-5b7f98ba56cd42ecb75832ddc8a66b3a",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @cocoward hahaha. . . . yeeehuhhh \n [OUT] ",
+        "output": "p",
+        "data_id": 5
+    },
+    {
+        "id": "task195-56db49221bf447b1b15bae6271c714fa",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] five for fighting - superman \n [OUT] ",
+        "output": "n",
+        "data_id": 6
+    },
+    {
+        "id": "task195-089c3043d63d499eb2ef7574bf9ca2fb",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] so I have 3 DM.. but it only shows one \n [OUT] ",
+        "output": "n",
+        "data_id": 7
+    },
+    {
+        "id": "task195-c7bc1c6c21de43a3a1b8823f6bb0f180",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @Rokarony i know its amazing. sign of a good night wherever you cats may be \n [OUT] ",
+        "output": "n",
+        "data_id": 8
+    },
+    {
+        "id": "task195-a231b6dafc294a08bb53e14f6672f53c",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @ddlovato why? what's wrong? hope u had a gr8 opening concert!! sorry i couldn't be there \n [OUT] ",
+        "output": "n",
+        "data_id": 9
+    },
+    {
+        "id": "task195-18aa0f37eec14e84a3e92490d7c34801",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] is doing her coworker's work that was left behind and is sick..such a bad day \n [OUT] ",
+        "output": "n",
+        "data_id": 10
+    },
+    {
+        "id": "task195-427b42f9b4c344438a52b4994dcd78f5",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Trying to think of reasons to leave my warm bed. Coming up zilch but have to get up anyway. \n [OUT] ",
+        "output": "n",
+        "data_id": 11
+    },
+    {
+        "id": "task195-83d163120c914aac95a790d40147b1e1",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] So one of my idiot family members blew out the electricity in the crib... I can't live like this... No Game For Me \n [OUT] ",
+        "output": "n",
+        "data_id": 12
+    },
+    {
+        "id": "task195-0374eeba41e1431aaf59f6f75e8fe27d",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Watching season 4 of Weeds, well, the end of it. #howarewe 6/10. Bit tired from all the walking earlier but still happy I saw the piglets \n [OUT] ",
+        "output": "p",
+        "data_id": 13
+    },
+    {
+        "id": "task195-0f3ff31be3c84a90abc1fbcba60dcbde",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] had an horrible day   this weather duznt help either lol x\n [OUT] ",
+        "output": "n",
+        "data_id": 14
+    },
+    {
+        "id": "task195-f10a9af81c8e4ad2bd1f6ca5a5cc1863",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @panda951 OMG. I'm wearing a pair of those right now. My glasses and I will pour out a little liquor for your dearly departed. \n [OUT] ",
+        "output": "n",
+        "data_id": 15
+    },
+    {
+        "id": "task195-8b71611791e747459b6eb9c59f29029d",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @Larlar Hey thats pretty awesome if you follow me and thank you \n [OUT] ",
+        "output": "p",
+        "data_id": 16
+    },
+    {
+        "id": "task195-9dc49f409726465aa4d92164ef4394d2",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @cdat8thandd really  no i didnt know what was going on all i heard was that u wasnt feeling well and u went home.. well i saw u going home\n [OUT] ",
+        "output": "n",
+        "data_id": 17
+    },
+    {
+        "id": "task195-2f680caeeae2458aa34e4b355502267c",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] i need some new sunglassessssss. i lose all of mine, fuck. \n [OUT] ",
+        "output": "n",
+        "data_id": 18
+    },
+    {
+        "id": "task195-33e50e604565411094f6e113d76c5b8c",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] #3turnoffwords hurry &amp; wait. this is what my whole day will be \n [OUT] ",
+        "output": "n",
+        "data_id": 19
+    },
+    {
+        "id": "task195-8682794859c54b569fd704326e17416e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @kishorcariappa @sabihkhan serious!! how do you beat heat!!! just dont feel like gettin out \n [OUT] ",
+        "output": "p",
+        "data_id": 20
+    },
+    {
+        "id": "task195-8b58ec2918f94b1babdd15a2ad8d8186",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] have all a's b's c's and 1 d  not going to schoolio tomorrow john broke up witt chey  hehe this day just keeps getting better happy 420\n [OUT] ",
+        "output": "p",
+        "data_id": 21
+    },
+    {
+        "id": "task195-56f39f6968234412a4204719b05cd129",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] The Block Party has been cancelled. \n [OUT] ",
+        "output": "n",
+        "data_id": 22
+    },
+    {
+        "id": "task195-481112ee0cf744df8f676d6572f4a920",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @SwaggCertified I wish I could \n [OUT] ",
+        "output": "n",
+        "data_id": 23
+    },
+    {
+        "id": "task195-636920fbe68148caac1852fc8f4534e5",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] follow @thesilentyears  pretty please.\n [OUT] ",
+        "output": "p",
+        "data_id": 24
+    },
+    {
+        "id": "task195-1aacc1f034274ec5989a2ec1bfe3ffa0",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @TinaBit Thank you! I will  Glad you found me. Have a great night!\n [OUT] ",
+        "output": "p",
+        "data_id": 25
+    },
+    {
+        "id": "task195-158013b252584fe29f76bd2ed0f8778c",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @mamapigeon sounds like it  I have a 12 year old with ADHD and Aspergers a 7 year old a 4 year old and 4 cats + hubby getting kinda full\n [OUT] ",
+        "output": "p",
+        "data_id": 26
+    },
+    {
+        "id": "task195-a6074adb7c22440497b7cf5b76ef5016",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @millsks why are we not already hanging out...oh right...b/c of me...   Soon enough the sleepovers and pool parties will be endless!\n [OUT] ",
+        "output": "n",
+        "data_id": 27
+    },
+    {
+        "id": "task195-9b368a193c064db694702250aabce8e7",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] wet and naked!!! Just got out of the shower =P Freezing my ass off \n [OUT] ",
+        "output": "n",
+        "data_id": 28
+    },
+    {
+        "id": "task195-c8d40878a2f34595aad0ab700b5d657e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] If only i was living in Korea/Japan \n [OUT] ",
+        "output": "n",
+        "data_id": 29
+    },
+    {
+        "id": "task195-44b37297a926428cb3c595d07048686b",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @Go_Ask_Alice hehehe... wow..thanks! \n [OUT] ",
+        "output": "p",
+        "data_id": 30
+    },
+    {
+        "id": "task195-bd822aaeeeb24e79a381dbf0f9d95a6e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] More hw \n [OUT] ",
+        "output": "n",
+        "data_id": 31
+    },
+    {
+        "id": "task195-f7dfc80435cf47b79af2b424835cd308",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Story of my life!!! There is no where to watch it cause everything is being used \n [OUT] ",
+        "output": "n",
+        "data_id": 32
+    },
+    {
+        "id": "task195-cdebe1147e244bddbc55e681a54cba4f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @miyarenee09 i wish i had DVR! urg.. im not even watching it tho \n [OUT] ",
+        "output": "n",
+        "data_id": 33
+    },
+    {
+        "id": "task195-16729aea4cef4ebab3dcf63522d5a46d",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Thanx @harzack86 I kind of knew that but was hoping  do you use skype on an iphone??\n [OUT] ",
+        "output": "p",
+        "data_id": 34
+    },
+    {
+        "id": "task195-3fbd3b46111d40b8a35320dd44209b8a",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] AT&amp;T: &quot;7 to 14 days to get iphone 3GS&quot; \n [OUT] ",
+        "output": "n",
+        "data_id": 35
+    },
+    {
+        "id": "task195-29fa7f7a72324bb68975769e871e8587",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I'm sad my No. 1 is leaving for Europe today, for a whole week... \n [OUT] ",
+        "output": "n",
+        "data_id": 36
+    },
+    {
+        "id": "task195-66c698aa02d24f55ac15f22dbee17583",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Goodbye, I'm offline again and leave the tweets to www.tweetlater.com. Bye followers \n [OUT] ",
+        "output": "p",
+        "data_id": 37
+    },
+    {
+        "id": "task195-af07551100254094a91e78bc568b2779",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Had a lovely time having big adventures in Sydney, shame I'm back at work \n [OUT] ",
+        "output": "n",
+        "data_id": 38
+    },
+    {
+        "id": "task195-c38610d8171e47e8b6d78c025ec30a95",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] is one down three to go  ....napp for ever so tireddd\n [OUT] ",
+        "output": "n",
+        "data_id": 39
+    },
+    {
+        "id": "task195-a70413a4d41647b3852a94d0a849fdb9",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @kingdavers hey Dave! My sister wants to know where you got the brobee piï¿½ata!! Spill it!!!!! ..........please? \n [OUT] ",
+        "output": "p",
+        "data_id": 40
+    },
+    {
+        "id": "task195-e5413895cad943ba925c45b0bffce849",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] i miss house \n [OUT] ",
+        "output": "n",
+        "data_id": 41
+    },
+    {
+        "id": "task195-55443c09b0e643098ecaccb5a5a8b403",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @PaulaAbdul Oh Paula  hope you get better! Lots of love xoxo\n [OUT] ",
+        "output": "n",
+        "data_id": 42
+    },
+    {
+        "id": "task195-9f0f81662e39461381104c6bb3a1266a",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] wooow , this is horrible i wanna cry \n [OUT] ",
+        "output": "n",
+        "data_id": 43
+    },
+    {
+        "id": "task195-2082a3fd9b154a46937f9cdaca640a6d",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I had fun at the lake last night =] wished i would have gotten to stay longer and that it hadnt rained \n [OUT] ",
+        "output": "n",
+        "data_id": 44
+    },
+    {
+        "id": "task195-127d0ae1282f4918ad0c3a1093b75330",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] i have a headache  \n [OUT] ",
+        "output": "n",
+        "data_id": 45
+    },
+    {
+        "id": "task195-a024ca17d64c4572960c72c505b4c77e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @mitchelmusso I'm jealous! I have a dumb class and only 8th grade \n [OUT] ",
+        "output": "n",
+        "data_id": 46
+    },
+    {
+        "id": "task195-062ff2ea133948f1b96169c260740446",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Chapter 133 is uploading..it's taking forever.. \n [OUT] ",
+        "output": "n",
+        "data_id": 47
+    },
+    {
+        "id": "task195-9a6654661e6244e588dbc74031c10bd2",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Don't foget Sweetwater GearFest starts FRIDAY! Wish I was going \n [OUT] ",
+        "output": "n",
+        "data_id": 48
+    },
+    {
+        "id": "task195-7ef34acafb324fbcbf155378d3595f7c",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] at home. the roommate forgot to leave the door key for me so i have to wait in the living room \n [OUT] ",
+        "output": "n",
+        "data_id": 49
+    },
+    {
+        "id": "task195-3a3e45345b8f47208ab8d1c2c547ce0e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] is wearing a shirt she hasn't worn since middle school and it fits \n [OUT] ",
+        "output": "p",
+        "data_id": 50
+    },
+    {
+        "id": "task195-5d7a218b6a734235a9aa20fd85b6952f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] has been abandonin Twitter for last few days  must be serious about life for the next 2 whirlwind weeks\n [OUT] ",
+        "output": "n",
+        "data_id": 51
+    },
+    {
+        "id": "task195-8b514023f9004975958938c46ac45445",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Yea so I'm mad that LOUD ASS THUNDER just woke me up!! ugh \n [OUT] ",
+        "output": "n",
+        "data_id": 52
+    },
+    {
+        "id": "task195-d24f581b881346dfbc25dd4f0bd82aec",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @johnmcginn Your welcome...sounds do-able \n [OUT] ",
+        "output": "p",
+        "data_id": 53
+    },
+    {
+        "id": "task195-b50e5cee64e44e16b003917cc64932d8",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Just great. More scamming and whatnot. Got a bunch of fraudulent charges on my account. Time to get my card replaced \n [OUT] ",
+        "output": "n",
+        "data_id": 54
+    },
+    {
+        "id": "task195-1a3292caa7a34c59badadfb953ee094f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Right off to buy some sunglasses and head to work! \n [OUT] ",
+        "output": "n",
+        "data_id": 55
+    },
+    {
+        "id": "task195-f0d6673a1ef44a25a5090112a941afbd",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] hello everyone  \n [OUT] ",
+        "output": "p",
+        "data_id": 56
+    },
+    {
+        "id": "task195-1da0af2dc79b48928771d44a01fb7f35",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @jamopo Leicester???? I've heard of that place... Have they got a footie team? \n [OUT] ",
+        "output": "p",
+        "data_id": 57
+    },
+    {
+        "id": "task195-a8c79164d7604a3e804a343fd0d4cca5",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @ShannonHerod I love that quote! Really needed that today. Thanks for sharing. \n [OUT] ",
+        "output": "p",
+        "data_id": 58
+    },
+    {
+        "id": "task195-b83ba0bc93fb42aaa04f4cf40a651f78",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @cronopia Right now I'm trying to track down about a year's worth of emails that went missing in Thunderbird when I ran a filter... \n [OUT] ",
+        "output": "n",
+        "data_id": 59
+    },
+    {
+        "id": "task195-695dd6a83836428999a0e9d25fd7118b",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Bored &amp; Not Feeeling Veryy Well \n [OUT] ",
+        "output": "n",
+        "data_id": 60
+    },
+    {
+        "id": "task195-6b97f19968ac41e4940fa6434df59ffb",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] home now, eating m&amp;m's \n [OUT] ",
+        "output": "p",
+        "data_id": 61
+    },
+    {
+        "id": "task195-008c7ae722e94a9da1cdfd0c5fe5326f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I don't want to spend anymore grad money then I have to \n [OUT] ",
+        "output": "p",
+        "data_id": 62
+    },
+    {
+        "id": "task195-1bb15a18864f4c469fabaa31b6958c87",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @1in9 2 HMC-150's and 35mm Adaptors to go with them for Senior Sem students. \n [OUT] ",
+        "output": "p",
+        "data_id": 63
+    },
+    {
+        "id": "task195-110174b379664728be65cb5042e579ae",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @danaedwards I guess all the doit guys are old now. Even Srini. \n [OUT] ",
+        "output": "p",
+        "data_id": 64
+    },
+    {
+        "id": "task195-615742a26a5343d98f912bf1f446d9a5",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Sorry, I've been away so much! I've been doing lots of extra napping  How is everyone this weekend?\n [OUT] ",
+        "output": "p",
+        "data_id": 65
+    },
+    {
+        "id": "task195-ab3ef3530bf74667b5024f778eb80d74",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] being frustrated. hating my life. what sense does it make to send me my soulmate and make it so we cant be together? i wanna hit stuff \n [OUT] ",
+        "output": "n",
+        "data_id": 66
+    },
+    {
+        "id": "task195-74a8e81cb9124e22b7ddd0397d244bdd",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] ah we liveddd  but not that poor guy that was dead \n [OUT] ",
+        "output": "n",
+        "data_id": 67
+    },
+    {
+        "id": "task195-b4c4a5a2fa2e481796770f47e2ffd90e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Lol ive been sick  this whole week feels like im getting worse then better!! \n [OUT] ",
+        "output": "n",
+        "data_id": 68
+    },
+    {
+        "id": "task195-dc5457057ce74c5f8d0fbc3d5fe1dc2f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] and i'm eating corn bugles \n [OUT] ",
+        "output": "p",
+        "data_id": 69
+    },
+    {
+        "id": "task195-94c532b51b43492b922711971bf9f83e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Nervous about tomorrow  like holy crap.\n [OUT] ",
+        "output": "n",
+        "data_id": 70
+    },
+    {
+        "id": "task195-2bd6ac68c7ac453f8a807cb6b198fd00",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @rebekaaa i know  lastfm broke last night so maybe that has something to do with it, the whole website was down.\n [OUT] ",
+        "output": "n",
+        "data_id": 71
+    },
+    {
+        "id": "task195-9d22eee278eb4973be89745d9c60b534",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Congrats Diversity!!!!..u totally deserved it !! \n [OUT] ",
+        "output": "p",
+        "data_id": 72
+    },
+    {
+        "id": "task195-11f286b4a69f41a1b36045d26fe54a6e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] i took this pic sum minutes ago [black haired again]  / twitpic doesn't work o__O [Link]\n [OUT] ",
+        "output": "p",
+        "data_id": 73
+    },
+    {
+        "id": "task195-05e9733eaa4f45618777c20fb93853ba",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @phasegordon: a good axe?  Nothing serious, I hope \n [OUT] ",
+        "output": "p",
+        "data_id": 74
+    },
+    {
+        "id": "task195-e9220f05703240a2abc759cfe408594a",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Need a vacation from myself  ..wish it was possible..\n [OUT] ",
+        "output": "p",
+        "data_id": 75
+    },
+    {
+        "id": "task195-14ddd597c1f549ed87336bb441b6eb9f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Everybody talkin bout how they the best rapper, even this girl.. My dead friend says hi to me and i snub her cuz she dead and i wake up \n [OUT] ",
+        "output": "n",
+        "data_id": 76
+    },
+    {
+        "id": "task195-125fe6caebe4478aabb829e74fc9a7e6",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] Jealous that my brother will watch David Archuleta &amp; David Cook's concert on Saturday  Oh well, I picked another concert to watch in June.\n [OUT] ",
+        "output": "n",
+        "data_id": 77
+    },
+    {
+        "id": "task195-0aab3901d3fc4c769447e8f7611efbf6",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @lady_mimin96 i'm sleeping late tonight cause tomorrow on air rush hour  yayyy\n [OUT] ",
+        "output": "p",
+        "data_id": 78
+    },
+    {
+        "id": "task195-bf4d6332222f40f7a42b7d2d6ad820ec",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I start again to look for a new LOVE. I need it so much. \n [OUT] ",
+        "output": "n",
+        "data_id": 79
+    },
+    {
+        "id": "task195-121856fe38324799ac289133daf67dc4",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] back to sleep till tomorrow again \n [OUT] ",
+        "output": "p",
+        "data_id": 80
+    },
+    {
+        "id": "task195-e517c780fef9407981f1af289b418ab3",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I sure have a lot of woman following me \n [OUT] ",
+        "output": "p",
+        "data_id": 81
+    },
+    {
+        "id": "task195-a5ae4066435d46f18e28639394af79eb",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @BrokePimpStyles Yeah  And now I might have 2 battle w/Best Buy over no op sys on my &quot;repaired&quot; PC. My oh my... LOL\n [OUT] ",
+        "output": "n",
+        "data_id": 82
+    },
+    {
+        "id": "task195-3182f35951914bb1bd7964cc9ada88dd",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] feels much better now that her hair is washed. I still have mosquito bites though...  unfair.\n [OUT] ",
+        "output": "n",
+        "data_id": 83
+    },
+    {
+        "id": "task195-c9fb80f6e23c426b9b77cf08e5dd7b1b",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] my twitter looks funny  someone help!\n [OUT] ",
+        "output": "n",
+        "data_id": 84
+    },
+    {
+        "id": "task195-a5a67bfef3cd45d0ad96fff64619bbf4",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] olive garden with mommy. \n [OUT] ",
+        "output": "p",
+        "data_id": 85
+    },
+    {
+        "id": "task195-32699a3a3961433eba3de50eb7779aab",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @cocktails_on_me i'm cool just stupid tired  got so much to do but dont sweem to be gettin anywhere. Thurs/Fri not gonna be fun LOL\n [OUT] ",
+        "output": "n",
+        "data_id": 86
+    },
+    {
+        "id": "task195-640ca6119eca4005b70beb2892f88388",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @ccmatthews lol im so sleepy but i cant sleeep  im 2 nervous abt 2moro lol\n [OUT] ",
+        "output": "n",
+        "data_id": 87
+    },
+    {
+        "id": "task195-58ae488b698c4a719bc51c59d9d8407e",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @Sunday28 When you get a chance, give me name that posted you \n [OUT] ",
+        "output": "p",
+        "data_id": 88
+    },
+    {
+        "id": "task195-0257bc86acef45229ff0212ce04d1475",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] now it is saturday. I am going out with my family. But tommorow (which is sunday) i am sleeping at my lovely friends house YEY!! \n [OUT] ",
+        "output": "p",
+        "data_id": 89
+    },
+    {
+        "id": "task195-4b86bde7acc64074ab23dbaedb68ff91",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @andrewbeaton You still need one apparently  (for a free account)\n [OUT] ",
+        "output": "n",
+        "data_id": 90
+    },
+    {
+        "id": "task195-6b3f0a99de6746c797d4875c4f6e22e5",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] the most beutiful day this spring....and I'm in front of the laptop \n [OUT] ",
+        "output": "n",
+        "data_id": 91
+    },
+    {
+        "id": "task195-3a02c4579149400fabbc6cb64bcf1b7f",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] awwwwww  #supernatural is a repeat episode! I've seen this :\\\n [OUT] ",
+        "output": "n",
+        "data_id": 92
+    },
+    {
+        "id": "task195-10e50ad34af64eeb8dff86b47af7e293",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @ddlovato: dont cry demi! I would be exactly the same way. I dont think i would be able to handle it \n [OUT] ",
+        "output": "n",
+        "data_id": 93
+    },
+    {
+        "id": "task195-b970cc0a08cf4899ab33e5f4ca50e053",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @aron93a Does email push really not work? \n [OUT] ",
+        "output": "n",
+        "data_id": 94
+    },
+    {
+        "id": "task195-96149e0fe92f4fea9d94e4ea98afb9ee",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] last day of school.  really really sad.\n [OUT] ",
+        "output": "n",
+        "data_id": 95
+    },
+    {
+        "id": "task195-fedfe2c1981849d29ffbc88fea308fae",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] I have just discovered that in america does not pay the Internet connection!! I live in Italy and we pay it!! This isn't fair!!! \n [OUT] ",
+        "output": "n",
+        "data_id": 96
+    },
+    {
+        "id": "task195-c3161a673e6d4943857cb7b7684c472a",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] [Link] - Food for thought \n [OUT] ",
+        "output": "p",
+        "data_id": 97
+    },
+    {
+        "id": "task195-21fcfc2e381a4e7c93de2f69c024e8c0",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] [Link] READ! :| This made me really scared. \n [OUT] ",
+        "output": "n",
+        "data_id": 98
+    },
+    {
+        "id": "task195-4298de99f89a401f8587949ab9a94fd3",
+        "input": "[INS] In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.\n [IN] @tdizzzzzzzle Thomassssssss!   \n [OUT] ",
+        "output": "p",
+        "data_id": 99
+    }
+]

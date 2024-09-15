@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task363-ad12e4dba8814ad9b3e2196fff3b065f",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Campanella 's competent direction and his excellent cast overcome the obstacles of a predictable outcome and a screenplay that glosses over Rafael 's evolution .\n [OUT] ",
+        "output": "P",
+        "data_id": 0
+    },
+    {
+        "id": "task363-0e0154b4a4af4f868b571c8fa41b9929",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It may as well be called `` Jar-Jar Binks : The Movie . ''\n [OUT] ",
+        "output": "N",
+        "data_id": 1
+    },
+    {
+        "id": "task363-928fa0e362c149e48dc616baf3b9b2d6",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A deft , delightful mix of sulky teen drama and overcoming-obstacles sports-movie triumph .\n [OUT] ",
+        "output": "P",
+        "data_id": 2
+    },
+    {
+        "id": "task363-5e63fdf8ab4144d98be3cb361e504967",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It 's like Rocky and Bullwinkle on Speed , but that 's neither completely enlightening , nor does it catch the intensity of the movie 's strangeness .\n [OUT] ",
+        "output": "N",
+        "data_id": 3
+    },
+    {
+        "id": "task363-33225685ffb2446d8358b52641229d93",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Been there , done that , liked it much better the first time around - when it was called The Professional .\n [OUT] ",
+        "output": "N",
+        "data_id": 4
+    },
+    {
+        "id": "task363-cac2bd20cf0449269aba0c23a6f7b789",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A perfectly acceptable , perfectly bland , competently acted but by no means scary horror movie .\n [OUT] ",
+        "output": "P",
+        "data_id": 5
+    },
+    {
+        "id": "task363-dc993f9a6b814f8dab8a5581bfdd778b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ... best seen as speculative history , as much an exploration of the paranoid impulse as a creative sequel to the Warren Report .\n [OUT] ",
+        "output": "P",
+        "data_id": 6
+    },
+    {
+        "id": "task363-a311e005c9e24443aa26e4b974965f60",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Upper West Sidey exercise in narcissism and self-congratulation disguised as a tribute .\n [OUT] ",
+        "output": "N",
+        "data_id": 7
+    },
+    {
+        "id": "task363-82e69ea8ca874534934eb6fb2651eb8a",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Lawrence should stick to his day job .\n [OUT] ",
+        "output": "N",
+        "data_id": 8
+    },
+    {
+        "id": "task363-d93db1e4719f43d78ea811f5c9c5312d",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Expect no major discoveries , nor any stylish sizzle , but the film sits with square conviction and touching good sense on the experience of its women .\n [OUT] ",
+        "output": "P",
+        "data_id": 9
+    },
+    {
+        "id": "task363-c995f3674ab5471993479a06bd29f78f",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The self-serious Equilibrium makes its point too well ; a movie , like life , is n't much fun without the highs and lows .\n [OUT] ",
+        "output": "N",
+        "data_id": 10
+    },
+    {
+        "id": "task363-591f52fb52bb44ec9b941817e77ede7a",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A spiffy animated feature about an unruly adolescent boy who is yearning for adventure and a chance to prove his worth .\n [OUT] ",
+        "output": "P",
+        "data_id": 11
+    },
+    {
+        "id": "task363-b1cb340204b4493fae8d4ff026f8811c",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Sure , I hated myself in the morning .\n [OUT] ",
+        "output": "N",
+        "data_id": 12
+    },
+    {
+        "id": "task363-4b97887de4634e4bae617d0eaa5c607c",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ( Hell is ) looking down at your watch and realizing Serving Sara is n't even halfway through .\n [OUT] ",
+        "output": "N",
+        "data_id": 13
+    },
+    {
+        "id": "task363-f3b4486b3e134ce280c9e8d572c45940",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Unlike most anime , whose most ardent fans outside Japan seem to be introverted young men with fantasy fetishes , Metropolis never seems hopelessly juvenile .\n [OUT] ",
+        "output": "P",
+        "data_id": 14
+    },
+    {
+        "id": "task363-0e3937591bf7410e9b7646b62fe9209b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The work of a filmmaker who has secrets buried at the heart of his story and knows how to take time revealing them .\n [OUT] ",
+        "output": "P",
+        "data_id": 15
+    },
+    {
+        "id": "task363-4b20465106374ec49ba89abae9cce994",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The fourth in a series that I 'll bet most parents had thought -- hoped !\n [OUT] ",
+        "output": "P",
+        "data_id": 16
+    },
+    {
+        "id": "task363-77a0108f2af34646a6edb77c07e8753e",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] At times Auto Focus feels so distant you might as well be watching it through a telescope .\n [OUT] ",
+        "output": "N",
+        "data_id": 17
+    },
+    {
+        "id": "task363-8309af4e4ce64929b597338cc86722a4",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ... would be a total loss if not for two supporting performances taking place at the movie 's edges .\n [OUT] ",
+        "output": "N",
+        "data_id": 18
+    },
+    {
+        "id": "task363-a1b0d28026a34d5e8a328e336b88df29",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ... even if you 've never heard of Chaplin , you 'll still be glued to the screen .\n [OUT] ",
+        "output": "P",
+        "data_id": 19
+    },
+    {
+        "id": "task363-4d2056ac5fd34948bc5bfe187f5e91bc",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Viewers of Barney 's crushingly self-indulgent spectacle will see nothing in it to match the ordeal of sitting through it .\n [OUT] ",
+        "output": "N",
+        "data_id": 20
+    },
+    {
+        "id": "task363-12e6c9d5c6c245b38ad32ad9666ce63f",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Fails to satisfactorily exploit its gender politics , genre thrills or inherent humor .\n [OUT] ",
+        "output": "N",
+        "data_id": 21
+    },
+    {
+        "id": "task363-04817bb055be4f71935505735bb4ec0f",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Things really get weird , though not particularly scary : the movie is all portent and no content .\n [OUT] ",
+        "output": "N",
+        "data_id": 22
+    },
+    {
+        "id": "task363-0155b5b190ee4fb0848ba8f46251e16a",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] What little atmosphere is generated by the shadowy lighting , macabre sets , and endless rain is offset by the sheer ugliness of everything else .\n [OUT] ",
+        "output": "N",
+        "data_id": 23
+    },
+    {
+        "id": "task363-bed83580f18943af9c57db50d95525c7",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] By the end of the movie , you 're definitely convinced that these women are spectacular .\n [OUT] ",
+        "output": "P",
+        "data_id": 24
+    },
+    {
+        "id": "task363-09952a1cff254e50b5edf616e724b341",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] An unflinching look at the world 's dispossessed .\n [OUT] ",
+        "output": "P",
+        "data_id": 25
+    },
+    {
+        "id": "task363-edb4ab19820b4e82a0d826d1c809cec0",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The effort is sincere and the results are honest , but the film is so bleak that it 's hardly watchable .\n [OUT] ",
+        "output": "N",
+        "data_id": 26
+    },
+    {
+        "id": "task363-452d4f70304148d6982b63b990025af4",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] This is a very ambitious project for a fairly inexperienced filmmaker , but good actors , good poetry and good music help sustain it .\n [OUT] ",
+        "output": "P",
+        "data_id": 27
+    },
+    {
+        "id": "task363-47d049ba589e436bbc88b592e2bd5067",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A superlative B movie -- funny , sexy , and rousing .\n [OUT] ",
+        "output": "P",
+        "data_id": 28
+    },
+    {
+        "id": "task363-2ec79d2d1b114af2838002106187441d",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The film fits into a genre that has been overexposed , redolent of a thousand cliches , and yet remains uniquely itself , vibrant with originality .\n [OUT] ",
+        "output": "P",
+        "data_id": 29
+    },
+    {
+        "id": "task363-c8621b37f8364889b2396e29332b5cec",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] An EXIT sign , that is .\n [OUT] ",
+        "output": "N",
+        "data_id": 30
+    },
+    {
+        "id": "task363-953ef6d56d1e4ce9949296449e6ef5b5",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] How do you make a movie with depth about a man who lacked any ?\n [OUT] ",
+        "output": "N",
+        "data_id": 31
+    },
+    {
+        "id": "task363-7fa7d3d93af649908095a138dd7eda18",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A hidden-agenda drama that shouts classic French nuance .\n [OUT] ",
+        "output": "P",
+        "data_id": 32
+    },
+    {
+        "id": "task363-bb01e95a9ce14d9e8386d62b5fef8461",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Personal Velocity has a no-frills docu-Dogma plainness , yet Miller lingers on invisible , nearly psychic nuances , leaping into digressions of memory and desire .\n [OUT] ",
+        "output": "P",
+        "data_id": 33
+    },
+    {
+        "id": "task363-805769a982994ae7b2fcafcfc61a1336",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] This 90-minute postmodern voyage was more diverting and thought-provoking than I 'd expected it to be .\n [OUT] ",
+        "output": "P",
+        "data_id": 34
+    },
+    {
+        "id": "task363-e35f36bf94d449878c060d13a2154a20",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ... hopefully it 'll be at the dollar theatres by the time Christmas rolls around .\n [OUT] ",
+        "output": "P",
+        "data_id": 35
+    },
+    {
+        "id": "task363-b00b0448c5be4b118e741a699aac6fde",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] While the path may be familiar , first-time director Denzel Washington and a top-notch cast manage to keep things interesting .\n [OUT] ",
+        "output": "P",
+        "data_id": 36
+    },
+    {
+        "id": "task363-ecc292dc182b4277ac6b5bce06299b14",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Not bad , but not all that good .\n [OUT] ",
+        "output": "N",
+        "data_id": 37
+    },
+    {
+        "id": "task363-f6ac4ace59494281a923a9a12ab69636",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Romantic , riveting and handsomely animated .\n [OUT] ",
+        "output": "P",
+        "data_id": 38
+    },
+    {
+        "id": "task363-32253c377cfb4ecbb773e9c28b270ea6",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] You come away thinking not only that Kate is n't very bright , but that she has n't been worth caring about and that maybe she , Janine and Molly -- an all-woman dysfunctional family -- deserve one another .\n [OUT] ",
+        "output": "N",
+        "data_id": 39
+    },
+    {
+        "id": "task363-2629b246e09548ada40b58f7bac47238",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Serving Sara should be served an eviction notice at every theater stuck with it .\n [OUT] ",
+        "output": "N",
+        "data_id": 40
+    },
+    {
+        "id": "task363-19ad097f6d6a4baa9057d619a31b8bba",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Yet in its own aloof , unreachable way it 's so fascinating you wo n't be able to look away for a second .\n [OUT] ",
+        "output": "P",
+        "data_id": 41
+    },
+    {
+        "id": "task363-249d435690dd4494a18b4c58c3b9f2d9",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Clint Eastwood 's Blood Work is a lot like a well-made PB & J sandwich : familiar , fairly uneventful and boasting no real surprises -- but still quite tasty and inviting all the same .\n [OUT] ",
+        "output": "P",
+        "data_id": 42
+    },
+    {
+        "id": "task363-dcee1a11b4c3440a8004eb877da87b99",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ... this story gets sillier , not scarier , as it goes along ...\n [OUT] ",
+        "output": "N",
+        "data_id": 43
+    },
+    {
+        "id": "task363-609428f987ce41e192f7d9ac8f1caba2",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The Pool drowned me in boredom .\n [OUT] ",
+        "output": "N",
+        "data_id": 44
+    },
+    {
+        "id": "task363-b77d27bb374d4010b8e6425c76369477",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Both flawed and delayed , Martin Scorcese 's Gangs of New York still emerges as his most vital work since GoodFellas .\n [OUT] ",
+        "output": "P",
+        "data_id": 45
+    },
+    {
+        "id": "task363-6c93c39e9cd349268f643be295fc8041",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Tsai convincingly paints a specifically urban sense of disassociation here .\n [OUT] ",
+        "output": "P",
+        "data_id": 46
+    },
+    {
+        "id": "task363-eeb2c1787d444c0680a2400022b7d670",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The story is virtually impossible to follow here , but there 's a certain style and wit to the dialogue .\n [OUT] ",
+        "output": "N",
+        "data_id": 47
+    },
+    {
+        "id": "task363-f7bc4e01e7764ec3919e4a88bafe2e59",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Anemic , pretentious .\n [OUT] ",
+        "output": "N",
+        "data_id": 48
+    },
+    {
+        "id": "task363-6ba52e5867b7491e92fb3bb76caf95c9",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A lovably old-school Hollywood confection .\n [OUT] ",
+        "output": "P",
+        "data_id": 49
+    },
+    {
+        "id": "task363-e8c496b3c17a4817a037d84e4c47a919",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] As social exposé , Skins has its heart in the right place , but that 's not much to hang a soap opera on .\n [OUT] ",
+        "output": "N",
+        "data_id": 50
+    },
+    {
+        "id": "task363-8926262047354d07afca77a1695c8d71",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] But I had a lot of problems with this movie .\n [OUT] ",
+        "output": "N",
+        "data_id": 51
+    },
+    {
+        "id": "task363-6c00b1806a804bab8eb1fc072a4e5d4c",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The following things are not at all entertaining : The bad sound , the lack of climax and , worst of all , watching Seinfeld ( who is also one of the film 's producers ) do everything he can to look like a good guy .\n [OUT] ",
+        "output": "N",
+        "data_id": 52
+    },
+    {
+        "id": "task363-f3f22b0e16914cd2a9845322122adb2c",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Unfortunately , a cast of competent performers from movies , television and the theater are cast adrift in various New York City locations with no unifying rhythm or visual style .\n [OUT] ",
+        "output": "N",
+        "data_id": 53
+    },
+    {
+        "id": "task363-30c2999404cc423b848464ccb6c4ed22",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Feels like the work of someone who may indeed have finally aged past his prime ... and , perhaps more than he realizes , just wants to be liked by the people who can still give him work .\n [OUT] ",
+        "output": "N",
+        "data_id": 54
+    },
+    {
+        "id": "task363-aaa05722f13540dca16714732a81529b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The rich performances by Friel -- and especially Williams , an American actress who becomes fully English -- round out the square edges .\n [OUT] ",
+        "output": "P",
+        "data_id": 55
+    },
+    {
+        "id": "task363-d898f79f791a4acf965f65ec875c4524",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A very well-meaning movie , and it will stand in future years as an eloquent memorial to the World Trade Center tragedy .\n [OUT] ",
+        "output": "P",
+        "data_id": 56
+    },
+    {
+        "id": "task363-9f4a09c8480541c7836ab597669319f1",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The sword fighting is well done and Auteuil is a goofy pleasure .\n [OUT] ",
+        "output": "P",
+        "data_id": 57
+    },
+    {
+        "id": "task363-c4e1893bd9e4408f8c9a516de01c54e8",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It 's Tommy 's job to clean the peep booths surrounding her , and after viewing this one , you 'll feel like mopping up , too .\n [OUT] ",
+        "output": "N",
+        "data_id": 58
+    },
+    {
+        "id": "task363-f62b960b3a194d9793f6348c125465c9",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Amy and Matthew have a bit of a phony relationship , but the film works in spite of it .\n [OUT] ",
+        "output": "P",
+        "data_id": 59
+    },
+    {
+        "id": "task363-56f56cf4384245cb93172f889793ee8b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Like a Tarantino movie with heart , Alias Betty is richly detailed , deftly executed and utterly absorbing .\n [OUT] ",
+        "output": "P",
+        "data_id": 60
+    },
+    {
+        "id": "task363-23adf7cf6ec1493ea0a7d695cbca2d8c",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It makes me say the obvious : Abandon all hope of a good movie ye who enter here .\n [OUT] ",
+        "output": "N",
+        "data_id": 61
+    },
+    {
+        "id": "task363-38eedfa64e264905be9d7576338effce",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Tries too hard to be funny in a way that 's too loud , too goofy and too short of an attention span .\n [OUT] ",
+        "output": "N",
+        "data_id": 62
+    },
+    {
+        "id": "task363-5c321a6becc34c1ea70ab2ad73357158",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] I still want my money back .\n [OUT] ",
+        "output": "N",
+        "data_id": 63
+    },
+    {
+        "id": "task363-781ecb75b74d49dcaf826832938236dc",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A battle between bug-eye theatre and dead-eye matinee .\n [OUT] ",
+        "output": "N",
+        "data_id": 64
+    },
+    {
+        "id": "task363-235d1403692c4be8aff57721802c5118",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] I will be .\n [OUT] ",
+        "output": "P",
+        "data_id": 65
+    },
+    {
+        "id": "task363-24c3be56441348bc9afae7673ddd9d4b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Almodovar is an imaginative teacher of emotional intelligence in this engaging film about two men who discover what William James once called ` the gift of tears . '\n [OUT] ",
+        "output": "P",
+        "data_id": 66
+    },
+    {
+        "id": "task363-52e812b7f6394bfc8ee9590eaee0e7cf",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The movie is ... very funny as you peek at it through the fingers in front of your eyes .\n [OUT] ",
+        "output": "P",
+        "data_id": 67
+    },
+    {
+        "id": "task363-4c6950a7bf1b42439daf850a308931cb",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Michael Moore 's latest documentary about America 's thirst for violence is his best film yet ...\n [OUT] ",
+        "output": "P",
+        "data_id": 68
+    },
+    {
+        "id": "task363-32dd52a5e16e4a6e8320fc684f6d382d",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The charm of the first movie is still there , and the story feels like the logical , unforced continuation of the careers of a pair of spy kids .\n [OUT] ",
+        "output": "P",
+        "data_id": 69
+    },
+    {
+        "id": "task363-07ef2e264ea04d22a00211d67916f052",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Making such a tragedy the backdrop to a love story risks trivializing it , though Chouraqui no doubt intended the film to affirm love 's power to help people endure almost unimaginable horror .\n [OUT] ",
+        "output": "P",
+        "data_id": 70
+    },
+    {
+        "id": "task363-6af2c6074d824cfa9a6a59e69cea0a94",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Formula 51 has dulled your senses faster and deeper than any recreational drug on the market .\n [OUT] ",
+        "output": "P",
+        "data_id": 71
+    },
+    {
+        "id": "task363-bc5bb4ceb95a43d7b63466e32e4cfb95",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] ( A ) soulless , stupid sequel ...\n [OUT] ",
+        "output": "N",
+        "data_id": 72
+    },
+    {
+        "id": "task363-a72689bcbac64f2f960000e58427c331",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Just as the lousy Tarantino imitations have subsided , here comes the first lousy Guy Ritchie imitation .\n [OUT] ",
+        "output": "N",
+        "data_id": 73
+    },
+    {
+        "id": "task363-506a043657c848cb9e9eadd43fd490d8",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] If Festival in Cannes nails hard - boiled Hollywood argot with a bracingly nasty accuracy , much about the film , including some of its casting , is frustratingly unconvincing .\n [OUT] ",
+        "output": "N",
+        "data_id": 74
+    },
+    {
+        "id": "task363-e8e2fc1d28054daa967c45c8e7d1885f",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Its generic villains lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .\n [OUT] ",
+        "output": "N",
+        "data_id": 75
+    },
+    {
+        "id": "task363-bb00657fd3564612ae8e704f071722e1",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It 's a wise and powerful tale of race and culture forcefully told , with superb performances throughout .\n [OUT] ",
+        "output": "P",
+        "data_id": 76
+    },
+    {
+        "id": "task363-efffff0b58df416a8b45aa8bc27fc5e5",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] With more character development this might have been an eerie thriller ; with better payoffs , it could have been a thinking man 's monster movie .\n [OUT] ",
+        "output": "N",
+        "data_id": 77
+    },
+    {
+        "id": "task363-c160078c7dcb4030880048f20658ae1b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] In the name of an allegedly inspiring and easily marketable flick , The Emperor 's Club turns a blind eye to the very history it pretends to teach .\n [OUT] ",
+        "output": "N",
+        "data_id": 78
+    },
+    {
+        "id": "task363-1c4c59ef04bf4a598833061300ea1683",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] For a story set at sea , Ghost Ship is pretty landbound , with its leaden acting , dull exposition and telegraphed ` surprises . '\n [OUT] ",
+        "output": "N",
+        "data_id": 79
+    },
+    {
+        "id": "task363-a0fdd17c87d84097a04b738799885a65",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] It 's rare to find a film to which the adjective ` gentle ' applies , but the word perfectly describes Pauline & Paulette .\n [OUT] ",
+        "output": "P",
+        "data_id": 80
+    },
+    {
+        "id": "task363-9ef7e964d3084b96bad316b05d82ee2e",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Is it possible for a documentary to be utterly entranced by its subject and still show virtually no understanding of it ?\n [OUT] ",
+        "output": "N",
+        "data_id": 81
+    },
+    {
+        "id": "task363-441bff1986144e6fa9644cab9c733fa5",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Brash , intelligent and erotically perplexing , Haneke 's portrait of an upper class Austrian society and the suppression of its tucked away demons is uniquely felt with a sardonic jolt .\n [OUT] ",
+        "output": "P",
+        "data_id": 82
+    },
+    {
+        "id": "task363-5debc777bc4c45b19963323c17914242",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Despite modest aspirations its occasional charms are not to be dismissed .\n [OUT] ",
+        "output": "P",
+        "data_id": 83
+    },
+    {
+        "id": "task363-7a5775968bff4eff8c67f4a36b672b0b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] All the sensuality , all the eroticism of a good vampire tale has been , pardon the pun , sucked out and replaced by goth goofiness .\n [OUT] ",
+        "output": "N",
+        "data_id": 84
+    },
+    {
+        "id": "task363-d9ac548c7b764bdb8cbfc42be77f4b64",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] I 've seen some bad singer-turned actors , but Lil Bow Wow takes the cake .\n [OUT] ",
+        "output": "N",
+        "data_id": 85
+    },
+    {
+        "id": "task363-31f0a255dbdc4ab6963f4cc3b3ef2b2b",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] This is a film tailor-made for those who when they were in high school would choose the Cliff-Notes over reading a full-length classic .\n [OUT] ",
+        "output": "N",
+        "data_id": 86
+    },
+    {
+        "id": "task363-e5734aefda004a78962ec08ec5e8c4b0",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Hatosy ... portrays young Brendan with his usual intelligence and subtlety , not to mention a convincing brogue .\n [OUT] ",
+        "output": "P",
+        "data_id": 87
+    },
+    {
+        "id": "task363-c7ba452c344e41f1aff687f385d85ab8",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Two tedious acts light on great scares and a good surprise ending .\n [OUT] ",
+        "output": "P",
+        "data_id": 88
+    },
+    {
+        "id": "task363-bcd2afb9e2094c5bb2dcd2edd7d080af",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Not to mention absolutely refreshed .\n [OUT] ",
+        "output": "P",
+        "data_id": 89
+    },
+    {
+        "id": "task363-91d46917c6b4498fa0ff62164a726f2d",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Consider this review life-affirming .\n [OUT] ",
+        "output": "P",
+        "data_id": 90
+    },
+    {
+        "id": "task363-c78de9aca8f545c6bc51bd608a0d1343",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The film reminds me of a vastly improved Germanic version of My Big Fat Greek Wedding -- with better characters , some genuine quirkiness and at least a measure of style .\n [OUT] ",
+        "output": "P",
+        "data_id": 91
+    },
+    {
+        "id": "task363-0d4ef40382734529920e0a7a88638467",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Overall , it 's a wacky and inspired little film that works effortlessly at delivering genuine , acerbic laughs .\n [OUT] ",
+        "output": "P",
+        "data_id": 92
+    },
+    {
+        "id": "task363-5f3f6affb4f6447a86bdff40fe15505d",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Has an uppity musical beat that you can dance to , but its energy ca n't compare to the wit , humor and snappy dialogue of the original .\n [OUT] ",
+        "output": "P",
+        "data_id": 93
+    },
+    {
+        "id": "task363-5d2f7fedd267483c8adebd16e1fe5081",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] A loud , ugly , irritating movie without any of its satirical salvos hitting a discernible target .\n [OUT] ",
+        "output": "N",
+        "data_id": 94
+    },
+    {
+        "id": "task363-baffdedb12dd4a0b9951af48c73d2643",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Writer\\/director Alexander Payne ( Election ) and his co-writer Jim Taylor brilliantly employ their quirky and fearless ability to look American angst in the eye and end up laughing .\n [OUT] ",
+        "output": "P",
+        "data_id": 95
+    },
+    {
+        "id": "task363-327dfafd6c0940c2bd5539bef7d8b1fe",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Somewhere in the middle , the film compels , as Demme experiments he harvests a few movie moment gems , but the field of roughage dominates .\n [OUT] ",
+        "output": "P",
+        "data_id": 96
+    },
+    {
+        "id": "task363-9b40c1c8f0d84b3a82f31f91f8c023fc",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] Too stagey , talky -- and long -- for its own good .\n [OUT] ",
+        "output": "N",
+        "data_id": 97
+    },
+    {
+        "id": "task363-978a751b241f4a9e88211023a59b5af3",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] or maybe `` How will you feel after an 88-minute rip-off of The Rock with action confined to slo-mo gun firing and random glass-shattering ? ''\n [OUT] ",
+        "output": "N",
+        "data_id": 98
+    },
+    {
+        "id": "task363-e9350c1260a74e8aba01e9e893bc79bc",
+        "input": "[INS] In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative\n [IN] The whole affair is as predictable as can be .\n [OUT] ",
+        "output": "N",
+        "data_id": 99
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "id": "task1510-3535e599218e404db20face4a4aabde9",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is made of metal\n [OUT] ",
+        "output": "pick MadeOf metal",
+        "data_id": 0
+    },
+    {
+        "id": "task1510-790e9ea4201e4623b4f4249bacfa2eb2",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is made of aluminum\n [OUT] ",
+        "output": "pick MadeOf aluminum",
+        "data_id": 1
+    },
+    {
+        "id": "task1510-ce6ef748fe7f4f65b36355d4835eca92",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of complex\n [OUT] ",
+        "output": "plain Antonym complex",
+        "data_id": 2
+    },
+    {
+        "id": "task1510-fff905733af04561ab668301c6885169",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of human_body\n [OUT] ",
+        "output": "person IsA human_body",
+        "data_id": 3
+    },
+    {
+        "id": "task1510-2655669c9eff40e0888bef11a4145298",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin can be characterized by straight\n [OUT] ",
+        "output": "pin HasProperty straight",
+        "data_id": 4
+    },
+    {
+        "id": "task1510-e0b10f9aca3148d3866a51587ce9f127",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece can be used as the opposite of whole\n [OUT] ",
+        "output": "piece Antonym whole",
+        "data_id": 5
+    },
+    {
+        "id": "task1510-0a5ffb821fd54ddc8019c3dff826f238",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain parent\n [OUT] ",
+        "output": "person HasA parent",
+        "data_id": 6
+    },
+    {
+        "id": "task1510-325db7e0ed8e4d48acff7303ba510e04",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pipe can be characterized by hollow\n [OUT] ",
+        "output": "pipe HasProperty hollow",
+        "data_id": 7
+    },
+    {
+        "id": "task1510-38648df4b8384394b60afe581906ae84",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is made of meat\n [OUT] ",
+        "output": "person MadeOf meat",
+        "data_id": 8
+    },
+    {
+        "id": "task1510-d93ad0f6cf704b20813a88c60c5dc26f",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit is a kind of hole\n [OUT] ",
+        "output": "pit IsA hole",
+        "data_id": 9
+    },
+    {
+        "id": "task1510-dbd51746ea84402f9395521b05c48b2b",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pipe is a kind of wind_instrument\n [OUT] ",
+        "output": "pipe IsA wind_instrument",
+        "data_id": 10
+    },
+    {
+        "id": "task1510-fad59a63a41b4726bc05a5af79af5dfc",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of individual\n [OUT] ",
+        "output": "person IsA individual",
+        "data_id": 11
+    },
+    {
+        "id": "task1510-ad596483934f4df6b447e87a57db1797",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pig can be characterized by intelligent\n [OUT] ",
+        "output": "pig HasProperty intelligent",
+        "data_id": 12
+    },
+    {
+        "id": "task1510-d5a4b46e2eae4dc596c9967f3bf3cb2a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pig can be used with the same meaning of policeman\n [OUT] ",
+        "output": "pig Synonym policeman",
+        "data_id": 13
+    },
+    {
+        "id": "task1510-f89b999dc2a242219f5cf46cb99e985f",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pipe can be used as the opposite of cigarette\n [OUT] ",
+        "output": "pipe Antonym cigarette",
+        "data_id": 14
+    },
+    {
+        "id": "task1510-90db452be9364586b0750b60082566b6",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] picture is part of book\n [OUT] ",
+        "output": "picture PartOf book",
+        "data_id": 15
+    },
+    {
+        "id": "task1510-941acadb573146dda8bab1f2969edbcc",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece can be used as the opposite of all\n [OUT] ",
+        "output": "piece Antonym all",
+        "data_id": 16
+    },
+    {
+        "id": "task1510-8a4e1358588646ba9108b9477274fd27",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of complicate\n [OUT] ",
+        "output": "plain Antonym complicate",
+        "data_id": 17
+    },
+    {
+        "id": "task1510-3564cdb65112443e84d6b1b016835b8a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit is a kind of cavity\n [OUT] ",
+        "output": "pit IsA cavity",
+        "data_id": 18
+    },
+    {
+        "id": "task1510-09b22f81ed674165b9ffd2e1bfac5864",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is a kind of choose\n [OUT] ",
+        "output": "pick IsA choose",
+        "data_id": 19
+    },
+    {
+        "id": "task1510-54cde7214e4c4153bc403236a9b65e72",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] photograph can be characterized by instant\n [OUT] ",
+        "output": "photograph HasProperty instant",
+        "data_id": 20
+    },
+    {
+        "id": "task1510-64c1c3c6c9f740fc8ab3efdf1df4fe3d",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pet can be used as the opposite of wild\n [OUT] ",
+        "output": "pet Antonym wild",
+        "data_id": 21
+    },
+    {
+        "id": "task1510-3828fe7867b14fb18abbb1b749407a6e",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phrase is part of sentence\n [OUT] ",
+        "output": "phrase PartOf sentence",
+        "data_id": 22
+    },
+    {
+        "id": "task1510-0ecaff95e151436f8710f139eb17291a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of unique\n [OUT] ",
+        "output": "plain Antonym unique",
+        "data_id": 23
+    },
+    {
+        "id": "task1510-c1630164622d40e187c33390624dec01",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit is a kind of trap\n [OUT] ",
+        "output": "pit IsA trap",
+        "data_id": 24
+    },
+    {
+        "id": "task1510-a0f48369b1be4ef3a80c163bcba50674",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece can be used as the opposite of complete\n [OUT] ",
+        "output": "piece Antonym complete",
+        "data_id": 25
+    },
+    {
+        "id": "task1510-bf93c833b5a740ebb62ebe7d3bd2b05c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pitcher is a kind of player\n [OUT] ",
+        "output": "pitcher IsA player",
+        "data_id": 26
+    },
+    {
+        "id": "task1510-382588d6d4cc4a5997c817ea41e400b2",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phone is a kind of machine\n [OUT] ",
+        "output": "phone IsA machine",
+        "data_id": 27
+    },
+    {
+        "id": "task1510-328474c1ff324a33b49051156a39bbab",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] place can be used with the same meaning of spot\n [OUT] ",
+        "output": "place Synonym spot",
+        "data_id": 28
+    },
+    {
+        "id": "task1510-e1c8fbaf8c6b48079069d6116d81e55a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piano can be characterized by solid\n [OUT] ",
+        "output": "piano HasProperty solid",
+        "data_id": 29
+    },
+    {
+        "id": "task1510-c93397eab3c94f0e9db3c22f05365339",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of human_be\n [OUT] ",
+        "output": "person IsA human_be",
+        "data_id": 30
+    },
+    {
+        "id": "task1510-1e99485e33a14d4395955fa87fdd6b04",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] picture_frame is made of wood\n [OUT] ",
+        "output": "picture_frame MadeOf wood",
+        "data_id": 31
+    },
+    {
+        "id": "task1510-de37233dc8d74faa84d3c0cca6533f49",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow can be characterized by soft\n [OUT] ",
+        "output": "pillow HasProperty soft",
+        "data_id": 32
+    },
+    {
+        "id": "task1510-efcd3ce89db84e448a8431b39f44c70c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow is part of bed\n [OUT] ",
+        "output": "pillow PartOf bed",
+        "data_id": 33
+    },
+    {
+        "id": "task1510-69610af2ff7346a6a9827324120b46ff",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pipe is made of metal\n [OUT] ",
+        "output": "pipe MadeOf metal",
+        "data_id": 34
+    },
+    {
+        "id": "task1510-e2dea0e580a8412585a72147b7115c9b",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] picture can be used with the same meaning of movie\n [OUT] ",
+        "output": "picture Synonym movie",
+        "data_id": 35
+    },
+    {
+        "id": "task1510-f4bf01677eca4963833da73efb88bea1",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain is a kind of land\n [OUT] ",
+        "output": "plain IsA land",
+        "data_id": 36
+    },
+    {
+        "id": "task1510-0f467dc799d64cbb833eaf35e391ca35",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece is part of collection\n [OUT] ",
+        "output": "piece PartOf collection",
+        "data_id": 37
+    },
+    {
+        "id": "task1510-3030c5ab15e44a45a9f559a733b4c1f3",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pitcher is made of clay\n [OUT] ",
+        "output": "pitcher MadeOf clay",
+        "data_id": 38
+    },
+    {
+        "id": "task1510-6275e3a4c1ac4854bfb1723fb15738a9",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of organism\n [OUT] ",
+        "output": "person IsA organism",
+        "data_id": 39
+    },
+    {
+        "id": "task1510-1b935d75d1bd421cb921429cef19c7a3",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick can be used with the same meaning of choose\n [OUT] ",
+        "output": "pick Synonym choose",
+        "data_id": 40
+    },
+    {
+        "id": "task1510-0fe64c1d5e774eb1bd3d2f0d0a2b522d",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phone can be used with the same meaning of call\n [OUT] ",
+        "output": "phone Synonym call",
+        "data_id": 41
+    },
+    {
+        "id": "task1510-42bc2b39b4804f5e9bd9208528d44adb",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is a kind of pierce\n [OUT] ",
+        "output": "pick IsA pierce",
+        "data_id": 42
+    },
+    {
+        "id": "task1510-5bd77dec0ee34bda9701b6934ce93b0f",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is a kind of tool\n [OUT] ",
+        "output": "pick IsA tool",
+        "data_id": 43
+    },
+    {
+        "id": "task1510-d99a1793c0204c479833be12851aeddb",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is part of society\n [OUT] ",
+        "output": "person PartOf society",
+        "data_id": 44
+    },
+    {
+        "id": "task1510-f489e26be3524a97b0426e80276b3e83",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin can be characterized by thin\n [OUT] ",
+        "output": "pin HasProperty thin",
+        "data_id": 45
+    },
+    {
+        "id": "task1510-11fc58d6b73d4aa4b4588bc8ffc58f7c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow is made of cotton\n [OUT] ",
+        "output": "pillow MadeOf cotton",
+        "data_id": 46
+    },
+    {
+        "id": "task1510-533893cffefd42f1963758947b99ed66",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow can have or can contain feather\n [OUT] ",
+        "output": "pillow HasA feather",
+        "data_id": 47
+    },
+    {
+        "id": "task1510-36e237307b584f2889997dbbd1815a18",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain tooth\n [OUT] ",
+        "output": "person HasA tooth",
+        "data_id": 48
+    },
+    {
+        "id": "task1510-522cebbf573e484cba1aa055997e1fd7",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piano can have or can contain keyboard\n [OUT] ",
+        "output": "piano HasA keyboard",
+        "data_id": 49
+    },
+    {
+        "id": "task1510-fc86446cde5f45328f38ad79f2a2011a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plan is a kind of business\n [OUT] ",
+        "output": "plan IsA business",
+        "data_id": 50
+    },
+    {
+        "id": "task1510-2555235016d14f83915392c0df3a3ad6",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] picture_frame is a kind of frame\n [OUT] ",
+        "output": "picture_frame IsA frame",
+        "data_id": 51
+    },
+    {
+        "id": "task1510-dd376fffb2c24f7f965e4c5819bf6436",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain sex\n [OUT] ",
+        "output": "person HasA sex",
+        "data_id": 52
+    },
+    {
+        "id": "task1510-867dcbd93cc245f1a73ac2ecc8000b51",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece is a kind of part\n [OUT] ",
+        "output": "piece IsA part",
+        "data_id": 53
+    },
+    {
+        "id": "task1510-4cfd0e4f891745aba3c811dde69e8ce9",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is made of water\n [OUT] ",
+        "output": "person MadeOf water",
+        "data_id": 54
+    },
+    {
+        "id": "task1510-6b73a394107046299493450800a8a353",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick is a kind of device\n [OUT] ",
+        "output": "pick IsA device",
+        "data_id": 55
+    },
+    {
+        "id": "task1510-06320cf4b29f4bc391b91717e9628cf0",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow can be characterized by comfortable\n [OUT] ",
+        "output": "pillow HasProperty comfortable",
+        "data_id": 56
+    },
+    {
+        "id": "task1510-cafaba411266481f97644c6af22f7534",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin can have or can contain point\n [OUT] ",
+        "output": "pin HasA point",
+        "data_id": 57
+    },
+    {
+        "id": "task1510-7c0dc9eced3a4c459c8696e98a986ed3",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pet is a kind of animal\n [OUT] ",
+        "output": "pet IsA animal",
+        "data_id": 58
+    },
+    {
+        "id": "task1510-92dd819ee221475cafe15ddb49cb9b89",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pillow is made of feather\n [OUT] ",
+        "output": "pillow MadeOf feather",
+        "data_id": 59
+    },
+    {
+        "id": "task1510-168047f39c04488eabc4fe80ee80e79a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phone can be used with the same meaning of ring\n [OUT] ",
+        "output": "phone Synonym ring",
+        "data_id": 60
+    },
+    {
+        "id": "task1510-4ddcc5345c0a4c9f961c338d6ba1fbda",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain something\n [OUT] ",
+        "output": "person HasA something",
+        "data_id": 61
+    },
+    {
+        "id": "task1510-945bcaaa4cc04c26b8df776922a87798",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain soul\n [OUT] ",
+        "output": "person HasA soul",
+        "data_id": 62
+    },
+    {
+        "id": "task1510-69b3cbc865104778946f8078b88456f7",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin can be used with the same meaning of nail\n [OUT] ",
+        "output": "pin Synonym nail",
+        "data_id": 63
+    },
+    {
+        "id": "task1510-1e9f6debfa034216803d1eb0dbe93647",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pitcher is a kind of person\n [OUT] ",
+        "output": "pitcher IsA person",
+        "data_id": 64
+    },
+    {
+        "id": "task1510-ecf5b04925cf4609969945197c3c6b7c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pet can be characterized by alive\n [OUT] ",
+        "output": "pet HasProperty alive",
+        "data_id": 65
+    },
+    {
+        "id": "task1510-4f044a347db1424a8b92bbf4ce769a18",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit is a kind of place\n [OUT] ",
+        "output": "pit IsA place",
+        "data_id": 66
+    },
+    {
+        "id": "task1510-7a670d60e4ae4726ac347ff07c034d19",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] picture can be used as the opposite of movie\n [OUT] ",
+        "output": "picture Antonym movie",
+        "data_id": 67
+    },
+    {
+        "id": "task1510-8a6e97183f39470287a81868120312cd",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be characterized by flat\n [OUT] ",
+        "output": "plain HasProperty flat",
+        "data_id": 68
+    },
+    {
+        "id": "task1510-9993f0b6a34a4e56a613070c78b2d143",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pet can be characterized by fun\n [OUT] ",
+        "output": "pet HasProperty fun",
+        "data_id": 69
+    },
+    {
+        "id": "task1510-9e821d91e01642709269a36b9690939a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain offspring\n [OUT] ",
+        "output": "person HasA offspring",
+        "data_id": 70
+    },
+    {
+        "id": "task1510-544979bb1f734f9e82608a2a2121698c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of pattern\n [OUT] ",
+        "output": "plain Antonym pattern",
+        "data_id": 71
+    },
+    {
+        "id": "task1510-4fad48ced6dd418db0b30088d8fe1c7c",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pig can have or can contain bone\n [OUT] ",
+        "output": "pig HasA bone",
+        "data_id": 72
+    },
+    {
+        "id": "task1510-db71c1db2313451e8d43e6bd007ce274",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of decorate\n [OUT] ",
+        "output": "plain Antonym decorate",
+        "data_id": 73
+    },
+    {
+        "id": "task1510-81cf898b832a4c379840303b959e1c5d",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] piece is part of whole\n [OUT] ",
+        "output": "piece PartOf whole",
+        "data_id": 74
+    },
+    {
+        "id": "task1510-94074afd2dd54999822ec77e1a547c0f",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] place is a kind of rank\n [OUT] ",
+        "output": "place IsA rank",
+        "data_id": 75
+    },
+    {
+        "id": "task1510-d79cec0a77f547da8396060077398251",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phone can be used with the same meaning of telephone\n [OUT] ",
+        "output": "phone Synonym telephone",
+        "data_id": 76
+    },
+    {
+        "id": "task1510-45ea6e9241ce405688920e75189c7c52",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pipe can be characterized by hot\n [OUT] ",
+        "output": "pipe HasProperty hot",
+        "data_id": 77
+    },
+    {
+        "id": "task1510-fb715309da3b48f2bfbae8872776ee28",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] Pitcher is a kind of vessel\n [OUT] ",
+        "output": "pitcher IsA vessel",
+        "data_id": 78
+    },
+    {
+        "id": "task1510-bd1e00b6ead34693ac37bad63e45d3cb",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit is a kind of depression\n [OUT] ",
+        "output": "pit IsA depression",
+        "data_id": 79
+    },
+    {
+        "id": "task1510-2dd888329a184df3a3f6befe4f4fcc70",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin can be characterized by sharp\n [OUT] ",
+        "output": "pin HasProperty sharp",
+        "data_id": 80
+    },
+    {
+        "id": "task1510-aebc77a32a664cd0841bd9457ec93970",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] photograph can be characterized by flat\n [OUT] ",
+        "output": "photograph HasProperty flat",
+        "data_id": 81
+    },
+    {
+        "id": "task1510-29e8330535554eeba636fda116ea6688",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] Phone is a kind of tool\n [OUT] ",
+        "output": "phone IsA tool",
+        "data_id": 82
+    },
+    {
+        "id": "task1510-b04335fcda534175895807fb1bb70f48",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] place can be used with the same meaning of square\n [OUT] ",
+        "output": "place Synonym square",
+        "data_id": 83
+    },
+    {
+        "id": "task1510-03213a61de7046048d70898a9f04095b",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used with the same meaning of ordinary\n [OUT] ",
+        "output": "plain Synonym ordinary",
+        "data_id": 84
+    },
+    {
+        "id": "task1510-0480e0a87b3349b1b9862cf752a03fe1",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain sleep\n [OUT] ",
+        "output": "person HasA sleep",
+        "data_id": 85
+    },
+    {
+        "id": "task1510-7341e8be89a446e58c0906947d34031d",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pierce is true then also cut is true\n [OUT] ",
+        "output": "pierce Entails cut",
+        "data_id": 86
+    },
+    {
+        "id": "task1510-76e884e0e22e488aa303721f4311e1b1",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pit can be used with the same meaning of cavity\n [OUT] ",
+        "output": "pit Synonym cavity",
+        "data_id": 87
+    },
+    {
+        "id": "task1510-d7370b6698c144dc877ea265d0e0fc22",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of mammal\n [OUT] ",
+        "output": "person IsA mammal",
+        "data_id": 88
+    },
+    {
+        "id": "task1510-10b791941c704dbd9335ec452d789448",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pin is a kind of leg\n [OUT] ",
+        "output": "pin IsA leg",
+        "data_id": 89
+    },
+    {
+        "id": "task1510-c357fe17bea540eea10aaa829031b3eb",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] place can be used with the same meaning of seat\n [OUT] ",
+        "output": "place Synonym seat",
+        "data_id": 90
+    },
+    {
+        "id": "task1510-f2cb719a624640c993019adf5dcb2c58",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a kind of woman\n [OUT] ",
+        "output": "person IsA woman",
+        "data_id": 91
+    },
+    {
+        "id": "task1510-b3b59d1d087c4d0f87ec033acd9efe77",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is part of humanity\n [OUT] ",
+        "output": "person PartOf humanity",
+        "data_id": 92
+    },
+    {
+        "id": "task1510-d811267b937843c884ebdb60481e9ccf",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phone is made of plastic\n [OUT] ",
+        "output": "phone MadeOf plastic",
+        "data_id": 93
+    },
+    {
+        "id": "task1510-3f3f8603aaa344ecb16babdbe2d8e15e",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] phrase is a kind of construction\n [OUT] ",
+        "output": "phrase IsA construction",
+        "data_id": 94
+    },
+    {
+        "id": "task1510-e7e562f75bfa4b5a8990a96088d5999a",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pick can be used as the opposite of give\n [OUT] ",
+        "output": "pick Antonym give",
+        "data_id": 95
+    },
+    {
+        "id": "task1510-9ca1f448e3784e83b9919e6645ebb361",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] plain can be used as the opposite of fancy\n [OUT] ",
+        "output": "plain Antonym fancy",
+        "data_id": 96
+    },
+    {
+        "id": "task1510-81e88518ef044fddbbe80d388e2fd86b",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person can have or can contain skin\n [OUT] ",
+        "output": "person HasA skin",
+        "data_id": 97
+    },
+    {
+        "id": "task1510-52c813f6d58b4aec8f7f10e579afe4a6",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] person is a member of world\n [OUT] ",
+        "output": "person MemberOf world",
+        "data_id": 98
+    },
+    {
+        "id": "task1510-0672eb8ad77d4eaf8af700713c897ef7",
+        "input": "[INS] Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.\n [IN] pitch is a kind of play\n [OUT] ",
+        "output": "pitch IsA play",
+        "data_id": 99
+    }
+]
