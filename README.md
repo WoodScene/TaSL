@@ -1,15 +1,18 @@
-# Continual Dialog State Tracking via Task Skill Localization and Consolidation
-Thank you for your interest in our work, and this is the original implementation of "TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation", accepted to ACL 2024.
+# Task Skill Localization and Consolidation (TaSL)
+Thank you for your interest in our work! This is the original implementation of our ACL 2024 paper, "[TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation](https://www.arxiv.org/abs/2408.09857)", and includes the methods proposed in our latest extended work, "[TaSL: Task Skill Localization and Consolidation for Language Model Continual Learning](https://arxiv.org/abs/2408.05200)."
 
 ## Local Setup
 ```
-conda create -n CDST python=3.8
-conda activate CDST
+conda create -n TaSL python=3.8
+conda activate TaSL
 pip install -r requirements.txt
 ```
 
 ## Step 1. Preliminary Preparation
 The preprocessed SGD dataset for Continual DST is provided in the "/data" folder. If you are interested in the pre-processing, please check `utils/preprocess.py` and `utils/dataloader.py` at [here](https://github.com/thu-coai/CPT4DST).
+
+Additionally, we now support two newly introduced datasets from our journal extension: Long Sequence Benchmark and SuperNI Benchmark.
+
 For the four different backbone models, you can download they from the following links at huggingface:
 * [T5-small](https://huggingface.co/google-t5/t5-small)
 * [T5-base](https://huggingface.co/google-t5/t5-base)
@@ -20,7 +23,7 @@ For the four different backbone models, you can download they from the following
 Then replace the corresponding files in the Transformers package with `trainer.py` and `trainer_seq2seq.py`, which have modified the source code to add our importance-aware skill localization method.
 
 
-## Step 2. Training
+## Step 2. Training (TaSL)
 We conducted experiments on four different student models:
 ### LLaMA-7B (`finetune_ContinualDST_LLaMA7B.py`)
 ```ruby
@@ -36,6 +39,10 @@ For LLaMA-7B, we use [LoRA](https://github.com/microsoft/LoRA) to accelerate the
 
 The code then automatically implements the fine-grained skill consolidation strategy (`skill_consolidation.py`).
 
+## Step 2. Training (TasLoRA)
+In our extended work, we introduce two new files:
+- **`finetune_TasLoRA.py`**: This file implements **LoRA-tailored skill units** and introduces the **Second-Order Gradient Approximation Metric**.
+- **`skill_consolidation_TasLoRA.py`**: This utilizes the **Adaptive Weighted Consolidation** technique.
 
 ## Step 3. Inference
 Three metrics are used to measure the performance of our model for Continual Learning:
