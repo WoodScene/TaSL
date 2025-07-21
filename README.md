@@ -1,4 +1,6 @@
 # Task Skill Localization and Consolidation (TaSL)
+**Update 2025/07:** We are excited to announce the release of [*Recurrent-KIF*](https://github.com/WoodScene/Recurrent_KIF), an improved version of TaSL, accepted to ACL 2025!
+
 Thank you for your interest in our work! This is the original implementation of our ACL 2024 paper, "[TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation](https://www.arxiv.org/abs/2408.09857)", and includes the methods proposed in our latest extended work, "[TaSL: Task Skill Localization and Consolidation for Language Model Continual Learning](https://arxiv.org/abs/2408.05200)."
 
 ## Local Setup
